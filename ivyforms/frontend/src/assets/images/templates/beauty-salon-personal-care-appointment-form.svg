@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 850" width="400" height="850">
+  <rect width="400" height="850" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#374151">Beauty salon &amp;</text>
+  <text x="30" y="58" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#374151">personal care appointment</text>
+
+  <rect x="30" y="76" width="340" height="6" fill="#e5e7eb" rx="3"/>
+  <rect x="30" y="76" width="68" height="6" fill="#374151" rx="3"/>
+  <line x1="98" y1="76" x2="98" y2="82" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="166" y1="76" x2="166" y2="82" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="234" y1="76" x2="234" y2="82" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="302" y1="76" x2="302" y2="82" stroke="#d1d5db" stroke-width="1"/>
+  <text x="30" y="98" font-family="Arial, sans-serif" font-size="11" fill="#374151">Page 1 - 20%</text>
+
+  <text x="30" y="126" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <text x="30" y="144" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name</text>
+  <rect x="30" y="154" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="177" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+  <text x="210" y="144" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name</text>
+  <rect x="210" y="154" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="177" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <text x="30" y="224" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="234" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="257" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Email Address</text>
+
+  <text x="30" y="304" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="314" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="337" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Phone Number</text>
+
+  <text x="30" y="384" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred contact method<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <circle cx="42" cy="410" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+  <text x="58" y="414" font-family="Arial, sans-serif" font-size="13" fill="#374151">Phone Call</text>
+  <circle cx="42" cy="432" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+  <text x="58" y="436" font-family="Arial, sans-serif" font-size="13" fill="#374151">SMS</text>
+
+  <text x="30" y="474" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Requested service<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="484" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="507" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select service</text>
+  <path d="M345 502 L350 507 L355 502" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <text x="30" y="554" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred appointment date<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="564" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="587" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">MM/DD/YYYY</text>
+
+  <text x="30" y="634" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First-time client?<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <circle cx="42" cy="660" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+  <text x="58" y="664" font-family="Arial, sans-serif" font-size="13" fill="#374151">Yes</text>
+  <circle cx="42" cy="682" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+  <text x="58" y="686" font-family="Arial, sans-serif" font-size="13" fill="#374151">No</text>
+
+  <rect x="30" y="718" width="14" height="14" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="2"/>
+  <text x="52" y="730" font-family="Arial, sans-serif" font-size="13" fill="#374151">Cancellation policy agreement<tspan dx="4" fill="#dc2626">*</tspan></text>
+</svg>

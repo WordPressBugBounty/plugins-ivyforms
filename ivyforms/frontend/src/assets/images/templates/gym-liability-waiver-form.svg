@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 800" width="400" height="800">
+    <!-- Background -->
+    <rect width="400" height="800" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+    <!-- Title -->
+    <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Gym liability waiver form</text>
+
+    <!-- Full Name header -->
+    <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+
+    <!-- First Name label -->
+    <text x="30" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+
+    <!-- Last Name label -->
+    <text x="210" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="210" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="220" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+    <!-- Email Address -->
+    <text x="30" y="173" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address</text>
+    <rect x="30" y="183" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="206" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your email address</text>
+
+    <!-- Phone Number -->
+    <text x="30" y="253" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number</text>
+    <rect x="30" y="263" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="286" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your phone number</text>
+
+    <!-- Health / Medical Notes -->
+    <text x="30" y="333" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Health / medical notes</text>
+    <rect x="30" y="343" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="366" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">List any health conditions, injuries, or medical</text>
+    <text x="40" y="386" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">concerns we should be aware of</text>
+    <text x="40" y="406" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">(optional)</text>
+
+    <!-- Acknowledgment of Risks -->
+    <text x="30" y="453" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Acknowledgment of risks<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="463" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="486" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">I acknowledge that i understand and accept</text>
+    <text x="40" y="506" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">the risks associated with fitness activities and</text>
+    <text x="40" y="526" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">release liability</text>
+
+    <!-- Date of Consent -->
+    <text x="30" y="573" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Date of consent<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="583" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="606" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select date</text>
+    <!-- Calendar icon -->
+    <rect x="345" y="593" width="20" height="20" fill="none" stroke="#9ca3af" stroke-width="1.5" rx="2"/>
+    <line x1="348" y1="593" x2="348" y2="598" stroke="#9ca3af" stroke-width="1.5"/>
+    <line x1="362" y1="593" x2="362" y2="598" stroke="#9ca3af" stroke-width="1.5"/>
+    <line x1="345" y1="600" x2="365" y2="600" stroke="#9ca3af" stroke-width="1.5"/>
+
+    <!-- Participant Signature -->
+    <text x="30" y="653" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Participant signature<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="663" width="340" height="100" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="686" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Draw your signature here</text>
+    <!-- Signature icon/line -->
+    <path d="M 50 720 Q 100 710, 150 720 T 250 710 Q 290 705, 330 715" stroke="#d1d5db" fill="none" stroke-width="2" stroke-linecap="round"/>
+
+</svg>

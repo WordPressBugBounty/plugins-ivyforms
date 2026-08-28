@@ -1,0 +1,77 @@
+.ivyforms-flex {
+  display: flex;
+}
+.ivyforms-inline-flex {
+  display: inline-flex;
+}
+.ivyforms-flex-1 {
+  flex: 1;
+}
+
+.ivyforms-align-items-start {
+  align-items: flex-start;
+}
+.ivyforms-align-items-end {
+  align-items: flex-end;
+}
+.ivyforms-align-items-center {
+  align-items: center;
+}
+.ivyforms-align-items-baseline {
+  align-items: baseline;
+}
+.ivyforms-align-items-stretch {
+  align-items: stretch;
+}
+
+.ivyforms-align-self-stretch {
+  align-self: stretch;
+}
+
+.ivyforms-justify-content-normal {
+  justify-content: normal;
+}
+.ivyforms-justify-content-start {
+  justify-content: flex-start;
+}
+.ivyforms-justify-content-end {
+  justify-content: flex-end;
+}
+.ivyforms-justify-content-center {
+  justify-content: center;
+}
+.ivyforms-justify-content-between {
+  justify-content: space-between;
+}
+.ivyforms-justify-content-around {
+  justify-content: space-around;
+}
+.ivyforms-justify-content-evenly {
+  justify-content: space-evenly;
+}
+.ivyforms-justify-content-stretch {
+  justify-content: stretch;
+}
+
+.ivyforms-flex-direction-column {
+  flex-direction: column;
+}
+.ivyforms-flex-direction-row {
+  flex-direction: row;
+}
+.ivyforms-flex-wrap-wrap {
+  flex-wrap: wrap;
+}
+.ivyforms-flex-wrap-nowrap {
+  flex-wrap: nowrap;
+}
+.ivyforms-flex-grow {
+  flex-grow: 1;
+}
+.ivyforms-flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.ivyforms-min-width-0 {
+  min-width: 0;
+}

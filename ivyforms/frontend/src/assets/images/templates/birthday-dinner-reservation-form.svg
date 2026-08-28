@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 750" width="400" height="750">
+  <!-- Background -->
+  <rect width="400" height="700" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Birthday dinner</text>
+  <text x="30" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">reservation form</text>
+
+  <!-- Full Name header -->
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+
+  <!-- First Name label -->
+  <text x="30" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+
+  <!-- Last Name label -->
+  <text x="210" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email Address -->
+  <text x="30" y="198" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="208" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="231" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Phone Number -->
+  <text x="30" y="278" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="288" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="311" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+
+  <!-- Number of Guests -->
+  <text x="30" y="358" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Number of guests<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="368" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <!-- minus button -->
+  <rect x="38" y="374" width="36" height="28" rx="6" fill="#e5e7eb" stroke="#d1d5db" />
+  <text x="56" y="393" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#374151" text-anchor="middle">–</text>
+  <!-- centered placeholder -->
+  <text x="200" y="391" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter total guests</text>
+  <!-- plus button -->
+  <rect x="328" y="374" width="36" height="28" rx="6" fill="#e5e7eb" stroke="#d1d5db" />
+  <text x="346" y="394" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#374151" text-anchor="middle">+</text>
+
+  <!-- Birthday Date -->
+  <text x="30" y="438" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Birthday date<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="448" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="471" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">MM/DD/YYYY</text>
+  <!-- Calendar Icon -->
+  <g transform="translate(340, 458)">
+    <rect x="0" y="0" width="20" height="20" fill="none" stroke="#9ca3af" stroke-width="1.5" rx="2"/>
+    <line x1="0" y1="6" x2="20" y2="6" stroke="#9ca3af" stroke-width="1.5"/>
+    <rect x="2" y="-2" width="2" height="4" fill="#9ca3af"/>
+    <rect x="16" y="-2" width="2" height="4" fill="#9ca3af"/>
+    <circle cx="5" cy="11" r="1.5" fill="#9ca3af"/>
+    <circle cx="10" cy="11" r="1.5" fill="#9ca3af"/>
+    <circle cx="15" cy="11" r="1.5" fill="#9ca3af"/>
+    <circle cx="5" cy="16" r="1.5" fill="#9ca3af"/>
+  </g>
+
+  <!-- Reservation Time -->
+  <text x="30" y="518" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Reservation time<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="528" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="551" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select time</text>
+  <!-- Clock Icon -->
+  <g transform="translate(340, 548)">
+    <circle cx="0" cy="0" r="9" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+    <line x1="0" y1="-2" x2="0" y2="-5" stroke="#9ca3af" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="3.5" y1="-3.5" x2="5.5" y2="-5.5" stroke="#9ca3af" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="1.5" fill="#9ca3af"/>
+  </g>
+
+  <!-- Theme / Special Requests -->
+  <text x="30" y="598" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Theme / special requests</text>
+  <rect x="30" y="608" width="340" height="60" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="628" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Birthday theme, decorations, cake preferences</text>
+
+  <!-- Entertainment Required -->
+  <text x="30" y="688" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Entertainment required?</text>
+
+</svg>

@@ -1,0 +1,11 @@
+// Black
+$primitive-black: #080c11;
+
+// White
+$primitive-white: #ffffff;
+
+:root,
+:root .ivyforms-theme-dark {
+  --primitive-black: #{$primitive-black};
+  --primitive-white: #{$primitive-white};
+}

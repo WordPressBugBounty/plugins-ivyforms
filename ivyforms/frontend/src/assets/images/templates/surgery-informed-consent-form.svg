@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 950" width="400" height="950">
+  <rect width="400" height="950" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Surgery informed consent form</text>
+  <text x="30" y="75" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#374151">Patient information</text>
+  <text x="30" y="103" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="113" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="136" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter first name</text>
+  <text x="210" y="103" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="113" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="136" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter last name</text>
+  <text x="30" y="183" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Date of birth<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="193" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="216" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">MM/DD/YYYY</text>
+  <rect x="336" y="203" width="20" height="20" rx="2" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="341" y1="201" x2="341" y2="206" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="351" y1="201" x2="351" y2="206" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="30" y="263" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Contact number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="273" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="296" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+  <text x="30" y="343" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#374151">Procedure details</text>
+  <text x="30" y="373" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Procedure name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="383" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="406" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter surgical procedure</text>
+  <text x="30" y="453" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Surgeon name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="463" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="486" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter surgeon name</text>
+  <text x="30" y="533" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Surgery date<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="543" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="566" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select date</text>
+  <rect x="336" y="553" width="20" height="20" rx="2" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="341" y1="551" x2="341" y2="556" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="351" y1="551" x2="351" y2="556" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="30" y="613" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Anesthesia type<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="623" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="646" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select type</text>
+  <polygon points="350,643 362,643 356,650" fill="#9ca3af"/>
+  <text x="30" y="693" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Risks</text>
+  <rect x="30" y="703" width="340" height="60" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="726" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Describe risks</text>
+  <text x="30" y="793" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Medical history</text>
+  <rect x="30" y="803" width="340" height="60" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="826" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">List conditions</text>
+  <text x="30" y="893" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Emergency contact<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="903" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="926" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Name</text>
+  <rect x="210" y="903" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="926" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Phone</text>
+</svg>

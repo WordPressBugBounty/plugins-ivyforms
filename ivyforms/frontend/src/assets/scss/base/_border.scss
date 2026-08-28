@@ -1,0 +1,7 @@
+@for $i from 0 through 8 {
+  $value: $i * 2;
+
+  .ivyforms-border-radius-#{$value} {
+    border-radius: #{$value}px;
+  }
+}

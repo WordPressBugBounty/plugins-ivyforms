@@ -1,0 +1,52 @@
+// Overlay
+$primitive-overlay: rgba(7, 14, 22, 0.3);
+// Hover
+$primitive-hover-light: rgba(138, 171, 204, 0.1);
+$primitive-hover-dark: rgba(138, 171, 204, 0.1);
+
+// Divider
+$primitive-divider-light: rgba(90, 108, 126, 0.2);
+$primitive-divider-dark: rgba(138, 171, 204, 0.2);
+
+// Ground Light
+$primitive-ground-light-3: #ffffff;
+$primitive-ground-light-2: #ffffff;
+$primitive-ground-light-1: #f7f9fc;
+$primitive-ground-light-0: #ffffff;
+$primitive-ground-light--1: #f7f9fc;
+
+// Ground Dark
+$primitive-ground-dark-3: #33404d;
+$primitive-ground-dark-2: #2a3540;
+$primitive-ground-dark-1: #1d262f;
+$primitive-ground-dark-0: #161e27;
+$primitive-ground-dark--1: #10161e;
+
+// ============================================================================
+// WCAG COMPLIANT VARIANTS
+// ============================================================================
+
+// Overlay WCAG
+$primitive-overlay-wcag: rgba(7, 14, 22, 0.3);
+
+// Hover WCAG
+$primitive-hover-light-wcag: rgba(138, 171, 204, 0.1);
+$primitive-hover-dark-wcag: rgba(138, 171, 204, 0.1);
+
+// Divider WCAG
+$primitive-divider-light-wcag: rgba(90, 108, 126, 0.2);
+$primitive-divider-dark-wcag: rgba(138, 171, 204, 0.2);
+
+// Ground Light WCAG
+$primitive-ground-light-wcag-3: #ffffff;
+$primitive-ground-light-wcag-2: #ffffff;
+$primitive-ground-light-wcag-1: #f7f9fc;
+$primitive-ground-light-wcag-0: #ffffff;
+$primitive-ground-light-wcag--1: #f7f9fc;
+
+// Ground Dark WCAG
+$primitive-ground-dark-wcag-3: #33404d;
+$primitive-ground-dark-wcag-2: #2a3540;
+$primitive-ground-dark-wcag-1: #1d262f;
+$primitive-ground-dark-wcag-0: #161e27;
+$primitive-ground-dark-wcag--1: #10161e;

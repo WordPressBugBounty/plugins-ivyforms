@@ -1,0 +1,199 @@
+{
+  "stylesEnabled": true,
+  "selectedTheme": "ivy-default",
+  "styleMode": "quick",
+  "customCssClass": "",
+  "additionalCssClasses": "",
+  "quickMode": {
+    "formBackground": "transparent",
+    "formBorderColor": "#E5E7EB",
+    "formBorderWidth": "0px",
+    "verticalSpacing": "16px",
+    "horizontalSpacing": "12px",
+    "formCorner": {
+      "isLinked": true,
+      "value": "12px"
+    },
+    "formTitleText": "#212832",
+    "fieldBackground": "transparent",
+    "fieldText": "#6B737D",
+    "fieldBorderColor": "#6B737D",
+    "fieldCorner": {
+      "isLinked": true,
+      "value": "6px"
+    },
+    "fieldBorderWidth": "1px",
+    "fieldPaddingLeftRight": "8px",
+    "fieldPaddingTopBottom": "0px",
+    "labelFontColor": "#212832",
+    "buttonBackground": "#FFFFFF",
+    "buttonBorderColor": "#707883",
+    "buttonBorderWidth": "1px",
+    "buttonPaddingLeftRight": "16px",
+    "buttonPaddingTopBottom": "8px",
+    "buttonWidth": "auto",
+    "buttonHeight": "auto",
+    "buttonText": "#394452"
+  },
+  "advancedMode": {
+    "general": {
+      "formBackground": "transparent",
+      "formBorderColor": "#E5E7EB",
+      "formBorderWidth": "0px",
+      "formBorderStyle": "solid",
+      "formPaddingLeftRight": "0px",
+      "formPaddingTopBottom": "0px",
+      "verticalSpacing": "16px",
+      "horizontalSpacing": "12px",
+      "alignment": "left",
+      "formCorner": {
+        "isLinked": true,
+        "value": "12px"
+      }
+    },
+    "formTitle": {
+      "fontColor": "#212832",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "fontSize": "32px",
+      "paddingLeftRight": "0px",
+      "paddingTopBottom": "12px"
+    },
+    "formDescription": {
+      "fontColor": "#516074",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "fontSize": "18px",
+      "paddingLeftRight": "0px",
+      "paddingTopBottom": "0px"
+    },
+    "fieldLabels": {
+      "label": {
+        "fontColor": "#212832",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "fontSize": "16px",
+        "paddingLeftRight": "0px",
+        "paddingTopBottom": "0px",
+        "alignment": "left"
+      },
+      "requiredIndicator": {
+        "fontColor": "#D92E2E"
+      }
+    },
+    "fieldPlaceholder": {
+      "fontColor": "#6B737D",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "fontSize": "16px",
+      "paddingLeftRight": "0px",
+      "alignment": "left"
+    },
+    "fieldStates": {
+      "default": {
+        "background": "transparent",
+        "textColor": "#212832",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "fontSize": "16px",
+        "descriptionColor": "#212832",
+        "borderColor": "#6B737D",
+        "borderStyle": "solid",
+        "corner": {
+          "isLinked": true,
+          "value": "6px"
+        },
+        "borderWidth": "1px",
+        "paddingLeftRight": "8px",
+        "paddingTopBottom": "0px"
+      },
+      "active": {
+        "background": "",
+        "textColor": "#212832",
+        "descriptionColor": "#212832",
+        "borderColor": "#535D69",
+        "borderStyle": "solid"
+      },
+      "readOnly": {
+        "background": "",
+        "textColor": "",
+        "descriptionColor": "#212832",
+        "borderColor": "",
+        "borderStyle": "solid"
+      },
+      "error": {
+        "background": "",
+        "textColor": "",
+        "descriptionColor": "#212832",
+        "borderColor": "#D92E2E",
+        "borderStyle": "solid"
+      }
+    },
+    "checkboxRadio": {
+      "fontColor": "#212832",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "fontSize": "16px",
+      "selectionColor": "#8B929C",
+      "borderColor": "#8B929C"
+    },
+    "rating": {
+      "iconSize": "24px",
+      "iconColor": "#F69D0B"
+    },
+    "slider": {
+      "handleColor": "#FFFFFF",
+      "highlightColor": "#202124",
+      "borderColor": "#5F6368",
+      "trackColor": "#5F6368",
+      "remainingTrackColor": "#E8EAED"
+    },
+    "dateTimePicker": {
+      "calendarBackground": "#FFFFFF",
+      "numberTextColor": "#212832",
+      "selectionColor": "#394452"
+    },
+    "select": {
+      "tagColor": "#8B929C33",
+      "tagTextColor": "#212832",
+      "optionHoverColor": "#8B929C1A",
+      "selectionTextColor": "#394452",
+      "selectionBackgroundColor": "#8AABCC1A"
+    },
+    "buttonStates": {
+      "normal": {
+        "background": "#FFFFFF",
+        "borderColor": "#707883",
+        "textColor": "#394452",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "fontSize": "16px",
+        "borderWidth": "1px",
+        "corner": {
+          "isLinked": true,
+          "value": "6px"
+        },
+        "paddingLeftRight": "16px",
+        "paddingTopBottom": "8px",
+        "width": "auto",
+        "height": "auto"
+      },
+      "hover": {
+        "background": "",
+        "borderColor": "",
+        "textColor": ""
+      }
+    },
+    "confirmationMessage": {
+      "borderColor": "#8B929C",
+      "borderStyle": "solid",
+      "backgroundColor": "#F3F4F5",
+      "textColor": "#212832",
+      "borderWidth": "1px",
+      "corner": {
+        "isLinked": true,
+        "value": "6px"
+      }
+    }
+  }
+}

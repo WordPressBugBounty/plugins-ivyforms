@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 705" width="400" height="705">
+  <!-- Background -->
+  <rect width="400" height="700" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Custom t-shirt order form</text>
+
+  <!-- Full Name header -->
+  <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name<tspan dx="4" fill="#dc2626">*</tspan></text>
+
+  <!-- First Name label -->
+  <text x="30" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+
+  <!-- Last Name label -->
+  <text x="210" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email Address -->
+  <text x="30" y="168" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="178" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="201" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Phone Number -->
+  <text x="30" y="243" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number</text>
+  <rect x="30" y="253" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="276" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+
+  <!-- T-shirt Design Name -->
+  <text x="30" y="318" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">T-shirt design name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="328" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="351" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter design name or theme</text>
+
+  <!-- T-shirt Size -->
+  <text x="30" y="393" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">T-shirt size<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="403" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="426" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">XS, s, m, l, XL, XXL</text>
+  <!-- replaced triangle with chevron path to match dance-class -->
+  <path d="M 350 423 L 355 428 L 360 423" stroke="#9ca3af" fill="none" stroke-width="2"/>
+
+  <!-- Quantity -->
+  <text x="30" y="468" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Quantity<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="478" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="501" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter number of t-shirts</text>
+
+  <!-- Additional Instructions -->
+  <text x="30" y="543" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Additional instructions</text>
+  <rect x="30" y="553" width="340" height="50" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="576" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Provide any special requests or notes</text>
+
+  <!-- T-shirt Color -->
+  <text x="30" y="628" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">T-shirt color<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="638" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="661" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">White, black, red, blue, green, custom</text>
+  <!-- replaced triangle with chevron path to match dance-class -->
+  <path d="M 350 658 L 355 663 L 360 658" stroke="#9ca3af" fill="none" stroke-width="2"/>
+
+  <!-- Note: Bottom fields (Gift Wrap checkbox and Delivery Date) are cut off -->
+</svg>

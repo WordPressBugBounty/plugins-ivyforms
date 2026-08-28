@@ -1,0 +1,1167 @@
+@use '../primitives/accent' as *;
+@use '../../abstracts/functions' as *;
+
+/** Light **/
+:root {
+  // Raspberry
+  --theme-accent-raspberry-4: #{$primitive-accent-raspberry-4};
+  --theme-accent-raspberry-3: #{$primitive-accent-raspberry-3};
+  --theme-accent-raspberry-2: #{$primitive-accent-raspberry-2};
+  --theme-accent-raspberry-1: #{$primitive-accent-raspberry-1};
+  --theme-accent-raspberry-0: #{$primitive-accent-raspberry-0};
+  --theme-accent-raspberry--1: #{$primitive-accent-raspberry--1};
+  --theme-accent-raspberry--2: #{$primitive-accent-raspberry--2};
+  --theme-accent-raspberry--3: #{$primitive-accent-raspberry--3};
+  --theme-accent-raspberry--4: #{$primitive-accent-raspberry--4};
+  --theme-accent-raspberry-o90: #{hex-to-rgba($primitive-accent-raspberry-0, 0.9)};
+  --theme-accent-raspberry-o80: #{hex-to-rgba($primitive-accent-raspberry-0, 0.8)};
+  --theme-accent-raspberry-o70: #{hex-to-rgba($primitive-accent-raspberry-0, 0.7)};
+  --theme-accent-raspberry-o60: #{hex-to-rgba($primitive-accent-raspberry-0, 0.6)};
+  --theme-accent-raspberry-o50: #{hex-to-rgba($primitive-accent-raspberry-0, 0.5)};
+  --theme-accent-raspberry-o40: #{hex-to-rgba($primitive-accent-raspberry-0, 0.4)};
+  --theme-accent-raspberry-o30: #{hex-to-rgba($primitive-accent-raspberry-0, 0.3)};
+  --theme-accent-raspberry-o20: #{hex-to-rgba($primitive-accent-raspberry-0, 0.2)};
+  --theme-accent-raspberry-o10: #{hex-to-rgba($primitive-accent-raspberry-0, 0.1)};
+  --theme-accent-raspberry-o05: #{hex-to-rgba($primitive-accent-raspberry-0, 0.05)};
+
+  // Sky Blue
+  --theme-accent-sky-blue-4: #{$primitive-accent-sky-blue-4};
+  --theme-accent-sky-blue-3: #{$primitive-accent-sky-blue-3};
+  --theme-accent-sky-blue-2: #{$primitive-accent-sky-blue-2};
+  --theme-accent-sky-blue-1: #{$primitive-accent-sky-blue-1};
+  --theme-accent-sky-blue-0: #{$primitive-accent-sky-blue-0};
+  --theme-accent-sky-blue--1: #{$primitive-accent-sky-blue--1};
+  --theme-accent-sky-blue--2: #{$primitive-accent-sky-blue--2};
+  --theme-accent-sky-blue--3: #{$primitive-accent-sky-blue--3};
+  --theme-accent-sky-blue--4: #{$primitive-accent-sky-blue--4};
+  --theme-accent-sky-blue-o90: #{hex-to-rgba($primitive-accent-sky-blue-0, 0.9)};
+  --theme-accent-sky-blue-o80: #{hex-to-rgba($primitive-accent-sky-blue-0, 0.8)};
+  --theme-accent-sky-blue-o70: #{hex-to-rgba($primitive-accent-sky-blue-0, 0.7)};
+  --theme-accent-sky-blue-o60: #{hex-to-rgba($primitive-accent-sky-blue-0, 0.6)};
+  --theme-accent-sky-blue-o50: #{hex-to-rgba($primitive-accent-sky-blue-0, 0.5)};
+  --theme-accent-sky-blue-o40: #{hex-to-rgba($primitive-accent-sky-blue-0, 0.4)};
+  --theme-accent-sky-blue-o30: #{hex-to-rgba($primitive-accent-sky-blue-0, 0.3)};
+  --theme-accent-sky-blue-o20: #{hex-to-rgba($primitive-accent-sky-blue-0, 0.2)};
+  --theme-accent-sky-blue-o10: #{hex-to-rgba($primitive-accent-sky-blue-0, 0.1)};
+  --theme-accent-sky-blue-o05: #{hex-to-rgba($primitive-accent-sky-blue-0, 0.05)};
+
+  // Blue
+  --theme-accent-blue-4: #{$primitive-accent-blue-4};
+  --theme-accent-blue-3: #{$primitive-accent-blue-3};
+  --theme-accent-blue-2: #{$primitive-accent-blue-2};
+  --theme-accent-blue-1: #{$primitive-accent-blue-1};
+  --theme-accent-blue-0: #{$primitive-accent-blue-0};
+  --theme-accent-blue--1: #{$primitive-accent-blue--1};
+  --theme-accent-blue--2: #{$primitive-accent-blue--2};
+  --theme-accent-blue--3: #{$primitive-accent-blue--3};
+  --theme-accent-blue--4: #{$primitive-accent-blue--4};
+  --theme-accent-blue-o90: #{hex-to-rgba($primitive-accent-blue-0, 0.9)};
+  --theme-accent-blue-o80: #{hex-to-rgba($primitive-accent-blue-0, 0.8)};
+  --theme-accent-blue-o70: #{hex-to-rgba($primitive-accent-blue-0, 0.7)};
+  --theme-accent-blue-o60: #{hex-to-rgba($primitive-accent-blue-0, 0.6)};
+  --theme-accent-blue-o50: #{hex-to-rgba($primitive-accent-blue-0, 0.5)};
+  --theme-accent-blue-o40: #{hex-to-rgba($primitive-accent-blue-0, 0.4)};
+  --theme-accent-blue-o30: #{hex-to-rgba($primitive-accent-blue-0, 0.3)};
+  --theme-accent-blue-o20: #{hex-to-rgba($primitive-accent-blue-0, 0.2)};
+  --theme-accent-blue-o10: #{hex-to-rgba($primitive-accent-blue-0, 0.1)};
+  --theme-accent-blue-o05: #{hex-to-rgba($primitive-accent-blue-0, 0.05)};
+
+  // Deep Denim
+  --theme-accent-denim-4: #{$primitive-accent-deep-denim-4};
+  --theme-accent-denim-3: #{$primitive-accent-deep-denim-3};
+  --theme-accent-denim-2: #{$primitive-accent-deep-denim-2};
+  --theme-accent-denim-1: #{$primitive-accent-deep-denim-1};
+  --theme-accent-denim-0: #{$primitive-accent-deep-denim-0};
+  --theme-accent-denim--1: #{$primitive-accent-deep-denim--1};
+  --theme-accent-denim--2: #{$primitive-accent-deep-denim--2};
+  --theme-accent-denim--3: #{$primitive-accent-deep-denim--3};
+  --theme-accent-denim--4: #{$primitive-accent-deep-denim--4};
+  --theme-accent-denim-o90: #{hex-to-rgba($primitive-accent-deep-denim-0, 0.9)};
+  --theme-accent-denim-o80: #{hex-to-rgba($primitive-accent-deep-denim-0, 0.8)};
+  --theme-accent-denim-o70: #{hex-to-rgba($primitive-accent-deep-denim-0, 0.7)};
+  --theme-accent-denim-o60: #{hex-to-rgba($primitive-accent-deep-denim-0, 0.6)};
+  --theme-accent-denim-o50: #{hex-to-rgba($primitive-accent-deep-denim-0, 0.5)};
+  --theme-accent-denim-o40: #{hex-to-rgba($primitive-accent-deep-denim-0, 0.4)};
+  --theme-accent-denim-o30: #{hex-to-rgba($primitive-accent-deep-denim-0, 0.3)};
+  --theme-accent-denim-o20: #{hex-to-rgba($primitive-accent-deep-denim-0, 0.2)};
+  --theme-accent-denim-o10: #{hex-to-rgba($primitive-accent-deep-denim-0, 0.1)};
+  --theme-accent-denim-o05: #{hex-to-rgba($primitive-accent-deep-denim-0, 0.05)};
+
+  // Magenta
+  --theme-accent-magenta-4: #{$primitive-accent-magenta-4};
+  --theme-accent-magenta-3: #{$primitive-accent-magenta-3};
+  --theme-accent-magenta-2: #{$primitive-accent-magenta-2};
+  --theme-accent-magenta-1: #{$primitive-accent-magenta-1};
+  --theme-accent-magenta-0: #{$primitive-accent-magenta-0};
+  --theme-accent-magenta--1: #{$primitive-accent-magenta--1};
+  --theme-accent-magenta--2: #{$primitive-accent-magenta--2};
+  --theme-accent-magenta--3: #{$primitive-accent-magenta--3};
+  --theme-accent-magenta--4: #{$primitive-accent-magenta--4};
+  --theme-accent-magenta-o90: #{hex-to-rgba($primitive-accent-magenta-0, 0.9)};
+  --theme-accent-magenta-o80: #{hex-to-rgba($primitive-accent-magenta-0, 0.8)};
+  --theme-accent-magenta-o70: #{hex-to-rgba($primitive-accent-magenta-0, 0.7)};
+  --theme-accent-magenta-o60: #{hex-to-rgba($primitive-accent-magenta-0, 0.6)};
+  --theme-accent-magenta-o50: #{hex-to-rgba($primitive-accent-magenta-0, 0.5)};
+  --theme-accent-magenta-o40: #{hex-to-rgba($primitive-accent-magenta-0, 0.4)};
+  --theme-accent-magenta-o30: #{hex-to-rgba($primitive-accent-magenta-0, 0.3)};
+  --theme-accent-magenta-o20: #{hex-to-rgba($primitive-accent-magenta-0, 0.2)};
+  --theme-accent-magenta-o10: #{hex-to-rgba($primitive-accent-magenta-0, 0.1)};
+  --theme-accent-magenta-o05: #{hex-to-rgba($primitive-accent-magenta-0, 0.05)};
+
+  // Yellow
+  --theme-accent-yellow-4: #{$primitive-accent-yellow-4};
+  --theme-accent-yellow-3: #{$primitive-accent-yellow-3};
+  --theme-accent-yellow-2: #{$primitive-accent-yellow-2};
+  --theme-accent-yellow-1: #{$primitive-accent-yellow-1};
+  --theme-accent-yellow-0: #{$primitive-accent-yellow-0};
+  --theme-accent-yellow--1: #{$primitive-accent-yellow--1};
+  --theme-accent-yellow--2: #{$primitive-accent-yellow--2};
+  --theme-accent-yellow--3: #{$primitive-accent-yellow--3};
+  --theme-accent-yellow--4: #{$primitive-accent-yellow--4};
+  --theme-accent-yellow-o90: #{hex-to-rgba($primitive-accent-yellow-0, 0.9)};
+  --theme-accent-yellow-o80: #{hex-to-rgba($primitive-accent-yellow-0, 0.8)};
+  --theme-accent-yellow-o70: #{hex-to-rgba($primitive-accent-yellow-0, 0.7)};
+  --theme-accent-yellow-o60: #{hex-to-rgba($primitive-accent-yellow-0, 0.6)};
+  --theme-accent-yellow-o50: #{hex-to-rgba($primitive-accent-yellow-0, 0.5)};
+  --theme-accent-yellow-o40: #{hex-to-rgba($primitive-accent-yellow-0, 0.4)};
+  --theme-accent-yellow-o30: #{hex-to-rgba($primitive-accent-yellow-0, 0.3)};
+  --theme-accent-yellow-o20: #{hex-to-rgba($primitive-accent-yellow-0, 0.2)};
+  --theme-accent-yellow-o10: #{hex-to-rgba($primitive-accent-yellow-0, 0.1)};
+  --theme-accent-yellow-o05: #{hex-to-rgba($primitive-accent-yellow-0, 0.05)};
+
+  // Aurora
+  --theme-accent-aurora-4: #{$primitive-accent-aurora-4};
+  --theme-accent-aurora-3: #{$primitive-accent-aurora-3};
+  --theme-accent-aurora-2: #{$primitive-accent-aurora-2};
+  --theme-accent-aurora-1: #{$primitive-accent-aurora-1};
+  --theme-accent-aurora-0: #{$primitive-accent-aurora-0};
+  --theme-accent-aurora--1: #{$primitive-accent-aurora--1};
+  --theme-accent-aurora--2: #{$primitive-accent-aurora--2};
+  --theme-accent-aurora--3: #{$primitive-accent-aurora--3};
+  --theme-accent-aurora--4: #{$primitive-accent-aurora--4};
+  --theme-accent-aurora-o90: #{hex-to-rgba($primitive-accent-aurora-0, 0.9)};
+  --theme-accent-aurora-o80: #{hex-to-rgba($primitive-accent-aurora-0, 0.8)};
+  --theme-accent-aurora-o70: #{hex-to-rgba($primitive-accent-aurora-0, 0.7)};
+  --theme-accent-aurora-o60: #{hex-to-rgba($primitive-accent-aurora-0, 0.6)};
+  --theme-accent-aurora-o50: #{hex-to-rgba($primitive-accent-aurora-0, 0.5)};
+  --theme-accent-aurora-o40: #{hex-to-rgba($primitive-accent-aurora-0, 0.4)};
+  --theme-accent-aurora-o30: #{hex-to-rgba($primitive-accent-aurora-0, 0.3)};
+  --theme-accent-aurora-o20: #{hex-to-rgba($primitive-accent-aurora-0, 0.2)};
+  --theme-accent-aurora-o10: #{hex-to-rgba($primitive-accent-aurora-0, 0.1)};
+  --theme-accent-aurora-o05: #{hex-to-rgba($primitive-accent-aurora-0, 0.05)};
+
+  // Maroon
+  --theme-accent-maroon-4: #{$primitive-accent-maroon-4};
+  --theme-accent-maroon-3: #{$primitive-accent-maroon-3};
+  --theme-accent-maroon-2: #{$primitive-accent-maroon-2};
+  --theme-accent-maroon-1: #{$primitive-accent-maroon-1};
+  --theme-accent-maroon-0: #{$primitive-accent-maroon-0};
+  --theme-accent-maroon--1: #{$primitive-accent-maroon--1};
+  --theme-accent-maroon--2: #{$primitive-accent-maroon--2};
+  --theme-accent-maroon--3: #{$primitive-accent-maroon--3};
+  --theme-accent-maroon--4: #{$primitive-accent-maroon--4};
+  --theme-accent-maroon-o90: #{hex-to-rgba($primitive-accent-maroon-0, 0.9)};
+  --theme-accent-maroon-o80: #{hex-to-rgba($primitive-accent-maroon-0, 0.8)};
+  --theme-accent-maroon-o70: #{hex-to-rgba($primitive-accent-maroon-0, 0.7)};
+  --theme-accent-maroon-o60: #{hex-to-rgba($primitive-accent-maroon-0, 0.6)};
+  --theme-accent-maroon-o50: #{hex-to-rgba($primitive-accent-maroon-0, 0.5)};
+  --theme-accent-maroon-o40: #{hex-to-rgba($primitive-accent-maroon-0, 0.4)};
+  --theme-accent-maroon-o30: #{hex-to-rgba($primitive-accent-maroon-0, 0.3)};
+  --theme-accent-maroon-o20: #{hex-to-rgba($primitive-accent-maroon-0, 0.2)};
+  --theme-accent-maroon-o10: #{hex-to-rgba($primitive-accent-maroon-0, 0.1)};
+  --theme-accent-maroon-o05: #{hex-to-rgba($primitive-accent-maroon-0, 0.05)};
+
+  // Pumpkin
+  --theme-accent-pumpkin-4: #{$primitive-accent-pumpkin-4};
+  --theme-accent-pumpkin-3: #{$primitive-accent-pumpkin-3};
+  --theme-accent-pumpkin-2: #{$primitive-accent-pumpkin-2};
+  --theme-accent-pumpkin-1: #{$primitive-accent-pumpkin-1};
+  --theme-accent-pumpkin-0: #{$primitive-accent-pumpkin-0};
+  --theme-accent-pumpkin--1: #{$primitive-accent-pumpkin--1};
+  --theme-accent-pumpkin--2: #{$primitive-accent-pumpkin--2};
+  --theme-accent-pumpkin--3: #{$primitive-accent-pumpkin--3};
+  --theme-accent-pumpkin--4: #{$primitive-accent-pumpkin--4};
+  --theme-accent-pumpkin-o90: #{hex-to-rgba($primitive-accent-pumpkin-0, 0.9)};
+  --theme-accent-pumpkin-o80: #{hex-to-rgba($primitive-accent-pumpkin-0, 0.8)};
+  --theme-accent-pumpkin-o70: #{hex-to-rgba($primitive-accent-pumpkin-0, 0.7)};
+  --theme-accent-pumpkin-o60: #{hex-to-rgba($primitive-accent-pumpkin-0, 0.6)};
+  --theme-accent-pumpkin-o50: #{hex-to-rgba($primitive-accent-pumpkin-0, 0.5)};
+  --theme-accent-pumpkin-o40: #{hex-to-rgba($primitive-accent-pumpkin-0, 0.4)};
+  --theme-accent-pumpkin-o30: #{hex-to-rgba($primitive-accent-pumpkin-0, 0.3)};
+  --theme-accent-pumpkin-o20: #{hex-to-rgba($primitive-accent-pumpkin-0, 0.2)};
+  --theme-accent-pumpkin-o10: #{hex-to-rgba($primitive-accent-pumpkin-0, 0.1)};
+  --theme-accent-pumpkin-o05: #{hex-to-rgba($primitive-accent-pumpkin-0, 0.05)};
+
+  // Amber
+  --theme-accent-amber-4: #{$primitive-accent-amber-4};
+  --theme-accent-amber-3: #{$primitive-accent-amber-3};
+  --theme-accent-amber-2: #{$primitive-accent-amber-2};
+  --theme-accent-amber-1: #{$primitive-accent-amber-1};
+  --theme-accent-amber-0: #{$primitive-accent-amber-0};
+  --theme-accent-amber--1: #{$primitive-accent-amber--1};
+  --theme-accent-amber--2: #{$primitive-accent-amber--2};
+  --theme-accent-amber--3: #{$primitive-accent-amber--3};
+  --theme-accent-amber--4: #{$primitive-accent-amber--4};
+  --theme-accent-amber-o90: #{hex-to-rgba($primitive-accent-amber-0, 0.9)};
+  --theme-accent-amber-o80: #{hex-to-rgba($primitive-accent-amber-0, 0.8)};
+  --theme-accent-amber-o70: #{hex-to-rgba($primitive-accent-amber-0, 0.7)};
+  --theme-accent-amber-o60: #{hex-to-rgba($primitive-accent-amber-0, 0.6)};
+  --theme-accent-amber-o50: #{hex-to-rgba($primitive-accent-amber-0, 0.5)};
+  --theme-accent-amber-o40: #{hex-to-rgba($primitive-accent-amber-0, 0.4)};
+  --theme-accent-amber-o30: #{hex-to-rgba($primitive-accent-amber-0, 0.3)};
+  --theme-accent-amber-o20: #{hex-to-rgba($primitive-accent-amber-0, 0.2)};
+  --theme-accent-amber-o10: #{hex-to-rgba($primitive-accent-amber-0, 0.1)};
+  --theme-accent-amber-o05: #{hex-to-rgba($primitive-accent-amber-0, 0.05)};
+
+  // Grape
+  --theme-accent-grape-4: #{$primitive-accent-grape-4};
+  --theme-accent-grape-3: #{$primitive-accent-grape-3};
+  --theme-accent-grape-2: #{$primitive-accent-grape-2};
+  --theme-accent-grape-1: #{$primitive-accent-grape-1};
+  --theme-accent-grape-0: #{$primitive-accent-grape-0};
+  --theme-accent-grape--1: #{$primitive-accent-grape--1};
+  --theme-accent-grape--2: #{$primitive-accent-grape--2};
+  --theme-accent-grape--3: #{$primitive-accent-grape--3};
+  --theme-accent-grape--4: #{$primitive-accent-grape--4};
+  --theme-accent-grape-o90: #{hex-to-rgba($primitive-accent-grape-0, 0.9)};
+  --theme-accent-grape-o80: #{hex-to-rgba($primitive-accent-grape-0, 0.8)};
+  --theme-accent-grape-o70: #{hex-to-rgba($primitive-accent-grape-0, 0.7)};
+  --theme-accent-grape-o60: #{hex-to-rgba($primitive-accent-grape-0, 0.6)};
+  --theme-accent-grape-o50: #{hex-to-rgba($primitive-accent-grape-0, 0.5)};
+  --theme-accent-grape-o40: #{hex-to-rgba($primitive-accent-grape-0, 0.4)};
+  --theme-accent-grape-o30: #{hex-to-rgba($primitive-accent-grape-0, 0.3)};
+  --theme-accent-grape-o20: #{hex-to-rgba($primitive-accent-grape-0, 0.2)};
+  --theme-accent-grape-o10: #{hex-to-rgba($primitive-accent-grape-0, 0.1)};
+  --theme-accent-grape-o05: #{hex-to-rgba($primitive-accent-grape-0, 0.05)};
+
+  // Violet
+  --theme-accent-violet-4: #{$primitive-accent-violet-4};
+  --theme-accent-violet-3: #{$primitive-accent-violet-3};
+  --theme-accent-violet-2: #{$primitive-accent-violet-2};
+  --theme-accent-violet-1: #{$primitive-accent-violet-1};
+  --theme-accent-violet-0: #{$primitive-accent-violet-0};
+  --theme-accent-violet--1: #{$primitive-accent-violet--1};
+  --theme-accent-violet--2: #{$primitive-accent-violet--2};
+  --theme-accent-violet--3: #{$primitive-accent-violet--3};
+  --theme-accent-violet--4: #{$primitive-accent-violet--4};
+  --theme-accent-violet-o90: #{hex-to-rgba($primitive-accent-violet-0, 0.9)};
+  --theme-accent-violet-o80: #{hex-to-rgba($primitive-accent-violet-0, 0.8)};
+  --theme-accent-violet-o70: #{hex-to-rgba($primitive-accent-violet-0, 0.7)};
+  --theme-accent-violet-o60: #{hex-to-rgba($primitive-accent-violet-0, 0.6)};
+  --theme-accent-violet-o50: #{hex-to-rgba($primitive-accent-violet-0, 0.5)};
+  --theme-accent-violet-o40: #{hex-to-rgba($primitive-accent-violet-0, 0.4)};
+  --theme-accent-violet-o30: #{hex-to-rgba($primitive-accent-violet-0, 0.3)};
+  --theme-accent-violet-o20: #{hex-to-rgba($primitive-accent-violet-0, 0.2)};
+  --theme-accent-violet-o10: #{hex-to-rgba($primitive-accent-violet-0, 0.1)};
+  --theme-accent-violet-o05: #{hex-to-rgba($primitive-accent-violet-0, 0.05)};
+
+  // Slate
+  --theme-accent-slate-4: #{$primitive-accent-slate-4};
+  --theme-accent-slate-3: #{$primitive-accent-slate-3};
+  --theme-accent-slate-2: #{$primitive-accent-slate-2};
+  --theme-accent-slate-1: #{$primitive-accent-slate-1};
+  --theme-accent-slate-0: #{$primitive-accent-slate-0};
+  --theme-accent-slate--1: #{$primitive-accent-slate--1};
+  --theme-accent-slate--2: #{$primitive-accent-slate--2};
+  --theme-accent-slate--3: #{$primitive-accent-slate--3};
+  --theme-accent-slate--4: #{$primitive-accent-slate--4};
+  --theme-accent-slate-o90: #{hex-to-rgba($primitive-accent-slate-0, 0.9)};
+  --theme-accent-slate-o80: #{hex-to-rgba($primitive-accent-slate-0, 0.8)};
+  --theme-accent-slate-o70: #{hex-to-rgba($primitive-accent-slate-0, 0.7)};
+  --theme-accent-slate-o60: #{hex-to-rgba($primitive-accent-slate-0, 0.6)};
+  --theme-accent-slate-o50: #{hex-to-rgba($primitive-accent-slate-0, 0.5)};
+  --theme-accent-slate-o40: #{hex-to-rgba($primitive-accent-slate-0, 0.4)};
+  --theme-accent-slate-o30: #{hex-to-rgba($primitive-accent-slate-0, 0.3)};
+  --theme-accent-slate-o20: #{hex-to-rgba($primitive-accent-slate-0, 0.2)};
+  --theme-accent-slate-o10: #{hex-to-rgba($primitive-accent-slate-0, 0.1)};
+  --theme-accent-slate-o05: #{hex-to-rgba($primitive-accent-slate-0, 0.05)};
+
+  // Teal
+  --theme-accent-teal-4: #{$primitive-accent-teal-4};
+  --theme-accent-teal-3: #{$primitive-accent-teal-3};
+  --theme-accent-teal-2: #{$primitive-accent-teal-2};
+  --theme-accent-teal-1: #{$primitive-accent-teal-1};
+  --theme-accent-teal-0: #{$primitive-accent-teal-0};
+  --theme-accent-teal--1: #{$primitive-accent-teal--1};
+  --theme-accent-teal--2: #{$primitive-accent-teal--2};
+  --theme-accent-teal--3: #{$primitive-accent-teal--3};
+  --theme-accent-teal--4: #{$primitive-accent-teal--4};
+  --theme-accent-teal-o90: #{hex-to-rgba($primitive-accent-teal-0, 0.9)};
+  --theme-accent-teal-o80: #{hex-to-rgba($primitive-accent-teal-0, 0.8)};
+  --theme-accent-teal-o70: #{hex-to-rgba($primitive-accent-teal-0, 0.7)};
+  --theme-accent-teal-o60: #{hex-to-rgba($primitive-accent-teal-0, 0.6)};
+  --theme-accent-teal-o50: #{hex-to-rgba($primitive-accent-teal-0, 0.5)};
+  --theme-accent-teal-o40: #{hex-to-rgba($primitive-accent-teal-0, 0.4)};
+  --theme-accent-teal-o30: #{hex-to-rgba($primitive-accent-teal-0, 0.3)};
+  --theme-accent-teal-o20: #{hex-to-rgba($primitive-accent-teal-0, 0.2)};
+  --theme-accent-teal-o10: #{hex-to-rgba($primitive-accent-teal-0, 0.1)};
+  --theme-accent-teal-o05: #{hex-to-rgba($primitive-accent-teal-0, 0.05)};
+
+  // Aquamarine
+  --theme-accent-aquamarine-4: #{$primitive-accent-aquamarine-4};
+  --theme-accent-aquamarine-3: #{$primitive-accent-aquamarine-3};
+  --theme-accent-aquamarine-2: #{$primitive-accent-aquamarine-2};
+  --theme-accent-aquamarine-1: #{$primitive-accent-aquamarine-1};
+  --theme-accent-aquamarine-0: #{$primitive-accent-aquamarine-0};
+  --theme-accent-aquamarine--1: #{$primitive-accent-aquamarine--1};
+  --theme-accent-aquamarine--2: #{$primitive-accent-aquamarine--2};
+  --theme-accent-aquamarine--3: #{$primitive-accent-aquamarine--3};
+  --theme-accent-aquamarine--4: #{$primitive-accent-aquamarine--4};
+  --theme-accent-aquamarine-o90: #{hex-to-rgba($primitive-accent-aquamarine-0, 0.9)};
+  --theme-accent-aquamarine-o80: #{hex-to-rgba($primitive-accent-aquamarine-0, 0.8)};
+  --theme-accent-aquamarine-o70: #{hex-to-rgba($primitive-accent-aquamarine-0, 0.7)};
+  --theme-accent-aquamarine-o60: #{hex-to-rgba($primitive-accent-aquamarine-0, 0.6)};
+  --theme-accent-aquamarine-o50: #{hex-to-rgba($primitive-accent-aquamarine-0, 0.5)};
+  --theme-accent-aquamarine-o40: #{hex-to-rgba($primitive-accent-aquamarine-0, 0.4)};
+  --theme-accent-aquamarine-o30: #{hex-to-rgba($primitive-accent-aquamarine-0, 0.3)};
+  --theme-accent-aquamarine-o20: #{hex-to-rgba($primitive-accent-aquamarine-0, 0.2)};
+  --theme-accent-aquamarine-o10: #{hex-to-rgba($primitive-accent-aquamarine-0, 0.1)};
+  --theme-accent-aquamarine-o05: #{hex-to-rgba($primitive-accent-aquamarine-0, 0.05)};
+
+  // Meadov
+  --theme-accent-meadow-4: #{$primitive-accent-meadow-4};
+  --theme-accent-meadow-3: #{$primitive-accent-meadow-3};
+  --theme-accent-meadow-2: #{$primitive-accent-meadow-2};
+  --theme-accent-meadow-1: #{$primitive-accent-meadow-1};
+  --theme-accent-meadow-0: #{$primitive-accent-meadow-0};
+  --theme-accent-meadow--1: #{$primitive-accent-meadow--1};
+  --theme-accent-meadow--2: #{$primitive-accent-meadow--2};
+  --theme-accent-meadow--3: #{$primitive-accent-meadow--3};
+  --theme-accent-meadow--4: #{$primitive-accent-meadow--4};
+  --theme-accent-meadow-o90: #{hex-to-rgba($primitive-accent-meadow-0, 0.9)};
+  --theme-accent-meadow-o80: #{hex-to-rgba($primitive-accent-meadow-0, 0.8)};
+  --theme-accent-meadow-o70: #{hex-to-rgba($primitive-accent-meadow-0, 0.7)};
+  --theme-accent-meadow-o60: #{hex-to-rgba($primitive-accent-meadow-0, 0.6)};
+  --theme-accent-meadow-o50: #{hex-to-rgba($primitive-accent-meadow-0, 0.5)};
+  --theme-accent-meadow-o40: #{hex-to-rgba($primitive-accent-meadow-0, 0.4)};
+  --theme-accent-meadow-o30: #{hex-to-rgba($primitive-accent-meadow-0, 0.3)};
+  --theme-accent-meadow-o20: #{hex-to-rgba($primitive-accent-meadow-0, 0.2)};
+  --theme-accent-meadow-o10: #{hex-to-rgba($primitive-accent-meadow-0, 0.1)};
+  --theme-accent-meadow-o05: #{hex-to-rgba($primitive-accent-meadow-0, 0.05)};
+
+  // Topaz
+  --theme-accent-topaz-4: #{$primitive-accent-topaz-4};
+  --theme-accent-topaz-3: #{$primitive-accent-topaz-3};
+  --theme-accent-topaz-2: #{$primitive-accent-topaz-2};
+  --theme-accent-topaz-1: #{$primitive-accent-topaz-1};
+  --theme-accent-topaz-0: #{$primitive-accent-topaz-0};
+  --theme-accent-topaz--1: #{$primitive-accent-topaz--1};
+  --theme-accent-topaz--2: #{$primitive-accent-topaz--2};
+  --theme-accent-topaz--3: #{$primitive-accent-topaz--3};
+  --theme-accent-topaz--4: #{$primitive-accent-topaz--4};
+  --theme-accent-topaz-o90: #{hex-to-rgba($primitive-accent-topaz-0, 0.9)};
+  --theme-accent-topaz-o80: #{hex-to-rgba($primitive-accent-topaz-0, 0.8)};
+  --theme-accent-topaz-o70: #{hex-to-rgba($primitive-accent-topaz-0, 0.7)};
+  --theme-accent-topaz-o60: #{hex-to-rgba($primitive-accent-topaz-0, 0.6)};
+  --theme-accent-topaz-o50: #{hex-to-rgba($primitive-accent-topaz-0, 0.5)};
+  --theme-accent-topaz-o40: #{hex-to-rgba($primitive-accent-topaz-0, 0.4)};
+  --theme-accent-topaz-o30: #{hex-to-rgba($primitive-accent-topaz-0, 0.3)};
+  --theme-accent-topaz-o20: #{hex-to-rgba($primitive-accent-topaz-0, 0.2)};
+  --theme-accent-topaz-o10: #{hex-to-rgba($primitive-accent-topaz-0, 0.1)};
+  --theme-accent-topaz-o05: #{hex-to-rgba($primitive-accent-topaz-0, 0.05)};
+
+  // Forest
+  --theme-accent-forest-4: #{$primitive-accent-forest-4};
+  --theme-accent-forest-3: #{$primitive-accent-forest-3};
+  --theme-accent-forest-2: #{$primitive-accent-forest-2};
+  --theme-accent-forest-1: #{$primitive-accent-forest-1};
+  --theme-accent-forest-0: #{$primitive-accent-forest-0};
+  --theme-accent-forest--1: #{$primitive-accent-forest--1};
+  --theme-accent-forest--2: #{$primitive-accent-forest--2};
+  --theme-accent-forest--3: #{$primitive-accent-forest--3};
+  --theme-accent-forest--4: #{$primitive-accent-forest--4};
+  --theme-accent-forest-o90: #{hex-to-rgba($primitive-accent-forest-0, 0.9)};
+  --theme-accent-forest-o80: #{hex-to-rgba($primitive-accent-forest-0, 0.8)};
+  --theme-accent-forest-o70: #{hex-to-rgba($primitive-accent-forest-0, 0.7)};
+  --theme-accent-forest-o60: #{hex-to-rgba($primitive-accent-forest-0, 0.6)};
+  --theme-accent-forest-o50: #{hex-to-rgba($primitive-accent-forest-0, 0.5)};
+  --theme-accent-forest-o40: #{hex-to-rgba($primitive-accent-forest-0, 0.4)};
+  --theme-accent-forest-o30: #{hex-to-rgba($primitive-accent-forest-0, 0.3)};
+  --theme-accent-forest-o20: #{hex-to-rgba($primitive-accent-forest-0, 0.2)};
+  --theme-accent-forest-o10: #{hex-to-rgba($primitive-accent-forest-0, 0.1)};
+  --theme-accent-forest-o05: #{hex-to-rgba($primitive-accent-forest-0, 0.05)};
+
+  // Emerald
+  --theme-accent-emerald-4: #{$primitive-accent-emerald-4};
+  --theme-accent-emerald-3: #{$primitive-accent-emerald-3};
+  --theme-accent-emerald-2: #{$primitive-accent-emerald-2};
+  --theme-accent-emerald-1: #{$primitive-accent-emerald-1};
+  --theme-accent-emerald-0: #{$primitive-accent-emerald-0};
+  --theme-accent-emerald--1: #{$primitive-accent-emerald--1};
+  --theme-accent-emerald--2: #{$primitive-accent-emerald--2};
+  --theme-accent-emerald--3: #{$primitive-accent-emerald--3};
+  --theme-accent-emerald--4: #{$primitive-accent-emerald--4};
+  --theme-accent-emerald-o90: #{hex-to-rgba($primitive-accent-emerald-0, 0.9)};
+  --theme-accent-emerald-o80: #{hex-to-rgba($primitive-accent-emerald-0, 0.8)};
+  --theme-accent-emerald-o70: #{hex-to-rgba($primitive-accent-emerald-0, 0.7)};
+  --theme-accent-emerald-o60: #{hex-to-rgba($primitive-accent-emerald-0, 0.6)};
+  --theme-accent-emerald-o50: #{hex-to-rgba($primitive-accent-emerald-0, 0.5)};
+  --theme-accent-emerald-o40: #{hex-to-rgba($primitive-accent-emerald-0, 0.4)};
+  --theme-accent-emerald-o30: #{hex-to-rgba($primitive-accent-emerald-0, 0.3)};
+  --theme-accent-emerald-o20: #{hex-to-rgba($primitive-accent-emerald-0, 0.2)};
+  --theme-accent-emerald-o10: #{hex-to-rgba($primitive-accent-emerald-0, 0.1)};
+  --theme-accent-emerald-o05: #{hex-to-rgba($primitive-accent-emerald-0, 0.05)};
+
+  // Lime
+  --theme-accent-lime-4: #{$primitive-accent-lime-4};
+  --theme-accent-lime-3: #{$primitive-accent-lime-3};
+  --theme-accent-lime-2: #{$primitive-accent-lime-2};
+  --theme-accent-lime-1: #{$primitive-accent-lime-1};
+  --theme-accent-lime-0: #{$primitive-accent-lime-0};
+  --theme-accent-lime--1: #{$primitive-accent-lime--1};
+  --theme-accent-lime--2: #{$primitive-accent-lime--2};
+  --theme-accent-lime--3: #{$primitive-accent-lime--3};
+  --theme-accent-lime--4: #{$primitive-accent-lime--4};
+  --theme-accent-lime-o90: #{hex-to-rgba($primitive-accent-lime-0, 0.9)};
+  --theme-accent-lime-o80: #{hex-to-rgba($primitive-accent-lime-0, 0.8)};
+  --theme-accent-lime-o70: #{hex-to-rgba($primitive-accent-lime-0, 0.7)};
+  --theme-accent-lime-o60: #{hex-to-rgba($primitive-accent-lime-0, 0.6)};
+  --theme-accent-lime-o50: #{hex-to-rgba($primitive-accent-lime-0, 0.5)};
+  --theme-accent-lime-o40: #{hex-to-rgba($primitive-accent-lime-0, 0.4)};
+  --theme-accent-lime-o30: #{hex-to-rgba($primitive-accent-lime-0, 0.3)};
+  --theme-accent-lime-o20: #{hex-to-rgba($primitive-accent-lime-0, 0.2)};
+  --theme-accent-lime-o10: #{hex-to-rgba($primitive-accent-lime-0, 0.1)};
+  --theme-accent-lime-o05: #{hex-to-rgba($primitive-accent-lime-0, 0.05)};
+}
+
+/** Dark **/
+:root .ivyforms-theme-dark {
+  // Raspberry
+  --theme-accent-raspberry-4: #{$primitive-accent-raspberry--4};
+  --theme-accent-raspberry-3: #{$primitive-accent-raspberry--3};
+  --theme-accent-raspberry-2: #{$primitive-accent-raspberry--2};
+  --theme-accent-raspberry-1: #{$primitive-accent-raspberry--1};
+  --theme-accent-raspberry-0: #{$primitive-accent-raspberry-0};
+  --theme-accent-raspberry--1: #{$primitive-accent-raspberry-1};
+  --theme-accent-raspberry--2: #{$primitive-accent-raspberry-2};
+  --theme-accent-raspberry--3: #{$primitive-accent-raspberry-3};
+  --theme-accent-raspberry--4: #{$primitive-accent-raspberry-4};
+
+  // Sky Blue
+  --theme-accent-sky-blue-4: #{$primitive-accent-sky-blue--4};
+  --theme-accent-sky-blue-3: #{$primitive-accent-sky-blue--3};
+  --theme-accent-sky-blue-2: #{$primitive-accent-sky-blue--2};
+  --theme-accent-sky-blue-1: #{$primitive-accent-sky-blue--1};
+  --theme-accent-sky-blue-0: #{$primitive-accent-sky-blue-0};
+  --theme-accent-sky-blue--1: #{$primitive-accent-sky-blue-1};
+  --theme-accent-sky-blue--2: #{$primitive-accent-sky-blue-2};
+  --theme-accent-sky-blue--3: #{$primitive-accent-sky-blue-3};
+  --theme-accent-sky-blue--4: #{$primitive-accent-sky-blue-4};
+
+  // Blue
+  --theme-accent-blue-4: #{$primitive-accent-blue--4};
+  --theme-accent-blue-3: #{$primitive-accent-blue--3};
+  --theme-accent-blue-2: #{$primitive-accent-blue--2};
+  --theme-accent-blue-1: #{$primitive-accent-blue--1};
+  --theme-accent-blue-0: #{$primitive-accent-blue-0};
+  --theme-accent-blue--1: #{$primitive-accent-blue-1};
+  --theme-accent-blue--2: #{$primitive-accent-blue-2};
+  --theme-accent-blue--3: #{$primitive-accent-blue-3};
+  --theme-accent-blue--4: #{$primitive-accent-blue-4};
+
+  // Denim
+  --theme-accent-denim-4: #{$primitive-accent-deep-denim--4};
+  --theme-accent-denim-3: #{$primitive-accent-deep-denim--3};
+  --theme-accent-denim-2: #{$primitive-accent-deep-denim--2};
+  --theme-accent-denim-1: #{$primitive-accent-deep-denim--1};
+  --theme-accent-denim-0: #{$primitive-accent-deep-denim-0};
+  --theme-accent-denim--1: #{$primitive-accent-deep-denim-1};
+  --theme-accent-denim--2: #{$primitive-accent-deep-denim-2};
+  --theme-accent-denim--3: #{$primitive-accent-deep-denim-3};
+  --theme-accent-denim--4: #{$primitive-accent-deep-denim-4};
+
+  // Magenta
+  --theme-accent-magenta-4: #{$primitive-accent-magenta--4};
+  --theme-accent-magenta-3: #{$primitive-accent-magenta--3};
+  --theme-accent-magenta-2: #{$primitive-accent-magenta--2};
+  --theme-accent-magenta-1: #{$primitive-accent-magenta--1};
+  --theme-accent-magenta-0: #{$primitive-accent-magenta-0};
+  --theme-accent-magenta--1: #{$primitive-accent-magenta-1};
+  --theme-accent-magenta--2: #{$primitive-accent-magenta-2};
+  --theme-accent-magenta--3: #{$primitive-accent-magenta-3};
+  --theme-accent-magenta--4: #{$primitive-accent-magenta-4};
+
+  // Yellow
+  --theme-accent-yellow-4: #{$primitive-accent-yellow--4};
+  --theme-accent-yellow-3: #{$primitive-accent-yellow--3};
+  --theme-accent-yellow-2: #{$primitive-accent-yellow--2};
+  --theme-accent-yellow-1: #{$primitive-accent-yellow--1};
+  --theme-accent-yellow-0: #{$primitive-accent-yellow-0};
+  --theme-accent-yellow--1: #{$primitive-accent-yellow-1};
+  --theme-accent-yellow--2: #{$primitive-accent-yellow-2};
+  --theme-accent-yellow--3: #{$primitive-accent-yellow-3};
+  --theme-accent-yellow--4: #{$primitive-accent-yellow-4};
+  // Aurora
+  --theme-accent-aurora-4: #{$primitive-accent-aurora--4};
+  --theme-accent-aurora-3: #{$primitive-accent-aurora--3};
+  --theme-accent-aurora-2: #{$primitive-accent-aurora--2};
+  --theme-accent-aurora-1: #{$primitive-accent-aurora--1};
+  --theme-accent-aurora-0: #{$primitive-accent-aurora-0};
+  --theme-accent-aurora--1: #{$primitive-accent-aurora-1};
+  --theme-accent-aurora--2: #{$primitive-accent-aurora-2};
+  --theme-accent-aurora--3: #{$primitive-accent-aurora-3};
+  --theme-accent-aurora--4: #{$primitive-accent-aurora-4};
+
+  // Maroon
+  --theme-accent-maroon-4: #{$primitive-accent-maroon--4};
+  --theme-accent-maroon-3: #{$primitive-accent-maroon--3};
+  --theme-accent-maroon-2: #{$primitive-accent-maroon--2};
+  --theme-accent-maroon-1: #{$primitive-accent-maroon--1};
+  --theme-accent-maroon-0: #{$primitive-accent-maroon-0};
+  --theme-accent-maroon--1: #{$primitive-accent-maroon-1};
+  --theme-accent-maroon--2: #{$primitive-accent-maroon-2};
+  --theme-accent-maroon--3: #{$primitive-accent-maroon-3};
+  --theme-accent-maroon--4: #{$primitive-accent-maroon-4};
+
+  // Pumpkin
+  --theme-accent-pumpkin-4: #{$primitive-accent-pumpkin--4};
+  --theme-accent-pumpkin-3: #{$primitive-accent-pumpkin--3};
+  --theme-accent-pumpkin-2: #{$primitive-accent-pumpkin--2};
+  --theme-accent-pumpkin-1: #{$primitive-accent-pumpkin--1};
+  --theme-accent-pumpkin-0: #{$primitive-accent-pumpkin-0};
+  --theme-accent-pumpkin--1: #{$primitive-accent-pumpkin-1};
+  --theme-accent-pumpkin--2: #{$primitive-accent-pumpkin-2};
+  --theme-accent-pumpkin--3: #{$primitive-accent-pumpkin-3};
+  --theme-accent-pumpkin--4: #{$primitive-accent-pumpkin-4};
+
+  // Amber
+  --theme-accent-amber-4: #{$primitive-accent-amber--4};
+  --theme-accent-amber-3: #{$primitive-accent-amber--3};
+  --theme-accent-amber-2: #{$primitive-accent-amber--2};
+  --theme-accent-amber-1: #{$primitive-accent-amber--1};
+  --theme-accent-amber-0: #{$primitive-accent-amber-0};
+  --theme-accent-amber--1: #{$primitive-accent-amber-1};
+  --theme-accent-amber--2: #{$primitive-accent-amber-2};
+  --theme-accent-amber--3: #{$primitive-accent-amber-3};
+  --theme-accent-amber--4: #{$primitive-accent-amber-4};
+
+  // Grape
+  --theme-accent-grape-4: #{$primitive-accent-grape--4};
+  --theme-accent-grape-3: #{$primitive-accent-grape--3};
+  --theme-accent-grape-2: #{$primitive-accent-grape--2};
+  --theme-accent-grape-1: #{$primitive-accent-grape--1};
+  --theme-accent-grape-0: #{$primitive-accent-grape-0};
+  --theme-accent-grape--1: #{$primitive-accent-grape-1};
+  --theme-accent-grape--2: #{$primitive-accent-grape-2};
+  --theme-accent-grape--3: #{$primitive-accent-grape-3};
+  --theme-accent-grape--4: #{$primitive-accent-grape-4};
+
+  // Violet
+  --theme-accent-violet-4: #{$primitive-accent-violet--4};
+  --theme-accent-violet-3: #{$primitive-accent-violet--3};
+  --theme-accent-violet-2: #{$primitive-accent-violet--2};
+  --theme-accent-violet-1: #{$primitive-accent-violet--1};
+  --theme-accent-violet-0: #{$primitive-accent-violet-0};
+  --theme-accent-violet--1: #{$primitive-accent-violet-1};
+  --theme-accent-violet--2: #{$primitive-accent-violet-2};
+  --theme-accent-violet--3: #{$primitive-accent-violet-3};
+  --theme-accent-violet--4: #{$primitive-accent-violet-4};
+
+  // Slate
+  --theme-accent-slate-4: #{$primitive-accent-slate--4};
+  --theme-accent-slate-3: #{$primitive-accent-slate--3};
+  --theme-accent-slate-2: #{$primitive-accent-slate--2};
+  --theme-accent-slate-1: #{$primitive-accent-slate--1};
+  --theme-accent-slate-0: #{$primitive-accent-slate-0};
+  --theme-accent-slate--1: #{$primitive-accent-slate-1};
+  --theme-accent-slate--2: #{$primitive-accent-slate-2};
+  --theme-accent-slate--3: #{$primitive-accent-slate-3};
+  --theme-accent-slate--4: #{$primitive-accent-slate-4};
+
+  // Teal
+  --theme-accent-teal-4: #{$primitive-accent-teal--4};
+  --theme-accent-teal-3: #{$primitive-accent-teal--3};
+  --theme-accent-teal-2: #{$primitive-accent-teal--2};
+  --theme-accent-teal-1: #{$primitive-accent-teal--1};
+  --theme-accent-teal-0: #{$primitive-accent-teal-0};
+  --theme-accent-teal--1: #{$primitive-accent-teal-1};
+  --theme-accent-teal--2: #{$primitive-accent-teal-2};
+  --theme-accent-teal--3: #{$primitive-accent-teal-3};
+  --theme-accent-teal--4: #{$primitive-accent-teal-4};
+
+  // Aquamarine
+  --theme-accent-aquamarine-4: #{$primitive-accent-aquamarine--4};
+  --theme-accent-aquamarine-3: #{$primitive-accent-aquamarine--3};
+  --theme-accent-aquamarine-2: #{$primitive-accent-aquamarine--2};
+  --theme-accent-aquamarine-1: #{$primitive-accent-aquamarine--1};
+  --theme-accent-aquamarine-0: #{$primitive-accent-aquamarine-0};
+  --theme-accent-aquamarine--1: #{$primitive-accent-aquamarine-1};
+  --theme-accent-aquamarine--2: #{$primitive-accent-aquamarine-2};
+  --theme-accent-aquamarine--3: #{$primitive-accent-aquamarine-3};
+  --theme-accent-aquamarine--4: #{$primitive-accent-aquamarine-4};
+
+  // Meadov
+  --theme-accent-meadow-4: #{$primitive-accent-meadow--4};
+  --theme-accent-meadow-3: #{$primitive-accent-meadow--3};
+  --theme-accent-meadow-2: #{$primitive-accent-meadow--2};
+  --theme-accent-meadow-1: #{$primitive-accent-meadow--1};
+  --theme-accent-meadow-0: #{$primitive-accent-meadow-0};
+  --theme-accent-meadow--1: #{$primitive-accent-meadow-1};
+  --theme-accent-meadow--2: #{$primitive-accent-meadow-2};
+  --theme-accent-meadow--3: #{$primitive-accent-meadow-3};
+  --theme-accent-meadow--4: #{$primitive-accent-meadow-4};
+
+  // Topaz
+  --theme-accent-topaz-4: #{$primitive-accent-topaz--4};
+  --theme-accent-topaz-3: #{$primitive-accent-topaz--3};
+  --theme-accent-topaz-2: #{$primitive-accent-topaz--2};
+  --theme-accent-topaz-1: #{$primitive-accent-topaz--1};
+  --theme-accent-topaz-0: #{$primitive-accent-topaz-0};
+  --theme-accent-topaz--1: #{$primitive-accent-topaz-1};
+  --theme-accent-topaz--2: #{$primitive-accent-topaz-2};
+  --theme-accent-topaz--3: #{$primitive-accent-topaz-3};
+  --theme-accent-topaz--4: #{$primitive-accent-topaz-4};
+
+  // Forest
+  --theme-accent-forest-4: #{$primitive-accent-forest--4};
+  --theme-accent-forest-3: #{$primitive-accent-forest--3};
+  --theme-accent-forest-2: #{$primitive-accent-forest--2};
+  --theme-accent-forest-1: #{$primitive-accent-forest--1};
+  --theme-accent-forest-0: #{$primitive-accent-forest-0};
+  --theme-accent-forest--1: #{$primitive-accent-forest-1};
+  --theme-accent-forest--2: #{$primitive-accent-forest-2};
+  --theme-accent-forest--3: #{$primitive-accent-forest-3};
+  --theme-accent-forest--4: #{$primitive-accent-forest-4};
+
+  // Emerald
+  --theme-accent-emerald-4: #{$primitive-accent-emerald--4};
+  --theme-accent-emerald-3: #{$primitive-accent-emerald--3};
+  --theme-accent-emerald-2: #{$primitive-accent-emerald--2};
+  --theme-accent-emerald-1: #{$primitive-accent-emerald--1};
+  --theme-accent-emerald-0: #{$primitive-accent-emerald-0};
+  --theme-accent-emerald--1: #{$primitive-accent-emerald-1};
+  --theme-accent-emerald--2: #{$primitive-accent-emerald-2};
+  --theme-accent-emerald--3: #{$primitive-accent-emerald-3};
+  --theme-accent-emerald--4: #{$primitive-accent-emerald-4};
+
+  // Lime
+  --theme-accent-lime-4: #{$primitive-accent-lime--4};
+  --theme-accent-lime-3: #{$primitive-accent-lime--3};
+  --theme-accent-lime-2: #{$primitive-accent-lime--2};
+  --theme-accent-lime-1: #{$primitive-accent-lime--1};
+  --theme-accent-lime-0: #{$primitive-accent-lime-0};
+  --theme-accent-lime--1: #{$primitive-accent-lime-1};
+  --theme-accent-lime--2: #{$primitive-accent-lime-2};
+  --theme-accent-lime--3: #{$primitive-accent-lime-3};
+  --theme-accent-lime--4: #{$primitive-accent-lime-4};
+}
+
+/** Light WCAG **/
+:root.wcag-compliant {
+  // Raspberry WCAG
+  --theme-accent-raspberry-wcag-4: #{$primitive-accent-raspberry-wcag-4};
+  --theme-accent-raspberry-wcag-3: #{$primitive-accent-raspberry-wcag-3};
+  --theme-accent-raspberry-wcag-2: #{$primitive-accent-raspberry-wcag-2};
+  --theme-accent-raspberry-wcag-1: #{$primitive-accent-raspberry-wcag-1};
+  --theme-accent-raspberry-wcag-0: #{$primitive-accent-raspberry-wcag-0};
+  --theme-accent-raspberry-wcag--1: #{$primitive-accent-raspberry-wcag--1};
+  --theme-accent-raspberry-wcag--2: #{$primitive-accent-raspberry-wcag--2};
+  --theme-accent-raspberry-wcag--3: #{$primitive-accent-raspberry-wcag--3};
+  --theme-accent-raspberry-wcag--4: #{$primitive-accent-raspberry-wcag--4};
+  --theme-accent-raspberry-wcag-o90: #{hex-to-rgba($primitive-accent-raspberry-wcag-0, 0.9)};
+  --theme-accent-raspberry-wcag-o80: #{hex-to-rgba($primitive-accent-raspberry-wcag-0, 0.8)};
+  --theme-accent-raspberry-wcag-o70: #{hex-to-rgba($primitive-accent-raspberry-wcag-0, 0.7)};
+  --theme-accent-raspberry-wcag-o60: #{hex-to-rgba($primitive-accent-raspberry-wcag-0, 0.6)};
+  --theme-accent-raspberry-wcag-o50: #{hex-to-rgba($primitive-accent-raspberry-wcag-0, 0.5)};
+  --theme-accent-raspberry-wcag-o40: #{hex-to-rgba($primitive-accent-raspberry-wcag-0, 0.4)};
+  --theme-accent-raspberry-wcag-o30: #{hex-to-rgba($primitive-accent-raspberry-wcag-0, 0.3)};
+  --theme-accent-raspberry-wcag-o20: #{hex-to-rgba($primitive-accent-raspberry-wcag-0, 0.2)};
+  --theme-accent-raspberry-wcag-o10: #{hex-to-rgba($primitive-accent-raspberry-wcag-0, 0.1)};
+  --theme-accent-raspberry-wcag-o05: #{hex-to-rgba($primitive-accent-raspberry-wcag-0, 0.03)};
+
+  // Sky Blue WCAG
+  --theme-accent-sky-blue-wcag-4: #{$primitive-accent-sky-blue-wcag-4};
+  --theme-accent-sky-blue-wcag-3: #{$primitive-accent-sky-blue-wcag-3};
+  --theme-accent-sky-blue-wcag-2: #{$primitive-accent-sky-blue-wcag-2};
+  --theme-accent-sky-blue-wcag-1: #{$primitive-accent-sky-blue-wcag-1};
+  --theme-accent-sky-blue-wcag-0: #{$primitive-accent-sky-blue-wcag-0};
+  --theme-accent-sky-blue-wcag--1: #{$primitive-accent-sky-blue-wcag--1};
+  --theme-accent-sky-blue-wcag--2: #{$primitive-accent-sky-blue-wcag--2};
+  --theme-accent-sky-blue-wcag--3: #{$primitive-accent-sky-blue-wcag--3};
+  --theme-accent-sky-blue-wcag--4: #{$primitive-accent-sky-blue-wcag--4};
+  --theme-accent-sky-blue-wcag-o90: #{hex-to-rgba($primitive-accent-sky-blue-wcag-0, 0.9)};
+  --theme-accent-sky-blue-wcag-o80: #{hex-to-rgba($primitive-accent-sky-blue-wcag-0, 0.8)};
+  --theme-accent-sky-blue-wcag-o70: #{hex-to-rgba($primitive-accent-sky-blue-wcag-0, 0.7)};
+  --theme-accent-sky-blue-wcag-o60: #{hex-to-rgba($primitive-accent-sky-blue-wcag-0, 0.6)};
+  --theme-accent-sky-blue-wcag-o50: #{hex-to-rgba($primitive-accent-sky-blue-wcag-0, 0.5)};
+  --theme-accent-sky-blue-wcag-o40: #{hex-to-rgba($primitive-accent-sky-blue-wcag-0, 0.4)};
+  --theme-accent-sky-blue-wcag-o30: #{hex-to-rgba($primitive-accent-sky-blue-wcag-0, 0.3)};
+  --theme-accent-sky-blue-wcag-o20: #{hex-to-rgba($primitive-accent-sky-blue-wcag-0, 0.2)};
+  --theme-accent-sky-blue-wcag-o10: #{hex-to-rgba($primitive-accent-sky-blue-wcag-0, 0.1)};
+  --theme-accent-sky-blue-wcag-o05: #{hex-to-rgba($primitive-accent-sky-blue-wcag-0, 0.03)};
+
+  // Blue WCAG
+  --theme-accent-blue-wcag-4: #{$primitive-accent-blue-wcag-4};
+  --theme-accent-blue-wcag-3: #{$primitive-accent-blue-wcag-3};
+  --theme-accent-blue-wcag-2: #{$primitive-accent-blue-wcag-2};
+  --theme-accent-blue-wcag-1: #{$primitive-accent-blue-wcag-1};
+  --theme-accent-blue-wcag-0: #{$primitive-accent-blue-wcag-0};
+  --theme-accent-blue-wcag--1: #{$primitive-accent-blue-wcag--1};
+  --theme-accent-blue-wcag--2: #{$primitive-accent-blue-wcag--2};
+  --theme-accent-blue-wcag--3: #{$primitive-accent-blue-wcag--3};
+  --theme-accent-blue-wcag--4: #{$primitive-accent-blue-wcag--4};
+  --theme-accent-blue-wcag-o90: #{hex-to-rgba($primitive-accent-blue-wcag-0, 0.9)};
+  --theme-accent-blue-wcag-o80: #{hex-to-rgba($primitive-accent-blue-wcag-0, 0.8)};
+  --theme-accent-blue-wcag-o70: #{hex-to-rgba($primitive-accent-blue-wcag-0, 0.7)};
+  --theme-accent-blue-wcag-o60: #{hex-to-rgba($primitive-accent-blue-wcag-0, 0.6)};
+  --theme-accent-blue-wcag-o50: #{hex-to-rgba($primitive-accent-blue-wcag-0, 0.5)};
+  --theme-accent-blue-wcag-o40: #{hex-to-rgba($primitive-accent-blue-wcag-0, 0.4)};
+  --theme-accent-blue-wcag-o30: #{hex-to-rgba($primitive-accent-blue-wcag-0, 0.3)};
+  --theme-accent-blue-wcag-o20: #{hex-to-rgba($primitive-accent-blue-wcag-0, 0.2)};
+  --theme-accent-blue-wcag-o10: #{hex-to-rgba($primitive-accent-blue-wcag-0, 0.1)};
+  --theme-accent-blue-wcag-o05: #{hex-to-rgba($primitive-accent-blue-wcag-0, 0.03)};
+
+  // Amber WCAG
+  --theme-accent-amber-wcag-4: #{$primitive-accent-amber-wcag-4};
+  --theme-accent-amber-wcag-3: #{$primitive-accent-amber-wcag-3};
+  --theme-accent-amber-wcag-2: #{$primitive-accent-amber-wcag-2};
+  --theme-accent-amber-wcag-1: #{$primitive-accent-amber-wcag-1};
+  --theme-accent-amber-wcag-0: #{$primitive-accent-amber-wcag-0};
+  --theme-accent-amber-wcag--1: #{$primitive-accent-amber-wcag--1};
+  --theme-accent-amber-wcag--2: #{$primitive-accent-amber-wcag--2};
+  --theme-accent-amber-wcag--3: #{$primitive-accent-amber-wcag--3};
+  --theme-accent-amber-wcag--4: #{$primitive-accent-amber-wcag--4};
+  --theme-accent-amber-wcag-o90: #{hex-to-rgba($primitive-accent-amber-wcag-0, 0.9)};
+  --theme-accent-amber-wcag-o80: #{hex-to-rgba($primitive-accent-amber-wcag-0, 0.8)};
+  --theme-accent-amber-wcag-o70: #{hex-to-rgba($primitive-accent-amber-wcag-0, 0.7)};
+  --theme-accent-amber-wcag-o60: #{hex-to-rgba($primitive-accent-amber-wcag-0, 0.6)};
+  --theme-accent-amber-wcag-o50: #{hex-to-rgba($primitive-accent-amber-wcag-0, 0.5)};
+  --theme-accent-amber-wcag-o40: #{hex-to-rgba($primitive-accent-amber-wcag-0, 0.4)};
+  --theme-accent-amber-wcag-o30: #{hex-to-rgba($primitive-accent-amber-wcag-0, 0.3)};
+  --theme-accent-amber-wcag-o20: #{hex-to-rgba($primitive-accent-amber-wcag-0, 0.2)};
+  --theme-accent-amber-wcag-o10: #{hex-to-rgba($primitive-accent-amber-wcag-0, 0.1)};
+  --theme-accent-amber-wcag-o05: #{hex-to-rgba($primitive-accent-amber-wcag-0, 0.05)};
+
+  // Grape WCAG
+  --theme-accent-grape-wcag-4: #{$primitive-accent-grape-wcag-4};
+  --theme-accent-grape-wcag-3: #{$primitive-accent-grape-wcag-3};
+  --theme-accent-grape-wcag-2: #{$primitive-accent-grape-wcag-2};
+  --theme-accent-grape-wcag-1: #{$primitive-accent-grape-wcag-1};
+  --theme-accent-grape-wcag-0: #{$primitive-accent-grape-wcag-0};
+  --theme-accent-grape-wcag--1: #{$primitive-accent-grape-wcag--1};
+  --theme-accent-grape-wcag--2: #{$primitive-accent-grape-wcag--2};
+  --theme-accent-grape-wcag--3: #{$primitive-accent-grape-wcag--3};
+  --theme-accent-grape-wcag--4: #{$primitive-accent-grape-wcag--4};
+  --theme-accent-grape-wcag-o90: #{hex-to-rgba($primitive-accent-grape-wcag-0, 0.9)};
+  --theme-accent-grape-wcag-o80: #{hex-to-rgba($primitive-accent-grape-wcag-0, 0.8)};
+  --theme-accent-grape-wcag-o70: #{hex-to-rgba($primitive-accent-grape-wcag-0, 0.7)};
+  --theme-accent-grape-wcag-o60: #{hex-to-rgba($primitive-accent-grape-wcag-0, 0.6)};
+  --theme-accent-grape-wcag-o50: #{hex-to-rgba($primitive-accent-grape-wcag-0, 0.5)};
+  --theme-accent-grape-wcag-o40: #{hex-to-rgba($primitive-accent-grape-wcag-0, 0.4)};
+  --theme-accent-grape-wcag-o30: #{hex-to-rgba($primitive-accent-grape-wcag-0, 0.3)};
+  --theme-accent-grape-wcag-o20: #{hex-to-rgba($primitive-accent-grape-wcag-0, 0.2)};
+  --theme-accent-grape-wcag-o10: #{hex-to-rgba($primitive-accent-grape-wcag-0, 0.1)};
+  --theme-accent-grape-wcag-o05: #{hex-to-rgba($primitive-accent-grape-wcag-0, 0.05)};
+
+  // Violet WCAG
+  --theme-accent-violet-wcag-4: #{$primitive-accent-violet-wcag-4};
+  --theme-accent-violet-wcag-3: #{$primitive-accent-violet-wcag-3};
+  --theme-accent-violet-wcag-2: #{$primitive-accent-violet-wcag-2};
+  --theme-accent-violet-wcag-1: #{$primitive-accent-violet-wcag-1};
+  --theme-accent-violet-wcag-0: #{$primitive-accent-violet-wcag-0};
+  --theme-accent-violet-wcag--1: #{$primitive-accent-violet-wcag--1};
+  --theme-accent-violet-wcag--2: #{$primitive-accent-violet-wcag--2};
+  --theme-accent-violet-wcag--3: #{$primitive-accent-violet-wcag--3};
+  --theme-accent-violet-wcag--4: #{$primitive-accent-violet-wcag--4};
+  --theme-accent-violet-wcag-o90: #{hex-to-rgba($primitive-accent-violet-wcag-0, 0.9)};
+  --theme-accent-violet-wcag-o80: #{hex-to-rgba($primitive-accent-violet-wcag-0, 0.8)};
+  --theme-accent-violet-wcag-o70: #{hex-to-rgba($primitive-accent-violet-wcag-0, 0.7)};
+  --theme-accent-violet-wcag-o60: #{hex-to-rgba($primitive-accent-violet-wcag-0, 0.6)};
+  --theme-accent-violet-wcag-o50: #{hex-to-rgba($primitive-accent-violet-wcag-0, 0.5)};
+  --theme-accent-violet-wcag-o40: #{hex-to-rgba($primitive-accent-violet-wcag-0, 0.4)};
+  --theme-accent-violet-wcag-o30: #{hex-to-rgba($primitive-accent-violet-wcag-0, 0.3)};
+  --theme-accent-violet-wcag-o20: #{hex-to-rgba($primitive-accent-violet-wcag-0, 0.2)};
+  --theme-accent-violet-wcag-o10: #{hex-to-rgba($primitive-accent-violet-wcag-0, 0.1)};
+  --theme-accent-violet-wcag-o05: #{hex-to-rgba($primitive-accent-violet-wcag-0, 0.05)};
+
+  // Slate WCAG
+  --theme-accent-slate-wcag-4: #{$primitive-accent-slate-wcag-4};
+  --theme-accent-slate-wcag-3: #{$primitive-accent-slate-wcag-3};
+  --theme-accent-slate-wcag-2: #{$primitive-accent-slate-wcag-2};
+  --theme-accent-slate-wcag-1: #{$primitive-accent-slate-wcag-1};
+  --theme-accent-slate-wcag-0: #{$primitive-accent-slate-wcag-0};
+  --theme-accent-slate-wcag--1: #{$primitive-accent-slate-wcag--1};
+  --theme-accent-slate-wcag--2: #{$primitive-accent-slate-wcag--2};
+  --theme-accent-slate-wcag--3: #{$primitive-accent-slate-wcag--3};
+  --theme-accent-slate-wcag--4: #{$primitive-accent-slate-wcag--4};
+  --theme-accent-slate-wcag-o90: #{hex-to-rgba($primitive-accent-slate-wcag-0, 0.9)};
+  --theme-accent-slate-wcag-o80: #{hex-to-rgba($primitive-accent-slate-wcag-0, 0.8)};
+  --theme-accent-slate-wcag-o70: #{hex-to-rgba($primitive-accent-slate-wcag-0, 0.7)};
+  --theme-accent-slate-wcag-o60: #{hex-to-rgba($primitive-accent-slate-wcag-0, 0.6)};
+  --theme-accent-slate-wcag-o50: #{hex-to-rgba($primitive-accent-slate-wcag-0, 0.5)};
+  --theme-accent-slate-wcag-o40: #{hex-to-rgba($primitive-accent-slate-wcag-0, 0.4)};
+  --theme-accent-slate-wcag-o30: #{hex-to-rgba($primitive-accent-slate-wcag-0, 0.3)};
+  --theme-accent-slate-wcag-o20: #{hex-to-rgba($primitive-accent-slate-wcag-0, 0.2)};
+  --theme-accent-slate-wcag-o10: #{hex-to-rgba($primitive-accent-slate-wcag-0, 0.1)};
+  --theme-accent-slate-wcag-o05: #{hex-to-rgba($primitive-accent-slate-wcag-0, 0.05)};
+
+  // Teal WCAG
+  --theme-accent-teal-wcag-4: #{$primitive-accent-teal-wcag-4};
+  --theme-accent-teal-wcag-3: #{$primitive-accent-teal-wcag-3};
+  --theme-accent-teal-wcag-2: #{$primitive-accent-teal-wcag-2};
+  --theme-accent-teal-wcag-1: #{$primitive-accent-teal-wcag-1};
+  --theme-accent-teal-wcag-0: #{$primitive-accent-teal-wcag-0};
+  --theme-accent-teal-wcag--1: #{$primitive-accent-teal-wcag--1};
+  --theme-accent-teal-wcag--2: #{$primitive-accent-teal-wcag--2};
+  --theme-accent-teal-wcag--3: #{$primitive-accent-teal-wcag--3};
+  --theme-accent-teal-wcag--4: #{$primitive-accent-teal-wcag--4};
+  --theme-accent-teal-wcag-o90: #{hex-to-rgba($primitive-accent-teal-wcag-0, 0.9)};
+  --theme-accent-teal-wcag-o80: #{hex-to-rgba($primitive-accent-teal-wcag-0, 0.8)};
+  --theme-accent-teal-wcag-o70: #{hex-to-rgba($primitive-accent-teal-wcag-0, 0.7)};
+  --theme-accent-teal-wcag-o60: #{hex-to-rgba($primitive-accent-teal-wcag-0, 0.6)};
+  --theme-accent-teal-wcag-o50: #{hex-to-rgba($primitive-accent-teal-wcag-0, 0.5)};
+  --theme-accent-teal-wcag-o40: #{hex-to-rgba($primitive-accent-teal-wcag-0, 0.4)};
+  --theme-accent-teal-wcag-o30: #{hex-to-rgba($primitive-accent-teal-wcag-0, 0.3)};
+  --theme-accent-teal-wcag-o20: #{hex-to-rgba($primitive-accent-teal-wcag-0, 0.2)};
+  --theme-accent-teal-wcag-o10: #{hex-to-rgba($primitive-accent-teal-wcag-0, 0.1)};
+  --theme-accent-teal-wcag-o05: #{hex-to-rgba($primitive-accent-teal-wcag-0, 0.05)};
+
+  // Aquamarine WCAG
+  --theme-accent-aquamarine-wcag-4: #{$primitive-accent-aquamarine-wcag-4};
+  --theme-accent-aquamarine-wcag-3: #{$primitive-accent-aquamarine-wcag-3};
+  --theme-accent-aquamarine-wcag-2: #{$primitive-accent-aquamarine-wcag-2};
+  --theme-accent-aquamarine-wcag-1: #{$primitive-accent-aquamarine-wcag-1};
+  --theme-accent-aquamarine-wcag-0: #{$primitive-accent-aquamarine-wcag-0};
+  --theme-accent-aquamarine-wcag--1: #{$primitive-accent-aquamarine-wcag--1};
+  --theme-accent-aquamarine-wcag--2: #{$primitive-accent-aquamarine-wcag--2};
+  --theme-accent-aquamarine-wcag--3: #{$primitive-accent-aquamarine-wcag--3};
+  --theme-accent-aquamarine-wcag--4: #{$primitive-accent-aquamarine-wcag--4};
+  --theme-accent-aquamarine-wcag-o90: #{hex-to-rgba($primitive-accent-aquamarine-wcag-0, 0.9)};
+  --theme-accent-aquamarine-wcag-o80: #{hex-to-rgba($primitive-accent-aquamarine-wcag-0, 0.8)};
+  --theme-accent-aquamarine-wcag-o70: #{hex-to-rgba($primitive-accent-aquamarine-wcag-0, 0.7)};
+  --theme-accent-aquamarine-wcag-o60: #{hex-to-rgba($primitive-accent-aquamarine-wcag-0, 0.6)};
+  --theme-accent-aquamarine-wcag-o50: #{hex-to-rgba($primitive-accent-aquamarine-wcag-0, 0.5)};
+  --theme-accent-aquamarine-wcag-o40: #{hex-to-rgba($primitive-accent-aquamarine-wcag-0, 0.4)};
+  --theme-accent-aquamarine-wcag-o30: #{hex-to-rgba($primitive-accent-aquamarine-wcag-0, 0.3)};
+  --theme-accent-aquamarine-wcag-o20: #{hex-to-rgba($primitive-accent-aquamarine-wcag-0, 0.2)};
+  --theme-accent-aquamarine-wcag-o10: #{hex-to-rgba($primitive-accent-aquamarine-wcag-0, 0.1)};
+  --theme-accent-aquamarine-wcag-o05: #{hex-to-rgba($primitive-accent-aquamarine-wcag-0, 0.05)};
+
+  // Meadow WCAG
+  --theme-accent-meadow-wcag-4: #{$primitive-accent-meadow-wcag-4};
+  --theme-accent-meadow-wcag-3: #{$primitive-accent-meadow-wcag-3};
+  --theme-accent-meadow-wcag-2: #{$primitive-accent-meadow-wcag-2};
+  --theme-accent-meadow-wcag-1: #{$primitive-accent-meadow-wcag-1};
+  --theme-accent-meadow-wcag-0: #{$primitive-accent-meadow-wcag-0};
+  --theme-accent-meadow-wcag--1: #{$primitive-accent-meadow-wcag--1};
+  --theme-accent-meadow-wcag--2: #{$primitive-accent-meadow-wcag--2};
+  --theme-accent-meadow-wcag--3: #{$primitive-accent-meadow-wcag--3};
+  --theme-accent-meadow-wcag--4: #{$primitive-accent-meadow-wcag--4};
+  --theme-accent-meadow-wcag-o90: #{hex-to-rgba($primitive-accent-meadow-wcag-0, 0.9)};
+  --theme-accent-meadow-wcag-o80: #{hex-to-rgba($primitive-accent-meadow-wcag-0, 0.8)};
+  --theme-accent-meadow-wcag-o70: #{hex-to-rgba($primitive-accent-meadow-wcag-0, 0.7)};
+  --theme-accent-meadow-wcag-o60: #{hex-to-rgba($primitive-accent-meadow-wcag-0, 0.6)};
+  --theme-accent-meadow-wcag-o50: #{hex-to-rgba($primitive-accent-meadow-wcag-0, 0.5)};
+  --theme-accent-meadow-wcag-o40: #{hex-to-rgba($primitive-accent-meadow-wcag-0, 0.4)};
+  --theme-accent-meadow-wcag-o30: #{hex-to-rgba($primitive-accent-meadow-wcag-0, 0.3)};
+  --theme-accent-meadow-wcag-o20: #{hex-to-rgba($primitive-accent-meadow-wcag-0, 0.2)};
+  --theme-accent-meadow-wcag-o10: #{hex-to-rgba($primitive-accent-meadow-wcag-0, 0.1)};
+  --theme-accent-meadow-wcag-o05: #{hex-to-rgba($primitive-accent-meadow-wcag-0, 0.05)};
+
+  // Topaz WCAG
+  --theme-accent-topaz-wcag-4: #{$primitive-accent-topaz-wcag-4};
+  --theme-accent-topaz-wcag-3: #{$primitive-accent-topaz-wcag-3};
+  --theme-accent-topaz-wcag-2: #{$primitive-accent-topaz-wcag-2};
+  --theme-accent-topaz-wcag-1: #{$primitive-accent-topaz-wcag-1};
+  --theme-accent-topaz-wcag-0: #{$primitive-accent-topaz-wcag-0};
+  --theme-accent-topaz-wcag--1: #{$primitive-accent-topaz-wcag--1};
+  --theme-accent-topaz-wcag--2: #{$primitive-accent-topaz-wcag--2};
+  --theme-accent-topaz-wcag--3: #{$primitive-accent-topaz-wcag--3};
+  --theme-accent-topaz-wcag--4: #{$primitive-accent-topaz-wcag--4};
+  --theme-accent-topaz-wcag-o90: #{hex-to-rgba($primitive-accent-topaz-wcag-0, 0.9)};
+  --theme-accent-topaz-wcag-o80: #{hex-to-rgba($primitive-accent-topaz-wcag-0, 0.8)};
+  --theme-accent-topaz-wcag-o70: #{hex-to-rgba($primitive-accent-topaz-wcag-0, 0.7)};
+  --theme-accent-topaz-wcag-o60: #{hex-to-rgba($primitive-accent-topaz-wcag-0, 0.6)};
+  --theme-accent-topaz-wcag-o50: #{hex-to-rgba($primitive-accent-topaz-wcag-0, 0.5)};
+  --theme-accent-topaz-wcag-o40: #{hex-to-rgba($primitive-accent-topaz-wcag-0, 0.4)};
+  --theme-accent-topaz-wcag-o30: #{hex-to-rgba($primitive-accent-topaz-wcag-0, 0.3)};
+  --theme-accent-topaz-wcag-o20: #{hex-to-rgba($primitive-accent-topaz-wcag-0, 0.2)};
+  --theme-accent-topaz-wcag-o10: #{hex-to-rgba($primitive-accent-topaz-wcag-0, 0.1)};
+  --theme-accent-topaz-wcag-o05: #{hex-to-rgba($primitive-accent-topaz-wcag-0, 0.05)};
+
+  // Forest WCAG
+  --theme-accent-forest-wcag-4: #{$primitive-accent-forest-wcag-4};
+  --theme-accent-forest-wcag-3: #{$primitive-accent-forest-wcag-3};
+  --theme-accent-forest-wcag-2: #{$primitive-accent-forest-wcag-2};
+  --theme-accent-forest-wcag-1: #{$primitive-accent-forest-wcag-1};
+  --theme-accent-forest-wcag-0: #{$primitive-accent-forest-wcag-0};
+  --theme-accent-forest-wcag--1: #{$primitive-accent-forest-wcag--1};
+  --theme-accent-forest-wcag--2: #{$primitive-accent-forest-wcag--2};
+  --theme-accent-forest-wcag--3: #{$primitive-accent-forest-wcag--3};
+  --theme-accent-forest-wcag--4: #{$primitive-accent-forest-wcag--4};
+  --theme-accent-forest-wcag-o90: #{hex-to-rgba($primitive-accent-forest-wcag-0, 0.9)};
+  --theme-accent-forest-wcag-o80: #{hex-to-rgba($primitive-accent-forest-wcag-0, 0.8)};
+  --theme-accent-forest-wcag-o70: #{hex-to-rgba($primitive-accent-forest-wcag-0, 0.7)};
+  --theme-accent-forest-wcag-o60: #{hex-to-rgba($primitive-accent-forest-wcag-0, 0.6)};
+  --theme-accent-forest-wcag-o50: #{hex-to-rgba($primitive-accent-forest-wcag-0, 0.5)};
+  --theme-accent-forest-wcag-o40: #{hex-to-rgba($primitive-accent-forest-wcag-0, 0.4)};
+  --theme-accent-forest-wcag-o30: #{hex-to-rgba($primitive-accent-forest-wcag-0, 0.3)};
+  --theme-accent-forest-wcag-o20: #{hex-to-rgba($primitive-accent-forest-wcag-0, 0.2)};
+  --theme-accent-forest-wcag-o10: #{hex-to-rgba($primitive-accent-forest-wcag-0, 0.1)};
+  --theme-accent-forest-wcag-o05: #{hex-to-rgba($primitive-accent-forest-wcag-0, 0.05)};
+
+  // Emerald WCAG
+  --theme-accent-emerald-wcag-4: #{$primitive-accent-emerald-wcag-4};
+  --theme-accent-emerald-wcag-3: #{$primitive-accent-emerald-wcag-3};
+  --theme-accent-emerald-wcag-2: #{$primitive-accent-emerald-wcag-2};
+  --theme-accent-emerald-wcag-1: #{$primitive-accent-emerald-wcag-1};
+  --theme-accent-emerald-wcag-0: #{$primitive-accent-emerald-wcag-0};
+  --theme-accent-emerald-wcag--1: #{$primitive-accent-emerald-wcag--1};
+  --theme-accent-emerald-wcag--2: #{$primitive-accent-emerald-wcag--2};
+  --theme-accent-emerald-wcag--3: #{$primitive-accent-emerald-wcag--3};
+  --theme-accent-emerald-wcag--4: #{$primitive-accent-emerald-wcag--4};
+  --theme-accent-emerald-wcag-o90: #{hex-to-rgba($primitive-accent-emerald-wcag-0, 0.9)};
+  --theme-accent-emerald-wcag-o80: #{hex-to-rgba($primitive-accent-emerald-wcag-0, 0.8)};
+  --theme-accent-emerald-wcag-o70: #{hex-to-rgba($primitive-accent-emerald-wcag-0, 0.7)};
+  --theme-accent-emerald-wcag-o60: #{hex-to-rgba($primitive-accent-emerald-wcag-0, 0.6)};
+  --theme-accent-emerald-wcag-o50: #{hex-to-rgba($primitive-accent-emerald-wcag-0, 0.5)};
+  --theme-accent-emerald-wcag-o40: #{hex-to-rgba($primitive-accent-emerald-wcag-0, 0.4)};
+  --theme-accent-emerald-wcag-o30: #{hex-to-rgba($primitive-accent-emerald-wcag-0, 0.3)};
+  --theme-accent-emerald-wcag-o20: #{hex-to-rgba($primitive-accent-emerald-wcag-0, 0.2)};
+  --theme-accent-emerald-wcag-o10: #{hex-to-rgba($primitive-accent-emerald-wcag-0, 0.1)};
+  --theme-accent-emerald-wcag-o05: #{hex-to-rgba($primitive-accent-emerald-wcag-0, 0.05)};
+
+  // Lime WCAG
+  --theme-accent-lime-wcag-4: #{$primitive-accent-lime-wcag-4};
+  --theme-accent-lime-wcag-3: #{$primitive-accent-lime-wcag-3};
+  --theme-accent-lime-wcag-2: #{$primitive-accent-lime-wcag-2};
+  --theme-accent-lime-wcag-1: #{$primitive-accent-lime-wcag-1};
+  --theme-accent-lime-wcag-0: #{$primitive-accent-lime-wcag-0};
+  --theme-accent-lime-wcag--1: #{$primitive-accent-lime-wcag--1};
+  --theme-accent-lime-wcag--2: #{$primitive-accent-lime-wcag--2};
+  --theme-accent-lime-wcag--3: #{$primitive-accent-lime-wcag--3};
+  --theme-accent-lime-wcag--4: #{$primitive-accent-lime-wcag--4};
+  --theme-accent-lime-wcag-o90: #{hex-to-rgba($primitive-accent-lime-wcag-0, 0.9)};
+  --theme-accent-lime-wcag-o80: #{hex-to-rgba($primitive-accent-lime-wcag-0, 0.8)};
+  --theme-accent-lime-wcag-o70: #{hex-to-rgba($primitive-accent-lime-wcag-0, 0.7)};
+  --theme-accent-lime-wcag-o60: #{hex-to-rgba($primitive-accent-lime-wcag-0, 0.6)};
+  --theme-accent-lime-wcag-o50: #{hex-to-rgba($primitive-accent-lime-wcag-0, 0.5)};
+  --theme-accent-lime-wcag-o40: #{hex-to-rgba($primitive-accent-lime-wcag-0, 0.4)};
+  --theme-accent-lime-wcag-o30: #{hex-to-rgba($primitive-accent-lime-wcag-0, 0.3)};
+  --theme-accent-lime-wcag-o20: #{hex-to-rgba($primitive-accent-lime-wcag-0, 0.2)};
+  --theme-accent-lime-wcag-o10: #{hex-to-rgba($primitive-accent-lime-wcag-0, 0.1)};
+  --theme-accent-lime-wcag-o05: #{hex-to-rgba($primitive-accent-lime-wcag-0, 0.05)};
+}
+
+/** Dark WCAG**/
+:root.wcag-compliant .ivyforms-theme-dark {
+  // Raspberry WCAG
+  --theme-accent-raspberry-wcag-4: #{$primitive-accent-raspberry-wcag--4};
+  --theme-accent-raspberry-wcag-3: #{$primitive-accent-raspberry-wcag--3};
+  --theme-accent-raspberry-wcag-2: #{$primitive-accent-raspberry-wcag--2};
+  --theme-accent-raspberry-wcag-1: #{$primitive-accent-raspberry-wcag--1};
+  --theme-accent-raspberry-wcag-0: #{$primitive-accent-raspberry-wcag-0};
+  --theme-accent-raspberry-wcag--1: #{$primitive-accent-raspberry-wcag-1};
+  --theme-accent-raspberry-wcag--2: #{$primitive-accent-raspberry-wcag-2};
+  --theme-accent-raspberry-wcag--3: #{$primitive-accent-raspberry-wcag-3};
+  --theme-accent-raspberry-wcag--4: #{$primitive-accent-raspberry-wcag-4};
+
+  // Sky Blue WCAG
+  --theme-accent-sky-blue-wcag-4: #{$primitive-accent-sky-blue-wcag--4};
+  --theme-accent-sky-blue-wcag-3: #{$primitive-accent-sky-blue-wcag--3};
+  --theme-accent-sky-blue-wcag-2: #{$primitive-accent-sky-blue-wcag--2};
+  --theme-accent-sky-blue-wcag-1: #{$primitive-accent-sky-blue-wcag--1};
+  --theme-accent-sky-blue-wcag-0: #{$primitive-accent-sky-blue-wcag-0};
+  --theme-accent-sky-blue-wcag--1: #{$primitive-accent-sky-blue-wcag-1};
+  --theme-accent-sky-blue-wcag--2: #{$primitive-accent-sky-blue-wcag-2};
+  --theme-accent-sky-blue-wcag--3: #{$primitive-accent-sky-blue-wcag-3};
+  --theme-accent-sky-blue-wcag--4: #{$primitive-accent-sky-blue-wcag-4};
+
+  // Blue WCAG
+  --theme-accent-blue-wcag-4: #{$primitive-accent-blue-wcag--4};
+  --theme-accent-blue-wcag-3: #{$primitive-accent-blue-wcag--3};
+  --theme-accent-blue-wcag-2: #{$primitive-accent-blue-wcag--2};
+  --theme-accent-blue-wcag-1: #{$primitive-accent-blue-wcag--1};
+  --theme-accent-blue-wcag-0: #{$primitive-accent-blue-wcag-0};
+  --theme-accent-blue-wcag--1: #{$primitive-accent-blue-wcag-1};
+  --theme-accent-blue-wcag--2: #{$primitive-accent-blue-wcag-2};
+  --theme-accent-blue-wcag--3: #{$primitive-accent-blue-wcag-3};
+  --theme-accent-blue-wcag--4: #{$primitive-accent-blue-wcag-4};
+
+  // Denim WCAG
+  --theme-accent-denim-4: #{$primitive-accent-deep-denim--4};
+  --theme-accent-denim-3: #{$primitive-accent-deep-denim--3};
+  --theme-accent-denim-2: #{$primitive-accent-deep-denim--2};
+  --theme-accent-denim-1: #{$primitive-accent-deep-denim--1};
+  --theme-accent-denim-0: #{$primitive-accent-deep-denim-0};
+  --theme-accent-denim--1: #{$primitive-accent-deep-denim-1};
+  --theme-accent-denim--2: #{$primitive-accent-deep-denim-2};
+  --theme-accent-denim--3: #{$primitive-accent-deep-denim-3};
+  --theme-accent-denim--4: #{$primitive-accent-deep-denim-4};
+
+  // Magenta WCAG
+  --theme-accent-magenta-4: #{$primitive-accent-magenta--4};
+  --theme-accent-magenta-3: #{$primitive-accent-magenta--3};
+  --theme-accent-magenta-2: #{$primitive-accent-magenta--2};
+  --theme-accent-magenta-1: #{$primitive-accent-magenta--1};
+  --theme-accent-magenta-0: #{$primitive-accent-magenta-0};
+  --theme-accent-magenta--1: #{$primitive-accent-magenta-1};
+  --theme-accent-magenta--2: #{$primitive-accent-magenta-2};
+  --theme-accent-magenta--3: #{$primitive-accent-magenta-3};
+  --theme-accent-magenta--4: #{$primitive-accent-magenta-4};
+
+  // Yellow WCAG
+  --theme-accent-yellow-4: #{$primitive-accent-yellow--4};
+  --theme-accent-yellow-3: #{$primitive-accent-yellow--3};
+  --theme-accent-yellow-2: #{$primitive-accent-yellow--2};
+  --theme-accent-yellow-1: #{$primitive-accent-yellow--1};
+  --theme-accent-yellow-0: #{$primitive-accent-yellow-0};
+  --theme-accent-yellow--1: #{$primitive-accent-yellow-1};
+  --theme-accent-yellow--2: #{$primitive-accent-yellow-2};
+  --theme-accent-yellow--3: #{$primitive-accent-yellow-3};
+  --theme-accent-yellow--4: #{$primitive-accent-yellow-4};
+
+  // Aurora WCAG
+  --theme-accent-aurora-4: #{$primitive-accent-aurora--4};
+  --theme-accent-aurora-3: #{$primitive-accent-aurora--3};
+  --theme-accent-aurora-2: #{$primitive-accent-aurora--2};
+  --theme-accent-aurora-1: #{$primitive-accent-aurora--1};
+  --theme-accent-aurora-0: #{$primitive-accent-aurora-0};
+  --theme-accent-aurora--1: #{$primitive-accent-aurora-1};
+  --theme-accent-aurora--2: #{$primitive-accent-aurora-2};
+  --theme-accent-aurora--3: #{$primitive-accent-aurora-3};
+  --theme-accent-aurora--4: #{$primitive-accent-aurora-4};
+
+  // Maroon WCAG
+  --theme-accent-maroon-4: #{$primitive-accent-maroon--4};
+  --theme-accent-maroon-3: #{$primitive-accent-maroon--3};
+  --theme-accent-maroon-2: #{$primitive-accent-maroon--2};
+  --theme-accent-maroon-1: #{$primitive-accent-maroon--1};
+  --theme-accent-maroon-0: #{$primitive-accent-maroon-0};
+  --theme-accent-maroon--1: #{$primitive-accent-maroon-1};
+  --theme-accent-maroon--2: #{$primitive-accent-maroon-2};
+  --theme-accent-maroon--3: #{$primitive-accent-maroon-3};
+  --theme-accent-maroon--4: #{$primitive-accent-maroon-4};
+
+  // Pumpkin WCAG
+  --theme-accent-pumpkin-4: #{$primitive-accent-pumpkin--4};
+  --theme-accent-pumpkin-3: #{$primitive-accent-pumpkin--3};
+  --theme-accent-pumpkin-2: #{$primitive-accent-pumpkin--2};
+  --theme-accent-pumpkin-1: #{$primitive-accent-pumpkin--1};
+  --theme-accent-pumpkin-0: #{$primitive-accent-pumpkin-0};
+  --theme-accent-pumpkin--1: #{$primitive-accent-pumpkin-1};
+  --theme-accent-pumpkin--2: #{$primitive-accent-pumpkin-2};
+  --theme-accent-pumpkin--3: #{$primitive-accent-pumpkin-3};
+  --theme-accent-pumpkin--4: #{$primitive-accent-pumpkin-4};
+
+  // Amber WCAG
+  --theme-accent-amber-4: #{$primitive-accent-amber-wcag--4};
+  --theme-accent-amber-3: #{$primitive-accent-amber-wcag--3};
+  --theme-accent-amber-2: #{$primitive-accent-amber-wcag--2};
+  --theme-accent-amber-1: #{$primitive-accent-amber-wcag--1};
+  --theme-accent-amber-0: #{$primitive-accent-amber-wcag-0};
+  --theme-accent-amber--1: #{$primitive-accent-amber-wcag-1};
+  --theme-accent-amber--2: #{$primitive-accent-amber-wcag-2};
+  --theme-accent-amber--3: #{$primitive-accent-amber-wcag-3};
+  --theme-accent-amber--4: #{$primitive-accent-amber-wcag-4};
+
+  // Grape WCAG
+  --theme-accent-grape-4: #{$primitive-accent-grape-wcag--4};
+  --theme-accent-grape-3: #{$primitive-accent-grape-wcag--3};
+  --theme-accent-grape-2: #{$primitive-accent-grape-wcag--2};
+  --theme-accent-grape-1: #{$primitive-accent-grape-wcag--1};
+  --theme-accent-grape-0: #{$primitive-accent-grape-wcag-0};
+  --theme-accent-grape--1: #{$primitive-accent-grape-wcag-1};
+  --theme-accent-grape--2: #{$primitive-accent-grape-wcag-2};
+  --theme-accent-grape--3: #{$primitive-accent-grape-wcag-3};
+  --theme-accent-grape--4: #{$primitive-accent-grape-wcag-4};
+
+  // Violet WCAG
+  --theme-accent-violet-4: #{$primitive-accent-violet-wcag--4};
+  --theme-accent-violet-3: #{$primitive-accent-violet-wcag--3};
+  --theme-accent-violet-2: #{$primitive-accent-violet-wcag--2};
+  --theme-accent-violet-1: #{$primitive-accent-violet-wcag--1};
+  --theme-accent-violet-0: #{$primitive-accent-violet-wcag-0};
+  --theme-accent-violet--1: #{$primitive-accent-violet-wcag-1};
+  --theme-accent-violet--2: #{$primitive-accent-violet-wcag-2};
+  --theme-accent-violet--3: #{$primitive-accent-violet-wcag-3};
+  --theme-accent-violet--4: #{$primitive-accent-violet-wcag-4};
+
+  // Slate WCAG
+  --theme-accent-slate-4: #{$primitive-accent-slate-wcag--4};
+  --theme-accent-slate-3: #{$primitive-accent-slate-wcag--3};
+  --theme-accent-slate-2: #{$primitive-accent-slate-wcag--2};
+  --theme-accent-slate-1: #{$primitive-accent-slate-wcag--1};
+  --theme-accent-slate-0: #{$primitive-accent-slate-wcag-0};
+  --theme-accent-slate--1: #{$primitive-accent-slate-wcag-1};
+  --theme-accent-slate--2: #{$primitive-accent-slate-wcag-2};
+  --theme-accent-slate--3: #{$primitive-accent-slate-wcag-3};
+  --theme-accent-slate--4: #{$primitive-accent-slate-wcag-4};
+
+  // Teal
+  --theme-accent-teal-wcag-4: #{$primitive-accent-teal-wcag--4};
+  --theme-accent-teal-wcag-3: #{$primitive-accent-teal-wcag--3};
+  --theme-accent-teal-wcag-2: #{$primitive-accent-teal-wcag--2};
+  --theme-accent-teal-wcag-1: #{$primitive-accent-teal-wcag--1};
+  --theme-accent-teal-wcag-0: #{$primitive-accent-teal-wcag-0};
+  --theme-accent-teal-wcag--1: #{$primitive-accent-teal-wcag-1};
+  --theme-accent-teal-wcag--2: #{$primitive-accent-teal-wcag-2};
+  --theme-accent-teal-wcag--3: #{$primitive-accent-teal-wcag-3};
+  --theme-accent-teal-wcag--4: #{$primitive-accent-teal-wcag-4};
+
+  // Aquamarine
+  --theme-accent-aquamarine-wcag-4: #{$primitive-accent-aquamarine-wcag--4};
+  --theme-accent-aquamarine-wcag-3: #{$primitive-accent-aquamarine-wcag--3};
+  --theme-accent-aquamarine-wcag-2: #{$primitive-accent-aquamarine-wcag--2};
+  --theme-accent-aquamarine-wcag-1: #{$primitive-accent-aquamarine-wcag--1};
+  --theme-accent-aquamarine-wcag-0: #{$primitive-accent-aquamarine-wcag-0};
+  --theme-accent-aquamarine-wcag--1: #{$primitive-accent-aquamarine-wcag-1};
+  --theme-accent-aquamarine-wcag--2: #{$primitive-accent-aquamarine-wcag-2};
+  --theme-accent-aquamarine-wcag--3: #{$primitive-accent-aquamarine-wcag--3};
+  --theme-accent-aquamarine-wcag--4: #{$primitive-accent-aquamarine-wcag--4};
+
+  // Meadov
+  --theme-accent-meadow-wcag-4: #{$primitive-accent-meadow-wcag--4};
+  --theme-accent-meadow-wcag-3: #{$primitive-accent-meadow-wcag--3};
+  --theme-accent-meadow-wcag-2: #{$primitive-accent-meadow-wcag--2};
+  --theme-accent-meadow-wcag-1: #{$primitive-accent-meadow-wcag--1};
+  --theme-accent-meadow-wcag-0: #{$primitive-accent-meadow-wcag-0};
+  --theme-accent-meadow-wcag--1: #{$primitive-accent-meadow-wcag-1};
+  --theme-accent-meadow-wcag--2: #{$primitive-accent-meadow-wcag-2};
+  --theme-accent-meadow-wcag--3: #{$primitive-accent-meadow-wcag--3};
+  --theme-accent-meadow-wcag--4: #{$primitive-accent-meadow-wcag--4};
+
+  // Topaz
+  --theme-accent-topaz-wcag-4: #{$primitive-accent-topaz-wcag--4};
+  --theme-accent-topaz-wcag-3: #{$primitive-accent-topaz-wcag--3};
+  --theme-accent-topaz-wcag-2: #{$primitive-accent-topaz-wcag--2};
+  --theme-accent-topaz-wcag-1: #{$primitive-accent-topaz-wcag--1};
+  --theme-accent-topaz-wcag-0: #{$primitive-accent-topaz-wcag-0};
+  --theme-accent-topaz-wcag--1: #{$primitive-accent-topaz-wcag-1};
+  --theme-accent-topaz-wcag--2: #{$primitive-accent-topaz-wcag-2};
+  --theme-accent-topaz-wcag--3: #{$primitive-accent-topaz-wcag-3};
+  --theme-accent-topaz-wcag--4: #{$primitive-accent-topaz-wcag-4};
+
+  // Forest
+  --theme-accent-forest-wcag-4: #{$primitive-accent-forest-wcag--4};
+  --theme-accent-forest-wcag-3: #{$primitive-accent-forest-wcag--3};
+  --theme-accent-forest-wcag-2: #{$primitive-accent-forest-wcag--2};
+  --theme-accent-forest-wcag-1: #{$primitive-accent-forest-wcag--1};
+  --theme-accent-forest-wcag-0: #{$primitive-accent-forest-wcag-0};
+  --theme-accent-forest-wcag--1: #{$primitive-accent-forest-wcag-1};
+  --theme-accent-forest-wcag--2: #{$primitive-accent-forest-wcag--2};
+  --theme-accent-forest-wcag--3: #{$primitive-accent-forest-wcag--3};
+  --theme-accent-forest-wcag--4: #{$primitive-accent-forest-wcag--4};
+
+  // Emerald
+  --theme-accent-emerald-wcag-4: #{$primitive-accent-emerald-wcag--4};
+  --theme-accent-emerald-wcag-3: #{$primitive-accent-emerald-wcag--3};
+  --theme-accent-emerald-wcag-2: #{$primitive-accent-emerald-wcag--2};
+  --theme-accent-emerald-wcag-1: #{$primitive-accent-emerald-wcag--1};
+  --theme-accent-emerald-wcag-0: #{$primitive-accent-emerald-wcag-0};
+  --theme-accent-emerald-wcag--1: #{$primitive-accent-emerald-wcag-1};
+  --theme-accent-emerald-wcag--2: #{$primitive-accent-emerald-wcag-2};
+  --theme-accent-emerald-wcag--3: #{$primitive-accent-emerald-wcag-3};
+  --theme-accent-emerald-wcag--4: #{$primitive-accent-emerald-wcag--4};
+
+  // Lime
+  --theme-accent-lime-wcag-4: #{$primitive-accent-lime-wcag--4};
+  --theme-accent-lime-wcag-3: #{$primitive-accent-lime-wcag--3};
+  --theme-accent-lime-wcag-2: #{$primitive-accent-lime-wcag--2};
+  --theme-accent-lime-wcag-1: #{$primitive-accent-lime-wcag--1};
+  --theme-accent-lime-wcag-0: #{$primitive-accent-lime-wcag-0};
+  --theme-accent-lime-wcag--1: #{$primitive-accent-lime-wcag-1};
+  --theme-accent-lime-wcag--2: #{$primitive-accent-lime-wcag-2};
+  --theme-accent-lime-wcag--3: #{$primitive-accent-lime-wcag-3};
+  --theme-accent-lime-wcag--4: #{$primitive-accent-lime-wcag--4};
+}

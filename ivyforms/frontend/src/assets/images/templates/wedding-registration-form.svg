@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 680" width="400" height="680">
+  <!-- Background -->
+  <rect width="400" height="680" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Wedding registration</text>
+  <text x="30" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">form</text>
+
+  <!-- Full Name header -->
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+
+  <!-- First Name label -->
+  <text x="30" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+
+  <!-- Last Name label -->
+  <text x="210" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email Address -->
+  <text x="30" y="198" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="208" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="231" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Number of Guests -->
+  <text x="30" y="278" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Number of guests<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="288" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="311" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter number of guests</text>
+
+  <!-- Meal Preference -->
+  <text x="30" y="358" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Meal preference</text>
+  <rect x="30" y="368" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="391" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select meal preference</text>
+  <path d="M345 384 L350 389 L355 384" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Special Requests -->
+  <text x="30" y="438" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Special requests</text>
+  <rect x="30" y="453" width="16" height="16" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="3"/>
+  <text x="52" y="466" font-family="Arial, sans-serif" font-size="14" fill="#374151">Wheelchair access</text>
+  <rect x="180" y="453" width="16" height="16" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="3"/>
+  <text x="202" y="466" font-family="Arial, sans-serif" font-size="14" fill="#374151">Allergy information</text>
+  <rect x="30" y="478" width="16" height="16" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="3"/>
+  <text x="52" y="491" font-family="Arial, sans-serif" font-size="14" fill="#374151">Other</text>
+
+  <!-- Message to the Couple -->
+  <text x="30" y="538" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Message to the couple</text>
+  <rect x="30" y="548" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="576" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Write your message or wishes here</text>
+</svg>

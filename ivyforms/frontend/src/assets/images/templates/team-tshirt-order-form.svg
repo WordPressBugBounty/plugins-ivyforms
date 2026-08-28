@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 920" width="400" height="920">
+  <!-- Background -->
+  <rect width="400" height="920" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Team t-shirt order</text>
+  <text x="30" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">form</text>
+
+  <!-- Team Contact Name header -->
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Team contact name</text>
+
+  <!-- First Name label -->
+  <text x="30" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your name</text>
+
+  <!-- Last Name label -->
+  <text x="210" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email Address -->
+  <text x="30" y="198" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="208" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="231" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Phone Number -->
+  <text x="30" y="278" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number</text>
+  <rect x="30" y="288" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="311" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+
+  <!-- Team Name -->
+  <text x="30" y="358" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Team name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="368" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="391" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter team name</text>
+
+  <!-- T-shirt Size(s) -->
+  <text x="30" y="438" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">T-shirt size(s)<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="448" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="471" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select t-shirt size</text>
+  <path d="M345 464 L350 469 L355 464" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Quantity per Size -->
+  <text x="30" y="518" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Quantity per size<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="528" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="551" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter quantity</text>
+
+  <!-- Design Instructions -->
+  <text x="30" y="598" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Design instructions</text>
+  <rect x="30" y="608" width="340" height="56" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="632" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter design instructions</text>
+
+  <!-- T-shirt Color -->
+  <text x="30" y="694" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">T-shirt color<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="704" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="727" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select t-shirt color</text>
+  <path d="M345 720 L350 725 L355 720" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Include Team Logo? -->
+  <text x="30" y="774" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Include team logo?</text>
+  <!-- Yes Radio -->
+  <circle cx="42" cy="798" r="9" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="58" y="802" font-family="Arial, sans-serif" font-size="14" fill="#374151">Yes</text>
+  <!-- No Radio -->
+  <circle cx="112" cy="798" r="9" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="128" y="802" font-family="Arial, sans-serif" font-size="14" fill="#374151">No</text>
+
+  <!-- Required Delivery Date -->
+  <text x="30" y="842" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Required delivery date<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="852" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="875" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">MM/DD/YYYY</text>
+  <!-- Calendar Icon -->
+  <g transform="translate(340, 862)">
+    <rect x="0" y="0" width="20" height="20" fill="none" stroke="#9ca3af" stroke-width="1.5" rx="2"/>
+    <line x1="0" y1="6" x2="20" y2="6" stroke="#9ca3af" stroke-width="1.5"/>
+    <rect x="2" y="-2" width="2" height="4" fill="#9ca3af"/>
+    <rect x="16" y="-2" width="2" height="4" fill="#9ca3af"/>
+  </g>
+</svg>

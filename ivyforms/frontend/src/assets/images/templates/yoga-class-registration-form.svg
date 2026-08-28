@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1100" width="400" height="1100">
+  <!-- Background -->
+  <rect width="400" height="1100" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Yoga class</text>
+  <text x="30" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">registration form</text>
+
+  <!-- Full Name header -->
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+
+  <!-- First Name label -->
+  <text x="30" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+
+  <!-- Last Name label -->
+  <text x="210" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email Address -->
+  <text x="30" y="198" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="208" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="231" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Phone Number -->
+  <text x="30" y="278" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="288" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="311" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+
+  <!-- Date of Birth -->
+  <text x="30" y="358" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Date of birth<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="368" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="391" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter date of birth</text>
+  <!-- Calendar Icon -->
+  <g transform="translate(340, 378)">
+    <rect x="0" y="0" width="20" height="20" fill="none" stroke="#9ca3af" stroke-width="1.5" rx="2"/>
+    <line x1="0" y1="6" x2="20" y2="6" stroke="#9ca3af" stroke-width="1.5"/>
+    <rect x="2" y="-2" width="2" height="4" fill="#9ca3af"/>
+    <rect x="16" y="-2" width="2" height="4" fill="#9ca3af"/>
+    <circle cx="5" cy="11" r="1.5" fill="#9ca3af"/>
+    <circle cx="10" cy="11" r="1.5" fill="#9ca3af"/>
+    <circle cx="15" cy="11" r="1.5" fill="#9ca3af"/>
+  </g>
+
+  <!-- Class Level -->
+  <text x="30" y="438" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Class level<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="448" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="471" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select class level</text>
+  <path d="M345 464 L350 469 L355 464" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Preferred Schedule -->
+  <text x="30" y="518" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred schedule<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="528" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="551" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select preferred schedule</text>
+  <path d="M345 544 L350 549 L355 544" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Preferred Class Duration -->
+  <text x="30" y="598" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred class duration<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="608" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="631" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select preferred class duration</text>
+  <path d="M345 624 L350 629 L355 624" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Health Notes -->
+  <text x="30" y="678" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Health notes</text>
+  <rect x="30" y="688" width="340" height="56" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="712" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Any injuries or medical conditions</text>
+
+  <!-- Equipment Needed -->
+  <text x="30" y="762" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Equipment needed?</text>
+  <rect x="30" y="772" width="18" height="18" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="4"/>
+  <text x="56" y="784" font-family="Arial, sans-serif" font-size="14" fill="#374151">Yoga mat</text>
+  <rect x="140" y="772" width="18" height="18" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="4"/>
+  <text x="166" y="784" font-family="Arial, sans-serif" font-size="14" fill="#374151">Block</text>
+  <rect x="30" y="797" width="18" height="18" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="4"/>
+  <text x="56" y="809" font-family="Arial, sans-serif" font-size="14" fill="#374151">Strap</text>
+
+  <!-- Previous Yoga Experience -->
+  <text x="30" y="842" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Previous yoga experience</text>
+  <rect x="30" y="852" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="875" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Years of practice, styles, certifications</text>
+
+  <!-- Motivation / Goals -->
+  <text x="30" y="922" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Motivation / goals</text>
+  <rect x="30" y="932" width="340" height="56" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="956" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Why are you joining this class?</text>
+
+  <!-- Interested in Private Sessions -->
+  <text x="30" y="1012" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Interested in private sessions?<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <circle cx="44" cy="1033" r="9" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="60" y="1038" font-family="Arial, sans-serif" font-size="14" fill="#374151">Yes</text>
+  <circle cx="114" cy="1033" r="9" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="130" y="1038" font-family="Arial, sans-serif" font-size="14" fill="#374151">No</text>
+</svg>

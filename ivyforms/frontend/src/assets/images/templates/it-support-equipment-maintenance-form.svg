@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 900" width="400" height="900">
+  <rect width="400" height="900" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">IT support &amp; equipment</text>
+  <text x="30" y="60" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">maintenance form</text>
+
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+  <text x="30" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter first name</text>
+  <text x="210" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter last name</text>
+
+  <text x="30" y="198" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="208" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="231" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your email address</text>
+
+  <text x="30" y="278" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Device type<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="288" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="311" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select device type</text>
+
+  <text x="30" y="358" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Device ID / asset tag<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="368" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="391" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter device ID or asset tag</text>
+
+  <text x="30" y="438" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Issue category<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="448" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="471" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select issue category</text>
+
+  <text x="30" y="518" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Issue description<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="528" width="340" height="60" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="551" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Describe the issue in detail</text>
+
+  <text x="30" y="618" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Error frequency<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <circle cx="42" cy="646" r="9" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="58" y="650" font-family="Arial, sans-serif" font-size="14" fill="#374151">Once</text>
+  <circle cx="112" cy="646" r="9" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="128" y="650" font-family="Arial, sans-serif" font-size="14" fill="#374151">Intermittent</text>
+  <circle cx="232" cy="646" r="9" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="248" y="650" font-family="Arial, sans-serif" font-size="14" fill="#374151">Constant</text>
+
+  <text x="30" y="690" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Screenshots<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="700" width="340" height="56" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="724" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Drag file here or click to upload</text>
+
+  <text x="30" y="786" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Data backup confirmed<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="800" width="16" height="16" fill="none" stroke="#d1d5db" stroke-width="1.5" rx="3"/>
+  <text x="54" y="813" font-family="Arial, sans-serif" font-size="14" fill="#374151">I confirm that my data has been backed up</text>
+
+  <text x="30" y="856" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Urgency level<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <circle cx="42" cy="884" r="9" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="58" y="888" font-family="Arial, sans-serif" font-size="14" fill="#374151">Low</text>
+  <circle cx="102" cy="884" r="9" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="118" y="888" font-family="Arial, sans-serif" font-size="14" fill="#374151">Medium</text>
+</svg>

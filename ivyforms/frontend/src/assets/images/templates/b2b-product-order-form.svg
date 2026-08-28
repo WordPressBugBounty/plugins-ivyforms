@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 850" width="400" height="850">
+  <!-- Background -->
+  <rect width="400" height="850" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">B2B product</text>
+  <text x="30" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">order form</text>
+
+  <!-- Multi-page progress bar -->
+  <rect x="30" y="78" width="340" height="6" fill="#e5e7eb" rx="3"/>
+  <rect x="30" y="78" width="68" height="6" fill="#374151" rx="3"/>
+  <line x1="98" y1="78" x2="98" y2="84" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="166" y1="78" x2="166" y2="84" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="234" y1="78" x2="234" y2="84" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="302" y1="78" x2="302" y2="84" stroke="#d1d5db" stroke-width="1"/>
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="11" fill="#374151">Page 1 - 20%</text>
+
+  <!-- Full name -->
+  <text x="30" y="128" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+  <text x="30" y="146" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="156" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="179" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your full name</text>
+  <text x="210" y="146" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="156" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="179" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email address -->
+  <text x="30" y="226" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="236" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="259" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Business Email Address</text>
+
+  <!-- Phone number -->
+  <text x="30" y="306" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="316" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="339" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+
+  <!-- Company name -->
+  <text x="30" y="386" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Company name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="396" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="419" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Company or Organization</text>
+
+  <!-- Company address -->
+  <text x="30" y="466" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Company address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <text x="40" y="491" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#6b7280">Address line 1<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="40" y="501" width="330" height="30" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="556" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#6b7280">City<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="40" y="566" width="100" height="30" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="155" y="556" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#6b7280">State<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="155" y="566" width="100" height="30" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="270" y="556" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#6b7280">Zip<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="270" y="566" width="100" height="30" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+
+  <!-- VAT / Tax ID -->
+  <text x="30" y="626" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">VAT / Tax ID</text>
+  <rect x="30" y="636" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="659" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter VAT or tax ID</text>
+
+  <!-- Product category -->
+  <text x="30" y="706" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Product category<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="716" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="739" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select product category</text>
+  <path d="M345 734 L350 739 L355 734" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Quantity required -->
+  <text x="30" y="786" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Quantity required<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="796" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="819" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter quantity required</text>
+</svg>

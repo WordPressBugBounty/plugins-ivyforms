@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 850" width="400" height="850">
+  <defs>
+    <g id="star-outline">
+      <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+    </g>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="850" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#374151">Healthcare seminar &amp;</text>
+  <text x="30" y="58" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#374151">medical event feedback</text>
+
+  <!-- Multi-page progress bar (5 pages) -->
+  <rect x="30" y="76" width="340" height="6" fill="#e5e7eb" rx="3"/>
+  <rect x="30" y="76" width="68" height="6" fill="#374151" rx="3"/>
+  <line x1="98" y1="76" x2="98" y2="82" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="166" y1="76" x2="166" y2="82" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="234" y1="76" x2="234" y2="82" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="302" y1="76" x2="302" y2="82" stroke="#d1d5db" stroke-width="1"/>
+  <text x="30" y="98" font-family="Arial, sans-serif" font-size="11" fill="#374151">Page 1 - 20%</text>
+
+  <!-- Full name (optional) -->
+  <text x="30" y="126" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+  <text x="30" y="144" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name</text>
+  <rect x="30" y="154" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="177" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your full name</text>
+  <text x="210" y="144" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name</text>
+  <rect x="210" y="154" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="177" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email address (optional) -->
+  <text x="30" y="224" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address</text>
+  <rect x="30" y="234" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="257" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your email address</text>
+
+  <!-- Medical specialty (optional) -->
+  <text x="30" y="304" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Medical specialty</text>
+  <rect x="30" y="314" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="337" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select medical specialty</text>
+  <path d="M345 332 L350 337 L355 332" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Attendance format (required) -->
+  <text x="30" y="384" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Attendance format<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <circle cx="42" cy="410" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+  <text x="58" y="414" font-family="Arial, sans-serif" font-size="13" fill="#374151">In-person</text>
+  <circle cx="42" cy="432" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+  <text x="58" y="436" font-family="Arial, sans-serif" font-size="13" fill="#374151">Virtual</text>
+
+  <!-- Educational content rating -->
+  <text x="30" y="474" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Educational content rating<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <g transform="translate(30, 484)">
+    <use href="#star-outline" x="0" y="0" width="24" height="24"/>
+    <use href="#star-outline" x="30" y="0" width="24" height="24"/>
+    <use href="#star-outline" x="60" y="0" width="24" height="24"/>
+    <use href="#star-outline" x="90" y="0" width="24" height="24"/>
+    <use href="#star-outline" x="120" y="0" width="24" height="24"/>
+  </g>
+
+  <!-- Quality of speakers &amp; presenters -->
+  <text x="30" y="534" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Quality of speakers &amp; presenters<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <g transform="translate(30, 544)">
+    <use href="#star-outline" x="0" y="0" width="24" height="24"/>
+    <use href="#star-outline" x="30" y="0" width="24" height="24"/>
+    <use href="#star-outline" x="60" y="0" width="24" height="24"/>
+    <use href="#star-outline" x="90" y="0" width="24" height="24"/>
+    <use href="#star-outline" x="120" y="0" width="24" height="24"/>
+  </g>
+
+  <!-- Would you attend future healthcare events? -->
+  <text x="30" y="594" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Would you attend future healthcare events?<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <circle cx="42" cy="620" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+  <text x="58" y="624" font-family="Arial, sans-serif" font-size="13" fill="#374151">Yes</text>
+  <circle cx="42" cy="642" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+  <text x="58" y="646" font-family="Arial, sans-serif" font-size="13" fill="#374151">No</text>
+
+  <!-- Consent to use anonymous feedback -->
+  <rect x="30" y="678" width="14" height="14" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="2"/>
+  <text x="52" y="690" font-family="Arial, sans-serif" font-size="13" fill="#374151">Consent to use anonymous feedback<tspan dx="4" fill="#dc2626">*</tspan></text>
+</svg>

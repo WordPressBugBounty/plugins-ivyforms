@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 790" width="400" height="790">
+  <rect width="400" height="785" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="30" y="28" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">Office space rental</text>
+  <text x="30" y="52" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">application form</text>
+  <text x="30" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Company name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="100" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="125" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter company name</text>
+  <text x="30" y="160" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="170" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="195" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+  <text x="30" y="230" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="240" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="265" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+  <text x="30" y="300" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Business registration document<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="310" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="335" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select business type</text>
+  <polygon points="352,326 364,326 358,336" fill="#9ca3af" />
+  <text x="30" y="370" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Office space requirements<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="380" width="340" height="70" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="405" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter office space requirements</text>
+  <text x="30" y="470" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Desired lease duration<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="480" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="505" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select desired lease duration</text>
+  <polygon points="352,496 364,496 358,506" fill="#9ca3af" />
+  <text x="30" y="540" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Financial statements<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="550" width="340" height="55" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" stroke-dasharray="6 4" rx="6"/>
+  <text x="200" y="582" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Drag file here or click to upload</text>
+  <text x="30" y="625" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Business registration document<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="635" width="340" height="55" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" stroke-dasharray="6 4" rx="6"/>
+  <text x="200" y="667" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Drag file here or click to upload</text>
+  <text x="30" y="710" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">ID / legal representative document<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="720" width="340" height="55" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" stroke-dasharray="6 4" rx="6"/>
+  <text x="200" y="752" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Drag file here or click to upload</text>
+</svg>

@@ -1,0 +1,60 @@
+@use '../../abstracts/functions' as *;
+@use '../primitives/black-and-white' as *;
+
+/** Light **/
+:root {
+  /** WB **/
+  --theme-wb: #{hex-to-rgba($primitive-white, 1)};
+  --theme-wb-o90: #{hex-to-rgba($primitive-white, 0.9)};
+  --theme-wb-o80: #{hex-to-rgba($primitive-white, 0.8)};
+  --theme-wb-o70: #{hex-to-rgba($primitive-white, 0.7)};
+  --theme-wb-o60: #{hex-to-rgba($primitive-white, 0.6)};
+  --theme-wb-o50: #{hex-to-rgba($primitive-white, 0.5)};
+  --theme-wb-o40: #{hex-to-rgba($primitive-white, 0.4)};
+  --theme-wb-o30: #{hex-to-rgba($primitive-white, 0.3)};
+  --theme-wb-o20: #{hex-to-rgba($primitive-white, 0.2)};
+  --theme-wb-o10: #{hex-to-rgba($primitive-white, 0.1)};
+  --theme-wb-o05: #{hex-to-rgba($primitive-white, 0.05)};
+
+  /** BW **/
+  --theme-bw: #{hex-to-rgba($primitive-black, 1)};
+  --theme-bw-o90: #{hex-to-rgba($primitive-black, 0.9)};
+  --theme-bw-o80: #{hex-to-rgba($primitive-black, 0.8)};
+  --theme-bw-o70: #{hex-to-rgba($primitive-black, 0.7)};
+  --theme-bw-o60: #{hex-to-rgba($primitive-black, 0.6)};
+  --theme-bw-o50: #{hex-to-rgba($primitive-black, 0.5)};
+  --theme-bw-o40: #{hex-to-rgba($primitive-black, 0.4)};
+  --theme-bw-o30: #{hex-to-rgba($primitive-black, 0.3)};
+  --theme-bw-o20: #{hex-to-rgba($primitive-black, 0.2)};
+  --theme-bw-o10: #{hex-to-rgba($primitive-black, 0.1)};
+  --theme-bw-o05: #{hex-to-rgba($primitive-black, 0.05)};
+}
+
+/** Dark **/
+:root .ivyforms-theme-dark {
+  /** WB **/
+  --theme-wb: #{hex-to-rgba($primitive-black, 1)};
+  --theme-wb-o90: #{hex-to-rgba($primitive-black, 0.9)};
+  --theme-wb-o80: #{hex-to-rgba($primitive-black, 0.8)};
+  --theme-wb-o70: #{hex-to-rgba($primitive-black, 0.7)};
+  --theme-wb-o60: #{hex-to-rgba($primitive-black, 0.6)};
+  --theme-wb-o50: #{hex-to-rgba($primitive-black, 0.5)};
+  --theme-wb-o40: #{hex-to-rgba($primitive-black, 0.4)};
+  --theme-wb-o30: #{hex-to-rgba($primitive-black, 0.3)};
+  --theme-wb-o20: #{hex-to-rgba($primitive-black, 0.2)};
+  --theme-wb-o10: #{hex-to-rgba($primitive-black, 0.1)};
+  --theme-wb-o05: #{hex-to-rgba($primitive-black, 0.05)};
+
+  /** BW **/
+  --theme-bw: #{hex-to-rgba($primitive-white, 1)};
+  --theme-bw-o90: #{hex-to-rgba($primitive-white, 0.9)};
+  --theme-bw-o80: #{hex-to-rgba($primitive-white, 0.8)};
+  --theme-bw-o70: #{hex-to-rgba($primitive-white, 0.7)};
+  --theme-bw-o60: #{hex-to-rgba($primitive-white, 0.6)};
+  --theme-bw-o50: #{hex-to-rgba($primitive-white, 0.5)};
+  --theme-bw-o40: #{hex-to-rgba($primitive-white, 0.4)};
+  --theme-bw-o30: #{hex-to-rgba($primitive-white, 0.3)};
+  --theme-bw-o20: #{hex-to-rgba($primitive-white, 0.2)};
+  --theme-bw-o10: #{hex-to-rgba($primitive-white, 0.1)};
+  --theme-bw-o05: #{hex-to-rgba($primitive-white, 0.05)};
+}

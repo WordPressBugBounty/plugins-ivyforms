@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1005" width="400" height="1005">
+    <!-- Background -->
+    <rect width="400" height="1000" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+    <!-- Title -->
+    <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Charity event registration</text>
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">form</text>
+
+    <!-- Personal Information Section -->
+    <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+
+    <!-- First Name label -->
+    <text x="30" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name
+        <tspan dx="4" fill="#dc2626">*</tspan>
+    </text>
+    <rect x="30" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+
+    <!-- Last Name label -->
+    <text x="210" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name
+        <tspan dx="4" fill="#dc2626">*</tspan>
+    </text>
+    <rect x="210" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="220" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+    <!-- Email Address -->
+    <text x="30" y="198" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address
+        <tspan dx="4" fill="#dc2626">*</tspan>
+    </text>
+    <rect x="30" y="208" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="231" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Email address</text>
+
+    <!-- Phone Number -->
+    <text x="30" y="268" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number
+    </text>
+    <rect x="30" y="278" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="301" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-</text>
+
+    <!-- Charity Event Details Section -->
+    <text x="30" y="340" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Charity event
+        details
+    </text>
+
+    <!-- Volunteer Role (select) -->
+    <text x="30" y="358" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Volunteer role
+        <tspan dx="4" fill="#dc2626">*</tspan>
+    </text>
+    <rect x="30" y="368" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="391" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select your role</text>
+    <path d="M 350 390 L 355 395 L 360 390" stroke="#9ca3af" fill="none" stroke-width="2"/>
+    <!-- Donation Amount (number) -->
+    <text x="30" y="448" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Donation
+        amount
+    </text>
+    <rect x="30" y="458" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="481" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter donation amount</text>
+
+    <!-- Subscribe to Newsletter (radio) -->
+    <text x="30" y="521" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Subscribe to
+        newsletter
+    </text>
+
+    <circle cx="40" cy="544" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5"/>
+    <text x="55" y="548" font-family="Arial, sans-serif" font-size="14" fill="#374151">Yes</text>
+
+    <circle cx="40" cy="570" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5"/>
+    <text x="55" y="574" font-family="Arial, sans-serif" font-size="14" fill="#374151">No</text>
+
+    <!-- Special Notes (textarea) -->
+    <text x="30" y="610" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Special notes
+    </text>
+    <rect x="30" y="620" width="340" height="100" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="643" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Any special note</text>
+
+    <!-- Terms (optional visual) -->
+    <rect x="30" y="733" width="18" height="18" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="3"/>
+    <text x="55" y="746" font-family="Arial, sans-serif" font-size="14" fill="#374151">I agree to the terms and
+        conditions
+    </text>
+
+    <!-- Submit Button -->
+    <rect x="30" y="787" width="340" height="44" fill="#4f46e5" rx="6"/>
+    <text x="200" y="814" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#ffffff"
+          text-anchor="middle">Submit registration
+    </text>
+
+</svg>

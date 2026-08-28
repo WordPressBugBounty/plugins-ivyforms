@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1145" width="400" height="1145">
+    <!-- Background -->
+    <rect width="400" height="1145" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+    <!-- Title -->
+    <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Conference photo consent</text>
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">form</text>
+
+    <!-- Personal Information Section -->
+    <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Personal information</text>
+
+    <!-- First Name label -->
+    <text x="30" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name <tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter first name</text>
+
+    <!-- Last Name label -->
+    <text x="210" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name <tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="210" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="220" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter last name</text>
+
+    <!-- Company / Organization -->
+    <text x="30" y="198" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Company / organization <tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="208" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="231" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter company or organization</text>
+
+    <!-- Job Title -->
+    <text x="30" y="278" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Job title</text>
+    <rect x="30" y="288" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="311" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter job title</text>
+
+    <!-- Email Address -->
+    <text x="30" y="358" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address <tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="368" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="391" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your email address</text>
+
+    <!-- Phone Number -->
+    <text x="30" y="438" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number</text>
+    <rect x="30" y="448" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="471" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+
+    <!-- Event Details Section -->
+    <text x="30" y="518" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Event / company details</text>
+
+    <!-- Conference / Event Name -->
+    <text x="30" y="536" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Conference / event name <tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="546" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="569" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter conference or event name</text>
+
+    <!-- Conference Date -->
+    <text x="30" y="616" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Conference date <tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="626" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="649" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">MM/DD/YYYY</text>
+
+    <!-- Location / Venue -->
+    <text x="210" y="616" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Location / venue <tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="210" y="626" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="220" y="649" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select location/venue</text>
+    <!-- location options (visual) -->
+    <text x="220" y="675" font-family="Arial, sans-serif" font-size="14" fill="#374151">• Head office</text>
+    <text x="220" y="691" font-family="Arial, sans-serif" font-size="14" fill="#374151">• Regional office</text>
+    <text x="220" y="707" font-family="Arial, sans-serif" font-size="14" fill="#374151">• Outdoor event space</text>
+
+    <!-- Conference Organizer -->
+    <text x="30" y="746" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Conference organizer <tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="756" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="779" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter conference organizer</text>
+
+    <!-- Consent Section -->
+    <text x="30" y="816" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Consent</text>
+
+    <!-- Consent Statement -->
+    <rect x="30" y="830" width="18" height="18" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="3"/>
+    <text x="55" y="843" font-family="Arial, sans-serif" font-size="14" fill="#374151">I hereby grant permission for my photo and video to be taken during corporate events, meetings, or trainings</text>
+
+    <!-- Usage Rights -->
+    <rect x="30" y="865" width="18" height="18" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="3"/>
+    <text x="55" y="878" font-family="Arial, sans-serif" font-size="14" fill="#374151">I grant the company the right to use, reproduce, and distribute photos/videos for corporate communications and marketing</text>
+
+    <!-- Modification Rights -->
+    <rect x="30" y="898" width="18" height="18" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="3"/>
+    <text x="55" y="911" font-family="Arial, sans-serif" font-size="14" fill="#374151">I grant permission to edit, crop, or modify images or videos as necessary</text>
+
+    <!-- Waiver / Release -->
+    <rect x="30" y="931" width="18" height="18" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="3"/>
+    <text x="55" y="944" font-family="Arial, sans-serif" font-size="14" fill="#374151">I release the company from any claims related to the use of these photos or videos</text>
+
+    <!-- Duration of Consent -->
+    <text x="30" y="974" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Duration of consent <tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="984" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="1007" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">This consent is valid for [specify duration or indefinitely]</text>
+
+    <!-- Consent Withdrawal Instructions -->
+    <text x="30" y="1037" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Consent withdrawal instructions</text>
+    <rect x="30" y="1047" width="340" height="60" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="1071" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Consent can be withdrawn at any time by contacting [email address / HR contact]</text>
+
+    <!-- Special Instructions / Notes -->
+    <text x="30" y="1121" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Special instructions / notes</text>
+    <rect x="30" y="1131" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="1154" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter comments</text>
+
+    <!-- Acknowledgment of Questions Answered -->
+    <rect x="30" y="1185" width="18" height="18" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="3"/>
+    <text x="55" y="1198" font-family="Arial, sans-serif" font-size="14" fill="#374151">I have had the opportunity to ask questions and they have been answered</text>
+
+    <!-- Signatures (visual placeholders) -->
+    <text x="30" y="1218" font-family="Arial, sans-serif" font-size="14" fill="#374151">Participant signature ____________________  date of agreement ________</text>
+    <text x="30" y="1238" font-family="Arial, sans-serif" font-size="14" fill="#374151">Organizer / staff signature ________________</text>
+
+    <!-- Submit Button (visual hint) -->
+    <rect x="30" y="1235" width="340" height="44" fill="#4f46e5" rx="6"/>
+    <text x="200" y="1262" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#ffffff" text-anchor="middle">Submit consent</text>
+</svg>

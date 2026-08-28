@@ -1,0 +1,9 @@
+/* Third-party library overrides */
+
+/* Hide reCAPTCHA badge on frontend */
+.grecaptcha-badge {
+  display: none !important;
+}
+.ivyforms-form-builder .sortable-chosen.sortable-ghost {
+  display: none;
+}

@@ -1,0 +1,930 @@
+:root,
+:root .ivyforms-theme-dark {
+  /** Sky Blue */
+  // Fill
+  --map-accent-sky-blue-fill-4: var(--theme-accent-sky-blue-4);
+  --map-accent-sky-blue-fill-3: var(--theme-accent-sky-blue-3);
+  --map-accent-sky-blue-fill-2: var(--theme-accent-sky-blue-2);
+  --map-accent-sky-blue-fill-1: var(--theme-accent-sky-blue-1);
+  --map-accent-sky-blue-fill-0: var(--theme-accent-sky-blue-0);
+  --map-accent-sky-blue-fill--1: var(--theme-accent-sky-blue--1);
+  --map-accent-sky-blue-fill--2: var(--theme-accent-sky-blue--2);
+  --map-accent-sky-blue-fill--3: var(--theme-accent-sky-blue--3);
+  --map-accent-sky-blue-fill--4: var(--theme-accent-sky-blue--4);
+
+  // Stroke
+  --map-accent-sky-blue-stroke-2: var(--theme-accent-sky-blue-2);
+  --map-accent-sky-blue-stroke-1: var(--theme-accent-sky-blue-1);
+  --map-accent-sky-blue-stroke-0: var(--theme-accent-sky-blue-0);
+  --map-accent-sky-blue-stroke--1: var(--theme-accent-sky-blue--1);
+  --map-accent-sky-blue-stroke--2: var(--theme-accent-sky-blue--2);
+
+  // Symbol
+  --map-accent-sky-blue-symbol-2: var(--theme-accent-sky-blue-2);
+  --map-accent-sky-blue-symbol-1: var(--theme-accent-sky-blue-1);
+  --map-accent-sky-blue-symbol-0: var(--theme-accent-sky-blue-0);
+  --map-accent-sky-blue-symbol--1: var(--theme-accent-sky-blue--1);
+
+  /** Blue */
+  // Fill
+  --map-accent-blue-fill-4: var(--theme-accent-blue-4);
+  --map-accent-blue-fill-3: var(--theme-accent-blue-3);
+  --map-accent-blue-fill-2: var(--theme-accent-blue-2);
+  --map-accent-blue-fill-1: var(--theme-accent-blue-1);
+  --map-accent-blue-fill-0: var(--theme-accent-blue-0);
+  --map-accent-blue-fill--1: var(--theme-accent-blue--1);
+  --map-accent-blue-fill--2: var(--theme-accent-blue--2);
+  --map-accent-blue-fill--3: var(--theme-accent-blue--3);
+  --map-accent-blue-fill--4: var(--theme-accent-blue--4);
+
+  // Stroke
+  --map-accent-blue-stroke-2: var(--theme-accent-blue-2);
+  --map-accent-blue-stroke-1: var(--theme-accent-blue-1);
+  --map-accent-blue-stroke-0: var(--theme-accent-blue-0);
+  --map-accent-blue-stroke--1: var(--theme-accent-blue--1);
+  --map-accent-blue-stroke--2: var(--theme-accent-blue--2);
+
+  // Symbol
+  --map-accent-blue-symbol-2: var(--theme-accent-blue-2);
+  --map-accent-blue-symbol-1: var(--theme-accent-blue-1);
+  --map-accent-blue-symbol-0: var(--theme-accent-blue-0);
+  --map-accent-blue-symbol--1: var(--theme-accent-blue--1);
+  --map-accent-blue-symbol--2: var(--theme-accent-blue--2);
+
+  /** Deep Denim */
+  // Fill
+  --map-accent-deep-denim-fill-4: var(--theme-accent-denim-4);
+  --map-accent-deep-denim-fill-3: var(--theme-accent-denim-3);
+  --map-accent-deep-denim-fill-2: var(--theme-accent-denim-2);
+  --map-accent-deep-denim-fill-1: var(--theme-accent-denim-1);
+  --map-accent-deep-denim-fill-0: var(--theme-accent-denim-0);
+  --map-accent-deep-denim-fill--1: var(--theme-accent-denim--1);
+  --map-accent-deep-denim-fill--2: var(--theme-accent-denim--2);
+  --map-accent-deep-denim-fill--3: var(--theme-accent-denim--3);
+  --map-accent-deep-denim-fill--4: var(--theme-accent-denim--4);
+
+  // Stroke
+  --map-accent-deep-denim-stroke-2: var(--theme-accent-denim-2);
+  --map-accent-deep-denim-stroke-1: var(--theme-accent-denim-1);
+  --map-accent-deep-denim-stroke-0: var(--theme-accent-denim-0);
+  --map-accent-deep-denim-stroke--1: var(--theme-accent-denim--1);
+  --map-accent-deep-denim-stroke--2: var(--theme-accent-denim--2);
+
+  // Symbol
+  --map-accent-deep-denim-symbol-2: var(--theme-accent-denim-2);
+  --map-accent-deep-denim-symbol-1: var(--theme-accent-denim-1);
+  --map-accent-deep-denim-symbol-0: var(--theme-accent-denim-0);
+  --map-accent-deep-denim-symbol--1: var(--theme-accent-denim--1);
+  --map-accent-deep-denim-symbol--2: var(--theme-accent-denim--2);
+
+  /** Magenta */
+  // Fill
+  --map-accent-magenta-fill-4: var(--theme-accent-magenta-4);
+  --map-accent-magenta-fill-3: var(--theme-accent-magenta-3);
+  --map-accent-magenta-fill-2: var(--theme-accent-magenta-2);
+  --map-accent-magenta-fill-1: var(--theme-accent-magenta-1);
+  --map-accent-magenta-fill-0: var(--theme-accent-magenta-0);
+  --map-accent-magenta-fill--1: var(--theme-accent-magenta--1);
+  --map-accent-magenta-fill--2: var(--theme-accent-magenta--2);
+  --map-accent-magenta-fill--3: var(--theme-accent-magenta--3);
+  --map-accent-magenta-fill--4: var(--theme-accent-magenta--4);
+
+  // Stroke
+  --map-accent-magenta-stroke-2: var(--theme-accent-magenta-2);
+  --map-accent-magenta-stroke-1: var(--theme-accent-magenta-1);
+  --map-accent-magenta-stroke-0: var(--theme-accent-magenta-0);
+  --map-accent-magenta-stroke--1: var(--theme-accent-magenta--1);
+  --map-accent-magenta-stroke--2: var(--theme-accent-magenta--2);
+
+  // Symbol
+  --map-accent-magenta-symbol-2: var(--theme-accent-magenta-2);
+  --map-accent-magenta-symbol-1: var(--theme-accent-magenta-1);
+  --map-accent-magenta-symbol-0: var(--theme-accent-magenta-0);
+  --map-accent-magenta-symbol--1: var(--theme-accent-magenta--1);
+  --map-accent-magenta-symbol--2: var(--theme-accent-magenta--2);
+
+  /** Yellow */
+  // Fill
+  --map-accent-yellow-fill-4: var(--theme-accent-yellow-4);
+  --map-accent-yellow-fill-3: var(--theme-accent-yellow-3);
+  --map-accent-yellow-fill-2: var(--theme-accent-yellow-2);
+  --map-accent-yellow-fill-1: var(--theme-accent-yellow-1);
+  --map-accent-yellow-fill-0: var(--theme-accent-yellow-0);
+  --map-accent-yellow-fill--1: var(--theme-accent-yellow--1);
+  --map-accent-yellow-fill--2: var(--theme-accent-yellow--2);
+  --map-accent-yellow-fill--3: var(--theme-accent-yellow--3);
+  --map-accent-yellow-fill--4: var(--theme-accent-yellow--4);
+
+  // Stroke
+  --map-accent-yellow-stroke-2: var(--theme-accent-yellow-2);
+  --map-accent-yellow-stroke-1: var(--theme-accent-yellow-1);
+  --map-accent-yellow-stroke-0: var(--theme-accent-yellow-0);
+  --map-accent-yellow-stroke--1: var(--theme-accent-yellow--1);
+  --map-accent-yellow-stroke--2: var(--theme-accent-yellow--2);
+
+  // Symbol
+  --map-accent-yellow-symbol-2: var(--theme-accent-yellow-2);
+  --map-accent-yellow-symbol-1: var(--theme-accent-yellow-1);
+  --map-accent-yellow-symbol-0: var(--theme-accent-yellow-0);
+  --map-accent-yellow-symbol--1: var(--theme-accent-yellow--1);
+  --map-accent-yellow-symbol--2: var(--theme-accent-yellow--2);
+
+  /** Raspberry */
+  // Fill
+  --map-accent-raspberry-fill-4: var(--theme-accent-raspberry-4);
+  --map-accent-raspberry-fill-3: var(--theme-accent-raspberry-3);
+  --map-accent-raspberry-fill-2: var(--theme-accent-raspberry-2);
+  --map-accent-raspberry-fill-1: var(--theme-accent-raspberry-1);
+  --map-accent-raspberry-fill-0: var(--theme-accent-raspberry-0);
+  --map-accent-raspberry-fill--1: var(--theme-accent-raspberry--1);
+  --map-accent-raspberry-fill--2: var(--theme-accent-raspberry--2);
+  --map-accent-raspberry-fill--3: var(--theme-accent-raspberry--3);
+  --map-accent-raspberry-fill--4: var(--theme-accent-raspberry--4);
+
+  // Stroke
+  --map-accent-raspberry-stroke-2: var(--theme-accent-raspberry-2);
+  --map-accent-raspberry-stroke-1: var(--theme-accent-raspberry-1);
+  --map-accent-raspberry-stroke-0: var(--theme-accent-raspberry-0);
+  --map-accent-raspberry-stroke--1: var(--theme-accent-raspberry--1);
+  --map-accent-raspberry-stroke--2: var(--theme-accent-raspberry--2);
+
+  // Symbol
+  --map-accent-raspberry-symbol-2: var(--theme-accent-raspberry-2);
+  --map-accent-raspberry-symbol-1: var(--theme-accent-raspberry-1);
+  --map-accent-raspberry-symbol-0: var(--theme-accent-raspberry-0);
+  --map-accent-raspberry-symbol--1: var(--theme-accent-raspberry--1);
+  --map-accent-raspberry-symbol--2: var(--theme-accent-raspberry--2);
+
+  /** Aurora */
+  // Fill
+  --map-accent-aurora-fill-4: var(--theme-accent-aurora-4);
+  --map-accent-aurora-fill-3: var(--theme-accent-aurora-3);
+  --map-accent-aurora-fill-2: var(--theme-accent-aurora-2);
+  --map-accent-aurora-fill-1: var(--theme-accent-aurora-1);
+  --map-accent-aurora-fill-0: var(--theme-accent-aurora-0);
+  --map-accent-aurora-fill--1: var(--theme-accent-aurora--1);
+  --map-accent-aurora-fill--2: var(--theme-accent-aurora--2);
+  --map-accent-aurora-fill--3: var(--theme-accent-aurora--3);
+  --map-accent-aurora-fill--4: var(--theme-accent-aurora--4);
+
+  // Stroke
+  --map-accent-aurora-stroke-2: var(--theme-accent-aurora-2);
+  --map-accent-aurora-stroke-1: var(--theme-accent-aurora-1);
+  --map-accent-aurora-stroke-0: var(--theme-accent-aurora-0);
+  --map-accent-aurora-stroke--1: var(--theme-accent-aurora--1);
+  --map-accent-aurora-stroke--2: var(--theme-accent-aurora--2);
+
+  // Symbol
+  --map-accent-aurora-symbol-2: var(--theme-accent-aurora-2);
+  --map-accent-aurora-symbol-1: var(--theme-accent-aurora-1);
+  --map-accent-aurora-symbol-0: var(--theme-accent-aurora-0);
+  --map-accent-aurora-symbol--1: var(--theme-accent-aurora--1);
+  --map-accent-aurora-symbol--2: var(--theme-accent-aurora--2);
+
+  /** Maroon */
+  // Fill
+  --map-accent-maroon-fill-4: var(--theme-accent-maroon-4);
+  --map-accent-maroon-fill-3: var(--theme-accent-maroon-3);
+  --map-accent-maroon-fill-2: var(--theme-accent-maroon-2);
+  --map-accent-maroon-fill-1: var(--theme-accent-maroon-1);
+  --map-accent-maroon-fill-0: var(--theme-accent-maroon-0);
+  --map-accent-maroon-fill--1: var(--theme-accent-maroon--1);
+  --map-accent-maroon-fill--2: var(--theme-accent-maroon--2);
+  --map-accent-maroon-fill--3: var(--theme-accent-maroon--3);
+  --map-accent-maroon-fill--4: var(--theme-accent-maroon--4);
+  --map-accent-maroon-o90: var(--theme-accent-maroon-o90);
+  --map-accent-maroon-o80: var(--theme-accent-maroon-o80);
+  --map-accent-maroon-o70: var(--theme-accent-maroon-o70);
+  --map-accent-maroon-o60: var(--theme-accent-maroon-o60);
+  --map-accent-maroon-o50: var(--theme-accent-maroon-o50);
+  --map-accent-maroon-o40: var(--theme-accent-maroon-o40);
+  --map-accent-maroon-o30: var(--theme-accent-maroon-o30);
+  --map-accent-maroon-o20: var(--theme-accent-maroon-o20);
+  --map-accent-maroon-o10: var(--theme-accent-maroon-o10);
+  --map-accent-maroon-o05: var(--theme-accent-maroon-o05);
+
+  // Stroke
+  --map-accent-maroon-stroke-2: var(--theme-accent-maroon-2);
+  --map-accent-maroon-stroke-1: var(--theme-accent-maroon-1);
+  --map-accent-maroon-stroke-0: var(--theme-accent-maroon-0);
+  --map-accent-maroon-stroke--1: var(--theme-accent-maroon--1);
+  --map-accent-maroon-stroke--2: var(--theme-accent-maroon--2);
+
+  // Symbol
+  --map-accent-maroon-symbol-2: var(--theme-accent-maroon-2);
+  --map-accent-maroon-symbol-1: var(--theme-accent-maroon-1);
+  --map-accent-maroon-symbol-0: var(--theme-accent-maroon-0);
+  --map-accent-maroon-symbol--1: var(--theme-accent-maroon--1);
+  --map-accent-maroon-symbol--2: var(--theme-accent-maroon--2);
+
+  /** Pumpkin */
+  // Fill
+  --map-accent-pumpkin-fill-4: var(--theme-accent-pumpkin-4);
+  --map-accent-pumpkin-fill-3: var(--theme-accent-pumpkin-3);
+  --map-accent-pumpkin-fill-2: var(--theme-accent-pumpkin-2);
+  --map-accent-pumpkin-fill-1: var(--theme-accent-pumpkin-1);
+  --map-accent-pumpkin-fill-0: var(--theme-accent-pumpkin-0);
+  --map-accent-pumpkin-fill--1: var(--theme-accent-pumpkin--1);
+  --map-accent-pumpkin-fill--2: var(--theme-accent-pumpkin--2);
+  --map-accent-pumpkin-fill--3: var(--theme-accent-pumpkin--3);
+  --map-accent-pumpkin-fill--4: var(--theme-accent-pumpkin--4);
+
+  // Stroke
+  --map-accent-pumpkin-stroke-2: var(--theme-accent-pumpkin-2);
+  --map-accent-pumpkin-stroke-1: var(--theme-accent-pumpkin-1);
+  --map-accent-pumpkin-stroke-0: var(--theme-accent-pumpkin-0);
+  --map-accent-pumpkin-stroke--1: var(--theme-accent-pumpkin--1);
+  --map-accent-pumpkin-stroke--2: var(--theme-accent-pumpkin--2);
+
+  // Symbol
+  --map-accent-pumpkin-symbol-2: var(--theme-accent-pumpkin-2);
+  --map-accent-pumpkin-symbol-1: var(--theme-accent-pumpkin-1);
+  --map-accent-pumpkin-symbol-0: var(--theme-accent-pumpkin-0);
+  --map-accent-pumpkin-symbol--1: var(--theme-accent-pumpkin--1);
+  --map-accent-pumpkin-symbol--2: var(--theme-accent-pumpkin--2);
+
+  /** Amber */
+  // Fill
+  --map-accent-amber-fill-4: var(--theme-accent-amber-4);
+  --map-accent-amber-fill-3: var(--theme-accent-amber-3);
+  --map-accent-amber-fill-2: var(--theme-accent-amber-2);
+  --map-accent-amber-fill-1: var(--theme-accent-amber-1);
+  --map-accent-amber-fill-0: var(--theme-accent-amber-0);
+  --map-accent-amber-fill--1: var(--theme-accent-amber--1);
+  --map-accent-amber-fill--2: var(--theme-accent-amber--2);
+  --map-accent-amber-fill--3: var(--theme-accent-amber--3);
+  --map-accent-amber-fill--4: var(--theme-accent-amber--4);
+  --map-accent-amber-o90: var(--theme-accent-amber-o90);
+  --map-accent-amber-o80: var(--theme-accent-amber-o80);
+  --map-accent-amber-o70: var(--theme-accent-amber-o70);
+  --map-accent-amber-o60: var(--theme-accent-amber-o60);
+  --map-accent-amber-o50: var(--theme-accent-amber-o50);
+  --map-accent-amber-o40: var(--theme-accent-amber-o40);
+  --map-accent-amber-o30: var(--theme-accent-amber-o30);
+  --map-accent-amber-o20: var(--theme-accent-amber-o20);
+  --map-accent-amber-o10: var(--theme-accent-amber-o10);
+  --map-accent-amber-o05: var(--theme-accent-amber-o05);
+
+  // Alfa
+  --map-accent-amber-o90: var(--theme-accent-amber-o90);
+  --map-accent-amber-o80: var(--theme-accent-amber-o80);
+  --map-accent-amber-o70: var(--theme-accent-amber-o70);
+  --map-accent-amber-o60: var(--theme-accent-amber-o60);
+  --map-accent-amber-o50: var(--theme-accent-amber-o50);
+  --map-accent-amber-o40: var(--theme-accent-amber-o40);
+  --map-accent-amber-o30: var(--theme-accent-amber-o30);
+  --map-accent-amber-o20: var(--theme-accent-amber-o20);
+  --map-accent-amber-o10: var(--theme-accent-amber-o10);
+  --map-accent-amber-o05: var(--theme-accent-amber-o05);
+
+  // Stroke
+  --map-accent-amber-stroke-2: var(--theme-accent-amber-2);
+  --map-accent-amber-stroke-1: var(--theme-accent-amber-1);
+  --map-accent-amber-stroke-0: var(--theme-accent-amber-0);
+  --map-accent-amber-stroke--1: var(--theme-accent-amber--1);
+  --map-accent-amber-stroke--2: var(--theme-accent-amber--2);
+
+  // Symbol
+  --map-accent-amber-symbol-2: var(--theme-accent-amber-2);
+  --map-accent-amber-symbol-1: var(--theme-accent-amber-1);
+  --map-accent-amber-symbol-0: var(--theme-accent-amber-0);
+  --map-accent-amber-symbol--1: var(--theme-accent-amber--1);
+  --map-accent-amber-symbol--2: var(--theme-accent-amber--2);
+
+  /** Grape */
+  // Fill
+  --map-accent-grape-fill-4: var(--theme-accent-grape-4);
+  --map-accent-grape-fill-3: var(--theme-accent-grape-3);
+  --map-accent-grape-fill-2: var(--theme-accent-grape-2);
+  --map-accent-grape-fill-1: var(--theme-accent-grape-1);
+  --map-accent-grape-fill-0: var(--theme-accent-grape-0);
+  --map-accent-grape-fill--1: var(--theme-accent-grape--1);
+  --map-accent-grape-fill--2: var(--theme-accent-grape--2);
+  --map-accent-grape-fill--3: var(--theme-accent-grape--3);
+  --map-accent-grape-fill--4: var(--theme-accent-grape--4);
+
+  // Stroke
+  --map-accent-grape-stroke-2: var(--theme-accent-grape-2);
+  --map-accent-grape-stroke-1: var(--theme-accent-grape-1);
+  --map-accent-grape-stroke-0: var(--theme-accent-grape-0);
+  --map-accent-grape-stroke--1: var(--theme-accent-grape--1);
+  --map-accent-grape-stroke--2: var(--theme-accent-grape--2);
+
+  // Symbol
+  --map-accent-grape-symbol-2: var(--theme-accent-grape-2);
+  --map-accent-grape-symbol-1: var(--theme-accent-grape-1);
+  --map-accent-grape-symbol-0: var(--theme-accent-grape-0);
+  --map-accent-grape-symbol--1: var(--theme-accent-grape--1);
+  --map-accent-grape-symbol--2: var(--theme-accent-grape--2);
+
+  /** Violet */
+  // Fill
+  --map-accent-violet-fill-4: var(--theme-accent-violet-4);
+  --map-accent-violet-fill-3: var(--theme-accent-violet-3);
+  --map-accent-violet-fill-2: var(--theme-accent-violet-2);
+  --map-accent-violet-fill-1: var(--theme-accent-violet-1);
+  --map-accent-violet-fill-0: var(--theme-accent-violet-0);
+  --map-accent-violet-fill--1: var(--theme-accent-violet--1);
+  --map-accent-violet-fill--2: var(--theme-accent-violet--2);
+  --map-accent-violet-fill--3: var(--theme-accent-violet--3);
+  --map-accent-violet-fill--4: var(--theme-accent-violet--4);
+
+  // Stroke
+  --map-accent-violet-stroke-2: var(--theme-accent-violet-2);
+  --map-accent-violet-stroke-1: var(--theme-accent-violet-1);
+  --map-accent-violet-stroke-0: var(--theme-accent-violet-0);
+  --map-accent-violet-stroke--1: var(--theme-accent-violet--1);
+  --map-accent-violet-stroke--2: var(--theme-accent-violet--2);
+
+  // Symbol
+  --map-accent-violet-symbol-2: var(--theme-accent-violet-2);
+  --map-accent-violet-symbol-1: var(--theme-accent-violet-1);
+  --map-accent-violet-symbol-0: var(--theme-accent-violet-0);
+  --map-accent-violet-symbol--1: var(--theme-accent-violet--1);
+  --map-accent-violet-symbol--2: var(--theme-accent-violet--2);
+
+  /** Slate */
+  // Fill
+  --map-accent-slate-fill-4: var(--theme-accent-slate-4);
+  --map-accent-slate-fill-3: var(--theme-accent-slate-3);
+  --map-accent-slate-fill-2: var(--theme-accent-slate-2);
+  --map-accent-slate-fill-1: var(--theme-accent-slate-1);
+  --map-accent-slate-fill-0: var(--theme-accent-slate-0);
+  --map-accent-slate-fill--1: var(--theme-accent-slate--1);
+  --map-accent-slate-fill--2: var(--theme-accent-slate--2);
+  --map-accent-slate-fill--3: var(--theme-accent-slate--3);
+  --map-accent-slate-fill--4: var(--theme-accent-slate--4);
+
+  // Stroke
+  --map-accent-slate-stroke-2: var(--theme-accent-slate-2);
+  --map-accent-slate-stroke-1: var(--theme-accent-slate-1);
+  --map-accent-slate-stroke-0: var(--theme-accent-slate-0);
+  --map-accent-slate-stroke--1: var(--theme-accent-slate--1);
+  --map-accent-slate-stroke--2: var(--theme-accent-slate--2);
+
+  // Symbol
+  --map-accent-slate-symbol-2: var(--theme-accent-slate-2);
+  --map-accent-slate-symbol-1: var(--theme-accent-slate-1);
+  --map-accent-slate-symbol-0: var(--theme-accent-slate-0);
+  --map-accent-slate-symbol--1: var(--theme-accent-slate--1);
+  --map-accent-slate-symbol--2: var(--theme-accent-slate--2);
+
+  /** Teal */
+  // Fill
+  --map-accent-teal-fill-4: var(--theme-accent-teal-4);
+  --map-accent-teal-fill-3: var(--theme-accent-teal-3);
+  --map-accent-teal-fill-2: var(--theme-accent-teal-2);
+  --map-accent-teal-fill-1: var(--theme-accent-teal-1);
+  --map-accent-teal-fill-0: var(--theme-accent-teal-0);
+  --map-accent-teal-fill--1: var(--theme-accent-teal--1);
+  --map-accent-teal-fill--2: var(--theme-accent-teal--2);
+  --map-accent-teal-fill--3: var(--theme-accent-teal--3);
+  --map-accent-teal-fill--4: var(--theme-accent-teal--4);
+
+  // Stroke
+  --map-accent-teal-stroke-2: var(--theme-accent-teal-2);
+  --map-accent-teal-stroke-1: var(--theme-accent-teal-1);
+  --map-accent-teal-stroke-0: var(--theme-accent-teal-0);
+  --map-accent-teal-stroke--1: var(--theme-accent-teal--1);
+  --map-accent-teal-stroke--2: var(--theme-accent-teal--2);
+
+  // Symbol
+  --map-accent-teal-symbol-2: var(--theme-accent-teal-2);
+  --map-accent-teal-symbol-1: var(--theme-accent-teal-1);
+  --map-accent-teal-symbol-0: var(--theme-accent-teal-0);
+  --map-accent-teal-symbol--1: var(--theme-accent-teal--1);
+  --map-accent-teal-symbol--2: var(--theme-accent-teal--2);
+
+  /** Aquamarine */
+  // Fill
+  --map-accent-aquamarine-fill-4: var(--theme-accent-aquamarine-4);
+  --map-accent-aquamarine-fill-3: var(--theme-accent-aquamarine-3);
+  --map-accent-aquamarine-fill-2: var(--theme-accent-aquamarine-2);
+  --map-accent-aquamarine-fill-1: var(--theme-accent-aquamarine-1);
+  --map-accent-aquamarine-fill-0: var(--theme-accent-aquamarine-0);
+  --map-accent-aquamarine-fill--1: var(--theme-accent-aquamarine--1);
+  --map-accent-aquamarine-fill--2: var(--theme-accent-aquamarine--2);
+  --map-accent-aquamarine-fill--3: var(--theme-accent-aquamarine--3);
+  --map-accent-aquamarine-fill--4: var(--theme-accent-aquamarine--4);
+
+  // Stroke
+  --map-accent-aquamarine-stroke-2: var(--theme-accent-aquamarine-2);
+  --map-accent-aquamarine-stroke-1: var(--theme-accent-aquamarine-1);
+  --map-accent-aquamarine-stroke-0: var(--theme-accent-aquamarine-0);
+  --map-accent-aquamarine-stroke--1: var(--theme-accent-aquamarine--1);
+  --map-accent-aquamarine-stroke--2: var(--theme-accent-aquamarine--2);
+
+  // Symbol
+  --map-accent-aquamarine-symbol-2: var(--theme-accent-aquamarine-2);
+  --map-accent-aquamarine-symbol-1: var(--theme-accent-aquamarine-1);
+  --map-accent-aquamarine-symbol-0: var(--theme-accent-aquamarine-0);
+  --map-accent-aquamarine-symbol--1: var(--theme-accent-aquamarine--1);
+  --map-accent-aquamarine-symbol--2: var(--theme-accent-aquamarine--2);
+
+  /** Meadow */
+  // Fill
+  --map-accent-meadow-fill-4: var(--theme-accent-meadow-4);
+  --map-accent-meadow-fill-3: var(--theme-accent-meadow-3);
+  --map-accent-meadow-fill-2: var(--theme-accent-meadow-2);
+  --map-accent-meadow-fill-1: var(--theme-accent-meadow-1);
+  --map-accent-meadow-fill-0: var(--theme-accent-meadow-0);
+  --map-accent-meadow-fill--1: var(--theme-accent-meadow--1);
+  --map-accent-meadow-fill--2: var(--theme-accent-meadow--2);
+  --map-accent-meadow-fill--3: var(--theme-accent-meadow--3);
+  --map-accent-meadow-fill--4: var(--theme-accent-meadow--4);
+
+  // Stroke
+  --map-accent-meadow-stroke-2: var(--theme-accent-meadow-2);
+  --map-accent-meadow-stroke-1: var(--theme-accent-meadow-1);
+  --map-accent-meadow-stroke-0: var(--theme-accent-meadow-0);
+  --map-accent-meadow-stroke--1: var(--theme-accent-meadow--1);
+  --map-accent-meadow-stroke--2: var(--theme-accent-meadow--2);
+
+  // Symbol
+  --map-accent-meadow-symbol-2: var(--theme-accent-meadow-2);
+  --map-accent-meadow-symbol-1: var(--theme-accent-meadow-1);
+  --map-accent-meadow-symbol-0: var(--theme-accent-meadow-0);
+  --map-accent-meadow-symbol--1: var(--theme-accent-meadow--1);
+  --map-accent-meadow-symbol--2: var(--theme-accent-meadow--2);
+
+  /** Topaz */
+  // Fill
+  --map-accent-topaz-fill-4: var(--theme-accent-topaz-4);
+  --map-accent-topaz-fill-3: var(--theme-accent-topaz-3);
+  --map-accent-topaz-fill-2: var(--theme-accent-topaz-2);
+  --map-accent-topaz-fill-1: var(--theme-accent-topaz-1);
+  --map-accent-topaz-fill-0: var(--theme-accent-topaz-0);
+  --map-accent-topaz-fill--1: var(--theme-accent-topaz--1);
+  --map-accent-topaz-fill--2: var(--theme-accent-topaz--2);
+  --map-accent-topaz-fill--3: var(--theme-accent-topaz--3);
+  --map-accent-topaz-fill--4: var(--theme-accent-topaz--4);
+
+  // Stroke
+  --map-accent-topaz-stroke-2: var(--theme-accent-topaz-2);
+  --map-accent-topaz-stroke-1: var(--theme-accent-topaz-1);
+  --map-accent-topaz-stroke-0: var(--theme-accent-topaz-0);
+  --map-accent-topaz-stroke--1: var(--theme-accent-topaz--1);
+  --map-accent-topaz-stroke--2: var(--theme-accent-topaz--2);
+
+  // Symbol
+  --map-accent-topaz-symbol-2: var(--theme-accent-topaz-2);
+  --map-accent-topaz-symbol-1: var(--theme-accent-topaz-1);
+  --map-accent-topaz-symbol-0: var(--theme-accent-topaz-0);
+  --map-accent-topaz-symbol--1: var(--theme-accent-topaz--1);
+  --map-accent-topaz-symbol--2: var(--theme-accent-topaz--2);
+
+  /** Forest */
+  // Fill
+  --map-accent-forest-fill-4: var(--theme-accent-forest-4);
+  --map-accent-forest-fill-3: var(--theme-accent-forest-3);
+  --map-accent-forest-fill-2: var(--theme-accent-forest-2);
+  --map-accent-forest-fill-1: var(--theme-accent-forest-1);
+  --map-accent-forest-fill-0: var(--theme-accent-forest-0);
+  --map-accent-forest-fill--1: var(--theme-accent-forest--1);
+  --map-accent-forest-fill--2: var(--theme-accent-forest--2);
+  --map-accent-forest-fill--3: var(--theme-accent-forest--3);
+  --map-accent-forest-fill--4: var(--theme-accent-forest--4);
+
+  // Stroke
+  --map-accent-forest-stroke-2: var(--theme-accent-forest-2);
+  --map-accent-forest-stroke-1: var(--theme-accent-forest-1);
+  --map-accent-forest-stroke-0: var(--theme-accent-forest-0);
+  --map-accent-forest-stroke--1: var(--theme-accent-forest--1);
+  --map-accent-forest-stroke--2: var(--theme-accent-forest--2);
+
+  // Symbol
+  --map-accent-forest-symbol-2: var(--theme-accent-forest-2);
+  --map-accent-forest-symbol-1: var(--theme-accent-forest-1);
+  --map-accent-forest-symbol-0: var(--theme-accent-forest-0);
+  --map-accent-forest-symbol--1: var(--theme-accent-forest--1);
+  --map-accent-forest-symbol--2: var(--theme-accent-forest--2);
+
+  /** Emerald */
+  // Fill
+  --map-accent-emerald-fill-4: var(--theme-accent-emerald-4);
+  --map-accent-emerald-fill-3: var(--theme-accent-emerald-3);
+  --map-accent-emerald-fill-2: var(--theme-accent-emerald-2);
+  --map-accent-emerald-fill-1: var(--theme-accent-emerald-1);
+  --map-accent-emerald-fill-0: var(--theme-accent-emerald-0);
+  --map-accent-emerald-fill--1: var(--theme-accent-emerald--1);
+  --map-accent-emerald-fill--2: var(--theme-accent-emerald--2);
+  --map-accent-emerald-fill--3: var(--theme-accent-emerald--3);
+  --map-accent-emerald-fill--4: var(--theme-accent-emerald--4);
+
+  // Stroke
+  --map-accent-emerald-stroke-2: var(--theme-accent-emerald-2);
+  --map-accent-emerald-stroke-1: var(--theme-accent-emerald-1);
+  --map-accent-emerald-stroke-0: var(--theme-accent-emerald-0);
+  --map-accent-emerald-stroke--1: var(--theme-accent-emerald--1);
+  --map-accent-emerald-stroke--2: var(--theme-accent-emerald--2);
+
+  // Symbol
+  --map-accent-emerald-symbol-2: var(--theme-accent-emerald-2);
+  --map-accent-emerald-symbol-1: var(--theme-accent-emerald-1);
+  --map-accent-emerald-symbol-0: var(--theme-accent-emerald-0);
+  --map-accent-emerald-symbol--1: var(--theme-accent-emerald--1);
+  --map-accent-emerald-symbol--2: var(--theme-accent-emerald--2);
+
+  /** Lime */
+  // Fill
+  --map-accent-lime-fill-4: var(--theme-accent-lime-4);
+  --map-accent-lime-fill-3: var(--theme-accent-lime-3);
+  --map-accent-lime-fill-2: var(--theme-accent-lime-2);
+  --map-accent-lime-fill-1: var(--theme-accent-lime-1);
+  --map-accent-lime-fill-0: var(--theme-accent-lime-0);
+  --map-accent-lime-fill--1: var(--theme-accent-lime--1);
+  --map-accent-lime-fill--2: var(--theme-accent-lime--2);
+  --map-accent-lime-fill--3: var(--theme-accent-lime--3);
+  --map-accent-lime-fill--4: var(--theme-accent-lime--4);
+
+  // Stroke
+  --map-accent-lime-stroke-2: var(--theme-accent-lime-2);
+  --map-accent-lime-stroke-1: var(--theme-accent-lime-1);
+  --map-accent-lime-stroke-0: var(--theme-accent-lime-0);
+  --map-accent-lime-stroke--1: var(--theme-accent-lime--1);
+  --map-accent-lime-stroke--2: var(--theme-accent-lime--2);
+
+  // Symbol
+  --map-accent-lime-symbol-2: var(--theme-accent-lime-2);
+  --map-accent-lime-symbol-1: var(--theme-accent-lime-1);
+  --map-accent-lime-symbol-0: var(--theme-accent-lime-0);
+  --map-accent-lime-symbol--1: var(--theme-accent-lime--1);
+  --map-accent-lime-symbol--2: var(--theme-accent-lime--2);
+}
+
+// WCAG overrides
+:root.wcag-compliant,
+:root.wcag-compliant .ivyforms-theme-dark {
+  /** Sky Blue */
+  // Fill
+  --map-accent-sky-blue-fill-4: var(--theme-accent-sky-blue-wcag-4);
+  --map-accent-sky-blue-fill-3: var(--theme-accent-sky-blue-wcag-3);
+  --map-accent-sky-blue-fill-2: var(--theme-accent-sky-blue-wcag-2);
+  --map-accent-sky-blue-fill-1: var(--theme-accent-sky-blue-wcag-1);
+  --map-accent-sky-blue-fill-0: var(--theme-accent-sky-blue-wcag-0);
+  --map-accent-sky-blue-fill--1: var(--theme-accent-sky-blue-wcag--1);
+  --map-accent-sky-blue-fill--2: var(--theme-accent-sky-blue-wcag--2);
+  --map-accent-sky-blue-fill--3: var(--theme-accent-sky-blue-wcag--3);
+  --map-accent-sky-blue-fill--4: var(--theme-accent-sky-blue-wcag--4);
+
+  // Stroke
+  --map-accent-sky-blue-stroke-2: var(--theme-accent-sky-blue-wcag-2);
+  --map-accent-sky-blue-stroke-1: var(--theme-accent-sky-blue-wcag-1);
+  --map-accent-sky-blue-stroke-0: var(--theme-accent-sky-blue-wcag-0);
+  --map-accent-sky-blue-stroke--1: var(--theme-accent-sky-blue-wcag--1);
+  --map-accent-sky-blue-stroke--2: var(--theme-accent-sky-blue-wcag--2);
+
+  // Symbol
+  --map-accent-sky-blue-symbol-2: var(--theme-accent-sky-blue-wcag-2);
+  --map-accent-sky-blue-symbol-1: var(--theme-accent-sky-blue-wcag-1);
+  --map-accent-sky-blue-symbol-0: var(--theme-accent-sky-blue-wcag-0);
+  --map-accent-sky-blue-symbol--1: var(--theme-accent-sky-blue-wcag--1);
+
+  /** Blue */
+  // Fill
+  --map-accent-blue-fill-4: var(--theme-accent-blue-wcag-4);
+  --map-accent-blue-fill-3: var(--theme-accent-blue-wcag-3);
+  --map-accent-blue-fill-2: var(--theme-accent-blue-wcag-2);
+  --map-accent-blue-fill-1: var(--theme-accent-blue-wcag-1);
+  --map-accent-blue-fill-0: var(--theme-accent-blue-wcag-0);
+  --map-accent-blue-fill--1: var(--theme-accent-blue-wcag--1);
+  --map-accent-blue-fill--2: var(--theme-accent-blue-wcag--2);
+  --map-accent-blue-fill--3: var(--theme-accent-blue-wcag--3);
+  --map-accent-blue-fill--4: var(--theme-accent-blue-wcag--4);
+
+  // Stroke
+  --map-accent-blue-stroke-2: var(--theme-accent-blue-wcag-2);
+  --map-accent-blue-stroke-1: var(--theme-accent-blue-wcag-1);
+  --map-accent-blue-stroke-0: var(--theme-accent-blue-wcag-0);
+  --map-accent-blue-stroke--1: var(--theme-accent-blue-wcag--1);
+  --map-accent-blue-stroke--2: var(--theme-accent-blue-wcag--2);
+
+  // Symbol
+  --map-accent-blue-symbol-2: var(--theme-accent-blue-wcag-2);
+  --map-accent-blue-symbol-1: var(--theme-accent-blue-wcag-1);
+  --map-accent-blue-symbol-0: var(--theme-accent-blue-wcag-0);
+  --map-accent-blue-symbol--1: var(--theme-accent-blue-wcag--1);
+  --map-accent-blue-symbol--2: var(--theme-accent-blue-wcag--2);
+
+  /** Raspberry */
+  // Fill
+  --map-accent-raspberry-fill-4: var(--theme-accent-raspberry-wcag-4);
+  --map-accent-raspberry-fill-3: var(--theme-accent-raspberry-wcag-3);
+  --map-accent-raspberry-fill-2: var(--theme-accent-raspberry-wcag-2);
+  --map-accent-raspberry-fill-1: var(--theme-accent-raspberry-wcag-1);
+  --map-accent-raspberry-fill-0: var(--theme-accent-raspberry-wcag-0);
+  --map-accent-raspberry-fill--1: var(--theme-accent-raspberry-wcag--1);
+  --map-accent-raspberry-fill--2: var(--theme-accent-raspberry-wcag--2);
+  --map-accent-raspberry-fill--3: var(--theme-accent-raspberry-wcag--3);
+  --map-accent-raspberry-fill--4: var(--theme-accent-raspberry-wcag--4);
+
+  // Stroke
+  --map-accent-raspberry-stroke-2: var(--theme-accent-raspberry-wcag-2);
+  --map-accent-raspberry-stroke-1: var(--theme-accent-raspberry-wcag-1);
+  --map-accent-raspberry-stroke-0: var(--theme-accent-raspberry-wcag-0);
+  --map-accent-raspberry-stroke--1: var(--theme-accent-raspberry-wcag--1);
+  --map-accent-raspberry-stroke--2: var(--theme-accent-raspberry-wcag--2);
+
+  // Symbol
+  --map-accent-raspberry-symbol-2: var(--theme-accent-raspberry-wcag-2);
+  --map-accent-raspberry-symbol-1: var(--theme-accent-raspberry-wcag-1);
+  --map-accent-raspberry-symbol-0: var(--theme-accent-raspberry-wcag-0);
+  --map-accent-raspberry-symbol--1: var(--theme-accent-raspberry-wcag--1);
+  --map-accent-raspberry-symbol--2: var(--theme-accent-raspberry-wcag--2);
+
+  /** Amber */
+  // Fill
+  --map-accent-amber-fill-4: var(--theme-accent-amber-wcag-4);
+  --map-accent-amber-fill-3: var(--theme-accent-amber-wcag-3);
+  --map-accent-amber-fill-2: var(--theme-accent-amber-wcag-2);
+  --map-accent-amber-fill-1: var(--theme-accent-amber-wcag-1);
+  --map-accent-amber-fill-0: var(--theme-accent-amber-wcag-0);
+  --map-accent-amber-fill--1: var(--theme-accent-amber-wcag--1);
+  --map-accent-amber-fill--2: var(--theme-accent-amber-wcag--2);
+  --map-accent-amber-fill--3: var(--theme-accent-amber-wcag--3);
+  --map-accent-amber-fill--4: var(--theme-accent-amber-wcag--4);
+  --map-accent-amber-o90: var(--theme-accent-amber-wcag-o90);
+  --map-accent-amber-o80: var(--theme-accent-amber-wcag-o80);
+  --map-accent-amber-o70: var(--theme-accent-amber-wcag-o70);
+  --map-accent-amber-o60: var(--theme-accent-amber-wcag-o60);
+  --map-accent-amber-o50: var(--theme-accent-amber-wcag-o50);
+  --map-accent-amber-o40: var(--theme-accent-amber-wcag-o40);
+  --map-accent-amber-o30: var(--theme-accent-amber-wcag-o30);
+  --map-accent-amber-o20: var(--theme-accent-amber-wcag-o20);
+  --map-accent-amber-o10: var(--theme-accent-amber-wcag-o10);
+  --map-accent-amber-o05: var(--theme-accent-amber-wcag-o05);
+
+  // Stroke
+  --map-accent-amber-stroke-2: var(--theme-accent-amber-wcag-2);
+  --map-accent-amber-stroke-1: var(--theme-accent-amber-wcag-1);
+  --map-accent-amber-stroke-0: var(--theme-accent-amber-wcag-0);
+  --map-accent-amber-stroke--1: var(--theme-accent-amber-wcag--1);
+  --map-accent-amber-stroke--2: var(--theme-accent-amber-wcag--2);
+
+  // Symbol
+  --map-accent-amber-symbol-2: var(--theme-accent-amber-wcag-2);
+  --map-accent-amber-symbol-1: var(--theme-accent-amber-wcag-1);
+  --map-accent-amber-symbol-0: var(--theme-accent-amber-wcag-0);
+  --map-accent-amber-symbol--1: var(--theme-accent-amber-wcag--1);
+  --map-accent-amber-symbol--2: var(--theme-accent-amber-wcag--2);
+
+  /** Grape */
+  // Fill
+  --map-accent-grape-fill-4: var(--theme-accent-grape-wcag-4);
+  --map-accent-grape-fill-3: var(--theme-accent-grape-wcag-3);
+  --map-accent-grape-fill-2: var(--theme-accent-grape-wcag-2);
+  --map-accent-grape-fill-1: var(--theme-accent-grape-wcag-1);
+  --map-accent-grape-fill-0: var(--theme-accent-grape-wcag-0);
+  --map-accent-grape-fill--1: var(--theme-accent-grape-wcag--1);
+  --map-accent-grape-fill--2: var(--theme-accent-grape-wcag--2);
+  --map-accent-grape-fill--3: var(--theme-accent-grape-wcag--3);
+  --map-accent-grape-fill--4: var(--theme-accent-grape-wcag--4);
+
+  // Stroke
+  --map-accent-grape-stroke-2: var(--theme-accent-grape-wcag-2);
+  --map-accent-grape-stroke-1: var(--theme-accent-grape-wcag-1);
+  --map-accent-grape-stroke-0: var(--theme-accent-grape-wcag-0);
+  --map-accent-grape-stroke--1: var(--theme-accent-grape-wcag--1);
+  --map-accent-grape-stroke--2: var(--theme-accent-grape-wcag--2);
+
+  // Symbol
+  --map-accent-grape-symbol-2: var(--theme-accent-grape-wcag-2);
+  --map-accent-grape-symbol-1: var(--theme-accent-grape-wcag-1);
+  --map-accent-grape-symbol-0: var(--theme-accent-grape-wcag-0);
+  --map-accent-grape-symbol--1: var(--theme-accent-grape-wcag--1);
+  --map-accent-grape-symbol--2: var(--theme-accent-grape-wcag--2);
+
+  /** Violet */
+  // Fill
+  --map-accent-violet-fill-4: var(--theme-accent-violet-wcag-4);
+  --map-accent-violet-fill-3: var(--theme-accent-violet-wcag-3);
+  --map-accent-violet-fill-2: var(--theme-accent-violet-wcag-2);
+  --map-accent-violet-fill-1: var(--theme-accent-violet-wcag-1);
+  --map-accent-violet-fill-0: var(--theme-accent-violet-wcag-0);
+  --map-accent-violet-fill--1: var(--theme-accent-violet-wcag--1);
+  --map-accent-violet-fill--2: var(--theme-accent-violet-wcag--2);
+  --map-accent-violet-fill--3: var(--theme-accent-violet-wcag--3);
+  --map-accent-violet-fill--4: var(--theme-accent-violet-wcag--4);
+
+  // Stroke
+  --map-accent-violet-stroke-2: var(--theme-accent-violet-wcag-2);
+  --map-accent-violet-stroke-1: var(--theme-accent-violet-wcag-1);
+  --map-accent-violet-stroke-0: var(--theme-accent-violet-wcag-0);
+  --map-accent-violet-stroke--1: var(--theme-accent-violet-wcag--1);
+  --map-accent-violet-stroke--2: var(--theme-accent-violet-wcag--2);
+
+  // Symbol
+  --map-accent-violet-symbol-2: var(--theme-accent-violet-wcag-2);
+  --map-accent-violet-symbol-1: var(--theme-accent-violet-wcag-1);
+  --map-accent-violet-symbol-0: var(--theme-accent-violet-wcag-0);
+  --map-accent-violet-symbol--1: var(--theme-accent-violet-wcag--1);
+  --map-accent-violet-symbol--2: var(--theme-accent-violet-wcag--2);
+
+  /** Slate */
+  // Fill
+  --map-accent-slate-fill-4: var(--theme-accent-slate-wcag-4);
+  --map-accent-slate-fill-3: var(--theme-accent-slate-wcag-3);
+  --map-accent-slate-fill-2: var(--theme-accent-slate-wcag-2);
+  --map-accent-slate-fill-1: var(--theme-accent-slate-wcag-1);
+  --map-accent-slate-fill-0: var(--theme-accent-slate-wcag-0);
+  --map-accent-slate-fill--1: var(--theme-accent-slate-wcag--1);
+  --map-accent-slate-fill--2: var(--theme-accent-slate-wcag--2);
+  --map-accent-slate-fill--3: var(--theme-accent-slate-wcag--3);
+  --map-accent-slate-fill--4: var(--theme-accent-slate-wcag--4);
+
+  // Stroke
+  --map-accent-slate-stroke-2: var(--theme-accent-slate-wcag-2);
+  --map-accent-slate-stroke-1: var(--theme-accent-slate-wcag-1);
+  --map-accent-slate-stroke-0: var(--theme-accent-slate-wcag-0);
+  --map-accent-slate-stroke--1: var(--theme-accent-slate-wcag--1);
+  --map-accent-slate-stroke--2: var(--theme-accent-slate-wcag--2);
+
+  // Symbol
+  --map-accent-slate-symbol-2: var(--theme-accent-slate-wcag-2);
+  --map-accent-slate-symbol-1: var(--theme-accent-slate-wcag-1);
+  --map-accent-slate-symbol-0: var(--theme-accent-slate-wcag-0);
+  --map-accent-slate-symbol--1: var(--theme-accent-slate-wcag--1);
+  --map-accent-slate-symbol--2: var(--theme-accent-slate-wcag--2);
+
+  /** Teal */
+  // Fill
+  --map-accent-teal-fill-4: var(--theme-accent-teal-wcag-4);
+  --map-accent-teal-fill-3: var(--theme-accent-teal-wcag-3);
+  --map-accent-teal-fill-2: var(--theme-accent-teal-wcag-2);
+  --map-accent-teal-fill-1: var(--theme-accent-teal-wcag-1);
+  --map-accent-teal-fill-0: var(--theme-accent-teal-wcag-0);
+  --map-accent-teal-fill--1: var(--theme-accent-teal-wcag--1);
+  --map-accent-teal-fill--2: var(--theme-accent-teal-wcag--2);
+  --map-accent-teal-fill--3: var(--theme-accent-teal-wcag--3);
+  --map-accent-teal-fill--4: var(--theme-accent-teal-wcag--4);
+
+  // Stroke
+  --map-accent-teal-stroke-2: var(--theme-accent-teal-wcag-2);
+  --map-accent-teal-stroke-1: var(--theme-accent-teal-wcag-1);
+  --map-accent-teal-stroke-0: var(--theme-accent-teal-wcag-0);
+  --map-accent-teal-stroke--1: var(--theme-accent-teal-wcag--1);
+  --map-accent-teal-stroke--2: var(--theme-accent-teal-wcag--2);
+
+  // Symbol
+  --map-accent-teal-symbol-2: var(--theme-accent-teal-wcag-2);
+  --map-accent-teal-symbol-1: var(--theme-accent-teal-wcag-1);
+  --map-accent-teal-symbol-0: var(--theme-accent-teal-wcag-0);
+  --map-accent-teal-symbol--1: var(--theme-accent-teal-wcag--1);
+  --map-accent-teal-symbol--2: var(--theme-accent-teal-wcag--2);
+
+  /** Aquamarine */
+  // Fill
+  --map-accent-aquamarine-fill-4: var(--theme-accent-aquamarine-wcag-4);
+  --map-accent-aquamarine-fill-3: var(--theme-accent-aquamarine-wcag-3);
+  --map-accent-aquamarine-fill-2: var(--theme-accent-aquamarine-wcag-2);
+  --map-accent-aquamarine-fill-1: var(--theme-accent-aquamarine-wcag-1);
+  --map-accent-aquamarine-fill-0: var(--theme-accent-aquamarine-wcag-0);
+  --map-accent-aquamarine-fill--1: var(--theme-accent-aquamarine-wcag--1);
+  --map-accent-aquamarine-fill--2: var(--theme-accent-aquamarine-wcag--2);
+  --map-accent-aquamarine-fill--3: var(--theme-accent-aquamarine-wcag--3);
+  --map-accent-aquamarine-fill--4: var(--theme-accent-aquamarine-wcag--4);
+
+  // Stroke
+  --map-accent-aquamarine-stroke-2: var(--theme-accent-aquamarine-wcag-2);
+  --map-accent-aquamarine-stroke-1: var(--theme-accent-aquamarine-wcag-1);
+  --map-accent-aquamarine-stroke-0: var(--theme-accent-aquamarine-wcag-0);
+  --map-accent-aquamarine-stroke--1: var(--theme-accent-aquamarine-wcag--1);
+  --map-accent-aquamarine-stroke--2: var(--theme-accent-aquamarine-wcag--2);
+
+  // Symbol
+  --map-accent-aquamarine-symbol-2: var(--theme-accent-aquamarine-wcag-2);
+  --map-accent-aquamarine-symbol-1: var(--theme-accent-aquamarine-wcag-1);
+  --map-accent-aquamarine-symbol-0: var(--theme-accent-aquamarine-wcag-0);
+  --map-accent-aquamarine-symbol--1: var(--theme-accent-aquamarine-wcag--1);
+  --map-accent-aquamarine-symbol--2: var(--theme-accent-aquamarine-wcag--2);
+
+  /** Meadow */
+  // Fill
+  --map-accent-meadow-fill-4: var(--theme-accent-meadow-wcag-4);
+  --map-accent-meadow-fill-3: var(--theme-accent-meadow-wcag-3);
+  --map-accent-meadow-fill-2: var(--theme-accent-meadow-wcag-2);
+  --map-accent-meadow-fill-1: var(--theme-accent-meadow-wcag-1);
+  --map-accent-meadow-fill-0: var(--theme-accent-meadow-wcag-0);
+  --map-accent-meadow-fill--1: var(--theme-accent-meadow-wcag--1);
+  --map-accent-meadow-fill--2: var(--theme-accent-meadow-wcag--2);
+  --map-accent-meadow-fill--3: var(--theme-accent-meadow-wcag--3);
+  --map-accent-meadow-fill--4: var(--theme-accent-meadow-wcag--4);
+
+  // Stroke
+  --map-accent-meadow-stroke-2: var(--theme-accent-meadow-wcag-2);
+  --map-accent-meadow-stroke-1: var(--theme-accent-meadow-wcag-1);
+  --map-accent-meadow-stroke-0: var(--theme-accent-meadow-wcag-0);
+  --map-accent-meadow-stroke--1: var(--theme-accent-meadow-wcag--1);
+  --map-accent-meadow-stroke--2: var(--theme-accent-meadow-wcag--2);
+
+  // Symbol
+  --map-accent-meadow-symbol-2: var(--theme-accent-meadow-wcag-2);
+  --map-accent-meadow-symbol-1: var(--theme-accent-meadow-wcag-1);
+  --map-accent-meadow-symbol-0: var(--theme-accent-meadow-wcag-0);
+  --map-accent-meadow-symbol--1: var(--theme-accent-meadow-wcag--1);
+  --map-accent-meadow-symbol--2: var(--theme-accent-meadow-wcag--2);
+
+  /** Topaz */
+  // Fill
+  --map-accent-topaz-fill-4: var(--theme-accent-topaz-wcag-4);
+  --map-accent-topaz-fill-3: var(--theme-accent-topaz-wcag-3);
+  --map-accent-topaz-fill-2: var(--theme-accent-topaz-wcag-2);
+  --map-accent-topaz-fill-1: var(--theme-accent-topaz-wcag-1);
+  --map-accent-topaz-fill-0: var(--theme-accent-topaz-wcag-0);
+  --map-accent-topaz-fill--1: var(--theme-accent-topaz-wcag--1);
+  --map-accent-topaz-fill--2: var(--theme-accent-topaz-wcag--2);
+  --map-accent-topaz-fill--3: var(--theme-accent-topaz-wcag--3);
+  --map-accent-topaz-fill--4: var(--theme-accent-topaz-wcag--4);
+
+  // Stroke
+  --map-accent-topaz-stroke-2: var(--theme-accent-topaz-wcag-2);
+  --map-accent-topaz-stroke-1: var(--theme-accent-topaz-wcag-1);
+  --map-accent-topaz-stroke-0: var(--theme-accent-topaz-wcag-0);
+  --map-accent-topaz-stroke--1: var(--theme-accent-topaz-wcag--1);
+  --map-accent-topaz-stroke--2: var(--theme-accent-topaz-wcag--2);
+
+  // Symbol
+  --map-accent-topaz-symbol-2: var(--theme-accent-topaz-wcag-2);
+  --map-accent-topaz-symbol-1: var(--theme-accent-topaz-wcag-1);
+  --map-accent-topaz-symbol-0: var(--theme-accent-topaz-wcag-0);
+  --map-accent-topaz-symbol--1: var(--theme-accent-topaz-wcag--1);
+  --map-accent-topaz-symbol--2: var(--theme-accent-topaz-wcag--2);
+
+  /** Forest */
+  // Fill
+  --map-accent-forest-fill-4: var(--theme-accent-forest-wcag-4);
+  --map-accent-forest-fill-3: var(--theme-accent-forest-wcag-3);
+  --map-accent-forest-fill-2: var(--theme-accent-forest-wcag-2);
+  --map-accent-forest-fill-1: var(--theme-accent-forest-wcag-1);
+  --map-accent-forest-fill-0: var(--theme-accent-forest-wcag-0);
+  --map-accent-forest-fill--1: var(--theme-accent-forest-wcag--1);
+  --map-accent-forest-fill--2: var(--theme-accent-forest-wcag--2);
+  --map-accent-forest-fill--3: var(--theme-accent-forest-wcag--3);
+  --map-accent-forest-fill--4: var(--theme-accent-forest-wcag--4);
+
+  // Stroke
+  --map-accent-forest-stroke-2: var(--theme-accent-forest-wcag-2);
+  --map-accent-forest-stroke-1: var(--theme-accent-forest-wcag-1);
+  --map-accent-forest-stroke-0: var(--theme-accent-forest-wcag-0);
+  --map-accent-forest-stroke--1: var(--theme-accent-forest-wcag--1);
+  --map-accent-forest-stroke--2: var(--theme-accent-forest-wcag--2);
+
+  // Symbol
+  --map-accent-forest-symbol-2: var(--theme-accent-forest-wcag-2);
+  --map-accent-forest-symbol-1: var(--theme-accent-forest-wcag-1);
+  --map-accent-forest-symbol-0: var(--theme-accent-forest-wcag-0);
+  --map-accent-forest-symbol--1: var(--theme-accent-forest-wcag--1);
+  --map-accent-forest-symbol--2: var(--theme-accent-forest-wcag--2);
+
+  /** Emerald */
+  // Fill
+  --map-accent-emerald-fill-4: var(--theme-accent-emerald-wcag-4);
+  --map-accent-emerald-fill-3: var(--theme-accent-emerald-wcag-3);
+  --map-accent-emerald-fill-2: var(--theme-accent-emerald-wcag-2);
+  --map-accent-emerald-fill-1: var(--theme-accent-emerald-wcag-1);
+  --map-accent-emerald-fill-0: var(--theme-accent-emerald-wcag-0);
+  --map-accent-emerald-fill--1: var(--theme-accent-emerald-wcag--1);
+  --map-accent-emerald-fill--2: var(--theme-accent-emerald-wcag--2);
+  --map-accent-emerald-fill--3: var(--theme-accent-emerald-wcag--3);
+  --map-accent-emerald-fill--4: var(--theme-accent-emerald-wcag--4);
+
+  // Stroke
+  --map-accent-emerald-stroke-2: var(--theme-accent-emerald-wcag-2);
+  --map-accent-emerald-stroke-1: var(--theme-accent-emerald-wcag-1);
+  --map-accent-emerald-stroke-0: var(--theme-accent-emerald-wcag-0);
+  --map-accent-emerald-stroke--1: var(--theme-accent-emerald-wcag--1);
+  --map-accent-emerald-stroke--2: var(--theme-accent-emerald-wcag--2);
+
+  // Symbol
+  --map-accent-emerald-symbol-2: var(--theme-accent-emerald-wcag-2);
+  --map-accent-emerald-symbol-1: var(--theme-accent-emerald-wcag-1);
+  --map-accent-emerald-symbol-0: var(--theme-accent-emerald-wcag-0);
+  --map-accent-emerald-symbol--1: var(--theme-accent-emerald-wcag--1);
+  --map-accent-emerald-symbol--2: var(--theme-accent-emerald-wcag--2);
+
+  /** Lime */
+  // Fill
+  --map-accent-lime-fill-4: var(--theme-accent-lime-wcag-4);
+  --map-accent-lime-fill-3: var(--theme-accent-lime-wcag-3);
+  --map-accent-lime-fill-2: var(--theme-accent-lime-wcag-2);
+  --map-accent-lime-fill-1: var(--theme-accent-lime-wcag-1);
+  --map-accent-lime-fill-0: var(--theme-accent-lime-wcag-0);
+  --map-accent-lime-fill--1: var(--theme-accent-lime-wcag--1);
+  --map-accent-lime-fill--2: var(--theme-accent-lime-wcag--2);
+  --map-accent-lime-fill--3: var(--theme-accent-lime-wcag--3);
+  --map-accent-lime-fill--4: var(--theme-accent-lime-wcag--4);
+
+  // Stroke
+  --map-accent-lime-stroke-2: var(--theme-accent-lime-wcag-2);
+  --map-accent-lime-stroke-1: var(--theme-accent-lime-wcag-1);
+  --map-accent-lime-stroke-0: var(--theme-accent-lime-wcag-0);
+  --map-accent-lime-stroke--1: var(--theme-accent-lime-wcag--1);
+  --map-accent-lime-stroke--2: var(--theme-accent-lime-wcag--2);
+
+  // Symbol
+  --map-accent-lime-symbol-2: var(--theme-accent-lime-wcag-2);
+  --map-accent-lime-symbol-1: var(--theme-accent-lime-wcag-1);
+  --map-accent-lime-symbol-0: var(--theme-accent-lime-wcag-0);
+  --map-accent-lime-symbol--1: var(--theme-accent-lime-wcag--1);
+  --map-accent-lime-symbol--2: var(--theme-accent-lime-wcag--2);
+}

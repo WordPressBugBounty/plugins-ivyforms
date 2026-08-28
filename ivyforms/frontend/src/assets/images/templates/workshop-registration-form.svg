@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1000" width="400" height="1000">
+    <!-- Background -->
+    <rect width="400" height="1000" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+    <!-- Title -->
+    <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Workshop registration form</text>
+
+    <!-- Personal Information Section -->
+    <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+
+    <!-- First Name label -->
+    <text x="30" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+
+    <!-- Last Name label -->
+    <text x="210" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="210" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="220" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+    <!-- Email Address -->
+    <text x="30" y="173" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="183" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="206" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@company.com</text>
+
+    <!-- Workshop Selection Section -->
+    <text x="30" y="253" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Workshop selection</text>
+
+    <!-- Workshop Level (select) -->
+    <text x="30" y="271" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Workshop level<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="281" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="304" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Beginner</text>
+    <path d="M 350 301 L 355 306 L 360 301" stroke="#9ca3af" fill="none" stroke-width="2"/>
+
+    <!-- Preferred Date (select) -->
+    <text x="30" y="351" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Preferred date<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="363" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="386" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Select preferred date</text>
+    <path d="M 350 375 L 355 380 L 360 375" stroke="#9ca3af" fill="none" stroke-width="2"/>
+
+    <!-- Learning Goals (textarea) -->
+    <text x="30" y="469" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Learning goals</text>
+    <rect x="30" y="479" width="340" height="100" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="502" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Tell us what you hope to learn (optional)</text>
+
+    <!-- Terms and Conditions -->
+    <rect x="30" y="594" width="18" height="18" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="3"/>
+    <text x="55" y="607" font-family="Arial, sans-serif" font-size="14" fill="#374151">I agree to the terms and conditions<tspan dx="4" fill="#dc2626">*</tspan></text>
+
+    <!-- Submit Button -->
+    <rect x="30" y="652" width="340" height="44" fill="#4f46e5" rx="6"/>
+    <text x="200" y="679" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#ffffff" text-anchor="middle">Submit registration</text>
+
+</svg>

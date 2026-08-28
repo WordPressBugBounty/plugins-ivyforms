@@ -1,0 +1,93 @@
+/**
+ * IvyForms Elementor Widget Styles
+ *
+ * @package IvyForms
+ */
+
+/* Widget Icon - render as flex container for inline SVG injected by JS */
+.ivyforms-elementor-icon {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+}
+
+.ivyforms-elementor-icon::before {
+    display: none !important;
+}
+
+/* Notices/Messages */
+.ivyforms-no-form-selected,
+.ivyforms-form-not-found,
+.ivyforms-form-not-published {
+    padding: 20px;
+    background: #f0f0f1;
+    border: 1px dashed #c3c4c7;
+    border-radius: 4px;
+    text-align: center;
+    color: #50575e;
+}
+
+.ivyforms-no-form-selected p,
+.ivyforms-form-not-found p,
+.ivyforms-form-not-published p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Make the form non-interactive in the editor but still visible */
+.ivyforms-elementor-editor-preview .ivyforms-frontend {
+    pointer-events: none;
+    user-select: none;
+}
+
+/* Allow the widget to be selected */
+.ivyforms-elementor-editor-preview .ivyforms-frontend::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    pointer-events: auto;
+    z-index: 1;
+}
+
+/* Style the editor preview container */
+.ivyforms-elementor-editor-preview .ivyforms {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background: #fff;
+}
+
+/* Reduce skeleton visibility in editor */
+.ivyforms-elementor-editor-preview .ivyforms-skeleton {
+    opacity: 0.5;
+}
+
+/* Ensure form elements are visible but not clickable */
+.ivyforms-elementor-editor-preview input,
+.ivyforms-elementor-editor-preview select,
+.ivyforms-elementor-editor-preview textarea,
+.ivyforms-elementor-editor-preview button {
+    pointer-events: none !important;
+}
+
+/* Add a subtle indicator that this is a preview */
+.ivyforms-elementor-editor-preview::before {
+    content: 'Preview';
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 500;
+    z-index: 10;
+    pointer-events: none;
+}
+
+

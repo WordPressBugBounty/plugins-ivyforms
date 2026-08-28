@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 850" width="400" height="850">
+  <!-- Background -->
+  <rect width="400" height="850" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">Corporate office supplies</text>
+  <text x="30" y="60" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">procurement order form</text>
+
+  <!-- Multi-page progress bar -->
+  <rect x="30" y="78" width="340" height="6" fill="#e5e7eb" rx="3"/>
+  <rect x="30" y="78" width="68" height="6" fill="#374151" rx="3"/>
+  <line x1="98" y1="78" x2="98" y2="84" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="166" y1="78" x2="166" y2="84" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="234" y1="78" x2="234" y2="84" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="302" y1="78" x2="302" y2="84" stroke="#d1d5db" stroke-width="1"/>
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="11" fill="#374151">Page 1 - 20%</text>
+
+  <!-- Full name -->
+  <text x="30" y="128" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+  <text x="30" y="146" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="156" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="179" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+  <text x="210" y="146" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="156" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="179" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email address -->
+  <text x="30" y="226" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="236" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="259" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Department -->
+  <text x="30" y="306" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Department<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="316" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="339" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select department</text>
+  <path d="M345 334 L350 339 L355 334" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Job title -->
+  <text x="30" y="386" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Job title</text>
+  <rect x="30" y="396" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="419" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your job title or position</text>
+
+  <!-- Office supplies category -->
+  <text x="30" y="466" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Office supplies category<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="476" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="499" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select office supplies category</text>
+  <path d="M345 494 L350 499 L355 494" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Item description -->
+  <text x="30" y="546" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Item description<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="556" width="340" height="56" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="580" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Describe items needed</text>
+
+  <!-- Quantity needed -->
+  <text x="30" y="632" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Quantity needed<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="642" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="665" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter quantity needed</text>
+
+  <!-- Budget approval required -->
+  <text x="30" y="712" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Budget approval required?<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <circle cx="42" cy="738" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+  <text x="58" y="742" font-family="Arial, sans-serif" font-size="13" fill="#374151">Yes</text>
+  <circle cx="42" cy="760" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+  <text x="58" y="764" font-family="Arial, sans-serif" font-size="13" fill="#374151">No</text>
+
+  <!-- Urgency level (stars) -->
+  <text x="30" y="796" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Urgency level</text>
+  <text x="40" y="822" font-family="Arial, sans-serif" font-size="18" fill="#d1d5db">&#9734;&#9734;&#9734;&#9734;&#9734;</text>
+</svg>

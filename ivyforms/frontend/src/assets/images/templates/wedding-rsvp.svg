@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 550" width="400" height="550">
+  <!-- Background -->
+  <rect width="400" height="550" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Wedding guest RSVP form</text>
+
+  <!-- Full Name header -->
+  <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+
+  <!-- First Name label -->
+  <text x="30" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+
+  <!-- Last Name label -->
+  <text x="210" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email Address -->
+  <text x="30" y="173" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="183" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="206" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your email address</text>
+
+  <!-- Phone Number -->
+  <text x="30" y="253" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number</text>
+  <rect x="30" y="263" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="286" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (555) 123-4567</text>
+
+  <!-- Will you attend? -->
+  <text x="30" y="333" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Will you attend?<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <!-- radio option 1 -->
+  <g>
+    <circle cx="45" cy="355" r="10" fill="#ffffff" stroke="#d1d5db" />
+    <text x="70" y="358" font-family="Arial, sans-serif" font-size="14" fill="#374151">Yes, i will attend</text>
+  </g>
+  <!-- radio option 2 -->
+  <g>
+    <circle cx="45" cy="380" r="10" fill="#ffffff" stroke="#d1d5db" />
+    <text x="70" y="383" font-family="Arial, sans-serif" font-size="14" fill="#374151">No, i cannot attend</text>
+  </g>
+
+  <!-- Number of Guests -->
+  <text x="30" y="420" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Number of guests<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="430" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <!-- minus button -->
+  <rect x="38" y="436" width="36" height="28" rx="6" fill="#e5e7eb" stroke="#d1d5db" />
+  <text x="56" y="455" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#374151" text-anchor="middle">–</text>
+  <!-- centered placeholder -->
+  <text x="200" y="453" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter total attending with you</text>
+  <!-- plus button -->
+  <rect x="328" y="436" width="36" height="28" rx="6" fill="#e5e7eb" stroke="#d1d5db" />
+  <text x="346" y="456" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#374151" text-anchor="middle">+</text>
+
+  <!-- Meal Option -->
+  <text x="30" y="500" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Meal option<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="510" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="533" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select your meal preference</text>
+  <polygon points="322,523 334,523 328,533" fill="#9ca3af" />
+
+</svg>

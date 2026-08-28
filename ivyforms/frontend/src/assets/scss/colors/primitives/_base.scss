@@ -1,0 +1,140 @@
+// Ivy
+$primitive-base-ivy-4: #01384d;
+$primitive-base-ivy-3: #014d5d;
+$primitive-base-ivy-2: #036a73;
+$primitive-base-ivy-1: #048a89;
+$primitive-base-ivy-0: #06a192;
+$primitive-base-ivy--1: #37c6ab;
+$primitive-base-ivy--2: #5fe2be;
+$primitive-base-ivy--3: #d4feeb;
+$primitive-base-ivy--4: #f2fff9;
+
+// Purple
+$primitive-base-purple-4: #1b1472;
+$primitive-base-purple-3: #2a218a;
+$primitive-base-purple-2: #4034ab;
+$primitive-base-purple-1: #5b4ccc;
+$primitive-base-purple-0: #7a69ee;
+$primitive-base-purple--1: #9c8ef4;
+$primitive-base-purple--2: #b3a6f9;
+$primitive-base-purple--3: #cec4fd;
+$primitive-base-purple--4: #eeeaff;
+
+// Dusk
+$primitive-base-dusk-5: #232b36;
+$primitive-base-dusk-4: #232e3c;
+$primitive-base-dusk-3: #394452;
+$primitive-base-dusk-2: #535d69;
+$primitive-base-dusk-1: #707883;
+$primitive-base-dusk-0: #8b929c;
+$primitive-base-dusk--1: #a5abb2;
+$primitive-base-dusk--2: #c0c5cb;
+$primitive-base-dusk--3: #dbdee3;
+$primitive-base-dusk--4: #f4f6f9;
+$primitive-base-dusk--5: #f7faff;
+
+// Text Light
+$primitive-base-text-light-0: #212832;
+$primitive-base-text-light--1: #707883;
+$primitive-base-text-light--2: #8b929c;
+
+// Text Dark
+$primitive-base-text-dark-0: #f4f6f9;
+$primitive-base-text-dark--1: #c0c5cb;
+$primitive-base-text-dark--2: #adb3ba;
+
+// Text WCAG - Light theme
+$primitive-base-text-wcag-light-0: #212832;
+$primitive-base-text-wcag-light--1: #6a727c;
+$primitive-base-text-wcag-light--2: #70757e;
+
+// Ivy WCAG - Light theme colors
+$primitive-base-ivy-wcag-light-4: #01384d;
+$primitive-base-ivy-wcag-light-3: #014a57;
+$primitive-base-ivy-wcag-light-2: #015c61;
+$primitive-base-ivy-wcag-light-1: #026f6b;
+$primitive-base-ivy-wcag-light-0: #028175;
+$primitive-base-ivy-wcag-light--1: #41a097;
+$primitive-base-ivy-wcag-light--2: #80c0ba;
+$primitive-base-ivy-wcag-light--3: #c6e6e3;
+$primitive-base-ivy-wcag-light--4: #ebfdfc;
+
+// Symbol WCAG
+$primitive-base-symbol-ivy-wcag-light-2: #015c61;
+$primitive-base-symbol-ivy-wcag-light-1: #026f6b;
+$primitive-base-symbol-ivy-wcag-light-0: #028175;
+$primitive-base-symbol-ivy-wcag-light--1: #41a097;
+
+// Ivy WCAG - Dark theme colors
+$primitive-base-ivy-wcag-dark-4: #ebfdfc;
+$primitive-base-ivy-wcag-dark-3: #c6e6e3;
+$primitive-base-ivy-wcag-dark-2: #80c0ba;
+$primitive-base-ivy-wcag-dark-1: #41a097;
+$primitive-base-ivy-wcag-dark-0: #028175;
+$primitive-base-ivy-wcag-dark--1: #026f6b;
+$primitive-base-ivy-wcag-dark--2: #015c61;
+$primitive-base-ivy-wcag-dark--3: #014a57;
+$primitive-base-ivy-wcag-dark--4: #01384d;
+
+// Symbol WCAG
+$primitive-base-symbol-ivy-wcag-dark-2: #80c0ba;
+$primitive-base-symbol-ivy-wcag-dark-1: #41a097;
+$primitive-base-symbol-ivy-wcag-dark-0: #06b1a0;
+$primitive-base-symbol-ivy-wcag-dark--1: #026f6b;
+
+// Purple WCAG - Light theme colors
+$primitive-base-purple-wcag-light-4: #2a218a;
+$primitive-base-purple-wcag-light-3: #2a218a;
+$primitive-base-purple-wcag-light-2: #4034ab;
+$primitive-base-purple-wcag-light-1: #4034ab;
+$primitive-base-purple-wcag-light-0: #7261d9;
+$primitive-base-purple-wcag-light--1: #9c8ef4;
+$primitive-base-purple-wcag-light--2: #b3a6f9;
+$primitive-base-purple-wcag-light--3: #cec4fd;
+$primitive-base-purple-wcag-light--4: #eeeaff;
+
+// Symbol WCAG
+$primitive-base-symbol-purple-wcag-light-2: #4034ab;
+$primitive-base-symbol-purple-wcag-light-1: #4034ab;
+$primitive-base-symbol-purple-wcag-light-0: #7362d9;
+$primitive-base-symbol-purple-wcag-light--1: #9c8ef4;
+
+// Purple WCAG - Dark theme colors
+$primitive-base-purple-wcag-dark-4: #eeeaff;
+$primitive-base-purple-wcag-dark-3: #cec4fd;
+$primitive-base-purple-wcag-dark-2: #b3a6f9;
+$primitive-base-purple-wcag-dark-1: #9c8ef4;
+$primitive-base-purple-wcag-dark-0: #7563d9;
+$primitive-base-purple-wcag-dark--1: #5b4ccc;
+$primitive-base-purple-wcag-dark--2: #4034ab;
+$primitive-base-purple-wcag-dark--3: #2a218a;
+$primitive-base-purple-wcag-dark--4: #1b1472;
+
+// Symbol WCAG
+$primitive-base-symbol-purple-wcag-dark-2: #b3a6f9;
+$primitive-base-symbol-purple-wcag-dark-1: #9c8ef4;
+$primitive-base-symbol-purple-wcag-dark-0: #a990ff;
+$primitive-base-symbol-purple-wcag-dark--1: #5b4ccc;
+
+// Dusk WCAG
+$primitive-base-dusk-wcag-5: #232b36;
+$primitive-base-dusk-wcag-4: #232e3c;
+$primitive-base-dusk-wcag-3: #394452;
+$primitive-base-dusk-wcag-2: #535d69;
+$primitive-base-dusk-wcag-1: #707883;
+$primitive-base-dusk-wcag-0: #8b929c;
+$primitive-base-dusk-wcag--1: #a5abb2;
+$primitive-base-dusk-wcag--2: #c0c5cb;
+$primitive-base-dusk-wcag--3: #dbdee3;
+$primitive-base-dusk-wcag--4: #f4f6f9;
+$primitive-base-dusk-wcag--5: #f7faff;
+
+// Text Light WCAG
+$primitive-base-text-light-wcag-0: #212832;
+$primitive-base-text-light-wcag--1: #707883;
+$primitive-base-text-light-wcag--2: #8b929c;
+
+// Text Dark WCAG
+$primitive-base-text-dark-wcag-0: #f4f6f9;
+$primitive-base-text-dark-wcag--1: #c0c5cb;
+$primitive-base-text-dark-wcag--2: #adb3ba;

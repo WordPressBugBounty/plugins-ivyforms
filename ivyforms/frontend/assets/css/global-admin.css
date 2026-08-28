@@ -1,0 +1,73 @@
+/* Immediate fullscreen styles - applied before Vue loads */
+.ivyforms-fullscreen-mode #adminmenumain,
+.ivyforms-fullscreen-mode #wpadminbar,
+.ivyforms-fullscreen-mode .wp-toolbar,
+.ivyforms-fullscreen-mode .wp-header-end,
+.ivyforms-fullscreen-mode #wpfooter {
+  display: none !important;
+}
+.ivyforms-fullscreen-mode #wpbody-content > .wrap {
+  margin: 0;
+}
+.ivyforms-fullscreen-mode {
+  height: 100%;
+  overflow: hidden;
+}
+.ivyforms-fullscreen-mode #wpbody-content,
+.ivyforms-fullscreen-mode #wpbody,
+.ivyforms-fullscreen-mode #wpcontent {
+  padding: 0;
+  overflow: hidden;
+  margin: 0 !important;
+}
+.ivyforms-fullscreen-mode #wpfooter {
+  padding: 0;
+  overflow: hidden;
+  margin: 0 !important;
+}
+
+/* Grid Layout System for Form Builder */
+.ivyforms-form-grid-row {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  width: 100%;
+  margin-bottom: 12px;
+  flex-wrap: nowrap;
+}
+
+/* Field width classes for grid layout */
+.ivyforms-field-width-100 {
+  width: 100%;
+}
+
+.ivyforms-field-width-50 {
+  width: calc(50% - 6px);
+}
+
+.ivyforms-field-width-33 {
+  width: calc(33.333% - 8px);
+}
+
+.ivyforms-field-width-25 {
+  width: calc(25% - 9px);
+}
+
+.ivyforms-field-width-20 {
+  width: calc(20% - 9.6px);
+}
+
+/* Responsive: Stack on mobile */
+@media (max-width: 768px) {
+  .ivyforms-form-grid-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .ivyforms-field-width-50,
+  .ivyforms-field-width-33,
+  .ivyforms-field-width-25,
+  .ivyforms-field-width-20 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 695" width="400" height="695">
+  <rect width="400" height="690" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="30" y="28" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">Digital marketing</text>
+  <text x="30" y="52" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">internship application form</text>
+  <text x="30" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <text x="30" y="108" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="118" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="141" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+  <text x="210" y="108" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="118" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="141" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+  <text x="30" y="185" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="195" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="220" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select email address</text>
+  <polygon points="322,211 334,211 328,221" fill="#9ca3af" />
+  <text x="30" y="255" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="265" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="290" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select phone number</text>
+  <polygon points="322,281 334,281 328,291" fill="#9ca3af" />
+  <text x="30" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">University / education<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="335" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="360" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select university / education</text>
+  <polygon points="322,351 334,351 328,361" fill="#9ca3af" />
+  <text x="30" y="395" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Marketing knowledge level<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="405" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="430" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select marketing knowledge level</text>
+  <polygon points="322,421 334,421 328,431" fill="#9ca3af" />
+  <text x="30" y="465" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Social media platforms managed<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="475" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="500" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select social media platforms managed</text>
+  <polygon points="322,491 334,491 328,501" fill="#9ca3af" />
+  <text x="30" y="535" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Content creation experience<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="545" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="570" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select content creation experience</text>
+  <polygon points="322,561 334,561 328,571" fill="#9ca3af" />
+  <text x="30" y="605" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Tools knowledge (Meta Ads, Google Ads, Canva, etc.)<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="615" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="640" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select tools knowledge (meta ads, google ads, canva, etc.)</text>
+  <polygon points="322,631 334,631 328,641" fill="#9ca3af" />
+</svg>

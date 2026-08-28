@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 620" width="400" height="620">
+  <!-- Background -->
+  <rect width="400" height="620" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Craft vendor</text>
+  <text x="30" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">registration form</text>
+
+  <!-- Business / Vendor Name -->
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Business / vendor name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="110" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="133" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter business name</text>
+
+  <!-- Owner / Contact Person -->
+  <text x="30" y="170" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Owner / contact person<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="180" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="203" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter owner or contact person name</text>
+
+  <!-- Email Address -->
+  <text x="30" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="250" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="273" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Phone Number -->
+  <text x="30" y="310" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number</text>
+  <rect x="30" y="320" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="343" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+
+  <!-- Craft Type -->
+  <text x="30" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Craft type<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="390" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="413" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select craft type</text>
+  <polygon points="352,405 364,405 358,415" fill="#9ca3af" />
+
+  <!-- Products / Description -->
+  <text x="30" y="450" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Products / description<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="460" width="340" height="60" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="480" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Describe your items</text>
+
+  <!-- Booth / Space Size Required -->
+  <text x="30" y="540" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Booth / space size required</text>
+  <rect x="30" y="550" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="573" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter space size needed</text>
+
+</svg>

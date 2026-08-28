@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 950" width="400" height="950">
+  <!-- Background -->
+  <rect width="400" height="950" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Baby shower cake order form</text>
+
+  <!-- Parent(s) Name(s) field -->
+  <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Parent(s) name(s)</text>
+  <text x="150" y="75" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="85" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="108" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter parent(s) name(s)</text>
+
+  <!-- Email Address field -->
+  <text x="30" y="145" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address</text>
+  <text x="125" y="145" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="155" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="178" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your email</text>
+
+  <!-- Phone Number field -->
+  <text x="30" y="215" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number</text>
+  <text x="128" y="215" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="225" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="248" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your phone number</text>
+
+  <!-- Cake Flavor field -->
+  <text x="30" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Cake flavor</text>
+  <text x="110" y="285" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="295" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="318" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select cake flavor</text>
+  <path d="M350 310 l5 5 l5 -5" stroke="#9ca3af" stroke-width="1.5" fill="none"/>
+
+  <!-- Cake Size field -->
+  <text x="30" y="355" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Cake size</text>
+  <text x="99" y="355" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="365" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="388" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select cake size</text>
+  <path d="M350 380 l5 5 l5 -5" stroke="#9ca3af" stroke-width="1.5" fill="none"/>
+
+  <!-- Baby Shower Theme field -->
+  <text x="30" y="425" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Baby shower theme</text>
+  <text x="168" y="425" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="435" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="458" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">e.g., little prince, twinkle twinkle, pink &amp; gold</text>
+
+  <!-- Cake Message field -->
+  <text x="30" y="505" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Cake message</text>
+  <text x="128" y="505" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="515" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="538" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Welcome baby Emma!</text>
+
+  <!-- Design Ideas / Requests field -->
+  <text x="30" y="575" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Design ideas / requests</text>
+  <rect x="30" y="585" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="608" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Describe your design ideas or color scheme</text>
+
+  <!-- Event Date field -->
+  <text x="30" y="685" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Event date</text>
+  <text x="104" y="685" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="695" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="718" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select event date</text>
+
+  <!-- Delivery Address (Address Line 1 only, to suggest structured address) -->
+  <text x="30" y="765" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Delivery address</text>
+  <text x="141" y="765" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <text x="30" y="785" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Address line 1</text>
+  <rect x="30" y="790" width="340" height="38" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="813" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Enter address line 1</text>
+
+  <!-- Submit button -->
+  <rect x="30" y="880" width="80" height="40" fill="#3b82f6" rx="6"/>
+  <text x="70" y="903" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="white">Submit</text>
+</svg>

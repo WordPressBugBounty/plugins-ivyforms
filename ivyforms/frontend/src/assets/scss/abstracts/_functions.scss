@@ -1,0 +1,10 @@
+@use 'sass:color';
+// HEX to RGBA
+@function hex-to-rgba($color, $alpha) {
+  @return rgba(
+    color.channel($color, 'red', $space: rgb),
+    color.channel($color, 'green', $space: rgb),
+    color.channel($color, 'blue', $space: rgb),
+    $alpha
+  );
+}

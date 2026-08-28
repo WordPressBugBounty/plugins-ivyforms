@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 850" width="400" height="850">
+  <rect width="400" height="850" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#374151">Financial services &amp;</text>
+  <text x="30" y="58" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#374151">FinTech leadership conference</text>
+  <rect x="30" y="76" width="340" height="6" fill="#e5e7eb" rx="3"/>
+  <rect x="30" y="76" width="57" height="6" fill="#374151" rx="3"/>
+  <line x1="87" y1="76" x2="87" y2="82" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="144" y1="76" x2="144" y2="82" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="201" y1="76" x2="201" y2="82" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="258" y1="76" x2="258" y2="82" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="315" y1="76" x2="315" y2="82" stroke="#d1d5db" stroke-width="1"/>
+  <text x="30" y="98" font-family="Arial, sans-serif" font-size="11" fill="#374151">Page 1 - 17%</text>
+  <text x="30" y="126" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+  <text x="30" y="144" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="154" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="177" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your full name</text>
+  <text x="210" y="144" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="154" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="177" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+  <text x="30" y="224" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Business email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="234" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="257" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Business Email Address</text>
+  <text x="30" y="304" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number</text>
+  <rect x="30" y="314" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="337" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Phone Number</text>
+  <text x="30" y="384" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Company / institution name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="394" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="417" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Company or Financial Institution</text>
+  <text x="30" y="464" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Job title<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="474" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="497" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Your Position</text>
+  <text x="30" y="544" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Conference pass type<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="554" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="577" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select conference pass type</text>
+  <path d="M345 572 L350 577 L355 572" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <text x="30" y="624" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Primary industry focus<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="634" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="657" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select primary industry focus</text>
+  <path d="M345 652 L350 657 L355 652" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <text x="30" y="704" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Interested in investor networking?<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <circle cx="42" cy="730" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+  <text x="58" y="734" font-family="Arial, sans-serif" font-size="13" fill="#374151">Yes</text>
+  <circle cx="42" cy="752" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+  <text x="58" y="756" font-family="Arial, sans-serif" font-size="13" fill="#374151">No</text>
+  <rect x="30" y="778" width="14" height="14" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="2"/>
+  <text x="52" y="790" font-family="Arial, sans-serif" font-size="13" fill="#374151">Financial conference terms<tspan dx="4" fill="#dc2626">*</tspan></text>
+</svg>

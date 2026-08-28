@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 700" width="400" height="700">
+  <!-- Background -->
+  <rect width="400" height="700" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Event t-shirt order form</text>
+
+  <!-- Requestor Name header -->
+  <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Requestor name<tspan dx="4" fill="#dc2626">*</tspan></text>
+
+  <!-- First Name label -->
+  <text x="30" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+
+  <!-- Last Name label -->
+  <text x="210" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email Address -->
+  <text x="30" y="173" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="183" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="206" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Email address</text>
+
+  <!-- Phone Number -->
+  <text x="30" y="253" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number</text>
+  <rect x="30" y="263" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="286" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Phone number</text>
+
+  <!-- Event Name -->
+  <text x="30" y="333" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Event name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="343" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="366" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter event name</text>
+
+  <!-- T-shirt Size -->
+  <text x="30" y="413" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">T-shirt size<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="423" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="446" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select t-shirt size</text>
+  <polygon points="322,436 334,436 328,446" fill="#9ca3af" />
+
+  <!-- Quantity -->
+  <text x="30" y="493" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Quantity<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="503" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="526" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter quantity</text>
+
+  <!-- Event Notes or Special Instructions -->
+  <text x="30" y="573" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Event notes or special instructions</text>
+  <rect x="30" y="583" width="340" height="50" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="606" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter event notes or special instructions</text>
+
+  <!-- T-shirt Color -->
+  <text x="30" y="663" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">T-shirt color<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="673" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <!-- Note: Bottom fields (checkbox and date) are cut off as they would exceed 700px height -->
+</svg>

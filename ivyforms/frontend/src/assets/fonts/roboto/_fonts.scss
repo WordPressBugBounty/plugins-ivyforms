@@ -1,0 +1,43 @@
+/* Icons  TODO: find better way to insert local fonts - dev and build*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+///* Regular */
+//@font-face {
+//  font-family: 'Roboto';
+//  src:
+//    url('@/assets/fonts/roboto/Roboto-Regular.woff2') format('woff2'),
+//    url('@/assets/fonts/roboto/Roboto-Regular.woff') format('woff');
+//  font-weight: 400;
+//  font-style: normal;
+//}
+//
+///* Medium */
+//@font-face {
+//  font-family: 'Roboto';
+//  src:
+//    url('@/assets/fonts/roboto/Roboto-Medium.woff2') format('woff2'),
+//    url('@/assets/fonts/roboto/Roboto-Medium.woff') format('woff');
+//  font-weight: 500;
+//  font-style: normal;
+//}
+//
+///* Bold */
+//@font-face {
+//  font-family: 'Roboto';
+//  src:
+//    url('@/assets/fonts/roboto/Roboto-Bold.woff2') format('woff2'),
+//    url('@/assets/fonts/roboto/Roboto-Bold.woff') format('woff');
+//  font-weight: 700;
+//  font-style: normal;
+//}
+
+/* Icons  TODO: check this when is insert*/
+//@import '../../fonts/icons/_icons.scss';
+
+/* Default Font */
+.ivyforms,
+[class*='ivyforms'],
+.ivyforms *,
+[class*='ivyforms'] * {
+  font-family: 'Roboto', sans-serif;
+}

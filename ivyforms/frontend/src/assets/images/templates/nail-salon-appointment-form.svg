@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 975" width="400" height="975">
+  <!-- Background -->
+  <rect width="400" height="950" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Nail salon appointment booking</text>
+  <text x="30" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">form</text>
+
+  <!-- Full Name header -->
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+
+  <!-- First Name label -->
+  <text x="30" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your full name</text>
+
+  <!-- Last Name label -->
+  <text x="210" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email Address -->
+  <text x="30" y="198" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="208" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="231" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Phone Number -->
+  <text x="30" y="278" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="288" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="311" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+
+  <!-- Service Type -->
+  <text x="30" y="358" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Service type<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="368" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="391" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select service type</text>
+  <path d="M 350 388 L 355 393 L 360 388" stroke="#9ca3af" fill="none" stroke-width="2"/>
+
+  <!-- Preferred Technician -->
+  <text x="30" y="438" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred technician</text>
+  <rect x="30" y="448" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="471" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select preferred technician (optional)</text>
+  <path d="M 350 468 L 355 473 L 360 468" stroke="#9ca3af" fill="none" stroke-width="2"/>
+
+  <!-- Preferred Appointment Date -->
+  <text x="30" y="518" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred appointment date<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="528" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="551" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select preferred date</text>
+  <!-- Calendar icon -->
+  <rect x="336" y="538" width="20" height="20" rx="2" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="341" y1="536" x2="341" y2="541" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="351" y1="536" x2="351" y2="541" stroke="#9ca3af" stroke-width="1.5"/>
+
+  <!-- Preferred Time Slot -->
+  <text x="30" y="598" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred time slot<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="608" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="631" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select preferred time</text>
+  <!-- Clock icon -->
+  <circle cx="346" cy="628" r="9" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="346" y1="623" x2="346" y2="628" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="346" y1="628" x2="349" y2="631" stroke="#9ca3af" stroke-width="1.5"/>
+
+  <!-- Special Instructions / Requests -->
+  <text x="30" y="678" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Special instructions / requests</text>
+  <rect x="30" y="688" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="711" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Specify any nail designs, allergies, or</text>
+  <text x="40" y="729" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">preferences</text>
+
+  <!-- Submit Button -->
+  <rect x="30" y="805" width="340" height="44" fill="#4f46e5" rx="6"/>
+  <text x="200" y="832" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#ffffff" text-anchor="middle">Book appointment</text>
+
+  <!-- Decorative nail polish bottles -->
+  <ellipse cx="50" cy="895" rx="8" ry="12" fill="#ec4899" opacity="0.2"/>
+  <rect x="42" y="890" width="16" height="5" fill="#ec4899" opacity="0.3" rx="1"/>
+  
+  <ellipse cx="80" cy="895" rx="8" ry="12" fill="#8b5cf6" opacity="0.2"/>
+  <rect x="72" y="890" width="16" height="5" fill="#8b5cf6" opacity="0.3" rx="1"/>
+  
+  <ellipse cx="110" cy="895" rx="8" ry="12" fill="#06b6d4" opacity="0.2"/>
+  <rect x="102" y="890" width="16" height="5" fill="#06b6d4" opacity="0.3" rx="1"/>
+
+</svg>

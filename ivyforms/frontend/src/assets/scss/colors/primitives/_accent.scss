@@ -1,0 +1,443 @@
+// Raspberry
+$primitive-accent-raspberry-4: #450c1f;
+$primitive-accent-raspberry-3: #671e36;
+$primitive-accent-raspberry-2: #912b4d;
+$primitive-accent-raspberry-1: #9d3457;
+$primitive-accent-raspberry-0: #c03060;
+$primitive-accent-raspberry--1: #e4628d;
+$primitive-accent-raspberry--2: #ec8dad;
+$primitive-accent-raspberry--3: #f8cedc;
+$primitive-accent-raspberry--4: #fde3eb;
+
+// Lime
+$primitive-accent-lime-4: #213a03;
+$primitive-accent-lime-3: #365313;
+$primitive-accent-lime-2: #3f6212;
+$primitive-accent-lime-1: #4d7d0f;
+$primitive-accent-lime-0: #64a30e;
+$primitive-accent-lime--1: #85cc16;
+$primitive-accent-lime--2: #a3e636;
+$primitive-accent-lime--3: #bef164;
+$primitive-accent-lime--4: #daf99c;
+
+// Emerald
+$primitive-accent-emerald-4: #0a2e0b;
+$primitive-accent-emerald-3: #105112;
+$primitive-accent-emerald-2: #1e6720;
+$primitive-accent-emerald-1: #346a34;
+$primitive-accent-emerald-0: #347434;
+$primitive-accent-emerald--1: #55a555;
+$primitive-accent-emerald--2: #87c987;
+$primitive-accent-emerald--3: #c6ecc6;
+$primitive-accent-emerald--4: #dff6df;
+
+// Forest
+$primitive-accent-forest-4: #062d1b;
+$primitive-accent-forest-3: #0e4e30;
+$primitive-accent-forest-2: #196742;
+$primitive-accent-forest-1: #1e714a;
+$primitive-accent-forest-0: #1d7c4d;
+$primitive-accent-forest--1: #4aa578;
+$primitive-accent-forest--2: #75cc9e;
+$primitive-accent-forest--3: #c2ebd5;
+$primitive-accent-forest--4: #d8f8e7;
+
+// Topaz
+$primitive-accent-topaz-4: #063a36;
+$primitive-accent-topaz-3: #134e4a;
+$primitive-accent-topaz-2: #115d59;
+$primitive-accent-topaz-1: #0e766d;
+$primitive-accent-topaz-0: #0d9388;
+$primitive-accent-topaz--1: #15b8a7;
+$primitive-accent-topaz--2: #2dd4c0;
+$primitive-accent-topaz--3: #5fead5;
+$primitive-accent-topaz--4: #ccfbf1;
+
+// Meadow
+$primitive-accent-meadow-4: #013e2f;
+$primitive-accent-meadow-3: #064d3b;
+$primitive-accent-meadow-2: #075f47;
+$primitive-accent-meadow-1: #057857;
+$primitive-accent-meadow-0: #05976a;
+$primitive-accent-meadow--1: #10b982;
+$primitive-accent-meadow--2: #34d399;
+$primitive-accent-meadow--3: #6de7b6;
+$primitive-accent-meadow--4: #d0fae4;
+
+// Aquamarine
+$primitive-accent-aquamarine-4: #012d26;
+$primitive-accent-aquamarine-3: #0d4a42;
+$primitive-accent-aquamarine-2: #15655a;
+$primitive-accent-aquamarine-1: #1a7061;
+$primitive-accent-aquamarine-0: #097c69;
+$primitive-accent-aquamarine--1: #3da497;
+$primitive-accent-aquamarine--2: #6ec9bf;
+$primitive-accent-aquamarine--3: #bee9e4;
+$primitive-accent-aquamarine--4: #daf6f3;
+
+// Teal
+$primitive-accent-teal-4: #012a37;
+$primitive-accent-teal-3: #0a495c;
+$primitive-accent-teal-2: #196076;
+$primitive-accent-teal-1: #196c85;
+$primitive-accent-teal-0: #077597;
+$primitive-accent-teal--1: #4f9eba;
+$primitive-accent-teal--2: #7ac0dc;
+$primitive-accent-teal--3: #b8e8f5;
+$primitive-accent-teal--4: #e0f3fa;
+
+// Slate
+$primitive-accent-slate-4: #002742;
+$primitive-accent-slate-3: #0c456e;
+$primitive-accent-slate-2: #165b8d;
+$primitive-accent-slate-1: #1b679d;
+$primitive-accent-slate-0: #0870ba;
+$primitive-accent-slate--1: #5699dc;
+$primitive-accent-slate--2: #79bcf6;
+$primitive-accent-slate--3: #c2e3ff;
+$primitive-accent-slate--4: #e0f1ff;
+
+// Violet
+$primitive-accent-violet-4: #1f1264;
+$primitive-accent-violet-3: #39288a;
+$primitive-accent-violet-2: #4e38bc;
+$primitive-accent-violet-1: #573fcf;
+$primitive-accent-violet-0: #634eca;
+$primitive-accent-violet--1: #917ef1;
+$primitive-accent-violet--2: #aba2fb;
+$primitive-accent-violet--3: #dcd6ff;
+$primitive-accent-violet--4: #eeebff;
+
+// Grape
+$primitive-accent-grape-4: #2e0e4e;
+$primitive-accent-grape-3: #4c2277;
+$primitive-accent-grape-2: #662f9d;
+$primitive-accent-grape-1: #7339ac;
+$primitive-accent-grape-0: #8040bf;
+$primitive-accent-grape--1: #ad71ea;
+$primitive-accent-grape--2: #c494f4;
+$primitive-accent-grape--3: #e5d0fb;
+$primitive-accent-grape--4: #f2e5ff;
+
+// Amber
+$primitive-accent-amber-4: #793510;
+$primitive-accent-amber-3: #92400e;
+$primitive-accent-amber-2: #b5530a;
+$primitive-accent-amber-1: #d87706;
+$primitive-accent-amber-0: #f69d0b;
+$primitive-accent-amber--1: #fbbf23;
+$primitive-accent-amber--2: #fbd34d;
+$primitive-accent-amber--3: #fde689;
+$primitive-accent-amber--4: #fef3c6;
+
+// Pumpkin
+$primitive-accent-pumpkin-4: #6a1d03;
+$primitive-accent-pumpkin-3: #7d2d12;
+$primitive-accent-pumpkin-2: #9b3413;
+$primitive-accent-pumpkin-1: #c3410d;
+$primitive-accent-pumpkin-0: #ea580b;
+$primitive-accent-pumpkin--1: #fa7317;
+$primitive-accent-pumpkin--2: #fc923c;
+$primitive-accent-pumpkin--3: #fdba74;
+$primitive-accent-pumpkin--4: #ffedd5;
+
+// Maroon
+$primitive-accent-maroon-4: #450c1f;
+$primitive-accent-maroon-3: #671e36;
+$primitive-accent-maroon-2: #912b4d;
+$primitive-accent-maroon-1: #9d3457;
+$primitive-accent-maroon-0: #c03060;
+$primitive-accent-maroon--1: #e4628d;
+$primitive-accent-maroon--2: #ec8dad;
+$primitive-accent-maroon--3: #f8cedc;
+$primitive-accent-maroon--4: #fde3eb;
+
+// Aurora
+$primitive-accent-aurora-4: #4a0d0d;
+$primitive-accent-aurora-3: #6f2020;
+$primitive-accent-aurora-2: #952d2d;
+$primitive-accent-aurora-1: #a13636;
+$primitive-accent-aurora-0: #c53434;
+$primitive-accent-aurora--1: #f26464;
+$primitive-accent-aurora--2: #f49090;
+$primitive-accent-aurora--3: #fccfcf;
+$primitive-accent-aurora--4: #fee6e6;
+
+// Blue
+$primitive-accent-blue-4: #012a99;
+$primitive-accent-blue-3: #0938b9;
+$primitive-accent-blue-2: #0f45d9;
+$primitive-accent-blue-1: #1c54ee;
+$primitive-accent-blue-0: #316bff;
+$primitive-accent-blue--1: #528cfe;
+$primitive-accent-blue--2: #84b5ff;
+$primitive-accent-blue--3: #cbe3ff;
+$primitive-accent-blue--4: #f0f6ff;
+
+// Sky Blue
+$primitive-accent-sky-blue-4: #0b336f;
+$primitive-accent-sky-blue-3: #024a8d;
+$primitive-accent-sky-blue-2: #0367af;
+$primitive-accent-sky-blue-1: #0081c9;
+$primitive-accent-sky-blue-0: #0b9bec;
+$primitive-accent-sky-blue--1: #36b3fa;
+$primitive-accent-sky-blue--2: #7ccffd;
+$primitive-accent-sky-blue--3: #b9e6fe;
+$primitive-accent-sky-blue--4: #edf7ff;
+
+// Deep Denim
+$primitive-accent-deep-denim-4: #121f7a;
+$primitive-accent-deep-denim-3: #1e2f93;
+$primitive-accent-deep-denim-2: #2f46b7;
+$primitive-accent-deep-denim-1: #4561db;
+$primitive-accent-deep-denim-0: #5f81ff;
+$primitive-accent-deep-denim--1: #87a3ff;
+$primitive-accent-deep-denim--2: #9fb7ff;
+$primitive-accent-deep-denim--3: #bfd0ff;
+$primitive-accent-deep-denim--4: #eaeffe;
+
+// Magenta
+$primitive-accent-magenta-4: #410b2f;
+$primitive-accent-magenta-3: #671e4e;
+$primitive-accent-magenta-2: #892969;
+$primitive-accent-magenta-1: #953274;
+$primitive-accent-magenta-0: #b12f86;
+$primitive-accent-magenta--1: #de5eb3;
+$primitive-accent-magenta--2: #ec89cb;
+$primitive-accent-magenta--3: #f7cae8;
+$primitive-accent-magenta--4: #fde3f4;
+
+// Yellow
+$primitive-accent-yellow-4: #723f12;
+$primitive-accent-yellow-3: #854e0e;
+$primitive-accent-yellow-2: #a26208;
+$primitive-accent-yellow-1: #ca8a04;
+$primitive-accent-yellow-0: #e9b308;
+$primitive-accent-yellow--1: #facc16;
+$primitive-accent-yellow--2: #fde047;
+$primitive-accent-yellow--3: #fef18b;
+$primitive-accent-yellow--4: #fef9c2;
+
+// ============================================================================
+// WCAG COMPLIANT VARIANTS
+// ============================================================================
+
+// Raspberry WCAG
+$primitive-accent-raspberry-wcag-4: #013d6b;
+$primitive-accent-raspberry-wcag-3: #025481;
+$primitive-accent-raspberry-wcag-2: #0475a1;
+$primitive-accent-raspberry-wcag-1: #048eaf;
+$primitive-accent-raspberry-wcag-0: #05aac0;
+$primitive-accent-raspberry-wcag--1: #3dc3d2;
+$primitive-accent-raspberry-wcag--2: #80dee6;
+$primitive-accent-raspberry-wcag--3: #bcf1f4;
+$primitive-accent-raspberry-wcag--4: #e0f8fc;
+
+// Lime WCAG
+$primitive-accent-lime-wcag-4: #213a03;
+$primitive-accent-lime-wcag-3: #365313;
+$primitive-accent-lime-wcag-2: #3f6212;
+$primitive-accent-lime-wcag-1: #4d7d0f;
+$primitive-accent-lime-wcag-0: #64a30e;
+$primitive-accent-lime-wcag--1: #85cc16;
+$primitive-accent-lime-wcag--2: #a3e636;
+$primitive-accent-lime-wcag--3: #bef164;
+$primitive-accent-lime-wcag--4: #daf99c;
+
+// Emerald WCAG
+$primitive-accent-emerald-wcag-4: #0a2e0b;
+$primitive-accent-emerald-wcag-3: #105112;
+$primitive-accent-emerald-wcag-2: #1e6720;
+$primitive-accent-emerald-wcag-1: #346a34;
+$primitive-accent-emerald-wcag-0: #347434;
+$primitive-accent-emerald-wcag--1: #55a555;
+$primitive-accent-emerald-wcag--2: #87c987;
+$primitive-accent-emerald-wcag--3: #c6ecc6;
+$primitive-accent-emerald-wcag--4: #dff6df;
+
+// Forest WCAG
+$primitive-accent-forest-wcag-4: #062d1b;
+$primitive-accent-forest-wcag-3: #0e4e30;
+$primitive-accent-forest-wcag-2: #196742;
+$primitive-accent-forest-wcag-1: #1e714a;
+$primitive-accent-forest-wcag-0: #1d7c4d;
+$primitive-accent-forest-wcag--1: #4aa578;
+$primitive-accent-forest-wcag--2: #75cc9e;
+$primitive-accent-forest-wcag--3: #c2ebd5;
+$primitive-accent-forest-wcag--4: #d8f8e7;
+
+// Topaz WCAG
+$primitive-accent-topaz-wcag-4: #063a36;
+$primitive-accent-topaz-wcag-3: #134e4a;
+$primitive-accent-topaz-wcag-2: #115d59;
+$primitive-accent-topaz-wcag-1: #0e766d;
+$primitive-accent-topaz-wcag-0: #0d9388;
+$primitive-accent-topaz-wcag--1: #15b8a7;
+$primitive-accent-topaz-wcag--2: #2dd4c0;
+$primitive-accent-topaz-wcag--3: #5fead5;
+$primitive-accent-topaz-wcag--4: #ccfbf1;
+
+// Meadow WCAG
+$primitive-accent-meadow-wcag-4: #013e2f;
+$primitive-accent-meadow-wcag-3: #064d3b;
+$primitive-accent-meadow-wcag-2: #075f47;
+$primitive-accent-meadow-wcag-1: #057857;
+$primitive-accent-meadow-wcag-0: #05976a;
+$primitive-accent-meadow-wcag--1: #10b982;
+$primitive-accent-meadow-wcag--2: #34d399;
+$primitive-accent-meadow-wcag--3: #6de7b6;
+$primitive-accent-meadow-wcag--4: #d0fae4;
+
+// Aquamarine WCAG
+$primitive-accent-aquamarine-wcag-4: #012d26;
+$primitive-accent-aquamarine-wcag-3: #0d4a42;
+$primitive-accent-aquamarine-wcag-2: #15655a;
+$primitive-accent-aquamarine-wcag-1: #1a7061;
+$primitive-accent-aquamarine-wcag-0: #097c69;
+$primitive-accent-aquamarine-wcag--1: #3da497;
+$primitive-accent-aquamarine-wcag--2: #6ec9bf;
+$primitive-accent-aquamarine-wcag--3: #bee9e4;
+$primitive-accent-aquamarine-wcag--4: #daf6f3;
+
+// Teal WCAG
+$primitive-accent-teal-wcag-4: #012a37;
+$primitive-accent-teal-wcag-3: #0a495c;
+$primitive-accent-teal-wcag-2: #196076;
+$primitive-accent-teal-wcag-1: #196c85;
+$primitive-accent-teal-wcag-0: #077597;
+$primitive-accent-teal-wcag--1: #4f9eba;
+$primitive-accent-teal-wcag--2: #7ac0dc;
+$primitive-accent-teal-wcag--3: #b8e8f5;
+$primitive-accent-teal-wcag--4: #e0f3fa;
+
+// Slate WCAG
+$primitive-accent-slate-wcag-4: #002742;
+$primitive-accent-slate-wcag-3: #0c456e;
+$primitive-accent-slate-wcag-2: #165b8d;
+$primitive-accent-slate-wcag-1: #1b679d;
+$primitive-accent-slate-wcag-0: #0870ba;
+$primitive-accent-slate-wcag--1: #5699dc;
+$primitive-accent-slate-wcag--2: #79bcf6;
+$primitive-accent-slate-wcag--3: #c2e3ff;
+$primitive-accent-slate-wcag--4: #e0f1ff;
+
+// Violet WCAG
+$primitive-accent-violet-wcag-4: #1f1264;
+$primitive-accent-violet-wcag-3: #39288a;
+$primitive-accent-violet-wcag-2: #4e38bc;
+$primitive-accent-violet-wcag-1: #573fcf;
+$primitive-accent-violet-wcag-0: #634eca;
+$primitive-accent-violet-wcag--1: #917ef1;
+$primitive-accent-violet-wcag--2: #aba2fb;
+$primitive-accent-violet-wcag--3: #dcd6ff;
+$primitive-accent-violet-wcag--4: #eeebff;
+
+// Grape WCAG
+$primitive-accent-grape-wcag-4: #2e0e4e;
+$primitive-accent-grape-wcag-3: #4c2277;
+$primitive-accent-grape-wcag-2: #662f9d;
+$primitive-accent-grape-wcag-1: #7339ac;
+$primitive-accent-grape-wcag-0: #8040bf;
+$primitive-accent-grape-wcag--1: #ad71ea;
+$primitive-accent-grape-wcag--2: #c494f4;
+$primitive-accent-grape-wcag--3: #e5d0fb;
+$primitive-accent-grape-wcag--4: #f2e5ff;
+
+// Amber WCAG
+$primitive-accent-amber-wcag-4: #793510;
+$primitive-accent-amber-wcag-3: #92400e;
+$primitive-accent-amber-wcag-2: #b5530a;
+$primitive-accent-amber-wcag-1: #d87706;
+$primitive-accent-amber-wcag-0: #f69d0b;
+$primitive-accent-amber-wcag--1: #fbbf23;
+$primitive-accent-amber-wcag--2: #fbd34d;
+$primitive-accent-amber-wcag--3: #fde689;
+$primitive-accent-amber-wcag--4: #fef3c6;
+
+// Pumpkin WCAG
+$primitive-accent-pumpkin-wcag-4: #6a1d03;
+$primitive-accent-pumpkin-wcag-3: #7d2d12;
+$primitive-accent-pumpkin-wcag-2: #9b3413;
+$primitive-accent-pumpkin-wcag-1: #c3410d;
+$primitive-accent-pumpkin-wcag-0: #ea580b;
+$primitive-accent-pumpkin-wcag--1: #fa7317;
+$primitive-accent-pumpkin-wcag--2: #fc923c;
+$primitive-accent-pumpkin-wcag--3: #fdba74;
+$primitive-accent-pumpkin-wcag--4: #ffedd5;
+
+// Maroon WCAG
+$primitive-accent-maroon-wcag-4: #450c1f;
+$primitive-accent-maroon-wcag-3: #671e36;
+$primitive-accent-maroon-wcag-2: #912b4d;
+$primitive-accent-maroon-wcag-1: #9d3457;
+$primitive-accent-maroon-wcag-0: #c03060;
+$primitive-accent-maroon-wcag--1: #e4628d;
+$primitive-accent-maroon-wcag--2: #ec8dad;
+$primitive-accent-maroon-wcag--3: #f8cedc;
+$primitive-accent-maroon-wcag--4: #fde3eb;
+
+// Aurora WCAG
+$primitive-accent-aurora-wcag-4: #4a0d0d;
+$primitive-accent-aurora-wcag-3: #6f2020;
+$primitive-accent-aurora-wcag-2: #952d2d;
+$primitive-accent-aurora-wcag-1: #a13636;
+$primitive-accent-aurora-wcag-0: #c53434;
+$primitive-accent-aurora-wcag--1: #f26464;
+$primitive-accent-aurora-wcag--2: #f49090;
+$primitive-accent-aurora-wcag--3: #fccfcf;
+$primitive-accent-aurora-wcag--4: #fee6e6;
+
+// Blue WCAG
+$primitive-accent-blue-wcag-4: #012a99;
+$primitive-accent-blue-wcag-3: #0938b9;
+$primitive-accent-blue-wcag-2: #0f45d9;
+$primitive-accent-blue-wcag-1: #1c54ee;
+$primitive-accent-blue-wcag-0: #2e65f2;
+$primitive-accent-blue-wcag--1: #528cfe;
+$primitive-accent-blue-wcag--2: #84b5ff;
+$primitive-accent-blue-wcag--3: #cbe3ff;
+$primitive-accent-blue-wcag--4: #f0f6ff;
+
+// Sky Blue WCAG
+$primitive-accent-sky-blue-wcag-4: #0b336f;
+$primitive-accent-sky-blue-wcag-3: #024a8d;
+$primitive-accent-sky-blue-wcag-2: #0367af;
+$primitive-accent-sky-blue-wcag-1: #0081c9;
+$primitive-accent-sky-blue-wcag-0: #0b9bec;
+$primitive-accent-sky-blue-wcag--1: #36b3fa;
+$primitive-accent-sky-blue-wcag--2: #7ccffd;
+$primitive-accent-sky-blue-wcag--3: #b9e6fe;
+$primitive-accent-sky-blue-wcag--4: #edf7ff;
+
+// Deep Denim WCAG
+$primitive-accent-deep-denim-wcag-4: #121f7a;
+$primitive-accent-deep-denim-wcag-3: #1e2f93;
+$primitive-accent-deep-denim-wcag-2: #2f46b7;
+$primitive-accent-deep-denim-wcag-1: #4561db;
+$primitive-accent-deep-denim-wcag-0: #5f81ff;
+$primitive-accent-deep-denim-wcag--1: #87a3ff;
+$primitive-accent-deep-denim-wcag--2: #9fb7ff;
+$primitive-accent-deep-denim-wcag--3: #bfd0ff;
+$primitive-accent-deep-denim-wcag--4: #eaeffe;
+
+// Magenta WCAG
+$primitive-accent-magenta-wcag-4: #410b2f;
+$primitive-accent-magenta-wcag-3: #671e4e;
+$primitive-accent-magenta-wcag-2: #892969;
+$primitive-accent-magenta-wcag-1: #953274;
+$primitive-accent-magenta-wcag-0: #b12f86;
+$primitive-accent-magenta-wcag--1: #de5eb3;
+$primitive-accent-magenta-wcag--2: #ec89cb;
+$primitive-accent-magenta-wcag--3: #f7cae8;
+$primitive-accent-magenta-wcag--4: #fde3f4;
+
+// Yellow WCAG
+$primitive-accent-yellow-wcag-4: #723f12;
+$primitive-accent-yellow-wcag-3: #854e0e;
+$primitive-accent-yellow-wcag-2: #a26208;
+$primitive-accent-yellow-wcag-1: #ca8a04;
+$primitive-accent-yellow-wcag-0: #e9b308;
+$primitive-accent-yellow-wcag--1: #facc16;
+$primitive-accent-yellow-wcag--2: #fde047;
+$primitive-accent-yellow-wcag--3: #fef18b;
+$primitive-accent-yellow-wcag--4: #fef9c2;

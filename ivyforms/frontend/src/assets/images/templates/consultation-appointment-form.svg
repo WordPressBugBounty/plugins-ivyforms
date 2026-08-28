@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1050" width="400" height="1050">
+  <!-- Background -->
+  <rect width="400" height="1050" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Consultation appointment form</text>
+
+  <!-- Full Name header -->
+  <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+
+  <!-- First Name label -->
+  <text x="30" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your full name</text>
+
+  <!-- Last Name label -->
+  <text x="210" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email Address -->
+  <text x="30" y="173" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="183" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="206" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Phone Number -->
+  <text x="30" y="253" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="263" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="286" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+
+  <!-- Consultation Type -->
+  <text x="30" y="333" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Consultation type<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="343" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="366" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select consultation type</text>
+  <path d="M 350 363 L 355 368 L 360 363" stroke="#9ca3af" fill="none" stroke-width="2"/>
+
+  <!-- Preferred Advisor -->
+  <text x="30" y="413" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred advisor</text>
+  <rect x="30" y="423" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="446" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select preferred advisor (optional)</text>
+  <path d="M 350 443 L 355 448 L 360 443" stroke="#9ca3af" fill="none" stroke-width="2"/>
+
+  <!-- Preferred Appointment Date -->
+  <text x="30" y="493" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred appointment date<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="503" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="526" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select preferred date</text>
+  <!-- Calendar icon -->
+  <rect x="336" y="513" width="20" height="20" rx="2" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="341" y1="511" x2="341" y2="516" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="351" y1="511" x2="351" y2="516" stroke="#9ca3af" stroke-width="1.5"/>
+
+  <!-- Preferred Time Slot -->
+  <text x="30" y="573" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred time slot<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="583" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="606" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select preferred time</text>
+  <!-- Clock icon -->
+  <circle cx="346" cy="603" r="9" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="346" y1="598" x2="346" y2="603" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="346" y1="603" x2="349" y2="606" stroke="#9ca3af" stroke-width="1.5"/>
+
+  <!-- Topics / Questions to Discuss -->
+  <text x="30" y="653" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Topics / questions to discuss</text>
+  <rect x="30" y="663" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="686" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">List topics or questions you want to</text>
+  <text x="40" y="704" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">cover during the consultation</text>
+
+  <!-- Virtual Meeting? -->
+  <text x="30" y="773" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Virtual meeting?</text>
+  
+  <!-- Radio Yes -->
+  <circle cx="39" cy="790" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="55" y="796" font-family="Arial, sans-serif" font-size="14" fill="#374151">Yes</text>
+
+  <!-- Radio No -->
+  <circle cx="115" cy="790" r="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="131" y="796" font-family="Arial, sans-serif" font-size="14" fill="#374151">No</text>
+
+  <!-- Submit Button -->
+  <rect x="30" y="840" width="340" height="44" fill="#4f46e5" rx="6"/>
+  <text x="200" y="867" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#ffffff" text-anchor="middle">Book consultation</text>
+
+  <!-- Decorative business/consultation elements -->
+  <g opacity="0.12">
+    <!-- Briefcase icon -->
+    <rect x="50" y="940" width="30" height="24" rx="2" fill="none" stroke="#4f46e5" stroke-width="2"/>
+    <rect x="62" y="935" width="6" height="8" fill="#4f46e5"/>
+    <line x1="50" y1="950" x2="80" y2="950" stroke="#4f46e5" stroke-width="2"/>
+    
+    <!-- Calendar icon -->
+    <rect x="100" y="940" width="28" height="28" rx="3" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+    <line x1="100" y1="948" x2="128" y2="948" stroke="#8b5cf6" stroke-width="2"/>
+    <line x1="107" y1="936" x2="107" y2="944" stroke="#8b5cf6" stroke-width="2"/>
+    <line x1="121" y1="936" x2="121" y2="944" stroke="#8b5cf6" stroke-width="2"/>
+    
+    <!-- Handshake icon suggestion -->
+    <circle cx="160" cy="954" r="6" fill="none" stroke="#06b6d4" stroke-width="2"/>
+    <circle cx="175" cy="954" r="6" fill="none" stroke="#06b6d4" stroke-width="2"/>
+    <line x1="166" y1="954" x2="169" y2="954" stroke="#06b6d4" stroke-width="2"/>
+  </g>
+
+</svg>

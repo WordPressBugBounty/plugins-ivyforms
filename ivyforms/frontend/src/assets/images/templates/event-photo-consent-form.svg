@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1305" width="400" height="1305">
+    <!-- Background -->
+    <rect width="400" height="1300" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+    <!-- Title -->
+    <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Event photo consent</text>
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">form</text>
+
+    <!-- Participant Information header -->
+    <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Participant information</text>
+
+    <!-- Full Name label -->
+    <text x="30" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Full name<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">First name</text>
+
+    <!-- Last Name -->
+    <text x="210" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="210" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="220" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Last name</text>
+
+    <!-- Phone Number -->
+    <text x="30" y="198" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="208" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="231" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (___) ___-____</text>
+
+    <!-- Email Address -->
+    <text x="210" y="198" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="210" y="208" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="220" y="231" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">email@example.com</text>
+
+    <!-- Address (optional) -->
+    <text x="30" y="278" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Address (optional)</text>
+    <rect x="30" y="288" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="311" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Street, city, state,</text>
+    <text x="40" y="331" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Postal code, country</text>
+    <text x="40" y="351" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">(optional)</text>
+
+    <!-- Event Details header -->
+    <text x="30" y="398" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Event details</text>
+
+    <!-- Event Name -->
+    <text x="30" y="416" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Event name<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="426" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="449" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter event name</text>
+
+    <!-- Event Date -->
+    <text x="30" y="496" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Event date<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="506" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="529" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">MM/DD/YYYY</text>
+    <!-- Calendar icon -->
+    <rect x="155" y="516" width="15" height="15" fill="none" stroke="#9ca3af" stroke-width="1" rx="2"/>
+    <line x1="157" y1="516" x2="157" y2="520" stroke="#9ca3af" stroke-width="1"/>
+    <line x1="168" y1="516" x2="168" y2="520" stroke="#9ca3af" stroke-width="1"/>
+
+    <!-- Event Location -->
+    <text x="210" y="496" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Event location</text>
+    <rect x="210" y="506" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="220" y="529" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Location (optional)</text>
+
+    <!-- Consent & Permissions header -->
+    <text x="30" y="576" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Consent and permissions</text>
+
+    <!-- Photo & Video Consent -->
+    <rect x="30" y="596" width="20" height="20" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5" rx="4"/>
+    <text x="60" y="611" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#374151">Photo/video consent<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <text x="60" y="630" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Grant permission for photos/videos</text>
+
+    <!-- Usage Rights -->
+    <rect x="30" y="651" width="20" height="20" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5" rx="4"/>
+    <text x="60" y="666" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#374151">Usage rights<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <text x="60" y="685" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Approve use for marketing/promotional</text>
+
+    <!-- Modification Rights -->
+    <rect x="30" y="706" width="20" height="20" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5" rx="4"/>
+    <text x="60" y="721" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#374151">Modification rights</text>
+    <text x="60" y="740" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Allow necessary photo/video modifications</text>
+
+    <!-- Waiver & Release -->
+    <rect x="30" y="761" width="20" height="20" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5" rx="4"/>
+    <text x="60" y="776" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#374151">Waiver statement<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <text x="60" y="795" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Release all rights/claims related to images</text>
+
+    <!-- Signatures header -->
+    <text x="30" y="836" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Signatures</text>
+
+    <!-- Participant / Attendee Signature -->
+    <text x="30" y="854" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Participant signature<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="864" width="340" height="70" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="887" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Draw your signature here</text>
+    <!-- Signature icon/line -->
+    <path d="M 50 915 Q 100 905, 150 915 T 250 905 Q 290 900, 330 910" stroke="#d1d5db" fill="none" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Date of Agreement -->
+    <text x="30" y="964" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Date of agreement<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="974" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="997" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">MM/DD/YYYY</text>
+    <!-- Calendar icon -->
+    <rect x="345" y="984" width="20" height="20" fill="none" stroke="#9ca3af" stroke-width="1.5" rx="2"/>
+    <line x1="348" y1="984" x2="348" y2="989" stroke="#9ca3af" stroke-width="1.5"/>
+    <line x1="362" y1="984" x2="362" y2="989" stroke="#9ca3af" stroke-width="1.5"/>
+    <line x1="345" y1="995" x2="365" y2="995" stroke="#9ca3af" stroke-width="1.5"/>
+
+    <!-- Special Requests or Notes -->
+    <text x="30" y="1044" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Special requests or notes</text>
+    <rect x="30" y="1054" width="340" height="60" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="1077" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter any special requests or notes</text>
+    <text x="40" y="1097" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">(optional)</text>
+
+    <!-- Acknowledgment -->
+    <rect x="30" y="1134" width="20" height="20" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5" rx="4"/>
+    <text x="60" y="1149" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#374151">Questions answered</text>
+    <text x="60" y="1168" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">All my questions have been answered</text>
+
+</svg>
+

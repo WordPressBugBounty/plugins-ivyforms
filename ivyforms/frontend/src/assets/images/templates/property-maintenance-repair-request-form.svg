@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 900" width="400" height="900">
+  <rect width="400" height="900" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">Property maintenance &amp;</text>
+  <text x="30" y="60" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">repair request form</text>
+
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+  <text x="30" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter first name</text>
+  <text x="210" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter last name</text>
+
+  <text x="30" y="198" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Property address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <text x="30" y="216" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Address line 1<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="226" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="249" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter address line 1</text>
+  <text x="30" y="286" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">City<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="296" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="319" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">City</text>
+  <text x="210" y="286" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">State<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="296" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="319" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">State</text>
+
+  <text x="30" y="366" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Unit number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="376" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="399" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter unit number</text>
+
+  <text x="30" y="446" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="456" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="479" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your email address</text>
+
+  <text x="30" y="526" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Issue category<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="536" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="559" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select issue category</text>
+
+  <text x="30" y="606" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Issue description<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="616" width="340" height="60" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="639" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Describe the issue in detail</text>
+
+  <text x="30" y="706" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Entry permission<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <circle cx="42" cy="734" r="9" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="58" y="738" font-family="Arial, sans-serif" font-size="14" fill="#374151">Yes</text>
+  <circle cx="112" cy="734" r="9" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="128" y="738" font-family="Arial, sans-serif" font-size="14" fill="#374151">No</text>
+
+  <text x="30" y="778" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Photos<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="788" width="340" height="56" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="812" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Drag file here or click to upload</text>
+
+  <text x="30" y="874" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Emergency contact<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="884" width="340" height="10" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+</svg>

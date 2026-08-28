@@ -1,0 +1,329 @@
+@use '../primitives/base' as *;
+@use '../../abstracts/functions' as *;
+
+/** Light **/
+:root {
+  // Brand
+  --theme-base-brand-4: #{$primitive-base-ivy-4};
+  --theme-base-brand-3: #{$primitive-base-ivy-3};
+  --theme-base-brand-2: #{$primitive-base-ivy-2};
+  --theme-base-brand-1: #{$primitive-base-ivy-1};
+  --theme-base-brand-0: #{$primitive-base-ivy-0};
+  --theme-base-brand--1: #{$primitive-base-ivy--1};
+  --theme-base-brand--2: #{$primitive-base-ivy--2};
+  --theme-base-brand--3: #{$primitive-base-ivy--3};
+  --theme-base-brand--4: #{$primitive-base-ivy--4};
+  --theme-base-brand-o90: #{hex-to-rgba($primitive-base-ivy-0, 0.9)};
+  --theme-base-brand-o80: #{hex-to-rgba($primitive-base-ivy-0, 0.8)};
+  --theme-base-brand-o70: #{hex-to-rgba($primitive-base-ivy-0, 0.7)};
+  --theme-base-brand-o60: #{hex-to-rgba($primitive-base-ivy-0, 0.6)};
+  --theme-base-brand-o50: #{hex-to-rgba($primitive-base-ivy-0, 0.5)};
+  --theme-base-brand-o40: #{hex-to-rgba($primitive-base-ivy-0, 0.4)};
+  --theme-base-brand-o30: #{hex-to-rgba($primitive-base-ivy-0, 0.3)};
+  --theme-base-brand-o20: #{hex-to-rgba($primitive-base-ivy-0, 0.2)};
+  --theme-base-brand-o10: #{hex-to-rgba($primitive-base-ivy-0, 0.1)};
+  --theme-base-brand-o05: #{hex-to-rgba($primitive-base-ivy-0, 0.05)};
+  --theme-base-brand-o05-solid: #f4f7ff;
+
+  // Purple
+  --theme-base-purple-4: #{$primitive-base-purple-4};
+  --theme-base-purple-3: #{$primitive-base-purple-3};
+  --theme-base-purple-2: #{$primitive-base-purple-2};
+  --theme-base-purple-1: #{$primitive-base-purple-1};
+  --theme-base-purple-0: #{$primitive-base-purple-0};
+  --theme-base-purple--1: #{$primitive-base-purple--1};
+  --theme-base-purple--2: #{$primitive-base-purple--2};
+  --theme-base-purple--3: #{$primitive-base-purple--3};
+  --theme-base-purple--4: #{$primitive-base-purple--4};
+  --theme-base-purple-o90: #{hex-to-rgba($primitive-base-purple-0, 0.9)};
+  --theme-base-purple-o80: #{hex-to-rgba($primitive-base-purple-0, 0.8)};
+  --theme-base-purple-o70: #{hex-to-rgba($primitive-base-purple-0, 0.7)};
+  --theme-base-purple-o60: #{hex-to-rgba($primitive-base-purple-0, 0.6)};
+  --theme-base-purple-o50: #{hex-to-rgba($primitive-base-purple-0, 0.5)};
+  --theme-base-purple-o40: #{hex-to-rgba($primitive-base-purple-0, 0.4)};
+  --theme-base-purple-o30: #{hex-to-rgba($primitive-base-purple-0, 0.3)};
+  --theme-base-purple-o20: #{hex-to-rgba($primitive-base-purple-0, 0.2)};
+  --theme-base-purple-o10: #{hex-to-rgba($primitive-base-purple-0, 0.1)};
+  --theme-base-purple-o05: #{hex-to-rgba($primitive-base-purple-0, 0.05)};
+  --theme-base-purple-o05-solid: #f7f9fc;
+
+  // Dusk
+  --theme-base-dusk-5: #{$primitive-base-dusk-5};
+  --theme-base-dusk-4: #{$primitive-base-dusk-4};
+  --theme-base-dusk-3: #{$primitive-base-dusk-3};
+  --theme-base-dusk-2: #{$primitive-base-dusk-2};
+  --theme-base-dusk-1: #{$primitive-base-dusk-1};
+  --theme-base-dusk-0: #{$primitive-base-dusk-0};
+  --theme-base-dusk--1: #{$primitive-base-dusk--1};
+  --theme-base-dusk--2: #{$primitive-base-dusk--2};
+  --theme-base-dusk--3: #{$primitive-base-dusk--3};
+  --theme-base-dusk--4: #{$primitive-base-dusk--4};
+  --theme-base-dusk--5: #{$primitive-base-dusk--5};
+  --theme-base-dusk-o90: #{hex-to-rgba($primitive-base-dusk-0, 0.9)};
+  --theme-base-dusk-o80: #{hex-to-rgba($primitive-base-dusk-0, 0.8)};
+  --theme-base-dusk-o70: #{hex-to-rgba($primitive-base-dusk-0, 0.7)};
+  --theme-base-dusk-o60: #{hex-to-rgba($primitive-base-dusk-0, 0.6)};
+  --theme-base-dusk-o50: #{hex-to-rgba($primitive-base-dusk-0, 0.5)};
+  --theme-base-dusk-o40: #{hex-to-rgba($primitive-base-dusk-0, 0.4)};
+  --theme-base-dusk-o30: #{hex-to-rgba($primitive-base-dusk-0, 0.3)};
+  --theme-base-dusk-o20: #{hex-to-rgba($primitive-base-dusk-0, 0.2)};
+  --theme-base-dusk-o10: #{hex-to-rgba($primitive-base-dusk-0, 0.1)};
+  --theme-base-dusk-o05: #{hex-to-rgba($primitive-base-dusk-0, 0.05)};
+
+  // Text
+  --theme-base-text-0: #{$primitive-base-text-light-0};
+  --theme-base-text--1: #{$primitive-base-text-light--1};
+  --theme-base-text--2: #{$primitive-base-text-light--2};
+
+  // Text WCAG
+  --theme-base-text-wcag-0: #{$primitive-base-text-wcag-light-0};
+  --theme-base-text-wcag--1: #{$primitive-base-text-wcag-light--1};
+  --theme-base-text-wcag--2: #{$primitive-base-text-wcag-light--2};
+
+  //Brand WCAG
+  --theme-base-brand-wcag-4: #{$primitive-base-ivy-wcag-light-4};
+  --theme-base-brand-wcag-3: #{$primitive-base-ivy-wcag-light-3};
+  --theme-base-brand-wcag-2: #{$primitive-base-ivy-wcag-light-2};
+  --theme-base-brand-wcag-1: #{$primitive-base-ivy-wcag-light-1};
+  --theme-base-brand-wcag-0: #{$primitive-base-ivy-wcag-light-0};
+  --theme-base-brand-wcag--1: #{$primitive-base-ivy-wcag-light--1};
+  --theme-base-brand-wcag--2: #{$primitive-base-ivy-wcag-light--2};
+  --theme-base-brand-wcag--3: #{$primitive-base-ivy-wcag-light--3};
+  --theme-base-brand-wcag--4: #{$primitive-base-ivy-wcag-light--4};
+  --theme-base-brand-wcag-o03: #{hex-to-rgba($primitive-base-ivy-wcag-light-0, 0.03)};
+
+  // Symbol WCAG
+  --theme-base-brand-symbol-wcag-2: #{$primitive-base-symbol-ivy-wcag-light-2};
+  --theme-base-brand-symbol-wcag-1: #{$primitive-base-symbol-ivy-wcag-light-1};
+  --theme-base-brand-symbol-wcag--0: #{$primitive-base-symbol-ivy-wcag-light-0};
+  --theme-base-brand-symbol-wcag--1: #{$primitive-base-symbol-ivy-wcag-light--1};
+
+  // Dusk WCAG
+  --theme-base-dusk-wcag-o03: #{hex-to-rgba($primitive-base-dusk-0, 0.03)};
+
+  // Purple WCAG
+  --theme-base-purple-wcag-o03: #{hex-to-rgba($primitive-base-purple-0, 0.03)};
+  --theme-base-purple-wcag-o05: #{hex-to-rgba($primitive-base-purple-wcag-light-0, 0.05)};
+  --theme-base-purple-wcag-4: #{$primitive-base-purple-wcag-light-4};
+  --theme-base-purple-wcag-3: #{$primitive-base-purple-wcag-light-3};
+  --theme-base-purple-wcag-2: #{$primitive-base-purple-wcag-light-2};
+  --theme-base-purple-wcag-1: #{$primitive-base-purple-wcag-light-1};
+  --theme-base-purple-wcag-0: #{$primitive-base-purple-wcag-light-0};
+  --theme-base-purple-wcag--1: #{$primitive-base-purple-wcag-light--1};
+  --theme-base-purple-wcag--2: #{$primitive-base-purple-wcag-light--2};
+  --theme-base-purple-wcag--3: #{$primitive-base-purple-wcag-light--3};
+  --theme-base-purple-wcag--4: #{$primitive-base-purple-wcag-light--4};
+
+  // Symbol WCAG
+  --theme-base-purple-symbol-wcag-2: #{$primitive-base-symbol-purple-wcag-light-2};
+  --theme-base-purple-symbol-wcag-1: #{$primitive-base-symbol-purple-wcag-light-1};
+  --theme-base-purple-symbol-wcag-0: #{$primitive-base-symbol-purple-wcag-light-0};
+  --theme-base-purple-symbol-wcag--1: #{$primitive-base-symbol-purple-wcag-light--1};
+}
+
+/** Dark **/
+:root .ivyforms-theme-dark {
+  // Brand
+  --theme-base-brand-4: #{$primitive-base-ivy--4};
+  --theme-base-brand-3: #{$primitive-base-ivy--3};
+  --theme-base-brand-2: #{$primitive-base-ivy--2};
+  --theme-base-brand-1: #{$primitive-base-ivy--1};
+  --theme-base-brand-0: #{$primitive-base-ivy-0};
+  --theme-base-brand--1: #{$primitive-base-ivy-1};
+  --theme-base-brand--2: #{$primitive-base-ivy-2};
+  --theme-base-brand--3: #{$primitive-base-ivy-3};
+  --theme-base-brand--4: #{$primitive-base-ivy-4};
+  --theme-base-brand-o90: #{hex-to-rgba($primitive-base-ivy--1, 0.9)};
+  --theme-base-brand-o80: #{hex-to-rgba($primitive-base-ivy--1, 0.8)};
+  --theme-base-brand-o70: #{hex-to-rgba($primitive-base-ivy--1, 0.7)};
+  --theme-base-brand-o60: #{hex-to-rgba($primitive-base-ivy--1, 0.6)};
+  --theme-base-brand-o50: #{hex-to-rgba($primitive-base-ivy--1, 0.5)};
+  --theme-base-brand-o40: #{hex-to-rgba($primitive-base-ivy--1, 0.4)};
+  --theme-base-brand-o30: #{hex-to-rgba($primitive-base-ivy--1, 0.3)};
+  --theme-base-brand-o20: #{hex-to-rgba($primitive-base-ivy--1, 0.2)};
+  --theme-base-brand-o10: #{hex-to-rgba($primitive-base-ivy--1, 0.1)};
+  --theme-base-brand-o05: #{hex-to-rgba($primitive-base-ivy--1, 0.1)};
+  --theme-base-brand-o05-solid: #152431;
+
+  // Purple
+  --theme-base-purple-4: #{$primitive-base-purple--4};
+  --theme-base-purple-3: #{$primitive-base-purple--3};
+  --theme-base-purple-2: #{$primitive-base-purple--2};
+  --theme-base-purple-1: #{$primitive-base-purple--1};
+  --theme-base-purple-0: #{$primitive-base-purple-0};
+  --theme-base-purple--1: #{$primitive-base-purple-1};
+  --theme-base-purple--2: #{$primitive-base-purple-2};
+  --theme-base-purple--3: #{$primitive-base-purple-3};
+  --theme-base-purple--4: #{$primitive-base-purple-4};
+  --theme-base-purple-o90: #{hex-to-rgba($primitive-base-purple--1, 0.9)};
+  --theme-base-purple-o80: #{hex-to-rgba($primitive-base-purple--1, 0.8)};
+  --theme-base-purple-o70: #{hex-to-rgba($primitive-base-purple--1, 0.7)};
+  --theme-base-purple-o60: #{hex-to-rgba($primitive-base-purple--1, 0.6)};
+  --theme-base-purple-o50: #{hex-to-rgba($primitive-base-purple--1, 0.5)};
+  --theme-base-purple-o40: #{hex-to-rgba($primitive-base-purple--1, 0.4)};
+  --theme-base-purple-o30: #{hex-to-rgba($primitive-base-purple--1, 0.3)};
+  --theme-base-purple-o20: #{hex-to-rgba($primitive-base-purple--1, 0.2)};
+  --theme-base-purple-o10: #{hex-to-rgba($primitive-base-purple--1, 0.1)};
+  --theme-base-purple-o05: #{hex-to-rgba($primitive-base-purple--1, 0.05)};
+  --theme-base-purple-o05-solid: #1b222c;
+
+  // Dusk
+  --theme-base-dusk-5: #{$primitive-base-dusk--5};
+  --theme-base-dusk-4: #{$primitive-base-dusk--4};
+  --theme-base-dusk-3: #{$primitive-base-dusk--3};
+  --theme-base-dusk-2: #{$primitive-base-dusk--2};
+  --theme-base-dusk-1: #{$primitive-base-dusk--1};
+  --theme-base-dusk-0: #{$primitive-base-dusk-0};
+  --theme-base-dusk--1: #{$primitive-base-dusk-1};
+  --theme-base-dusk--2: #{$primitive-base-dusk-2};
+  --theme-base-dusk--3: #{$primitive-base-dusk-3};
+  --theme-base-dusk--4: #{$primitive-base-dusk-4};
+  --theme-base-dusk--5: #{$primitive-base-dusk-5};
+
+  // Text
+  --theme-base-text-0: #{$primitive-base-text-dark-0};
+  --theme-base-text--1: #{$primitive-base-text-dark--1};
+  --theme-base-text--2: #{$primitive-base-text-dark--2};
+
+  // Text WCAG - Dark theme uses regular colors (same as non-WCAG)
+  --theme-base-text-wcag-0: #{$primitive-base-text-dark-0};
+  --theme-base-text-wcag--1: #{$primitive-base-text-dark--1};
+  --theme-base-text-wcag--2: #{$primitive-base-text-dark--2};
+
+  //Brand WCAG - Dark theme
+  --theme-base-brand-wcag-4: #{$primitive-base-ivy-wcag-dark-4};
+  --theme-base-brand-wcag-3: #{$primitive-base-ivy-wcag-dark-3};
+  --theme-base-brand-wcag-2: #{$primitive-base-ivy-wcag-dark-2};
+  --theme-base-brand-wcag-1: #{$primitive-base-ivy-wcag-dark-1};
+  --theme-base-brand-wcag-0: #{$primitive-base-ivy-wcag-dark-0};
+  --theme-base-brand-wcag--1: #{$primitive-base-ivy-wcag-dark--1};
+  --theme-base-brand-wcag--2: #{$primitive-base-ivy-wcag-dark--2};
+  --theme-base-brand-wcag--3: #{$primitive-base-ivy-wcag-dark--3};
+  --theme-base-brand-wcag--4: #{$primitive-base-ivy-wcag-dark--4};
+  --theme-base-brand-wcag-o03: #{hex-to-rgba($primitive-base-ivy-wcag-dark-0, 0.03)};
+
+  // Symbol WCAG
+  --theme-base-brand-symbol-wcag-2: #{$primitive-base-symbol-ivy-wcag-dark-2};
+  --theme-base-brand-symbol-wcag-1: #{$primitive-base-symbol-ivy-wcag-dark-1};
+  --theme-base-brand-symbol-wcag--0: #{$primitive-base-symbol-ivy-wcag-dark-0};
+  --theme-base-brand-symbol-wcag--1: #{$primitive-base-symbol-ivy-wcag-dark--1};
+
+  // Dusk WCAG
+  --theme-base-dusk-wcag-o05: #{hex-to-rgba($primitive-base-dusk-0, 0.03)};
+
+  // Purple WCAG - Dark theme uses regular colors (same as non-WCAG)
+  --theme-base-purple-wcag-o05: #{hex-to-rgba($primitive-base-purple--1, 0.05)};
+  --theme-base-purple-wcag-4: #{$primitive-base-purple-wcag-dark-4};
+  --theme-base-purple-wcag-3: #{$primitive-base-purple-wcag-dark-3};
+  --theme-base-purple-wcag-2: #{$primitive-base-purple-wcag-dark-2};
+  --theme-base-purple-wcag-1: #{$primitive-base-purple-wcag-dark-1};
+  --theme-base-purple-wcag-0: #{$primitive-base-purple-wcag-dark-0};
+  --theme-base-purple-wcag--1: #{$primitive-base-purple-wcag-dark--1};
+  --theme-base-purple-wcag--2: #{$primitive-base-purple-wcag-dark--2};
+  --theme-base-purple-wcag--3: #{$primitive-base-purple-wcag-dark--3};
+  --theme-base-purple-wcag--4: #{$primitive-base-purple-wcag-dark--4};
+
+  // Symbol WCAG
+  --theme-base-purple-symbol-wcag-2: #{$primitive-base-symbol-purple-wcag-dark-2};
+  --theme-base-purple-symbol-wcag-1: #{$primitive-base-symbol-purple-wcag-dark-1};
+  --theme-base-purple-symbol-wcag-0: #{$primitive-base-symbol-purple-wcag-dark-0};
+  --theme-base-purple-symbol-wcag--1: #{$primitive-base-symbol-purple-wcag-dark--1};
+}
+
+// WCAG overrides for light theme
+:root.wcag-compliant {
+  // Brand fill WCAG overrides
+  --map-base-brand-fill-4: var(--theme-base-brand-wcag-4);
+  --map-base-brand-fill-3: var(--theme-base-brand-wcag-3);
+  --map-base-brand-fill-2: var(--theme-base-brand-wcag-2);
+  --map-base-brand-fill-1: var(--theme-base-brand-wcag-1);
+  --map-base-brand-fill-0: var(--theme-base-brand-wcag-0);
+  --map-base-brand-fill--1: var(--theme-base-brand-wcag--1);
+  --map-base-brand-fill--2: var(--theme-base-brand-wcag--2);
+  --map-base-brand-fill--3: var(--theme-base-brand-wcag--3);
+  --map-base-brand-fill--4: var(--theme-base-brand-wcag--4);
+
+  // Brand symbol WCAG overrides
+  --map-base-brand-symbol-2: var(--theme-base-brand-symbol-wcag-2);
+  --map-base-brand-symbol-1: var(--theme-base-brand-symbol-wcag-1);
+  --map-base-brand-symbol-0: var(--theme-base-brand-symbol-wcag--0);
+  --map-base-brand-symbol--1: var(--theme-base-brand-symbol-wcag--1);
+
+  // Brand alpha WCAG overrides
+  --map-base-brand-o05: var(--theme-base-brand-wcag-o03);
+
+  // Purple fill WCAG overrides
+  --map-base-purple-fill-4: var(--theme-base-purple-wcag-4);
+  --map-base-purple-fill-3: var(--theme-base-purple-wcag-3);
+  --map-base-purple-fill-2: var(--theme-base-purple-wcag-2);
+  --map-base-purple-fill-1: var(--theme-base-purple-wcag-1);
+  --map-base-purple-fill-0: var(--theme-base-purple-wcag-0);
+  --map-base-purple-fill--1: var(--theme-base-purple-wcag--1);
+  --map-base-purple-fill--2: var(--theme-base-purple-wcag--2);
+  --map-base-purple-fill--3: var(--theme-base-purple-wcag--3);
+  --map-base-purple-fill--4: var(--theme-base-purple-wcag--4);
+
+  // Purple symbol WCAG overrides
+  --map-base-purple-symbol-2: var(--theme-base-purple-symbol-wcag-2);
+  --map-base-purple-symbol-1: var(--theme-base-purple-symbol-wcag-1);
+  --map-base-purple-symbol-0: var(--theme-base-purple-symbol-wcag-0);
+  --map-base-purple-symbol--1: var(--theme-base-purple-symbol-wcag--1);
+
+  // Text WCAG overrides
+  --map-base-text-0: var(--theme-base-text-wcag-0);
+  --map-base-text--1: var(--theme-base-text-wcag--1);
+  --map-base-text--2: var(--theme-base-text-wcag--2);
+
+  // Alpha WCAG overrides
+  --map-base-purple-o05: var(--theme-base-purple-wcag-o03);
+  --map-base-dusk-o05: var(--theme-base-dusk-wcag-o03);
+}
+
+// WCAG overrides for dark theme - targeting body.ivyforms-theme-dark inside root.wcag-compliant
+:root.wcag-compliant .ivyforms-theme-dark {
+  // Brand fill WCAG overrides for dark theme
+  --map-base-brand-fill-4: var(--theme-base-brand-wcag-4);
+  --map-base-brand-fill-3: var(--theme-base-brand-wcag-3);
+  --map-base-brand-fill-2: var(--theme-base-brand-wcag-2);
+  --map-base-brand-fill-1: var(--theme-base-brand-wcag-1);
+  --map-base-brand-fill-0: var(--theme-base-brand-wcag-0);
+  --map-base-brand-fill--1: var(--theme-base-brand-wcag--1);
+  --map-base-brand-fill--2: var(--theme-base-brand-wcag--2);
+  --map-base-brand-fill--3: var(--theme-base-brand-wcag--3);
+  --map-base-brand-fill--4: var(--theme-base-brand-wcag--4);
+
+  // Brand symbol WCAG overrides for dark theme
+  --map-base-brand-symbol-2: var(--theme-base-brand-symbol-wcag-2);
+  --map-base-brand-symbol-1: var(--theme-base-brand-symbol-wcag-1);
+  --map-base-brand-symbol-0: var(--theme-base-brand-symbol-wcag--0);
+  --map-base-brand-symbol--1: var(--theme-base-brand-symbol-wcag--1);
+
+  // Brand alpha WCAG overrides for dark theme
+  --map-base-brand-o05: var(--theme-base-brand-wcag-o03);
+
+  // Purple fill WCAG overrides for dark theme
+  --map-base-purple-fill-4: var(--theme-base-purple-wcag-4);
+  --map-base-purple-fill-3: var(--theme-base-purple-wcag-3);
+  --map-base-purple-fill-2: var(--theme-base-purple-wcag-2);
+  --map-base-purple-fill-1: var(--theme-base-purple-wcag-1);
+  --map-base-purple-fill-0: var(--theme-base-purple-wcag-0);
+  --map-base-purple-fill--1: var(--theme-base-purple-wcag--1);
+  --map-base-purple-fill--2: var(--theme-base-purple-wcag--2);
+  --map-base-purple-fill--3: var(--theme-base-purple-wcag--3);
+  --map-base-purple-fill--4: var(--theme-base-purple-wcag--4);
+
+  // Purple symbol WCAG overrides for dark theme
+  --map-base-purple-symbol-2: var(--theme-base-purple-symbol-wcag-2);
+  --map-base-purple-symbol-1: var(--theme-base-purple-symbol-wcag-1);
+  --map-base-purple-symbol-0: var(--theme-base-purple-symbol-wcag-0);
+  --map-base-purple-symbol--1: var(--theme-base-purple-symbol-wcag--1);
+
+  // Text WCAG overrides for dark theme
+  --map-base-text-0: var(--theme-base-text-wcag-0);
+  --map-base-text--1: var(--theme-base-text-wcag--1);
+  --map-base-text--2: var(--theme-base-text-wcag--2);
+
+  // Alpha WCAG overrides for dark theme
+  --map-base-purple-o05: var(--theme-base-purple-wcag-o03);
+  --map-base-dusk-o05: var(--theme-base-dusk-wcag-o03);
+}

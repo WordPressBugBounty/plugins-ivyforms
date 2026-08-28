@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 900" width="400" height="900">
+  <!-- Background -->
+  <rect width="400" height="900" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Wedding cake order form</text>
+
+  <!-- Bride & Groom Names header -->
+  <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Bride &amp; groom names</text>
+
+  <!-- First Name label -->
+  <text x="30" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter couple's names</text>
+
+  <!-- Last Name label -->
+  <text x="210" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter last name(s)</text>
+
+  <!-- Email Address -->
+  <text x="30" y="173" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="183" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="206" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your email</text>
+
+  <!-- Phone Number -->
+  <text x="30" y="253" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="263" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="286" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your phone number</text>
+
+  <!-- Wedding Date -->
+  <text x="30" y="333" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Wedding date<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="343" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="366" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select wedding date</text>
+  <!-- Calendar icon -->
+  <rect x="336" y="353" width="20" height="20" rx="2" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="341" y1="351" x2="341" y2="356" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="351" y1="351" x2="351" y2="356" stroke="#9ca3af" stroke-width="1.5"/>
+
+  <!-- Number of Guests -->
+  <text x="30" y="413" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Number of guests<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="423" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="446" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">e.g., 150</text>
+
+  <!-- Cake Flavor(s) -->
+  <text x="30" y="493" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Cake flavor(s)<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="503" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="526" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select cake flavors</text>
+  <!-- replaced triangle with chevron path to match dance-class -->
+  <path d="M 350 523 L 355 528 L 360 523" stroke="#9ca3af" fill="none" stroke-width="2"/>
+
+  <!-- Number of Tiers -->
+  <text x="30" y="573" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Number of tiers<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="583" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="606" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">e.g., 3</text>
+
+  <!-- Preferred Cake Style/Theme -->
+  <text x="30" y="653" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred cake style/theme<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="663" width="340" height="50" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="686" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Describe the theme, e.g., rustic, elegant, floral...</text>
+
+  <!-- Venue Address -->
+  <text x="30" y="743" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Venue address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="753" width="340" height="50" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="776" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter venue address for delivery</text>
+
+  <!-- Additional Requests -->
+  <text x="30" y="833" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Additional requests</text>
+  <rect x="30" y="843" width="340" height="50" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="866" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Any special instructions or details</text>
+
+</svg>

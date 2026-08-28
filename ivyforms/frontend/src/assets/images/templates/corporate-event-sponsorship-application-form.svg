@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 620" width="400" height="620">
+  <rect width="400" height="615" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="30" y="28" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">Corporate event</text>
+  <text x="30" y="52" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">sponsorship application form</text>
+  <text x="30" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Company name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="100" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="125" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter company name</text>
+  <text x="30" y="160" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Owner / contact person<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <text x="30" y="178" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="188" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="211" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+  <text x="210" y="178" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="188" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="211" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+  <text x="30" y="255" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="265" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="290" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your email address</text>
+  <text x="30" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="335" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="360" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+  <text x="30" y="395" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Industry<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="405" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="430" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select industry</text>
+  <polygon points="322,416 334,416 328,426" fill="#9ca3af" />
+  <text x="30" y="465" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Sponsorship tier<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="475" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="500" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select sponsorship tier</text>
+  <polygon points="322,486 334,486 328,496" fill="#9ca3af" />
+  <text x="30" y="535" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Logo files<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="545" width="340" height="55" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" stroke-dasharray="6 4" rx="6"/>
+  <text x="200" y="577" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Drag file here or click to upload</text>
+</svg>

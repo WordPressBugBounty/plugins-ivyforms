@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 680" width="400" height="680">
+  <!-- Background -->
+  <rect width="400" height="680" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Sick leave request form</text>
+  
+  <!-- Full Name field (parent) -->
+  <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Full name</text>
+  <text x="100" y="75" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  
+  <!-- First Name subfield -->
+  <text x="30" y="95" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">First name</text>
+  <rect x="30" y="100" width="160" height="36" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="121" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Enter first name</text>
+  
+  <!-- Last Name subfield -->
+  <text x="210" y="95" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Last name</text>
+  <rect x="210" y="100" width="160" height="36" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="121" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Enter last name</text>
+  
+  <!-- Email Address Field -->
+  <text x="30" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address</text>
+  <text x="135" y="165" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="175" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="198" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+  
+  <!-- Department Dropdown -->
+  <text x="30" y="245" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Department</text>
+  <text x="113" y="245" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="255" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="278" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select department</text>
+  <path d="M350 270 l5 5 l5 -5" stroke="#9ca3af" stroke-width="1.5" fill="none"/>
+  
+  <!-- Sick Leave Start Date -->
+  <text x="30" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Sick leave start date</text>
+  <text x="180" y="325" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="335" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="358" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select start date</text>
+  <!-- Calendar Icon -->
+  <rect x="346" y="345" width="16" height="16" rx="2" fill="none" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="350" y1="347" x2="350" y2="350" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="358" y1="347" x2="358" y2="350" stroke="#9ca3af" stroke-width="1"/>
+  
+  <!-- Sick Leave End Date -->
+  <text x="30" y="405" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Sick leave end date</text>
+  <text x="175" y="405" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="415" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="438" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select end date</text>
+  <!-- Calendar Icon -->
+  <rect x="346" y="425" width="16" height="16" rx="2" fill="none" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="350" y1="427" x2="350" y2="430" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="358" y1="427" x2="358" y2="430" stroke="#9ca3af" stroke-width="1"/>
+  
+  <!-- Doctor's Note Textarea -->
+  <text x="30" y="485" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Doctor's note</text>
+  <rect x="30" y="495" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="518" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Attach or provide details if doctor's note is required</text>
+  
+  <!-- Notify Supervisor Radio -->
+  <text x="30" y="605" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Notify supervisor</text>
+  <rect x="30" y="615" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <!-- Radio buttons -->
+  <circle cx="50" cy="635" r="6" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="65" y="640" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Yes</text>
+  <circle cx="120" cy="635" r="6" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="135" y="640" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">No</text>
+</svg>

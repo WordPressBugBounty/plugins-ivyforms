@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1050" width="400" height="1050">
+  <!-- Background -->
+  <rect width="400" height="1050" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Annual leave request form</text>
+
+  <!-- Full Name field (parent) -->
+  <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Full name</text>
+  <text x="100" y="75" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  
+  <!-- First Name subfield -->
+  <text x="30" y="95" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">First name</text>
+  <rect x="30" y="100" width="160" height="36" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="121" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Enter first name</text>
+  
+  <!-- Last Name subfield -->
+  <text x="210" y="95" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Last name</text>
+  <rect x="210" y="100" width="160" height="36" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="121" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Enter last name</text>
+
+  <!-- Email Address field -->
+  <text x="30" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address</text>
+  <text x="135" y="165" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="175" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="198" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Employee ID field -->
+  <text x="30" y="245" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Employee ID</text>
+  <text x="118" y="245" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="255" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="278" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your employee ID</text>
+
+  <!-- Department field -->
+  <text x="30" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Department</text>
+  <text x="113" y="325" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="335" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="358" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select department</text>
+  <path d="M350 350 l5 5 l5 -5" stroke="#9ca3af" stroke-width="1.5" fill="none"/>
+
+  <!-- Job Title / Position field -->
+  <text x="30" y="405" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Job title / position</text>
+  <rect x="30" y="415" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="438" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your job title or position</text>
+
+  <!-- Leave Start Date field -->
+  <text x="30" y="485" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Leave start date</text>
+  <text x="145" y="485" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="495" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="518" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select start date</text>
+
+  <!-- Leave End Date field -->
+  <text x="30" y="565" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Leave end date</text>
+  <text x="138" y="565" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="575" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="598" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select end date</text>
+
+  <!-- Total Number of Days field -->
+  <text x="30" y="645" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Total number of days</text>
+  <text x="175" y="645" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="655" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="678" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter total number of days</text>
+
+  <!-- Annual Leave Balance field -->
+  <text x="30" y="725" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Annual leave balance</text>
+  <rect x="30" y="735" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="758" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter remaining leave days available</text>
+
+  <!-- Reason for Leave field -->
+  <text x="30" y="805" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Reason for leave</text>
+  <rect x="30" y="815" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="838" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Briefly describe the reason for your leave request</text>
+
+  <!-- Available to be Contacted During Leave? field -->
+  <text x="30" y="925" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Available to be contacted during leave?</text>
+  <text x="323" y="925" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="935" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <!-- Radio buttons -->
+  <circle cx="50" cy="955" r="6" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="65" y="960" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Yes</text>
+  <circle cx="120" cy="955" r="6" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="135" y="960" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">No</text>
+
+  <!-- Emergency Contact field -->
+  <text x="30" y="1005" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Emergency contact</text>
+  <rect x="30" y="1015" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="1038" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Emergency contact number during leave</text>
+
+  <!-- Supervisor Name field -->
+  <text x="30" y="1085" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Supervisor name</text>
+  <text x="150" y="1085" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="1095" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="1118" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your supervisor's name</text>
+
+  <!-- Backup / Coverage Plan field -->
+  <text x="30" y="1165" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Backup / coverage plan</text>
+  <rect x="30" y="1175" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="1198" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Describe your work coverage arrangements during absence</text>
+
+  <!-- Submit button -->
+  <rect x="30" y="1280" width="80" height="40" fill="#3b82f6" rx="6"/>
+  <text x="70" y="1303" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="white">Submit</text>
+</svg>

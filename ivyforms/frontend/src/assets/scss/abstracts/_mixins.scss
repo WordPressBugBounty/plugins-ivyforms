@@ -1,0 +1,112 @@
+@use 'sass:selector';
+@use 'variables' as *;
+
+// Transitions
+@mixin transition($property: all, $duration: 0.2s, $timing-function: ease, $delay: 0s) {
+  transition-property: $property;
+  transition-duration: $duration;
+  transition-timing-function: $timing-function;
+  transition-delay: $delay;
+}
+
+// RTL
+@mixin flipProperty($ltr-property, $rtl-property, $value) {
+  & {
+    #{$ltr-property}: $value;
+  }
+
+  [dir='rtl'] & {
+    #{$rtl-property}: $value;
+  }
+}
+
+// Theme Dark
+@mixin dark() {
+  @at-root #{selector.nest(':root .ivyforms-theme-dark ', &)} {
+    @content;
+  }
+}
+
+// Media Mixins
+@mixin mobile-only {
+  @media (max-width: #{$tabletStart - 1px}) {
+    @content;
+  }
+}
+
+// Viewports at or below $tabletStart (768px): phones and narrow tablets.
+@mixin below-tablet-start {
+  @media (max-width: $tabletStart) {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media (min-width:$tabletStart) and (max-width: #{$desktopSmallStart - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet-and-up {
+  @media (min-width: $tabletStart) {
+    @content;
+  }
+}
+
+@mixin tablet-and-down {
+  @media (max-width: #{$desktopSmallStart - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop-small {
+  @media (min-width:$desktopSmallStart) and (max-width: #{$desktopLargeStart - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop-small-and-up {
+  @media (min-width: $desktopSmallStart) {
+    @content;
+  }
+}
+
+@mixin desktop-large {
+  @media (min-width: $desktopLargeStart) {
+    @content;
+  }
+}
+
+@mixin rtl {
+  [dir='rtl'] & {
+    @content;
+  }
+}
+
+@mixin large-screen-and-down {
+  @media (max-width: $desktopLargeandDown) {
+    @content;
+  }
+}
+
+// Scrollbar
+@mixin scrollbar() {
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--map-base-brand-o40);
+    background-clip: content-box;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: var(--map-base-brand-fill-0);
+  }
+}

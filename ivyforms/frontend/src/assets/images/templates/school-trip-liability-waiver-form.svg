@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 955" width="400" height="955">
+    <!-- Background -->
+    <rect width="400" height="950" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+    <!-- Title -->
+    <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">School trip liability waiver</text>
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">form</text>
+
+    <!-- Student Full Name header -->
+    <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Student full name</text>
+
+    <!-- First Name label -->
+    <text x="30" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter first name</text>
+
+    <!-- Last Name label -->
+    <text x="210" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="210" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="220" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter last name</text>
+
+    <!-- Parent/Guardian Name header -->
+    <text x="30" y="198" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Parent/guardian name</text>
+
+    <!-- Parent First Name label -->
+    <text x="30" y="216" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="226" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="249" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter first name</text>
+
+    <!-- Parent Last Name label -->
+    <text x="210" y="216" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="210" y="226" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="220" y="249" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter last name</text>
+
+    <!-- Email Address -->
+    <text x="30" y="296" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address</text>
+    <rect x="30" y="306" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="329" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter email address</text>
+
+    <!-- Phone Number -->
+    <text x="30" y="376" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number</text>
+    <rect x="30" y="386" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="409" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter phone number</text>
+
+    <!-- Trip Type -->
+    <text x="30" y="456" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Trip type<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="466" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="489" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Day trip, overnight trip, field trip</text>
+    <path d="M 350 486 L 355 491 L 360 486" stroke="#9ca3af" fill="none" stroke-width="2"/>
+
+    <!-- Medical / Allergy Notes -->
+    <text x="30" y="536" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Medical / allergy notes</text>
+    <rect x="30" y="546" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="569" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">List any medical conditions, allergies, or</text>
+    <text x="40" y="589" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">medications the student requires</text>
+    <text x="40" y="609" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">(optional)</text>
+
+    <!-- Acknowledgment of Risks -->
+    <text x="30" y="656" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Acknowledgment of risks<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="666" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="689" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">I acknowledge that i understand and accept</text>
+    <text x="40" y="709" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">the risks associated with this school trip</text>
+    <text x="40" y="729" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">and release liability</text>
+
+    <!-- Trip Date -->
+    <text x="30" y="776" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Trip date<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="786" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="809" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select trip date</text>
+    <!-- Calendar icon -->
+    <rect x="345" y="796" width="20" height="20" fill="none" stroke="#9ca3af" stroke-width="1.5" rx="2"/>
+    <line x1="348" y1="796" x2="348" y2="801" stroke="#9ca3af" stroke-width="1.5"/>
+    <line x1="362" y1="796" x2="362" y2="801" stroke="#9ca3af" stroke-width="1.5"/>
+    <line x1="345" y1="803" x2="365" y2="803" stroke="#9ca3af" stroke-width="1.5"/>
+
+    <!-- Parent / Guardian Signature -->
+    <text x="30" y="856" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Parent / guardian signature<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="866" width="340" height="100" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="889" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Draw your signature here</text>
+    <!-- Signature icon/line -->
+    <path d="M 50 918 Q 100 908, 150 918 T 250 908 Q 290 903, 330 913" stroke="#d1d5db" fill="none" stroke-width="2" stroke-linecap="round"/>
+
+</svg>

@@ -1,0 +1,33 @@
+@use '../primitives/ground' as *;
+@use '../primitives/base' as *;
+@use '../../abstracts/functions' as *;
+
+/** Light **/
+:root {
+  --theme-divider: #{$primitive-divider-light};
+  --theme-hover: #{$primitive-hover-light};
+  --theme-overlay: #{$primitive-overlay}; // overlay
+  --theme-skeleton: #{hex-to-rgba($primitive-base-dusk-0, 0.1)};
+  --theme-skeleton-to: #{hex-to-rgba($primitive-base-dusk-0, 0.15)};
+  --theme-bottom-sheet: #{$primitive-ground-light--1};
+  --theme-ground-level-3: #{$primitive-ground-light-3};
+  --theme-ground-level-2-foreground: #{$primitive-ground-light-2};
+  --theme-ground-level-2-background: #{$primitive-ground-light-1};
+  --theme-ground-level-1-foreground: #{$primitive-ground-light-0};
+  --theme-ground-level-1-background: #{$primitive-ground-light--1};
+}
+
+/** Dark **/
+:root .ivyforms-theme-dark {
+  --theme-divider: #{$primitive-divider-dark};
+  --theme-hover: #{$primitive-hover-dark};
+  --theme-overlay: #{$primitive-overlay}; // overlay;
+  --theme-skeleton: #{hex-to-rgba($primitive-base-dusk-0, 0.1)};
+  --theme-skeleton-to: #{hex-to-rgba($primitive-base-dusk-0, 0.15)};
+  --theme-bottom-sheet: #{$primitive-ground-dark-1};
+  --theme-ground-level-3: #{$primitive-ground-dark-3};
+  --theme-ground-level-2-foreground: #{$primitive-ground-dark-2};
+  --theme-ground-level-2-background: #{$primitive-ground-dark-1};
+  --theme-ground-level-1-foreground: #{$primitive-ground-dark-0};
+  --theme-ground-level-1-background: #{$primitive-ground-dark--1};
+}

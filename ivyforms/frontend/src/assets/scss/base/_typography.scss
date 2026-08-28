@@ -1,0 +1,176 @@
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+@mixin text-style($font-size, $line-height, $font-weight: $font-weight-regular) {
+  font-size: #{$font-size}px;
+  line-height: #{$line-height}px;
+  font-weight: $font-weight;
+  // TODO check with Elina about this
+  //color: var(--map-base-text-0);
+}
+
+/* Primary body text */
+.text-primary {
+  color: var(--map-base-text-0) !important;
+}
+
+/* Secondary */
+.text-secondary {
+  color: var(--map-base-text--1) !important;
+}
+
+/* Muted */
+.text-muted {
+  color: var(--map-base-text--2) !important;
+}
+
+/* Danger */
+.text-danger {
+  color: var(--map-status-error-symbol-0) !important;
+}
+
+/* Link */
+.text-link {
+  color: var(--map-base-brand-symbol-0) !important;
+  text-decoration: none;
+  box-shadow: none !important;
+  outline: none !important;
+
+  // Hover
+  &:hover {
+    color: var(--map-base-brand-symbol-0) !important;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+/* Text Align */
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.ivyforms-whitespace-nowrap {
+  white-space: nowrap;
+}
+
+/* Three Dots */
+.ivyforms-text-cut {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Word Break */
+.ivyforms-word-break {
+  word-break: break-word;
+}
+
+/* Regular */
+.regular-68 {
+  @include text-style(68, 76, $font-weight-regular);
+}
+.regular-42 {
+  @include text-style(42, 52, $font-weight-regular);
+}
+.regular-32 {
+  @include text-style(32, 40, $font-weight-regular);
+}
+.regular-28 {
+  @include text-style(28, 36, $font-weight-regular);
+}
+.regular-24 {
+  @include text-style(24, 32, $font-weight-regular);
+}
+.regular-20 {
+  @include text-style(20, 28, $font-weight-regular);
+}
+.regular-18 {
+  @include text-style(18, 24, $font-weight-regular);
+}
+.regular-16 {
+  @include text-style(16, 22, $font-weight-regular);
+}
+.regular-14 {
+  @include text-style(14, 20, $font-weight-regular);
+}
+.regular-12 {
+  @include text-style(12, 16, $font-weight-regular);
+}
+.regular-10 {
+  @include text-style(10, 14, $font-weight-regular);
+}
+
+/* Medium */
+.medium-68 {
+  @include text-style(68, 76, $font-weight-medium);
+}
+.medium-42 {
+  @include text-style(42, 52, $font-weight-medium);
+}
+.medium-32 {
+  @include text-style(32, 40, $font-weight-medium);
+}
+.medium-28 {
+  @include text-style(28, 36, $font-weight-medium);
+}
+.medium-24 {
+  @include text-style(24, 32, $font-weight-medium);
+}
+.medium-20 {
+  @include text-style(20, 28, $font-weight-medium);
+}
+.medium-18 {
+  @include text-style(18, 24, $font-weight-medium);
+}
+.medium-16 {
+  @include text-style(16, 22, $font-weight-medium);
+}
+.medium-14 {
+  @include text-style(14, 20, $font-weight-medium);
+}
+.medium-12 {
+  @include text-style(12, 16, $font-weight-medium);
+}
+.medium-10 {
+  @include text-style(10, 14, $font-weight-medium);
+}
+
+/* Bold */
+.bold-68 {
+  @include text-style(68, 76, $font-weight-bold);
+}
+.bold-42 {
+  @include text-style(42, 52, $font-weight-bold);
+}
+.bold-32 {
+  @include text-style(32, 40, $font-weight-bold);
+}
+.bold-28 {
+  @include text-style(28, 36, $font-weight-bold);
+}
+.bold-24 {
+  @include text-style(24, 32, $font-weight-bold);
+}
+.bold-20 {
+  @include text-style(20, 28, $font-weight-bold);
+}
+.bold-18 {
+  @include text-style(18, 24, $font-weight-bold);
+}
+.bold-16 {
+  @include text-style(16, 22, $font-weight-bold);
+}
+.bold-14 {
+  @include text-style(14, 20, $font-weight-bold);
+}
+.bold-12 {
+  @include text-style(12, 16, $font-weight-bold);
+}
+.bold-10 {
+  @include text-style(10, 14, $font-weight-bold);
+}

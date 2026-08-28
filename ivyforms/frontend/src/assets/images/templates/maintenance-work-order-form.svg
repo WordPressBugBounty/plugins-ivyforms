@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 900" width="400" height="900">
+  <!-- Background -->
+  <rect width="400" height="900" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Maintenance work order form</text>
+
+  <!-- Full Name field (parent) -->
+  <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Full name</text>
+  <text x="100" y="75" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  
+  <!-- First Name subfield -->
+  <text x="30" y="95" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">First name</text>
+  <rect x="30" y="100" width="160" height="36" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="121" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Enter first name</text>
+  
+  <!-- Last Name subfield -->
+  <text x="210" y="95" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Last name</text>
+  <rect x="210" y="100" width="160" height="36" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="121" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Enter last name</text>
+
+  <!-- Email Address field -->
+  <text x="30" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address</text>
+  <text x="135" y="165" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="175" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="198" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Phone Number field -->
+  <text x="30" y="245" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number</text>
+  <rect x="30" y="255" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="278" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+
+  <!-- Building / Department / Room field -->
+  <text x="30" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Building / department / room</text>
+  <text x="248" y="325" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="335" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="358" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter building, department or room</text>
+
+  <!-- Address / Site Location field -->
+  <text x="30" y="405" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Address / site location</text>
+  <rect x="30" y="415" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="438" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter address or site location (optional)</text>
+
+  <!-- Type of Maintenance / Issue field -->
+  <text x="30" y="485" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Type of maintenance / issue</text>
+  <text x="223" y="485" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="495" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="518" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select type of maintenance</text>
+  <path d="M360 512 l-5 -5 l5 -5" stroke="#9ca3af" stroke-width="1.5" fill="none"/>
+
+  <!-- Description of Problem field -->
+  <text x="30" y="565" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Description of problem</text>
+  <text x="197" y="565" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="575" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="598" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Describe the maintenance issue in detail</text>
+
+  <!-- Urgency / Priority field -->
+  <text x="30" y="685" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Urgency / priority</text>
+  <rect x="30" y="695" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="718" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select urgency level</text>
+  <path d="M360 712 l-5 -5 l5 -5" stroke="#9ca3af" stroke-width="1.5" fill="none"/>
+
+  <!-- Preferred Date / Time field -->
+  <text x="30" y="765" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred date / time</text>
+  <rect x="30" y="775" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="798" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select preferred date and time (optional)</text>
+
+  <!-- Submit button -->
+  <rect x="30" y="840" width="80" height="40" fill="#3b82f6" rx="6"/>
+  <text x="70" y="863" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="white">Submit</text>
+</svg>

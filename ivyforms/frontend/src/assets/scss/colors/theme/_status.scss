@@ -1,0 +1,396 @@
+@use '../../abstracts/functions' as *;
+@use '../primitives/base' as *;
+@use '../primitives/status' as *;
+
+/** Light **/
+:root {
+  // Success
+  --theme-status-success-4: #{$primitive-base-ivy-4};
+  --theme-status-success-3: #{$primitive-base-ivy-3};
+  --theme-status-success-2: #{$primitive-base-ivy-2};
+  --theme-status-success-1: #{$primitive-base-ivy-1};
+  --theme-status-success-0: #{$primitive-base-ivy-0};
+  --theme-status-success--1: #{$primitive-base-ivy--1};
+  --theme-status-success--2: #{$primitive-base-ivy--2};
+  --theme-status-success--3: #{$primitive-base-ivy--3};
+  --theme-status-success--4: #{$primitive-base-ivy--4};
+  --theme-status-success-o90: #{hex-to-rgba($primitive-base-ivy-0, 0.9)};
+  --theme-status-success-o80: #{hex-to-rgba($primitive-base-ivy-0, 0.8)};
+  --theme-status-success-o70: #{hex-to-rgba($primitive-base-ivy-0, 0.7)};
+  --theme-status-success-o60: #{hex-to-rgba($primitive-base-ivy-0, 0.6)};
+  --theme-status-success-o50: #{hex-to-rgba($primitive-base-ivy-0, 0.5)};
+  --theme-status-success-o40: #{hex-to-rgba($primitive-base-ivy-0, 0.4)};
+  --theme-status-success-o30: #{hex-to-rgba($primitive-base-ivy-0, 0.3)};
+  --theme-status-success-o20: #{hex-to-rgba($primitive-base-ivy-0, 0.2)};
+  --theme-status-success-o10: #{hex-to-rgba($primitive-base-ivy-0, 0.1)};
+  --theme-status-success-o05: #{hex-to-rgba($primitive-base-ivy-0, 0.05)};
+
+  // Warning
+  --theme-status-warning-4: #{$primitive-status-warning-4};
+  --theme-status-warning-3: #{$primitive-status-warning-3};
+  --theme-status-warning-2: #{$primitive-status-warning-2};
+  --theme-status-warning-1: #{$primitive-status-warning-1};
+  --theme-status-warning-0: #{$primitive-status-warning-0};
+  --theme-status-warning--1: #{$primitive-status-warning--1};
+  --theme-status-warning--2: #{$primitive-status-warning--2};
+  --theme-status-warning--3: #{$primitive-status-warning--3};
+  --theme-status-warning--4: #{$primitive-status-warning--4};
+  --theme-status-warning-o90: #{hex-to-rgba($primitive-status-warning-0, 0.9)};
+  --theme-status-warning-o80: #{hex-to-rgba($primitive-status-warning-0, 0.8)};
+  --theme-status-warning-o70: #{hex-to-rgba($primitive-status-warning-0, 0.7)};
+  --theme-status-warning-o60: #{hex-to-rgba($primitive-status-warning-0, 0.6)};
+  --theme-status-warning-o50: #{hex-to-rgba($primitive-status-warning-0, 0.5)};
+  --theme-status-warning-o40: #{hex-to-rgba($primitive-status-warning-0, 0.4)};
+  --theme-status-warning-o30: #{hex-to-rgba($primitive-status-warning-0, 0.3)};
+  --theme-status-warning-o20: #{hex-to-rgba($primitive-status-warning-0, 0.2)};
+  --theme-status-warning-o10: #{hex-to-rgba($primitive-status-warning-0, 0.1)};
+  --theme-status-warning-o5: #{hex-to-rgba($primitive-status-warning-0, 0.05)};
+
+  // Error
+  --theme-status-error-4: #{$primitive-status-danger-4};
+  --theme-status-error-3: #{$primitive-status-danger-3};
+  --theme-status-error-2: #{$primitive-status-danger-2};
+  --theme-status-error-1: #{$primitive-status-danger-1};
+  --theme-status-error-0: #{$primitive-status-danger-0};
+  --theme-status-error--1: #{$primitive-status-danger--1};
+  --theme-status-error--2: #{$primitive-status-danger--2};
+  --theme-status-error--3: #{$primitive-status-danger--3};
+  --theme-status-error--4: #{$primitive-status-danger--4};
+  --theme-status-error-o90: #{hex-to-rgba($primitive-status-danger-0, 0.9)};
+  --theme-status-error-o80: #{hex-to-rgba($primitive-status-danger-0, 0.8)};
+  --theme-status-error-o70: #{hex-to-rgba($primitive-status-danger-0, 0.7)};
+  --theme-status-error-o60: #{hex-to-rgba($primitive-status-danger-0, 0.6)};
+  --theme-status-error-o50: #{hex-to-rgba($primitive-status-danger-0, 0.5)};
+  --theme-status-error-o40: #{hex-to-rgba($primitive-status-danger-0, 0.4)};
+  --theme-status-error-o30: #{hex-to-rgba($primitive-status-danger-0, 0.3)};
+  --theme-status-error-o20: #{hex-to-rgba($primitive-status-danger-0, 0.2)};
+  --theme-status-error-o10: #{hex-to-rgba($primitive-status-danger-0, 0.1)};
+  --theme-status-error-o05: #{hex-to-rgba($primitive-status-danger-0, 0.05)};
+}
+
+/** Light WCAG **/
+:root.wcag-compliant {
+  // Success WCAG
+  --theme-status-success-wcag-4: #{$primitive-status-success-wcag-light-4};
+  --theme-status-success-wcag-3: #{$primitive-status-success-wcag-light-3};
+  --theme-status-success-wcag-2: #{$primitive-status-success-wcag-light-2};
+  --theme-status-success-wcag-1: #{$primitive-status-success-wcag-light-1};
+  --theme-status-success-wcag-0: #{$primitive-status-success-wcag-light-0};
+  --theme-status-success-wcag--1: #{$primitive-status-success-wcag-light--1};
+  --theme-status-success-wcag--2: #{$primitive-status-success-wcag-light--2};
+  --theme-status-success-wcag--3: #{$primitive-status-success-wcag-light--3};
+  --theme-status-success-wcag--4: #{$primitive-status-success-wcag-light--4};
+
+  // Warning WCAG
+  --theme-status-warning-wcag-4: #{$primitive-status-warning-wcag-light-4};
+  --theme-status-warning-wcag-3: #{$primitive-status-warning-wcag-light-3};
+  --theme-status-warning-wcag-2: #{$primitive-status-warning-wcag-light-2};
+  --theme-status-warning-wcag-1: #{$primitive-status-warning-wcag-light-1};
+  --theme-status-warning-wcag-0: #{$primitive-status-warning-wcag-light-0};
+  --theme-status-warning-wcag--1: #{$primitive-status-warning-wcag-light--1};
+  --theme-status-warning-wcag--2: #{$primitive-status-warning-wcag-light--2};
+  --theme-status-warning-wcag--3: #{$primitive-status-warning-wcag-light--3};
+  --theme-status-warning-wcag--4: #{$primitive-status-warning-wcag-light--4};
+
+  // Error WCAG
+  --theme-status-error-wcag-4: #{$primitive-status-danger-wcag-light-4};
+  --theme-status-error-wcag-3: #{$primitive-status-danger-wcag-light-3};
+  --theme-status-error-wcag-2: #{$primitive-status-danger-wcag-light-2};
+  --theme-status-error-wcag-1: #{$primitive-status-danger-wcag-light-1};
+  --theme-status-error-wcag-0: #{$primitive-status-danger-wcag-light-0};
+  --theme-status-error-wcag--1: #{$primitive-status-danger-wcag-light--1};
+  --theme-status-error-wcag--2: #{$primitive-status-danger-wcag-light--2};
+  --theme-status-error-wcag--3: #{$primitive-status-danger-wcag-light--3};
+  --theme-status-error-wcag--4: #{$primitive-status-danger-wcag-light--4};
+}
+
+/** Dark **/
+:root .ivyforms-theme-dark {
+  // Success
+  --theme-status-success-4: #{$primitive-base-ivy--4};
+  --theme-status-success-3: #{$primitive-base-ivy--3};
+  --theme-status-success-2: #{$primitive-base-ivy--2};
+  --theme-status-success-1: #{$primitive-base-ivy--1};
+  --theme-status-success-0: #{$primitive-base-ivy-0};
+  --theme-status-success--1: #{$primitive-base-ivy-1};
+  --theme-status-success--2: #{$primitive-base-ivy-2};
+  --theme-status-success--3: #{$primitive-base-ivy-3};
+  --theme-status-success--4: #{$primitive-base-ivy-4};
+  --theme-status-success-o90: #{hex-to-rgba($primitive-base-ivy--1, 0.9)};
+  --theme-status-success-o80: #{hex-to-rgba($primitive-base-ivy--1, 0.8)};
+  --theme-status-success-o70: #{hex-to-rgba($primitive-base-ivy--1, 0.7)};
+  --theme-status-success-o60: #{hex-to-rgba($primitive-base-ivy--1, 0.6)};
+  --theme-status-success-o50: #{hex-to-rgba($primitive-base-ivy--1, 0.5)};
+  --theme-status-success-o40: #{hex-to-rgba($primitive-base-ivy--1, 0.4)};
+  --theme-status-success-o30: #{hex-to-rgba($primitive-base-ivy--1, 0.3)};
+  --theme-status-success-o20: #{hex-to-rgba($primitive-base-ivy--1, 0.2)};
+  --theme-status-success-o10: #{hex-to-rgba($primitive-base-ivy--1, 0.1)};
+  --theme-status-success-o05: #{hex-to-rgba($primitive-base-ivy--1, 0.05)};
+
+  // Warning
+  --theme-status-warning-4: #{$primitive-status-warning--4};
+  --theme-status-warning-3: #{$primitive-status-warning--3};
+  --theme-status-warning-2: #{$primitive-status-warning--2};
+  --theme-status-warning-1: #{$primitive-status-warning--1};
+  --theme-status-warning-0: #{$primitive-status-warning-0};
+  --theme-status-warning--1: #{$primitive-status-warning-1};
+  --theme-status-warning--2: #{$primitive-status-warning-2};
+  --theme-status-warning--3: #{$primitive-status-warning--3};
+  --theme-status-warning--4: #{$primitive-status-warning--4};
+  --theme-status-warning-o90: #{hex-to-rgba($primitive-status-warning--1, 0.9)};
+  --theme-status-warning-o80: #{hex-to-rgba($primitive-status-warning--1, 0.8)};
+  --theme-status-warning-o70: #{hex-to-rgba($primitive-status-warning--1, 0.7)};
+  --theme-status-warning-o60: #{hex-to-rgba($primitive-status-warning--1, 0.6)};
+  --theme-status-warning-o50: #{hex-to-rgba($primitive-status-warning--1, 0.5)};
+  --theme-status-warning-o40: #{hex-to-rgba($primitive-status-warning--1, 0.4)};
+  --theme-status-warning-o30: #{hex-to-rgba($primitive-status-warning--1, 0.3)};
+  --theme-status-warning-o20: #{hex-to-rgba($primitive-status-warning--1, 0.2)};
+  --theme-status-warning-o10: #{hex-to-rgba($primitive-status-warning--1, 0.1)};
+  --theme-status-warning-o5: #{hex-to-rgba($primitive-status-warning--1, 0.05)};
+
+  // Error
+  --theme-status-error-4: #{$primitive-status-danger--4};
+  --theme-status-error-3: #{$primitive-status-danger--3};
+  --theme-status-error-2: #{$primitive-status-danger--2};
+  --theme-status-error-1: #{$primitive-status-danger--1};
+  --theme-status-error-0: #{$primitive-status-danger-0};
+  --theme-status-error--1: #{$primitive-status-danger-1};
+  --theme-status-error--2: #{$primitive-status-danger--2};
+  --theme-status-error--3: #{$primitive-status-danger--3};
+  --theme-status-error--4: #{$primitive-status-danger--4};
+  --theme-status-error-o90: #{hex-to-rgba($primitive-status-danger--1, 0.9)};
+  --theme-status-error-o80: #{hex-to-rgba($primitive-status-danger--1, 0.8)};
+  --theme-status-error-o70: #{hex-to-rgba($primitive-status-danger--1, 0.7)};
+  --theme-status-error-o60: #{hex-to-rgba($primitive-status-danger--1, 0.6)};
+  --theme-status-error-o50: #{hex-to-rgba($primitive-status-danger--1, 0.5)};
+  --theme-status-error-o40: #{hex-to-rgba($primitive-status-danger--1, 0.4)};
+  --theme-status-error-o30: #{hex-to-rgba($primitive-status-danger--1, 0.3)};
+  --theme-status-error-o20: #{hex-to-rgba($primitive-status-danger--1, 0.2)};
+  --theme-status-error-o10: #{hex-to-rgba($primitive-status-danger--1, 0.1)};
+  --theme-status-error-o5: #{hex-to-rgba($primitive-status-danger--1, 0.05)};
+}
+
+/** Dark WCAG **/
+:root.wcag-compliant .ivyforms-theme-dark {
+  // Success - override standard variables with WCAG values
+  --theme-status-success-4: #{$primitive-status-success-wcag-dark-4};
+  --theme-status-success-3: #{$primitive-status-success-wcag-dark-3};
+  --theme-status-success-2: #{$primitive-status-success-wcag-dark-2};
+  --theme-status-success-1: #{$primitive-status-success-wcag-dark-1};
+  --theme-status-success-0: #{$primitive-status-success-wcag-dark-0};
+  --theme-status-success--1: #{$primitive-status-success-wcag-dark--1};
+  --theme-status-success--2: #{$primitive-status-success-wcag-dark--2};
+  --theme-status-success--3: #{$primitive-status-success-wcag-dark--3};
+  --theme-status-success--4: #{$primitive-status-success-wcag-dark--4};
+
+  // Warning - override standard variables with WCAG values
+  --theme-status-warning-4: #{$primitive-status-warning-wcag-dark-4};
+  --theme-status-warning-3: #{$primitive-status-warning-wcag-dark-3};
+  --theme-status-warning-2: #{$primitive-status-warning-wcag-dark-2};
+  --theme-status-warning-1: #{$primitive-status-warning-wcag-dark-1};
+  --theme-status-warning-0: #{$primitive-status-warning-wcag-dark-0};
+  --theme-status-warning--1: #{$primitive-status-warning-wcag-dark--1};
+  --theme-status-warning--2: #{$primitive-status-warning-wcag-dark--2};
+  --theme-status-warning--3: #{$primitive-status-warning-wcag-dark--3};
+  --theme-status-warning--4: #{$primitive-status-warning-wcag-dark--4};
+
+  // Error - override standard variables with WCAG values
+  --theme-status-error-4: #{$primitive-status-danger-wcag-dark-4};
+  --theme-status-error-3: #{$primitive-status-danger-wcag-dark-3};
+  --theme-status-error-2: #{$primitive-status-danger-wcag-dark-2};
+  --theme-status-error-1: #{$primitive-status-danger-wcag-dark-1};
+  --theme-status-error-0: #{$primitive-status-danger-wcag-dark-0};
+  --theme-status-error--1: #{$primitive-status-danger-wcag-dark--1};
+  --theme-status-error--2: #{$primitive-status-danger-wcag-dark--2};
+  --theme-status-error--3: #{$primitive-status-danger-wcag-dark--3};
+  --theme-status-error--4: #{$primitive-status-danger-wcag-dark--4};
+
+  // Success WCAG
+  --theme-status-success-wcag-4: #{$primitive-status-success-wcag-dark-4};
+  --theme-status-success-wcag-3: #{$primitive-status-success-wcag-dark-3};
+  --theme-status-success-wcag-2: #{$primitive-status-success-wcag-dark-2};
+  --theme-status-success-wcag-1: #{$primitive-status-success-wcag-dark-1};
+  --theme-status-success-wcag-0: #{$primitive-status-success-wcag-dark-0};
+  --theme-status-success-wcag--1: #{$primitive-status-success-wcag-dark--1};
+  --theme-status-success-wcag--2: #{$primitive-status-success-wcag-dark--2};
+  --theme-status-success-wcag--3: #{$primitive-status-success-wcag-dark--3};
+  --theme-status-success-wcag--4: #{$primitive-status-success-wcag-dark--4};
+
+  // Warning WCAG
+  --theme-status-warning-wcag-4: #{$primitive-status-warning-wcag-dark-4};
+  --theme-status-warning-wcag-3: #{$primitive-status-warning-wcag-dark-3};
+  --theme-status-warning-wcag-2: #{$primitive-status-warning-wcag-dark-2};
+  --theme-status-warning-wcag-1: #{$primitive-status-warning-wcag-dark-1};
+  --theme-status-warning-wcag-0: #{$primitive-status-warning-wcag-dark-0};
+  --theme-status-warning-wcag--1: #{$primitive-status-warning-wcag-dark--1};
+  --theme-status-warning-wcag--2: #{$primitive-status-warning-wcag-dark--2};
+  --theme-status-warning-wcag--3: #{$primitive-status-warning-wcag-dark--3};
+  --theme-status-warning-wcag--4: #{$primitive-status-warning-wcag-dark--4};
+
+  // Error WCAG
+  --theme-status-error-wcag-4: #{$primitive-status-danger-wcag-dark-4};
+  --theme-status-error-wcag-3: #{$primitive-status-danger-wcag-dark-3};
+  --theme-status-error-wcag-2: #{$primitive-status-danger-wcag-dark-2};
+  --theme-status-error-wcag-1: #{$primitive-status-danger-wcag-dark-1};
+  --theme-status-error-wcag-0: #{$primitive-status-danger-wcag-dark-0};
+  --theme-status-error-wcag--1: #{$primitive-status-danger-wcag-dark--1};
+  --theme-status-error-wcag--2: #{$primitive-status-danger-wcag-dark--2};
+  --theme-status-error-wcag--3: #{$primitive-status-danger-wcag-dark--3};
+  --theme-status-error-wcag--4: #{$primitive-status-danger-wcag-dark--4};
+}
+
+// WCAG overrides for light theme - override MAP variables
+:root.wcag-compliant {
+  // Success fill WCAG overrides
+  --map-status-success-fill-4: var(--theme-status-success-wcag-4);
+  --map-status-success-fill-3: var(--theme-status-success-wcag-3);
+  --map-status-success-fill-2: var(--theme-status-success-wcag-2);
+  --map-status-success-fill-1: var(--theme-status-success-wcag-1);
+  --map-status-success-fill-0: var(--theme-status-success-wcag-0);
+  --map-status-success-fill--1: var(--theme-status-success-wcag--1);
+  --map-status-success-fill--2: var(--theme-status-success-wcag--2);
+  --map-status-success-fill--3: var(--theme-status-success-wcag--3);
+  --map-status-success-fill--4: var(--theme-status-success-wcag--4);
+
+  // Success stroke WCAG overrides
+  --map-status-success-stroke-2: var(--theme-status-success-wcag-2);
+  --map-status-success-stroke-1: var(--theme-status-success-wcag-1);
+  --map-status-success-stroke-0: var(--theme-status-success-wcag-0);
+  --map-status-success-stroke--1: var(--theme-status-success-wcag--1);
+  --map-status-success-stroke--2: var(--theme-status-success-wcag--2);
+
+  // Success symbol WCAG overrides
+  --map-status-success-symbol-2: var(--theme-status-success-wcag-2);
+  --map-status-success-symbol-1: var(--theme-status-success-wcag-1);
+  --map-status-success-symbol-0: var(--theme-status-success-wcag-0);
+  --map-status-success-symbol--1: var(--theme-status-success-wcag--1);
+  --map-status-success-symbol--2: var(--theme-status-success-wcag--2);
+
+  // Warning fill WCAG overrides
+  --map-status-warning-fill-4: var(--theme-status-warning-wcag-4);
+  --map-status-warning-fill-3: var(--theme-status-warning-wcag-3);
+  --map-status-warning-fill-2: var(--theme-status-warning-wcag-2);
+  --map-status-warning-fill-1: var(--theme-status-warning-wcag-1);
+  --map-status-warning-fill-0: var(--theme-status-warning-wcag-0);
+  --map-status-warning-fill--1: var(--theme-status-warning-wcag--1);
+  --map-status-warning-fill--2: var(--theme-status-warning-wcag--2);
+  --map-status-warning-fill--3: var(--theme-status-warning-wcag--3);
+  --map-status-warning-fill--4: var(--theme-status-warning-wcag--4);
+
+  // Warning stroke WCAG overrides
+  --map-status-warning-stroke-2: var(--theme-status-warning-wcag-2);
+  --map-status-warning-stroke-1: var(--theme-status-warning-wcag-1);
+  --map-status-warning-stroke-0: var(--theme-status-warning-wcag-0);
+  --map-status-warning-stroke--1: var(--theme-status-warning-wcag--1);
+  --map-status-warning-stroke--2: var(--theme-status-warning-wcag--2);
+
+  // Warning symbol WCAG overrides
+  --map-status-warning-symbol-2: var(--theme-status-warning-wcag-2);
+  --map-status-warning-symbol-1: var(--theme-status-warning-wcag-1);
+  --map-status-warning-symbol-0: var(--theme-status-warning-wcag-0);
+  --map-status-warning-symbol--1: var(--theme-status-warning-wcag--1);
+  --map-status-warning-symbol--2: var(--theme-status-warning-wcag--2);
+
+  // Error fill WCAG overrides
+  --map-status-error-fill-4: var(--theme-status-error-wcag-4);
+  --map-status-error-fill-3: var(--theme-status-error-wcag-3);
+  --map-status-error-fill-2: var(--theme-status-error-wcag-2);
+  --map-status-error-fill-1: var(--theme-status-error-wcag-1);
+  --map-status-error-fill-0: var(--theme-status-error-wcag-0);
+  --map-status-error-fill--1: var(--theme-status-error-wcag--1);
+  --map-status-error-fill--2: var(--theme-status-error-wcag--2);
+  --map-status-error-fill--3: var(--theme-status-error-wcag--3);
+  --map-status-error-fill--4: var(--theme-status-error-wcag--4);
+
+  // Error stroke WCAG overrides
+  --map-status-error-stroke-2: var(--theme-status-error-wcag-2);
+  --map-status-error-stroke-1: var(--theme-status-error-wcag-1);
+  --map-status-error-stroke-0: var(--theme-status-error-wcag-0);
+  --map-status-error-stroke--1: var(--theme-status-error-wcag--1);
+  --map-status-error-stroke--2: var(--theme-status-error-wcag--2);
+
+  // Error symbol WCAG overrides
+  --map-status-error-symbol-2: var(--theme-status-error-wcag-2);
+  --map-status-error-symbol-1: var(--theme-status-error-wcag-1);
+  --map-status-error-symbol-0: var(--theme-status-error-wcag-0);
+  --map-status-error-symbol--1: var(--theme-status-error-wcag--1);
+  --map-status-error-symbol--2: var(--theme-status-error-wcag--2);
+}
+
+// WCAG overrides for dark theme - override MAP variables
+:root.wcag-compliant .ivyforms-theme-dark {
+  // Success fill WCAG overrides
+  --map-status-success-fill-4: var(--theme-status-success-wcag-4);
+  --map-status-success-fill-3: var(--theme-status-success-wcag-3);
+  --map-status-success-fill-2: var(--theme-status-success-wcag-2);
+  --map-status-success-fill-1: var(--theme-status-success-wcag-1);
+  --map-status-success-fill-0: var(--theme-status-success-wcag-0);
+  --map-status-success-fill--1: var(--theme-status-success-wcag--1);
+  --map-status-success-fill--2: var(--theme-status-success-wcag--2);
+  --map-status-success-fill--3: var(--theme-status-success-wcag--3);
+  --map-status-success-fill--4: var(--theme-status-success-wcag--4);
+
+  // Success stroke WCAG overrides
+  --map-status-success-stroke-2: var(--theme-status-success-wcag-2);
+  --map-status-success-stroke-1: var(--theme-status-success-wcag-1);
+  --map-status-success-stroke-0: var(--theme-status-success-wcag-0);
+  --map-status-success-stroke--1: var(--theme-status-success-wcag--1);
+  --map-status-success-stroke--2: var(--theme-status-success-wcag--2);
+
+  // Success symbol WCAG overrides
+  --map-status-success-symbol-2: var(--theme-status-success-wcag-2);
+  --map-status-success-symbol-1: var(--theme-status-success-wcag-1);
+  --map-status-success-symbol-0: var(--theme-status-success-wcag-0);
+  --map-status-success-symbol--1: var(--theme-status-success-wcag--1);
+  --map-status-success-symbol--2: var(--theme-status-success-wcag--2);
+
+  // Warning fill WCAG overrides
+  --map-status-warning-fill-4: var(--theme-status-warning-wcag-4);
+  --map-status-warning-fill-3: var(--theme-status-warning-wcag-3);
+  --map-status-warning-fill-2: var(--theme-status-warning-wcag-2);
+  --map-status-warning-fill-1: var(--theme-status-warning-wcag-1);
+  --map-status-warning-fill-0: var(--theme-status-warning-wcag-0);
+  --map-status-warning-fill--1: var(--theme-status-warning-wcag--1);
+  --map-status-warning-fill--2: var(--theme-status-warning-wcag--2);
+  --map-status-warning-fill--3: var(--theme-status-warning-wcag--3);
+  --map-status-warning-fill--4: var(--theme-status-warning-wcag--4);
+
+  // Warning stroke WCAG overrides
+  --map-status-warning-stroke-2: var(--theme-status-warning-wcag-2);
+  --map-status-warning-stroke-1: var(--theme-status-warning-wcag-1);
+  --map-status-warning-stroke-0: var(--theme-status-warning-wcag-0);
+  --map-status-warning-stroke--1: var(--theme-status-warning-wcag--1);
+  --map-status-warning-stroke--2: var(--theme-status-warning-wcag--2);
+
+  // Warning symbol WCAG overrides
+  --map-status-warning-symbol-2: var(--theme-status-warning-wcag-2);
+  --map-status-warning-symbol-1: var(--theme-status-warning-wcag-1);
+  --map-status-warning-symbol-0: var(--theme-status-warning-wcag-0);
+  --map-status-warning-symbol--1: var(--theme-status-warning-wcag--1);
+  --map-status-warning-symbol--2: var(--theme-status-warning-wcag--2);
+
+  // Error fill WCAG overrides
+  --map-status-error-fill-4: var(--theme-status-error-wcag-4);
+  --map-status-error-fill-3: var(--theme-status-error-wcag-3);
+  --map-status-error-fill-2: var(--theme-status-error-wcag-2);
+  --map-status-error-fill-1: var(--theme-status-error-wcag-1);
+  --map-status-error-fill-0: var(--theme-status-error-wcag-0);
+  --map-status-error-fill--1: var(--theme-status-error-wcag--1);
+  --map-status-error-fill--2: var(--theme-status-error-wcag--2);
+  --map-status-error-fill--3: var(--theme-status-error-wcag--3);
+  --map-status-error-fill--4: var(--theme-status-error-wcag--4);
+
+  // Error stroke WCAG overrides
+  --map-status-error-stroke-2: var(--theme-status-error-wcag-2);
+  --map-status-error-stroke-1: var(--theme-status-error-wcag-1);
+  --map-status-error-stroke-0: var(--theme-status-error-wcag-0);
+  --map-status-error-stroke--1: var(--theme-status-error-wcag--1);
+  --map-status-error-stroke--2: var(--theme-status-error-wcag--2);
+
+  // Error symbol WCAG overrides
+  --map-status-error-symbol-2: var(--theme-status-error-wcag-2);
+  --map-status-error-symbol-1: var(--theme-status-error-wcag-1);
+  --map-status-error-symbol-0: var(--theme-status-error-wcag-0);
+  --map-status-error-symbol--1: var(--theme-status-error-wcag--1);
+  --map-status-error-symbol--2: var(--theme-status-error-wcag--2);
+}

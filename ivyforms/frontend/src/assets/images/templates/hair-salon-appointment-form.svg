@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1025" width="400" height="1025">
+  <!-- Background -->
+  <rect width="400" height="1000" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Hair salon appointment</text>
+  <text x="30" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">booking form</text>
+
+  <!-- Full Name header -->
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+
+  <!-- First Name label -->
+  <text x="30" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+
+  <!-- Last Name label -->
+  <text x="210" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email Address -->
+  <text x="30" y="198" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="208" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="231" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Phone Number -->
+  <text x="30" y="278" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="288" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="311" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+
+  <!-- Service Type -->
+  <text x="30" y="358" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Service type<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="368" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="391" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select service type</text>
+  <!-- Dropdown chevron arrow -->
+  <path d="M 350 388 L 355 393 L 360 388" stroke="#9ca3af" fill="none" stroke-width="2"/>
+
+  <!-- Preferred Stylist -->
+  <text x="30" y="438" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred stylist</text>
+  <rect x="30" y="448" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="471" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select stylist preference (optional)</text>
+  <!-- Dropdown chevron arrow -->
+  <path d="M 350 468 L 355 473 L 360 468" stroke="#9ca3af" fill="none" stroke-width="2"/>
+
+  <!-- Preferred Appointment Date -->
+  <text x="30" y="518" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred appointment date<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="528" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="551" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select preferred date</text>
+  <!-- Calendar icon -->
+  <rect x="336" y="538" width="20" height="20" rx="2" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="341" y1="536" x2="341" y2="541" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="351" y1="536" x2="351" y2="541" stroke="#9ca3af" stroke-width="1.5"/>
+
+  <!-- Preferred Time Slot -->
+  <text x="30" y="598" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Preferred time slot<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="608" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="631" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select preferred time</text>
+  <!-- Clock icon -->
+  <circle cx="346" cy="628" r="10" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="346" y1="623" x2="346" y2="628" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="346" y1="628" x2="349" y2="631" stroke="#9ca3af" stroke-width="1.5"/>
+
+  <!-- Special Instructions/Requests -->
+  <text x="30" y="678" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Special instructions / requests</text>
+  <rect x="30" y="688" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="711" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Any special requests or notes (optional)</text>
+
+  <!-- First Time Client? -->
+  <text x="30" y="798" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First time client?<tspan dx="4" fill="#dc2626">*</tspan></text>
+  
+  <!-- Yes radio option -->
+  <g>
+    <circle cx="45" cy="820" r="10" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+    <text x="70" y="823" font-family="Arial, sans-serif" font-size="14" fill="#374151">Yes</text>
+  </g>
+  
+  <!-- No radio option -->
+  <g>
+    <circle cx="45" cy="845" r="10" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+    <text x="70" y="848" font-family="Arial, sans-serif" font-size="14" fill="#374151">No</text>
+  </g>
+
+</svg>

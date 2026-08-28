@@ -1,0 +1,116 @@
+:root,
+:root .ivyforms-theme-dark {
+  /** Success */
+  // Fill
+  --map-status-success-fill-4: var(--theme-status-success-4);
+  --map-status-success-fill-3: var(--theme-status-success-3);
+  --map-status-success-fill-2: var(--theme-status-success-2);
+  --map-status-success-fill-1: var(--theme-status-success-1);
+  --map-status-success-fill-0: var(--theme-status-success-0);
+  --map-status-success-fill--1: var(--theme-status-success--1);
+  --map-status-success-fill--2: var(--theme-status-success--2);
+  --map-status-success-fill--3: var(--theme-status-success--3);
+  --map-status-success-fill--4: var(--theme-status-success--4);
+
+  // Alfa
+  --map-status-success-o90: var(--theme-status-success-o90);
+  --map-status-success-o80: var(--theme-status-success-o80);
+  --map-status-success-o70: var(--theme-status-success-o70);
+  --map-status-success-o60: var(--theme-status-success-o60);
+  --map-status-success-o50: var(--theme-status-success-o50);
+  --map-status-success-o40: var(--theme-status-success-o40);
+  --map-status-success-o30: var(--theme-status-success-o30);
+  --map-status-success-o20: var(--theme-status-success-o20);
+  --map-status-success-o10: var(--theme-status-success-o10);
+  --map-status-success-o05: var(--theme-status-success-o05);
+
+  // Stroke
+  --map-status-success-stroke-2: var(--theme-status-success-2);
+  --map-status-success-stroke-1: var(--theme-status-success-1);
+  --map-status-success-stroke-0: var(--theme-status-success-0);
+  --map-status-success-stroke--1: var(--theme-status-success--1);
+  --map-status-success-stroke--2: var(--theme-status-success--2);
+
+  // Symbol
+  --map-status-success-symbol-2: var(--theme-status-success-2);
+  --map-status-success-symbol-1: var(--theme-status-success-1);
+  --map-status-success-symbol-0: var(--theme-status-success-0);
+  --map-status-success-symbol--1: var(--theme-status-success--1);
+  --map-status-success-symbol--2: var(--theme-status-success--2);
+
+  /** Warning */
+  // Fill
+  --map-status-warning-fill-4: var(--theme-status-warning-4);
+  --map-status-warning-fill-3: var(--theme-status-warning-3);
+  --map-status-warning-fill-2: var(--theme-status-warning-2);
+  --map-status-warning-fill-1: var(--theme-status-warning-1);
+  --map-status-warning-fill-0: var(--theme-status-warning-0);
+  --map-status-warning-fill--1: var(--theme-status-warning--1);
+  --map-status-warning-fill--2: var(--theme-status-warning--2);
+  --map-status-warning-fill--3: var(--theme-status-warning--3);
+  --map-status-warning-fill--4: var(--theme-status-warning--4);
+
+  // Alfa
+  --map-status-warning-o90: var(--theme-status-warning-o90);
+  --map-status-warning-o80: var(--theme-status-warning-o80);
+  --map-status-warning-o70: var(--theme-status-warning-o70);
+  --map-status-warning-o60: var(--theme-status-warning-o60);
+  --map-status-warning-o50: var(--theme-status-warning-o50);
+  --map-status-warning-o40: var(--theme-status-warning-o40);
+  --map-status-warning-o30: var(--theme-status-warning-o30);
+  --map-status-warning-o20: var(--theme-status-warning-o20);
+  --map-status-warning-o10: var(--theme-status-warning-o10);
+  --map-status-warning-o05: var(--theme-status-warning-o05);
+
+  // Stroke
+  --map-status-warning-stroke-2: var(--theme-status-warning-2);
+  --map-status-warning-stroke-1: var(--theme-status-warning-1);
+  --map-status-warning-stroke-0: var(--theme-status-warning-0);
+  --map-status-warning-stroke--1: var(--theme-status-warning--1);
+  --map-status-warning-stroke--2: var(--theme-status-warning--2);
+
+  // Symbol
+  --map-status-warning-symbol-2: var(--theme-status-warning-2);
+  --map-status-warning-symbol-1: var(--theme-status-warning-1);
+  --map-status-warning-symbol-0: var(--theme-status-warning-0);
+  --map-status-warning-symbol--1: var(--theme-status-warning--1);
+  --map-status-warning-symbol--2: var(--theme-status-warning--2);
+
+  /** Error */
+  // Fill
+  --map-status-error-fill-4: var(--theme-status-error-4);
+  --map-status-error-fill-3: var(--theme-status-error-3);
+  --map-status-error-fill-2: var(--theme-status-error-2);
+  --map-status-error-fill-1: var(--theme-status-error-1);
+  --map-status-error-fill-0: var(--theme-status-error-0);
+  --map-status-error-fill--1: var(--theme-status-error--1);
+  --map-status-error-fill--2: var(--theme-status-error--2);
+  --map-status-error-fill--3: var(--theme-status-error--3);
+  --map-status-error-fill--4: var(--theme-status-error--4);
+
+  // Alfa
+  --map-status-error-o90: var(--theme-status-error-o90);
+  --map-status-error-o80: var(--theme-status-error-o80);
+  --map-status-error-o70: var(--theme-status-error-o70);
+  --map-status-error-o60: var(--theme-status-error-o60);
+  --map-status-error-o50: var(--theme-status-error-o50);
+  --map-status-error-o40: var(--theme-status-error-o40);
+  --map-status-error-o30: var(--theme-status-error-o30);
+  --map-status-error-o20: var(--theme-status-error-o20);
+  --map-status-error-o10: var(--theme-status-error-o10);
+  --map-status-error-o05: var(--theme-status-error-o05);
+
+  // Stroke
+  --map-status-error-stroke-2: var(--theme-status-error-2);
+  --map-status-error-stroke-1: var(--theme-status-error-1);
+  --map-status-error-stroke-0: var(--theme-status-error-0);
+  --map-status-error-stroke--1: var(--theme-status-error--1);
+  --map-status-error-stroke--2: var(--theme-status-error--2);
+
+  // Symbol
+  --map-status-error-symbol-2: var(--theme-status-error-2);
+  --map-status-error-symbol-1: var(--theme-status-error-1);
+  --map-status-error-symbol-0: var(--theme-status-error-0);
+  --map-status-error-symbol--1: var(--theme-status-error--1);
+  --map-status-error-symbol--2: var(--theme-status-error--2);
+}

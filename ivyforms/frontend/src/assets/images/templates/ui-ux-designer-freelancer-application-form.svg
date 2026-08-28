@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1130" width="400" height="1130">
+  <rect width="400" height="1125" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="30" y="28" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">UI/UX designer freelancer</text>
+  <text x="30" y="52" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">application form</text>
+  <text x="30" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <text x="30" y="108" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="118" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="141" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+  <text x="210" y="108" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="118" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="141" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+  <text x="30" y="185" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="195" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="220" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your email address</text>
+  <text x="30" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number</text>
+  <rect x="30" y="270" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="295" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your phone number</text>
+  <text x="30" y="335" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Design tools used<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="345" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="370" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select design tools used</text>
+  <polygon points="352,361 364,361 358,371" fill="#9ca3af"/>
+  <text x="30" y="410" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Years of experience</text>
+  <rect x="30" y="420" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="445" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter years of experience</text>
+  <text x="30" y="485" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Portfolio website</text>
+  <rect x="30" y="495" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="520" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter portfolio website</text>
+  <text x="30" y="560" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Case studies upload<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="570" width="340" height="55" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" stroke-dasharray="6 4" rx="6"/>
+  <text x="200" y="602" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Drag file here or click to upload</text>
+  <text x="30" y="655" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">UX process description<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="665" width="340" height="55" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="688" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter UX process description</text>
+  <text x="30" y="745" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">UI systems experience</text>
+  <rect x="30" y="755" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="780" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter UI systems experience</text>
+  <text x="30" y="820" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Industries worked in</text>
+  <rect x="30" y="830" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="855" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter industries worked in</text>
+  <text x="30" y="895" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Hourly rate</text>
+  <rect x="30" y="905" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="930" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter hourly rate</text>
+  <text x="30" y="970" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Availability<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="980" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="1005" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select availability date</text>
+  <rect x="345" y="990" width="20" height="20" fill="none" stroke="#9ca3af" stroke-width="1.5" rx="2"/>
+  <line x1="348" y1="990" x2="348" y2="995" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="362" y1="990" x2="362" y2="995" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="345" y1="997" x2="365" y2="997" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="30" y="1050" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">CV upload</text>
+  <rect x="30" y="1060" width="340" height="55" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" stroke-dasharray="6 4" rx="6"/>
+  <text x="200" y="1092" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Drag file here or click to upload</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg width="62" height="24" viewBox="0 0 62 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="62" height="24" rx="4" fill="#2A3441"/>
+  <rect x="0.5" y="0.5" width="61" height="23" rx="3.5" stroke="#5B6673"/>
+  <path d="M14.75 10.25V9.4C14.75 8.15 13.75 7.15 12.5 7.15C11.25 7.15 10.25 8.15 10.25 9.4V10.25H9.4C8.9 10.25 8.5 10.65 8.5 11.15V15.35C8.5 15.85 8.9 16.25 9.4 16.25H15.6C16.1 16.25 16.5 15.85 16.5 15.35V11.15C16.5 10.65 16.1 10.25 15.6 10.25H14.75ZM11.45 9.4C11.45 8.82 11.92 8.35 12.5 8.35C13.08 8.35 13.55 8.82 13.55 9.4V10.25H11.45V9.4Z" fill="#C5CDD6"/>
+  <text x="20" y="16" fill="#C5CDD6" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600">Locked</text>
+</svg>

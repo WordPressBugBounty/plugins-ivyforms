@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 830" width="400" height="830">
+  <rect width="400" height="825" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="30" y="28" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">Rental application form</text>
+  <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <text x="30" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+  <text x="210" y="93" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="103" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="126" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+  <text x="30" y="170" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="180" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="205" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+  <text x="30" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="250" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="275" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+  <text x="30" y="310" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Current address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <text x="30" y="328" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Address line 1<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="338" width="340" height="36" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="360" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter address line 1</text>
+  <text x="30" y="386" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Address line 2</text>
+  <rect x="30" y="396" width="340" height="36" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="418" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter address line 2</text>
+  <text x="30" y="444" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">City<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="454" width="340" height="36" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="476" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">City</text>
+  <text x="30" y="502" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">State / province<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="512" width="340" height="36" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="534" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">State</text>
+  <text x="30" y="570" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Employment history document<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="580" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="605" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select employment status</text>
+  <polygon points="322,596 334,596 328,606" fill="#9ca3af" />
+  <text x="30" y="640" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Proof of income<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="650" width="340" height="55" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" stroke-dasharray="6 4" rx="6"/>
+  <text x="200" y="682" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Drag file here or click to upload</text>
+  <text x="30" y="725" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">ID document upload<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="735" width="340" height="55" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" stroke-dasharray="6 4" rx="6"/>
+  <text x="200" y="767" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Drag file here or click to upload</text>
+</svg>

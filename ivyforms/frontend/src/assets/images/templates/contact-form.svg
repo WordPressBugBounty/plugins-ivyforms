@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 550" width="400" height="550">
+  <!-- Background -->
+  <rect width="400" height="550" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Contact form</text>
+
+  <!-- First Name field -->
+  <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name</text>
+  <text x="110" y="75" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="85" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="108" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your first name</text>
+
+  <!-- Last Name field -->
+  <text x="30" y="155" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name</text>
+  <text x="108" y="155" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="165" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="188" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email Address field -->
+  <text x="30" y="235" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address</text>
+  <text x="135" y="235" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="245" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="268" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your email address</text>
+
+  <!-- Subject field -->
+  <text x="30" y="315" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Subject</text>
+  <rect x="30" y="325" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="348" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">What is this regarding?</text>
+
+  <!-- Message field -->
+  <text x="30" y="395" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Message</text>
+  <rect x="30" y="405" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="428" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Please enter your message here...</text>
+
+  <!-- Submit button -->
+  <rect x="30" y="510" width="80" height="40" fill="#3b82f6" rx="6"/>
+  <text x="70" y="533" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="white">Submit</text>
+</svg>
+

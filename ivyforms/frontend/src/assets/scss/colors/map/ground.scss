@@ -1,0 +1,14 @@
+:root,
+:root .ivyforms-theme-dark {
+  --map-divider: var(--theme-divider);
+  --map-hover: var(--theme-hover);
+  --map-overlay: var(--theme-overlay); // overlay
+  --map-skeleton: var(--theme-skeleton);
+  --map-skeleton-to: var(--theme-skeleton-to);
+  --map-bottom-sheet: var(--theme-bottom-sheet);
+  --map-ground-level-3: var(--theme-ground-level-3);
+  --map-ground-level-2-foreground: var(--theme-ground-level-2-foreground);
+  --map-ground-level-2-background: var(--theme-ground-level-2-background);
+  --map-ground-level-1-foreground: var(--theme-ground-level-1-foreground);
+  --map-ground-level-1-background: var(--theme-ground-level-1-background);
+}

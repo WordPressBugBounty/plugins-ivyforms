@@ -1,0 +1,97 @@
+@use 'mixins' as *;
+
+.ivyforms-width-100 {
+  width: 100%;
+}
+
+.ivyforms-mr-auto {
+  @include flipProperty('margin-right', 'margin-left', auto);
+}
+
+.ivyforms-ml-auto {
+  @include flipProperty('margin-left', 'margin-right', auto);
+}
+
+@for $i from 0 through 20 {
+  $value: $i * 2;
+
+  .ivyforms-m-#{$value} {
+    margin: #{$value}px;
+  }
+
+  .ivyforms-mx-#{$value} {
+    margin-left: #{$value}px;
+    margin-right: #{$value}px;
+  }
+
+  .ivyforms-my-#{$value} {
+    margin-top: #{$value}px;
+    margin-bottom: #{$value}px;
+  }
+
+  .ivyforms-mt-#{$value} {
+    margin-top: #{$value}px;
+  }
+
+  .ivyforms-mb-#{$value} {
+    margin-bottom: #{$value}px;
+  }
+
+  .ivyforms-ml-#{$value} {
+    @include flipProperty('margin-left', 'margin-right', #{$value}px);
+  }
+
+  .ivyforms-mr-#{$value} {
+    @include flipProperty('margin-right', 'margin-left', #{$value}px);
+  }
+
+  .ivyforms-p-#{$value} {
+    padding: #{$value}px;
+  }
+
+  .ivyforms-px-#{$value} {
+    padding-left: #{$value}px;
+    padding-right: #{$value}px;
+  }
+
+  .ivyforms-py-#{$value} {
+    padding-top: #{$value}px;
+    padding-bottom: #{$value}px;
+  }
+
+  .ivyforms-pt-#{$value} {
+    padding-top: #{$value}px;
+  }
+
+  .ivyforms-pb-#{$value} {
+    padding-bottom: #{$value}px;
+  }
+
+  .ivyforms-pl-#{$value} {
+    @include flipProperty('padding-left', 'padding-right', #{$value}px);
+  }
+
+  .ivyforms-pr-#{$value} {
+    @include flipProperty('padding-right', 'padding-left', #{$value}px);
+  }
+
+  .ivyforms-gap-#{$value} {
+    gap: #{$value}px;
+  }
+
+  .ivyforms-gap-column-#{$value} {
+    column-gap: #{$value}px;
+  }
+
+  .ivyforms-gap-x-#{$value} {
+    column-gap: #{$value}px;
+  }
+
+  .ivyforms-gap-row-#{$value} {
+    row-gap: #{$value}px;
+  }
+
+  .ivyforms-gap-y-#{$value} {
+    row-gap: #{$value}px;
+  }
+}

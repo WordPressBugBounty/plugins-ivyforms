@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 850" width="400" height="850">
+  <rect width="400" height="850" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">Custom event t-shirt</text>
+  <text x="30" y="60" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#374151">bulk order form</text>
+  <rect x="30" y="78" width="340" height="6" fill="#e5e7eb" rx="3"/>
+  <rect x="30" y="78" width="68" height="6" fill="#374151" rx="3"/>
+  <line x1="98" y1="78" x2="98" y2="84" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="166" y1="78" x2="166" y2="84" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="234" y1="78" x2="234" y2="84" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="302" y1="78" x2="302" y2="84" stroke="#d1d5db" stroke-width="1"/>
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="11" fill="#374151">Customer info - 20%</text>
+  <text x="30" y="128" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+  <text x="30" y="146" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="156" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="210" y="146" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="156" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="30" y="226" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="236" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="30" y="306" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone number<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="316" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="30" y="386" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Company/event name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="396" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="30" y="466" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Event type<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="476" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="499" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select event type</text>
+  <text x="30" y="546" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Primary design upload<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="556" width="340" height="50" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="30" y="636" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">T-shirt type<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="646" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="30" y="716" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Quantity<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="726" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="30" y="796" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Terms acceptance<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="806" width="340" height="30" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+</svg>

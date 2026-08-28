@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 760" width="400" height="760">
+    <!-- Background -->
+    <rect width="400" height="760" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+    <!-- Title -->
+    <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Anesthesia consent form</text>
+
+    <!-- Patient Information Section -->
+    <text x="30" y="75" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#374151">Patient information</text>
+
+    <!-- First Name and Last Name -->
+    <text x="30" y="103" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="113" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="136" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter first name</text>
+
+    <text x="210" y="103" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="210" y="113" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="220" y="136" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter last name</text>
+
+    <!-- Age -->
+    <text x="30" y="183" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Age<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="193" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="200" y="216" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af" text-anchor="middle">Enter age</text>
+    <!-- Minus button -->
+    <line x1="40" y1="213" x2="52" y2="213" stroke="#9ca3af" stroke-width="2"/>
+    <!-- Plus button -->
+    <line x1="348" y1="213" x2="360" y2="213" stroke="#9ca3af" stroke-width="2"/>
+    <line x1="354" y1="207" x2="354" y2="219" stroke="#9ca3af" stroke-width="2"/>
+
+    <!-- Date of Birth -->
+    <text x="30" y="263" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Date of birth<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="273" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="296" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">MM/DD/YYYY</text>
+    <!-- Calendar icon -->
+    <rect x="345" y="285" width="16" height="16" fill="none" stroke="#9ca3af" stroke-width="1" rx="2"/>
+    <line x1="348" y1="288" x2="348" y2="283" stroke="#9ca3af" stroke-width="1"/>
+    <line x1="358" y1="288" x2="358" y2="283" stroke="#9ca3af" stroke-width="1"/>
+
+    <!-- Gender -->
+    <text x="30" y="343" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Gender<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="353" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="376" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Male / female / other</text>
+    <polygon points="350,373 362,373 356,380" fill="#9ca3af"/>
+
+    <!-- Phone -->
+    <text x="30" y="423" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="433" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="456" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+
+    <!-- Email -->
+    <text x="210" y="423" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="210" y="433" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="220" y="456" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+    <!-- Address -->
+    <text x="30" y="503" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Address</text>
+    <rect x="30" y="513" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="536" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter street address / city / state / zip</text>
+
+    <!-- Emergency Contact Section -->
+    <text x="30" y="583" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#374151">Emergency contact</text>
+
+    <text x="30" y="613" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Contact name<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="623" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="646" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter emergency contact name</text>
+
+    <text x="30" y="686" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Contact phone<tspan dx="4" fill="#dc2626">*</tspan></text>
+    <rect x="30" y="696" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+    <text x="40" y="719" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">+1 (_) _-_</text>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 820" width="400" height="820">
+  <!-- Background -->
+  <rect width="400" height="820" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Installation work order</text>
+  <text x="30" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">form</text>
+
+  <!-- Full Name header -->
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#374151">Full name</text>
+
+  <!-- First Name label -->
+  <text x="30" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">First name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your name</text>
+
+  <!-- Last Name label -->
+  <text x="210" y="118" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Last name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="210" y="128" width="160" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="151" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your last name</text>
+
+  <!-- Email Address -->
+  <text x="30" y="198" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="208" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="231" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Equipment/Device Name -->
+  <text x="30" y="278" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Equipment/device name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="288" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="311" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter device name</text>
+
+  <!-- Room/Area -->
+  <text x="30" y="358" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Room/area<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="368" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="391" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Specify installation location</text>
+
+  <!-- Installation Type -->
+  <text x="30" y="438" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Installation type<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <!-- Standard Radio -->
+  <circle cx="42" cy="466" r="9" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="58" y="470" font-family="Arial, sans-serif" font-size="14" fill="#374151">Standard</text>
+  <!-- Custom Radio -->
+  <circle cx="142" cy="466" r="9" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="158" y="470" font-family="Arial, sans-serif" font-size="14" fill="#374151">Custom</text>
+  <!-- Scheduled Radio -->
+  <circle cx="232" cy="466" r="9" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="248" y="470" font-family="Arial, sans-serif" font-size="14" fill="#374151">Scheduled</text>
+
+  <!-- Requested Installation Date -->
+  <text x="30" y="510" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Requested installation date<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="520" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="543" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">MM/DD/YYYY</text>
+  <!-- Calendar Icon -->
+  <g transform="translate(340, 530)">
+    <rect x="0" y="0" width="20" height="20" fill="none" stroke="#9ca3af" stroke-width="1.5" rx="2"/>
+    <line x1="0" y1="6" x2="20" y2="6" stroke="#9ca3af" stroke-width="1.5"/>
+    <rect x="2" y="-2" width="2" height="4" fill="#9ca3af"/>
+    <rect x="16" y="-2" width="2" height="4" fill="#9ca3af"/>
+  </g>
+
+  <!-- Installer Required -->
+  <text x="30" y="590" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Installer required</text>
+  <rect x="30" y="600" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="623" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select installer</text>
+  <path d="M345 616 L350 621 L355 616" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Installation Instructions -->
+  <text x="30" y="670" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Installation instructions</text>
+  <rect x="30" y="680" width="340" height="56" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="704" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Provide any special requirements</text>
+
+  <!-- Mark as Urgent -->
+  <text x="30" y="766" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Mark as urgent</text>
+  <rect x="30" y="780" width="16" height="16" fill="none" stroke="#d1d5db" stroke-width="1.5" rx="3"/>
+  <text x="54" y="793" font-family="Arial, sans-serif" font-size="14" fill="#374151">Yes</text>
+  <rect x="100" y="780" width="16" height="16" fill="none" stroke="#d1d5db" stroke-width="1.5" rx="3"/>
+  <text x="124" y="793" font-family="Arial, sans-serif" font-size="14" fill="#374151">No</text>
+</svg>

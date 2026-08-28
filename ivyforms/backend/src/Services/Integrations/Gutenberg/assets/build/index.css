@@ -1,0 +1,119 @@
+/**
+ * IvyForms Gutenberg Block Editor Styles
+ */
+.ivyforms-block-placeholder {
+    padding: 2rem;
+    text-align: center;
+}
+.ivyforms-block-placeholder .components-placeholder__label {
+    color: #06A192;
+}
+/* Block wrapper styles */
+.ivyforms-block-wrapper {
+    min-height: 50px;
+}
+
+.ivyforms-gutenberg-block-preview {
+    padding: 1rem;
+    background: #f8f9fa;
+    border: 2px solid #e0e0e0;
+    border-radius: 4px;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+/* Overlay to prevent form interaction while allowing block selection */
+.ivyforms-block-overlay {
+    background: rgba(255, 255, 255, 0.01);
+    cursor: pointer;
+}
+
+.ivyforms-block-overlay:hover {
+    background: rgba(0, 124, 186, 0.05);
+}
+
+.ivyforms-no-form-selected,
+.ivyforms-form-not-found {
+    padding: 2rem;
+    text-align: center;
+    background: #FFE3CC;
+    border: 1px solid #FB923C;
+    border-radius: 4px;
+    color: #212832;
+}
+.ivyforms-gutenberg-block {
+    margin: 1rem 0;
+}
+/* Block editor specific styles */
+.wp-block-ivyforms-gutenberg-block {
+    margin: 1.5rem 0;
+}
+.block-editor-block-list__block.wp-block-ivyforms-gutenberg-block {
+    max-width: 100%;
+}
+
+/* Toolbar button styles */
+.block-editor-block-toolbar .components-toolbar-group .components-button.has-icon {
+    min-width: 36px;
+}
+
+/* Editor preview specific styles for Vue-rendered forms */
+.ivyforms-block-editor-preview {
+    position: relative;
+    min-height: 100px;
+}
+
+/* Make the form non-interactive in the editor but still visible */
+.ivyforms-block-editor-preview .ivyforms-frontend {
+    pointer-events: none; /* Prevent form interaction in editor */
+    user-select: none;
+}
+
+/* Allow the block to be selected */
+.ivyforms-block-editor-preview .ivyforms-frontend::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    pointer-events: auto;
+    z-index: 1;
+}
+
+/* Style the editor preview container */
+.ivyforms-block-editor-preview .ivyforms {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background: #fff;
+}
+
+/* Reduce skeleton visibility in editor */
+.ivyforms-block-editor-preview .ivyforms-skeleton {
+    opacity: 0.5;
+}
+
+/* Ensure form elements are visible but not clickable */
+.ivyforms-block-editor-preview input,
+.ivyforms-block-editor-preview select,
+.ivyforms-block-editor-preview textarea,
+.ivyforms-block-editor-preview button {
+    pointer-events: none !important;
+}
+
+/* Add a subtle indicator that this is a preview */
+.ivyforms-block-editor-preview::before {
+    content: 'Preview';
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 500;
+    z-index: 10;
+    pointer-events: none;
+}

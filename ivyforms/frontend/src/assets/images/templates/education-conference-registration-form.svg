@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 650" width="400" height="650">
+  <!-- Background -->
+  <rect width="400" height="650" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Education conference</text>
+  <text x="30" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">registration form</text>
+
+  <!-- Full Name -->
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Full name<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="110" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="133" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter your full name</text>
+
+  <!-- Email Address -->
+  <text x="30" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="190" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="213" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Role -->
+  <text x="30" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Role<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <rect x="30" y="270" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="293" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select your role</text>
+  <path d="M345 286 L350 291 L355 286" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Sessions to Attend -->
+  <text x="30" y="340" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Sessions to attend</text>
+  <rect x="30" y="350" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="373" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select sessions</text>
+  <path d="M345 366 L350 371 L355 366" stroke="#9ca3af" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Participation Type -->
+  <text x="30" y="420" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Participation type<tspan dx="4" fill="#dc2626">*</tspan></text>
+  <!-- In-Person Radio -->
+  <circle cx="42" cy="448" r="9" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="58" y="452" font-family="Arial, sans-serif" font-size="14" fill="#374151">In-person</text>
+  <!-- Virtual Radio -->
+  <circle cx="42" cy="478" r="9" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="58" y="482" font-family="Arial, sans-serif" font-size="14" fill="#374151">Virtual</text>
+
+  <!-- Questions or Comments -->
+  <text x="30" y="528" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Questions or comments</text>
+  <rect x="30" y="538" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="562" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Write any questions or comments</text>
+  <text x="40" y="580" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">for the organizers</text>
+</svg>

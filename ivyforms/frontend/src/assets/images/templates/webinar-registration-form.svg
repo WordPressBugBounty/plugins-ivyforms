@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 700" width="400" height="700">
+  <!-- Background -->
+  <rect width="400" height="700" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#374151">Webinar registration form</text>
+
+  <!-- Full Name field (parent) -->
+  <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Full name</text>
+  <text x="100" y="75" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  
+  <!-- First Name subfield -->
+  <text x="30" y="95" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">First name</text>
+  <rect x="30" y="100" width="160" height="36" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="121" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Enter your full name</text>
+  
+  <!-- Last Name subfield -->
+  <text x="210" y="95" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Last name</text>
+  <rect x="210" y="100" width="160" height="36" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="220" y="121" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">Enter last name</text>
+
+  <!-- Email Address field -->
+  <text x="30" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email address</text>
+  <text x="135" y="165" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <rect x="30" y="175" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="198" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">name@example.com</text>
+
+  <!-- Session Time field (dropdown) -->
+  <text x="30" y="245" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Session time</text>
+  <rect x="30" y="255" width="340" height="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="278" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select session time</text>
+  <path d="M350 270 l5 5 l5 -5" stroke="#9ca3af" stroke-width="1.5" fill="none"/>
+
+  <!-- Participation Type field (radio) -->
+  <text x="30" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Participation type</text>
+  <text x="157" y="325" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">*</text>
+  <!-- Radio buttons below label -->
+  <circle cx="40" cy="350" r="7" fill="white" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="55" y="355" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Live</text>
+  <circle cx="40" cy="385" r="7" fill="white" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="55" y="390" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Recorded</text>
+
+  <!-- Subscribe to Newsletter field (radio) -->
+  <text x="30" y="425" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Subscribe to newsletter?</text>
+  <!-- Radio buttons below label -->
+  <circle cx="40" cy="450" r="7" fill="white" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="55" y="455" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Yes</text>
+  <circle cx="40" cy="485" r="7" fill="white" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="55" y="490" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">No</text>
+
+  <!-- Questions for Speaker field (textarea) -->
+  <text x="30" y="525" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Questions for speaker</text>
+  <rect x="30" y="535" width="340" height="80" fill="#f9fafb" stroke="#d1d5db" stroke-width="1" rx="6"/>
+  <text x="40" y="558" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Write your question here</text>
+
+  <!-- Submit button -->
+  <rect x="30" y="640" width="80" height="40" fill="#3b82f6" rx="6"/>
+  <text x="70" y="663" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="white">Submit</text>
+</svg>
