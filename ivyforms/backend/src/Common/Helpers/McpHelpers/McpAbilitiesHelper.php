@@ -78,9 +78,11 @@ class McpAbilitiesHelper
     }
 
     /**
+     * @param mixed $response REST payload
+     *
      * @return array<int|string, mixed>
      */
-    public static function notificationArrayFromRestResponse(mixed $response): array
+    public static function notificationArrayFromRestResponse($response): array
     {
         $payload = self::extractIvyFormsRestPayload($response);
 

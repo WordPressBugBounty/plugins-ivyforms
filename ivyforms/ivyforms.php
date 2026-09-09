@@ -3,7 +3,7 @@
  * Plugin Name: IvyForms - The innovative Contact Form Builder
  * Plugin URI: https://ivyforms.com
  * Description: Transform your WordPress site with IvyForms: a powerful, user-friendly plugin for creating and managing customizable forms effortlessly.
- * Version: 1.4
+ * Version: 1.4.1
  * Requires PHP: 7.4
  * Author: Melograno Ventures
  * Author URI: https://melograno.io/
@@ -81,7 +81,7 @@ if (!defined('IVYFORMS_SITE_URL')) {
 }
 
 if (!defined('IVYFORMS_VERSION')) {
-    define('IVYFORMS_VERSION', '1.4');
+    define('IVYFORMS_VERSION', '1.4.1');
 }
 
 if (!defined('IVYFORMS_MCP_MIN_WP_VERSION')) {

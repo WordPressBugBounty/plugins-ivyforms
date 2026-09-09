@@ -163,12 +163,14 @@ class FieldRepository extends AbstractRepository implements FieldRepositoryInter
      */
     private function buildCoreFieldSettings(array $data, bool $forUpdate): array
     {
-        return [
-            ...$this->buildBaseFieldSettings($data),
-            'limitRange' => $this->resolveLimitRangeFlag($data, $forUpdate),
-            'visible' => $this->resolveVisibleFlag($data, $forUpdate),
-            ...$this->buildExtendedFieldSettings($data),
-        ];
+        return array_merge(
+            $this->buildBaseFieldSettings($data),
+            [
+                'limitRange' => $this->resolveLimitRangeFlag($data, $forUpdate),
+                'visible' => $this->resolveVisibleFlag($data, $forUpdate),
+            ],
+            $this->buildExtendedFieldSettings($data)
+        );
     }
 
     /**

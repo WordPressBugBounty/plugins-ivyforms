@@ -96,6 +96,8 @@ class IntegrationService
             ],
         ]);
 
+        $this->registerPageBuilderIntegrations();
+
         // Register Pro integrations as placeholders
         // These will be shown with "Upgrade" button when Pro is not installed
         // When Pro is installed, these will be overwritten by Pro's registrar
@@ -131,17 +133,17 @@ class IntegrationService
             ],
         ]);
 
-        // Zapier Integration (Pro - Growth) — hidden in Lite until ready; Pro re-registers as coming soon
-//        $this->registry->register('zapier', [
-//            'label' => 'zapier_label',
-//            'component' => 'ZapierIntegrationSettings',
-//            'icon' => 'zapier',
-//            'description' => 'zapier_description',
-//            'category' => 'Automation',
-//            'requiresAuth' => false,
-//            'hasGlobalSettings' => true,
-//            'plan' => 'growth',
-//        ]);
+        // Zapier Integration (Pro - Growth)
+        $this->registry->register('zapier', [
+            'label' => 'zapier_label',
+            'component' => 'ZapierIntegrationSettings',
+            'icon' => 'zapier',
+            'description' => 'zapier_description',
+            'category' => 'Automation',
+            'requiresAuth' => false,
+            'hasGlobalSettings' => true,
+            'plan' => 'growth',
+        ]);
 
         // Public API Integration (Pro - Agency)
         $this->registry->register('public-api', [
@@ -192,5 +194,33 @@ class IntegrationService
                 ],
             ],
         ]);
+    }
+
+    /**
+     * Register page builder integrations (Lite)
+     *
+     * These are informational cards only: forms are embedded through the builder itself,
+     * so there is nothing to enable or configure — the card just links to the documentation.
+     *
+     * @return void
+     * @throws InvalidArgumentException
+     */
+    private function registerPageBuilderIntegrations(): void
+    {
+        $pageBuilderSlugs = ['elementor', 'divi', 'gutenberg'];
+
+        foreach ($pageBuilderSlugs as $slug) {
+            $this->registry->register($slug, [
+                'label' => $slug . '_label',
+                'icon' => $slug,
+                'description' => $slug . '_description',
+                'category' => 'Page Builders',
+                'plan' => 'lite',
+                'docsOnly' => true,
+                'hasGlobalSettings' => false,
+                'hasFormSettings' => false,
+                'learnMoreUrl' => 'https://ivyforms.com/documentation/',
+            ]);
+        }
     }
 }

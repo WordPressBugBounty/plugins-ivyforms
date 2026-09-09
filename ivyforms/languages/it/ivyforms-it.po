@@ -16,7 +16,14 @@ msgstr "%1$s deve essere un numero."
 msgid "%1$s must be at most %2$d characters."
 msgstr "%1$s deve contenere al massimo %2$d caratteri."
 
+#, php-format
+msgid "%s cannot be empty."
+msgstr ""
+
 msgid "+1 (_) _-_"
+msgstr ""
+
+msgid "0 = no limit"
 msgstr ""
 
 msgid "10-inch (serves 20)"
@@ -25,11 +32,20 @@ msgstr "25,4 cm (serve 20)"
 msgid "1 hour"
 msgstr "1 ora"
 
+msgid "1 year"
+msgstr ""
+
 msgid "24 hour"
 msgstr "24 ore"
 
 msgid "2 hours"
 msgstr "2 ore"
+
+msgid "2 years"
+msgstr ""
+
+msgid "3+ years"
+msgstr ""
 
 msgid "30 min"
 msgstr ""
@@ -44,6 +60,9 @@ msgid "6-inch (serves 8)"
 msgstr "6-pollici (per 8 persone)"
 
 msgid "60 min"
+msgstr ""
+
+msgid "6 months"
 msgstr ""
 
 msgid "6–12 months"
@@ -68,10 +87,27 @@ msgstr ""
 msgid "AI & machine learning"
 msgstr "AI e machine learning"
 
+msgid "AI form generation is locked"
+msgstr ""
+
+msgid ""
+"AI functionality is disabled for this WordPress environment. Ask a site "
+"administrator or hosting provider to enable it."
+msgstr ""
+
+msgid "AI is not available on this site."
+msgstr ""
+
+msgid "AI returned an invalid response. Please try again."
+msgstr ""
+
 msgid "AM"
 msgstr ""
 
 msgid "AM/PM"
+msgstr ""
+
+msgid "API"
 msgstr ""
 
 msgid "API response for field {fieldKey}:"
@@ -83,6 +119,9 @@ msgid ""
 msgstr ""
 "Un modulo di feedback per colloqui comportamentali, incentrato su competenze "
 "trasversali, comunicazione, motivazione e affinità con la cultura aziendale."
+
+msgid "A copy of this confirmation will be created."
+msgstr ""
 
 msgid ""
 "A detailed candidate evaluation form for assessing candidates across "
@@ -126,6 +165,9 @@ msgstr ""
 "Un modulo generale per documentare le variazioni in qualsiasi progetto "
 "edilizio. Adatto sia a progetti residenziali sia commerciali"
 
+msgid "A page label is required."
+msgstr ""
+
 msgid "A simple contact form with essential fields."
 msgstr "Un semplice modulo di contatto con i campi minimi necessari."
 
@@ -144,6 +186,9 @@ msgstr ""
 "competenze tecniche del candidato, la capacità di risoluzione dei problemi e "
 "la qualità del codice."
 
+msgid "A total greater than zero is required."
+msgstr ""
+
 msgid ""
 "A universal interview feedback form designed to capture structured "
 "interviewer insights for any interview format or stage."
@@ -161,6 +206,9 @@ msgstr "È richiesto uno slug valido."
 msgid "A valid template ID is required."
 msgstr "È richiesto un ID del template valido."
 
+msgid "A valid userId is required."
+msgstr ""
+
 msgid "Ability to analyze problems and propose effective solutions"
 msgstr "Capacità di analizzare problemi e proporre soluzioni efficaci"
 
@@ -170,8 +218,17 @@ msgstr "Capacità di progettare sistemi scalabili e manutenibili"
 msgid "Ability to perform tasks required for the role"
 msgstr "Capacità di svolgere le attività richieste per il ruolo"
 
+msgid ""
+"Academic conference registration form created for educators, university "
+"researchers, students, and institutional representatives with research "
+"presentation selection and certification options."
+msgstr ""
+
 msgid "Access pass"
 msgstr "Pass di accesso"
+
+msgid "Access this settings page"
+msgstr ""
 
 msgid "Accident report forms"
 msgstr "Moduli di segnalazione incidenti"
@@ -209,14 +266,26 @@ msgstr "Campo di testo attivo"
 msgid "Adaptability and flexibility"
 msgstr "Adattabilità e flessibilità"
 
+msgid "Add Another Account"
+msgstr ""
+
 msgid "Add Form Field"
 msgstr "Aggiungi campo del modulo"
 
 msgid "Add Form Fields"
 msgstr "Aggiungi campi del modulo"
 
+msgid "Add Form Page"
+msgstr ""
+
+msgid "Add Google Sheet"
+msgstr ""
+
 msgid "Add Page"
 msgstr "Aggiungi pagina"
+
+msgid "Add Permission"
+msgstr ""
 
 msgid "Add a field to start building your form"
 msgstr "Aggiungi un campo per iniziare a creare il tuo modulo"
@@ -224,16 +293,26 @@ msgstr "Aggiungi un campo per iniziare a creare il tuo modulo"
 msgid ""
 "Add a new field to an existing IvyForms form. Supported types: text, "
 "textarea, email, number, phone, website, name, radio, checkbox, select, "
-"multi-select, address, date, time, rating, html. When IvyForms Pro is "
-"active, password and signature are also supported. After adding a field, use "
-"open-form-builder to let the user see and configure."
+"multi-select, address, date, time, rating, html, slider, file-upload, gdpr, "
+"product, quantity, total. When IvyForms Pro is active, password, signature, "
+"date_time, likert, nps, and rich_text are also supported. After adding a "
+"field, use open-form-builder to let the user see and configure. For "
+"multipage forms (Pro), pass pageId (e.g. page_1) to place the field on a "
+"specific page."
 msgstr ""
-"Aggiungi un nuovo campo a un modulo IvyForms esistente. Tipi supportati: "
-"text, textarea, email, number, phone, website, name, radio, checkbox, "
-"select, multi-select, address, date, time, rating, html. Quando IvyForms Pro "
-"è abilitato, sono supportati anche password e signature. Dopo aver aggiunto "
-"un campo, usa open-form-builder per consentire all’utente di visualizzarlo e "
-"configurarlo."
+
+msgid ""
+"Add a new page to an existing IvyForms multipage form. Requires IvyForms "
+"Pro. Appends a page by default, or inserts after insertAfterPageId. Page IDs "
+"are normalized on save (page_1, page_2, …). Use add-form-field with pageId "
+"or reorder-form-fields with pageId to populate the new page."
+msgstr ""
+
+msgid "Add a product field to the form, then link this quantity field to it."
+msgstr ""
+
+msgid "Add and edit forms"
+msgstr ""
 
 msgid "Add any additional notes or upload attachments"
 msgstr "Aggiungi eventuali note aggiuntive o carica file allegati"
@@ -243,6 +322,9 @@ msgstr "Aggiungi un messaggio di compleanno o dettagli di design"
 
 msgid "Add choice"
 msgstr "Aggiungi opzione"
+
+msgid "Add confirmation"
+msgstr ""
 
 msgid "Add custom CSS class"
 msgstr "Aggiungi classe CSS personalizzata"
@@ -254,8 +336,17 @@ msgid "Add custom CSS classes to style this field"
 msgstr ""
 "Aggiungi classi CSS personalizzate per definire lo stile di questo campo"
 
+msgid "Add entry"
+msgstr ""
+
 msgid "Add field"
 msgstr "Aggiungi campo"
+
+msgid "Add more Google Sheets"
+msgstr ""
+
+msgid "Add new entry"
+msgstr ""
 
 msgid "Add new form"
 msgstr "Aggiungi nuovo modulo"
@@ -267,11 +358,12 @@ msgid ""
 "REQUIRED INPUTS: formId and fields (each item requires type). \n"
 "                Optional per-field keys mirror add-form-field. SUPPORTED "
 "FIELD TYPES: text, textarea, email, number, phone, website, name, radio, "
-"checkbox, select, multi-select, address, date, time, rating, html. If "
-"IvyForms Pro is active, password and signature fields are also supported. "
-"IMPORTANT WORKFLOW RULES: 1. This ability ONLY adds fields to an existing "
-"form (it does NOT create a form). 2. If formId is missing or unknown, the "
-"agent MUST first use get-forms or \n"
+"checkbox, select, multi-select, address, date, time, rating, html, slider, "
+"file-upload, gdpr, product, quantity, total. If IvyForms Pro is active, "
+"password, signature, date_time, likert, nps, and rich_text fields are also "
+"supported. IMPORTANT WORKFLOW RULES: 1. This ability ONLY adds fields to an "
+"existing form (it does NOT create a form). 2. If formId is missing or "
+"unknown, the agent MUST first use get-forms or \n"
 "                create-form before calling this. 3. After successfully "
 "adding fields, the next step should usually be open-form-builder\n"
 "                 so the user can review layout and options. 4. Do not assume "
@@ -284,31 +376,6 @@ msgid ""
 "after calling this ability until API confirms success. - Do NOT duplicate "
 "fields manually; use duplicate-form-field for that purpose."
 msgstr ""
-"Aggiungi uno o più nuovi campi a un modulo IvyForms esistente. Questa "
-"abilità modifica la configurazione del modulo archiviata \n"
-"                (scrive l’intero payload del modulo come il salvataggio del "
-"builder). REQUIRED INPUTS: formId e fields (ogni elemento richiede type). \n"
-"                Le chiavi facoltative per ciascun campo rispecchiano add-"
-"form-field. SUPPORTED FIELD TYPES: text, textarea, email, number, phone, "
-"website, name, radio, checkbox, select, multi-select, address, date, time, "
-"rating, html. Se IvyForms Pro è attivo, sono supportati anche i campi "
-"password e signature. IMPORTANT WORKFLOW RULES: 1. Questa abilità ONLY "
-"aggiunge campi a un modulo esistente (NON crea un modulo). 2. Se formId "
-"manca o è sconosciuto, l’agente MUST usare prima get-forms o \n"
-"                create-form prima di chiamare questa. 3. Dopo aver aggiunto "
-"correttamente i campi, il passaggio successivo di solito dovrebbe essere "
-"open-form-builder\n"
-"                 così l’utente può rivedere layout e opzioni. 4. Non dare "
-"per scontato l’ordine dei campi a meno che non sia esplicitamente restituito "
-"dalla risposta dell’API. FIELD BEHAVIOR NOTES: - label è impostato di "
-"default su una versione con iniziale maiuscola di type se non fornito. - "
-"required è impostato di default su false. - width è impostato di default su "
-"100 se non specificato. - description è il testo di aiuto mostrato sotto il "
-"campo nell’UI. COMMON AGENT MISTAKES TO AVOID: - Do NOT chiamare questa se "
-"l’utente vuole creare un modulo (usa invece create-form). - Do NOT dare per "
-"scontato che il campo esista già dopo aver chiamato questa abilità finché "
-"l’API non conferma il successo. - Do NOT duplicare manualmente i campi; usa "
-"duplicate-form-field a tale scopo."
 
 msgid "Add option"
 msgstr "Aggiungi opzione"
@@ -322,18 +389,13 @@ msgstr "Aggiungi ai preferiti"
 msgid "Add subfolder"
 msgstr "Aggiungi sottocartella"
 
+msgid ""
+"Add your forms to any Elementor page with the dedicated IvyForms widget."
+msgstr ""
+
 #, php-format
 msgid "Added %d fields successfully."
 msgstr "Aggiunti %d campi con successo."
-
-msgid "Added GDPR field."
-msgstr "Aggiunto il campo GDPR."
-
-msgid "Added MCP integration for AI agents (WordPress 6.9+)."
-msgstr "Aggiunta l’integrazione MCP per agenti AI (WordPress 6.9+)."
-
-msgid "Added Slider field."
-msgstr "Aggiunto campo cursore."
 
 msgid "Additional CSS Class(es)"
 msgstr "Classi CSS aggiuntive"
@@ -380,9 +442,6 @@ msgstr "Indirizzo"
 msgid "Address / Site location"
 msgstr "Indirizzo / Sede"
 
-msgid "Address Line 2"
-msgstr "Indirizzo (riga 2)"
-
 msgid "Address field"
 msgstr "Campo indirizzo"
 
@@ -404,10 +463,44 @@ msgstr "Email di notifica amministratore"
 msgid "Advanced"
 msgstr "Avanzate"
 
+msgid ""
+"Advanced bulk product order form for industrial equipment procurement with "
+"specification details, compliance requirements, quantities, and delivery "
+"scheduling for manufacturing and construction companies."
+msgstr ""
+
+msgid ""
+"Advanced consultation booking form for agencies, consultants, legal "
+"advisors, financial experts, and business strategists with project discovery "
+"and meeting preparation details."
+msgstr ""
+
+msgid ""
+"Advanced cybersecurity conference registration form designed for security "
+"professionals, IT leaders, ethical hackers, and compliance specialists with "
+"technical workshop enrollment and certification tracking."
+msgstr ""
+
+msgid ""
+"Advanced marketing conference registration form focused on growth "
+"professionals, agencies, and digital marketing leaders with track "
+"personalization and networking preferences."
+msgstr ""
+
+msgid ""
+"Advanced marketing role application for performance, SEO, content, and "
+"growth marketers with campaign breakdowns and KPI focus."
+msgstr ""
+
 msgid "Advanced mode offers in-depth control over every design element."
 msgstr ""
 "La modalità avanzata offre un controllo completo e dettagliato su ogni "
 "elemento di design."
+
+msgid ""
+"Advanced workshop evaluation form for technical bootcamps, coding workshops, "
+"software training sessions, and hands-on professional development programs."
+msgstr ""
 
 msgid "Advisor A"
 msgstr "Consulente A"
@@ -424,6 +517,9 @@ msgstr "Pomeriggio"
 msgid "Afternoon session"
 msgstr "Sessione pomeridiana"
 
+msgid "Afternoon shift"
+msgstr ""
+
 msgid "Age"
 msgstr "Età"
 
@@ -432,6 +528,9 @@ msgstr "Dichiarazione di età & capacità legale"
 
 msgid "Age ranges"
 msgstr "Intervalli d’età"
+
+msgid "Agree"
+msgstr ""
 
 msgid "Agree to terms & conditions"
 msgstr "Accetta termini & condizioni"
@@ -459,18 +558,17 @@ msgstr "Allineamento ai valori del team e allo stile di lavoro"
 msgid "All"
 msgstr "Tutti"
 
-msgid ""
-"All IvyForms database tables and settings will be deleted when this plugin "
-"is deactivated. To prevent this,"
-msgstr ""
-"Tutte le tabelle del database e le impostazioni di IvyForms verranno "
-"eliminate quando questo plugin verrà disattivato. Per evitare ciò,"
-
 msgid "All data"
 msgstr "Tutti i dati"
 
+msgid "All emails for selected roles"
+msgstr ""
+
 msgid "All entries"
 msgstr "Tutti gli invii"
+
+msgid "All file types"
+msgstr ""
 
 msgid "All form fields:"
 msgstr "Tutti i campi del modulo:"
@@ -488,6 +586,14 @@ msgstr ""
 msgid "All settings retrieved successfully"
 msgstr "Tutte le impostazioni sono state recuperate con successo"
 
+msgid ""
+"All supported fields, settings, and configurations will be imported "
+"automatically. Platform-specific fields or features that do not have a "
+"direct IvyForms equivalent may be skipped or adjusted during the import "
+"process. We recommend reviewing your form after import to ensure everything "
+"is configured as expected."
+msgstr ""
+
 msgid "All templates"
 msgstr "Tutti i template"
 
@@ -503,14 +609,35 @@ msgstr "Consenti l'utilizzo di IvyForms come fonte dati in Mailchimp"
 msgid "Allow IvyForms to be used as a data source in wpDataTables"
 msgstr "Consenti l'utilizzo di IvyForms come fonte dati in wpDataTables"
 
+msgid "Allow all file types"
+msgstr ""
+
+msgid "Allow selecting dates"
+msgstr ""
+
 msgid "Allow users to search options."
 msgstr "Consenti agli utenti di cercare tra le opzioni."
+
+msgid "Allowed file types"
+msgstr ""
+
+msgid "Almost done…"
+msgstr ""
 
 msgid "Already purchased?"
 msgstr "Hai già acquistato?"
 
 msgid "Amazing"
 msgstr "Fantastico"
+
+msgid "Amelia Booking"
+msgstr ""
+
+msgid "Amelia Booking plugin installed successfully!"
+msgstr ""
+
+msgid "Amount label"
+msgstr ""
 
 msgid "An exact copy will be added to your forms."
 msgstr "Una copia identica verrà aggiunta ai tuoi moduli."
@@ -542,6 +669,12 @@ msgstr "Modulo di richiesta delle ferie annuali"
 msgid "Any additional information or special requests"
 msgstr "Eventuali informazioni aggiuntive o richieste particolari"
 
+msgid "Any dates"
+msgstr ""
+
+msgid "Any days of the week"
+msgstr ""
+
 msgid "Any dietary restrictions, accessibility needs, or other notes"
 msgstr ""
 "Eventuali restrizioni alimentari, esigenze di accessibilità o altre note"
@@ -554,6 +687,9 @@ msgstr ""
 msgid "Any injuries or medical conditions"
 msgstr "Eventuali infortuni o condizioni mediche"
 
+msgid "Any months"
+msgstr ""
+
 msgid "Any special instructions or details"
 msgstr "Eventuali istruzioni particolari o dettagli"
 
@@ -563,14 +699,27 @@ msgstr "Eventuali richieste particolari o note"
 msgid "Any special requirements or notes"
 msgstr "Eventuali esigenze particolari o note"
 
+msgid "Apartment rental application form"
+msgstr ""
+
+msgid ""
+"Apartment rental application form for landlords to screen tenants with "
+"income verification, rental history, and identity documents."
+msgstr ""
+
 msgid "Appliances"
 msgstr "Elettrodomestici"
 
 msgid "Applicability to daily work"
 msgstr "Applicabilità al lavoro quotidiano"
 
-msgid "Application forms"
-msgstr "Moduli di richiesta"
+msgid ""
+"Application form for creative freelancers such as designers, video editors, "
+"and writers. Emphasizes visual portfolio and sample work submission."
+msgstr ""
+
+msgid "Applications & Careers Forms"
+msgstr ""
 
 msgid "Apply"
 msgstr "Applica"
@@ -597,6 +746,9 @@ msgstr ""
 "Vuoi davvero eliminare questi moduli? Verranno eliminati anche eventuali "
 "invii dei moduli salvati."
 
+msgid "Are you sure you want to delete this confirmation?"
+msgstr ""
+
 msgid "Are you sure you want to delete this entry?"
 msgstr "Vuoi davvero eliminare questo invio?"
 
@@ -616,8 +768,14 @@ msgstr ""
 msgid "Are you sure you want to delete this notification?"
 msgstr "Vuoi davvero eliminare questa notifica?"
 
+msgid "Are you sure you want to delete this rule?"
+msgstr ""
+
 msgid "Are you sure you want to delete {page}? All its fields will be removed."
 msgstr "Vuoi davvero eliminare {page}? Tutti i suoi campi verranno rimossi."
+
+msgid "Are you sure you want to disconnect this account?"
+msgstr ""
 
 msgid ""
 "Are you sure you want to reset all styles to default? This action cannot be "
@@ -625,6 +783,12 @@ msgid ""
 msgstr ""
 "Confermi di voler ripristinare tutti gli stili alle impostazioni "
 "predefinite? Questa azione non può essere annullata."
+
+msgid ""
+"Are you sure you want to switch the form to a conversational layout? The "
+"layout will change and you won't be able to switch back to the multi-page "
+"layout later."
+msgstr ""
 
 msgid "Areas for improvement"
 msgstr "Aspetti da migliorare"
@@ -637,6 +801,9 @@ msgstr "Aromaterapia"
 
 msgid "Arrival date"
 msgstr "Data di arrivo"
+
+msgid "Associate degree"
+msgstr ""
 
 msgid ""
 "At any time, you can withdraw your consent and request the removal of your "
@@ -653,6 +820,9 @@ msgstr "È necessaria almeno una definizione di campo."
 
 msgid "At least one field update is required."
 msgstr "È necessario modificare almeno un campo."
+
+msgid "At least one page definition is required."
+msgstr ""
 
 msgid "Attach or provide details if doctor's note is required"
 msgstr "Allega o fornisci dettagli se è richiesto un certificato medico"
@@ -678,6 +848,9 @@ msgstr "Autore"
 msgid "Auto"
 msgstr ""
 
+msgid "Autocomplete"
+msgstr ""
+
 msgid "Autoload file not found."
 msgstr "File di autoload non trovato."
 
@@ -686,8 +859,29 @@ msgstr ""
 "Invia automaticamente i dati della compilazione a qualsiasi endpoint tramite "
 "webhooks."
 
+msgid "Availability"
+msgstr ""
+
 msgid "Availability & responsiveness"
 msgstr "Disponibilità & reattività"
+
+msgid "Availability (Days/Hours)"
+msgstr ""
+
+msgid "Availability date"
+msgstr ""
+
+msgid "Availability hours"
+msgstr ""
+
+msgid "Availability hours per week"
+msgstr ""
+
+msgid "Availability start date"
+msgstr ""
+
+msgid "Available Dynamic Dates"
+msgstr ""
 
 msgid "Available date"
 msgstr "Data di disponibilità"
@@ -704,6 +898,15 @@ msgstr "Medio"
 msgid "Awesome"
 msgstr "Ottimo"
 
+msgid "BCC"
+msgstr ""
+
+msgid "BLOCKED dangerous CSS pattern"
+msgstr ""
+
+msgid "BLOCKED unsafe URL in CSS"
+msgstr ""
+
 msgid "Baby shower"
 msgstr "baby shower"
 
@@ -713,11 +916,17 @@ msgstr "Modulo d'ordine per la torta del baby shower"
 msgid "Baby shower theme"
 msgstr "Tema del baby shower"
 
+msgid "Bachelor degree"
+msgstr ""
+
 msgid "Back"
 msgstr "Indietro"
 
 msgid "Back to form"
 msgstr "Torna al modulo"
+
+msgid "Backend"
+msgstr ""
 
 msgid "Backend developer"
 msgstr "Sviluppatore back-end"
@@ -746,6 +955,9 @@ msgstr "Aggiornamento in blocco riuscito"
 msgid "Beach wedding RSVP form"
 msgstr "Modulo RSVP per matrimonio sulla spiaggia"
 
+msgid "Beauty salon & personal care appointment form"
+msgstr ""
+
 msgid "Beef"
 msgstr "Manzo"
 
@@ -772,6 +984,12 @@ msgstr "Migliore comprensione dell’argomento"
 
 msgid "Beverages"
 msgstr "Bevande"
+
+msgid "Biggest campaign result (KPIs)"
+msgstr ""
+
+msgid "Biggest project description"
+msgstr ""
 
 msgid "Birthday"
 msgstr "Data di nascita"
@@ -815,6 +1033,12 @@ msgstr "Blu"
 msgid "Body treatment"
 msgstr "Trattamento corpo"
 
+msgid "Book a Demo"
+msgstr ""
+
+msgid "Booking ID"
+msgstr ""
+
 msgid "Booking date"
 msgstr "Data di prenotazione"
 
@@ -853,6 +1077,9 @@ msgstr ""
 msgid "Both site key and secret key are required"
 msgstr "Sono richieste sia la site key sia la secret key"
 
+msgid "Brand marketing"
+msgstr ""
+
 msgid "Bride & groom names"
 msgstr "Nomi della sposa e dello sposo"
 
@@ -883,6 +1110,9 @@ msgstr "Correzione bug"
 msgid "Build"
 msgstr "Crea"
 
+msgid "Build a guided, chat-style flow that feels natural for respondents."
+msgstr ""
+
 msgid "Building / Department / Room"
 msgstr "Edificio / Dipartimento / Stanza"
 
@@ -897,6 +1127,21 @@ msgstr "Moduli aziendali e di vendita"
 
 msgid "Business / Vendor name"
 msgstr "Nome azienda / fornitore"
+
+msgid "Business consultation & strategy session booking form"
+msgstr ""
+
+msgid "Business registration document"
+msgstr ""
+
+msgid "Business type"
+msgstr ""
+
+msgid "Business vendor onboarding form"
+msgstr ""
+
+msgid "Button-style layout"
+msgstr ""
 
 msgid "Button Label"
 msgstr "Etichetta del pulsante"
@@ -943,6 +1188,9 @@ msgstr "Colore testo pulsante"
 msgid "Button width"
 msgstr "Larghezza pulsante"
 
+msgid "CC"
+msgstr ""
+
 msgid "CEO"
 msgstr ""
 
@@ -957,6 +1205,12 @@ msgstr "nome della classe CSS"
 
 msgid "CSS classes"
 msgstr "classi CSS"
+
+msgid "CV / resume upload"
+msgstr ""
+
+msgid "CV upload"
+msgstr ""
 
 msgid "Cabinets"
 msgstr "Mobili"
@@ -1000,6 +1254,9 @@ msgstr "Cardiologo"
 msgid "Cardiology"
 msgstr "Cardiologia"
 
+msgid "Carpenter"
+msgstr ""
+
 msgid "Case studies"
 msgstr "Casi di studio"
 
@@ -1014,6 +1271,12 @@ msgstr "Centro"
 
 msgid "Certification or credits"
 msgstr "Certificazione o crediti"
+
+msgid "Certifications"
+msgstr ""
+
+msgid "Certifications (Google / Meta / HubSpot)"
+msgstr ""
 
 msgid "Change order forms"
 msgstr "Moduli per ordini di modifica"
@@ -1081,8 +1344,11 @@ msgstr "Opzione 3"
 msgid "Choice type"
 msgstr "Tipo di opzione"
 
-msgid "Choose an IvyForms file"
-msgstr "Scegli un file IvyForms"
+msgid "Choose Value"
+msgstr ""
+
+msgid "Choose a form export file"
+msgstr ""
 
 msgid "Choose cake flavor"
 msgstr "Scegli gusto della torta"
@@ -1093,11 +1359,22 @@ msgstr "Seleziona data"
 msgid "Choose file"
 msgstr "Scegli un file"
 
+msgid "Choose files"
+msgstr ""
+
+msgid "Choose one or more forms for this rule."
+msgstr ""
+
 msgid "Choose presets"
 msgstr "Scegli preimpostazioni"
 
 msgid "Choose the form you want to display."
 msgstr "Seleziona il modulo da visualizzare."
+
+msgid ""
+"Choose which product field this quantity field updates when visitors change "
+"the amount."
+msgstr ""
 
 msgid "Church donation forms"
 msgstr "Moduli di donazione per chiese"
@@ -1110,6 +1387,9 @@ msgstr "Chiarezza, articolazione e capacità di esprimere le idee"
 
 msgid "Class level"
 msgstr "Livello del corso"
+
+msgid "Class registration forms"
+msgstr ""
 
 msgid "Class type"
 msgstr "Tipo di lezione"
@@ -1171,6 +1451,12 @@ msgstr "Editor di codice"
 
 msgid "Code quality / Solution quality"
 msgstr "Qualità del codice / Qualità della soluzione"
+
+msgid "Code samples upload"
+msgstr ""
+
+msgid "Coding projects description"
+msgstr ""
 
 msgid "Collaborative mindset"
 msgstr "Mentalità collaborativa"
@@ -1234,6 +1520,15 @@ msgstr "Colori"
 msgid "Column visibility"
 msgstr "Visibilità delle colonne"
 
+msgid "Columns"
+msgstr ""
+
+msgid "Columns per row"
+msgstr ""
+
+msgid "Comic Sans MS"
+msgstr ""
+
 msgid "Coming soon..."
 msgstr "Prossimamente..."
 
@@ -1242,6 +1537,14 @@ msgstr "Commenti o domande"
 
 msgid "Commercial construction change form"
 msgstr "Modulo di richiesta di modifica per costruzione commerciale"
+
+msgid "Commercial rental application form"
+msgstr ""
+
+msgid ""
+"Commercial rental application form for businesses applying for office or "
+"retail space, including financial documentation and business verification."
+msgstr ""
 
 msgid "Commercial space type"
 msgstr "Tipologia di spazio commerciale"
@@ -1280,6 +1583,24 @@ msgid "Compliance & safety"
 msgstr "Compliance & sicurezza"
 
 msgid ""
+"Comprehensive conference registration form designed for technology and "
+"innovation summits with attendee profiling, track selection, networking "
+"preferences, workshop enrollment, and accommodation planning."
+msgstr ""
+
+msgid ""
+"Comprehensive employee training evaluation form designed for internal "
+"corporate learning programs, onboarding sessions, leadership workshops, and "
+"professional development training."
+msgstr ""
+
+msgid ""
+"Comprehensive feedback form for marketing conferences, networking meetups, "
+"and business growth events focused on content quality, networking success, "
+"and attendee engagement."
+msgstr ""
+
+msgid ""
 "Comprehensive form to obtain patient consent for blood transfusion, "
 "including patient info, medical history, risks, alternatives, and signatures."
 msgstr ""
@@ -1287,7 +1608,16 @@ msgstr ""
 "trasfusione di sangue, inclusi dati del paziente, anamnesi, rischi, "
 "alternative e firme."
 
+msgid ""
+"Comprehensive medical appointment scheduling form for clinics, specialist "
+"practices, and healthcare providers with patient details, appointment "
+"preferences, medical concerns, and visit preparation information."
+msgstr ""
+
 msgid "Computer"
+msgstr ""
+
+msgid "Computer science"
 msgstr ""
 
 msgid "Conference"
@@ -1311,6 +1641,14 @@ msgstr "Modulo di prenotazione della sala riunioni"
 msgid "Conference track"
 msgstr "Traccia della conferenza"
 
+msgid ""
+"Configure multipage structure for an existing IvyForms form. Requires "
+"IvyForms Pro. Defines the ordered pages array (page_1, page_2, …), optional "
+"progress indicator settings, and optional per-field page assignments. Use "
+"after create-form and before or after add-form-field. Pair with reorder-form-"
+"fields (pageId) and add-form-field (pageId) to place fields on pages."
+msgstr ""
+
 msgid "Configure now"
 msgstr "Configura subito"
 
@@ -1331,11 +1669,17 @@ msgstr "Conferma duplicazione"
 msgid "Confirm email"
 msgstr "Conferma email"
 
+msgid "Confirmation"
+msgstr ""
+
 msgid "Confirmation ID is required."
 msgstr "L’ID di conferma è obbligatorio."
 
 msgid "Confirmation created successfully"
 msgstr "Conferma creata con successo"
+
+msgid "Confirmation deleted successfully"
+msgstr ""
 
 msgid "Confirmation duplicated successfully"
 msgstr "Conferma duplicata con successo"
@@ -1345,6 +1689,12 @@ msgstr "Etichetta di conferma"
 
 msgid "Confirmation message"
 msgstr "Messaggio di conferma"
+
+msgid "Confirmation name"
+msgstr ""
+
+msgid "Confirmation name is required."
+msgstr ""
 
 msgid "Confirmation not found."
 msgstr "Conferma non trovata."
@@ -1361,10 +1711,36 @@ msgstr "Conferme"
 msgid "Confusing navigation"
 msgstr "Navigazione confusa"
 
+msgid "Connect"
+msgstr ""
+
+msgid "Connect APIs effortlessly for smooth, integrated workflows."
+msgstr ""
+
+msgid "Connect Account"
+msgstr ""
+
+msgid "Connect a Google Sheet to start syncing form submissions."
+msgstr ""
+
+msgid ""
+"Connect an AI provider that supports text generation in Settings → "
+"Connectors."
+msgstr ""
+
+msgid ""
+"Connect your Google account to sync form submissions to your spreadsheets. "
+"Click Connect Account and sign in with Google."
+msgstr ""
+
 msgid "Connect your forms to 5,000+ apps with Zapier automation workflows"
 msgstr ""
 "Collega i tuoi moduli a 5.000+ app con i flussi di lavoro di automazione di "
 "Zapier"
+
+msgid ""
+"Connect your forms to Amelia Booking and manage your bookings effortlessly."
+msgstr ""
 
 msgid "Connect your forms to Mailchimp and grow your email list effortlessly."
 msgstr ""
@@ -1429,6 +1805,9 @@ msgstr "Tipo di consulenza"
 msgid "Consulting"
 msgstr "Consulenza"
 
+msgid "Contact Us"
+msgstr ""
+
 msgid "Contact form"
 msgstr "Modulo di contatto"
 
@@ -1447,8 +1826,14 @@ msgstr "File del container non trovato."
 msgid "Content"
 msgstr "Contenuto"
 
+msgid "Content creation experience"
+msgstr ""
+
 msgid "Content difficulty level"
 msgstr "Livello di difficoltà del contenuto"
+
+msgid "Content marketing"
+msgstr ""
 
 msgid "Content quality"
 msgstr "Qualità del contenuto"
@@ -1461,6 +1846,19 @@ msgstr "Valore del contenuto"
 
 msgid "Continents"
 msgstr "Continenti"
+
+msgid "Conversational Form"
+msgstr ""
+
+msgid ""
+"Conversational mode is not supported for multi-page forms or forms that "
+"contain NPS or Likert scale fields."
+msgstr ""
+
+msgid ""
+"Converting a multi-page form to conversational format merges all fields into "
+"a single page. Reverting to a multi-page layout is not supported."
+msgstr ""
 
 msgid "Cooking class registration form"
 msgstr "Modulo di iscrizione al corso di cucina"
@@ -1486,11 +1884,43 @@ msgstr "Angolo"
 msgid "Corners"
 msgstr "Angoli"
 
+msgid "Corporate employee training feedback form"
+msgstr ""
+
+msgid "Corporate employment application form"
+msgstr ""
+
+msgid "Corporate event sponsorship application form"
+msgstr ""
+
+msgid "Corporate internship application form"
+msgstr ""
+
+msgid "Corporate internship applications for business and tech companies."
+msgstr ""
+
+msgid "Corporate office supplies procurement order form"
+msgstr ""
+
 msgid "Corporate photo consent form"
 msgstr "Modulo di consenso all’uso della foto in ambito aziendale"
 
+msgid ""
+"Corporate sponsorship application form for event organizers to collect "
+"company details, sponsorship tiers, activation preferences, and brand assets."
+msgstr ""
+
 msgid "Corporate t-shirt order form"
 msgstr "Modulo d'ordine per t-shirt aziendali"
+
+msgid "Could not read the current access rules; no changes were made."
+msgstr ""
+
+msgid "Could not read the current access rules."
+msgstr ""
+
+msgid "Could not validate the entry. Please try again."
+msgstr ""
 
 msgid "Countertops"
 msgstr "Piani di lavoro"
@@ -1509,6 +1939,12 @@ msgstr "Modulo di feedback sui contenuti del corso"
 
 msgid "Course topic"
 msgstr "Argomento del corso"
+
+msgid "Cover letter"
+msgstr ""
+
+msgid "Cover letter upload"
+msgstr ""
 
 msgid "Craft type"
 msgstr "Tipo di artigianato"
@@ -1631,6 +2067,12 @@ msgstr ""
 msgid "Create tables"
 msgstr "Crea tabelle"
 
+msgid "Creative contractor application form"
+msgstr ""
+
+msgid "Creative field"
+msgstr ""
+
 msgid "Credentials are valid"
 msgstr "Le credenziali sono valide"
 
@@ -1658,11 +2100,32 @@ msgstr "Non allineamento con la cultura aziendale"
 msgid "Culture fit interview"
 msgstr "Colloquio di allineamento alla cultura aziendale"
 
+msgid "Currency"
+msgstr ""
+
+msgid "Current"
+msgstr ""
+
+msgid "Current address"
+msgstr ""
+
+msgid "Current job title"
+msgstr ""
+
 msgid "Current page URL"
 msgstr "URL della pagina corrente"
 
+msgid "Current year of study"
+msgstr ""
+
+msgid "Cursive"
+msgstr ""
+
 msgid "Custom"
 msgstr "Personalizzato"
+
+msgid "Custom CSS"
+msgstr ""
 
 msgid "Custom CSS class"
 msgstr "Classe CSS personalizzata"
@@ -1672,6 +2135,9 @@ msgstr "URL personalizzato"
 
 msgid "Custom cake order form"
 msgstr "Modulo d’ordine per torta personalizzata"
+
+msgid "Custom event t-shirt bulk order form"
+msgstr ""
 
 msgid "Custom styles"
 msgstr "Stili personalizzati"
@@ -1684,6 +2150,9 @@ msgstr "Messaggio di convalida personalizzato"
 
 msgid "Customer feedback forms"
 msgstr "Moduli di feedback dei clienti"
+
+msgid "Customer feedback survey with a rating"
+msgstr ""
 
 msgid "Customer loyalty & recommendation form"
 msgstr "Modulo per fidelizzazione e passaparola dei clienti"
@@ -1702,6 +2171,9 @@ msgstr "Personalizza le opzioni predefinite (un’opzione per riga)"
 
 msgid "Cybersecurity"
 msgstr "Sicurezza informatica"
+
+msgid "Cybersecurity & data protection conference registration form"
+msgstr ""
 
 msgid "DD"
 msgstr ""
@@ -1729,6 +2201,14 @@ msgstr "Data engineer / Analista"
 
 msgid "Date"
 msgstr "Data"
+
+msgid ""
+"DateTime range must contain exactly two valid datetime values (start and "
+"end)."
+msgstr ""
+
+msgid "Date & Time"
+msgstr ""
 
 msgid "Date & time (picker)"
 msgstr "Data e ora (selettore)"
@@ -1763,6 +2243,9 @@ msgstr "Formato data"
 msgid "Date input"
 msgstr "Campo data"
 
+msgid "Date mode"
+msgstr ""
+
 msgid "Date must be after {min}."
 msgstr "La data deve essere successiva a {min}."
 
@@ -1789,6 +2272,9 @@ msgstr "GG"
 
 msgid "Days of the week"
 msgstr "Giorni della settimana"
+
+msgid "Days of the week available in the calendar"
+msgstr ""
 
 msgid "Decrease value"
 msgstr "Riduci valore"
@@ -1820,11 +2306,23 @@ msgstr "Delega"
 msgid "Delete"
 msgstr "Elimina"
 
-msgid "Delete IvyForms content when the plugin is deactivated"
-msgstr "Elimina i contenuti di IvyForms quando il plugin viene disattivato"
+msgid "Delete Google Sheet integration?"
+msgstr ""
+
+msgid "Delete IvyForms content when the plugin is uninstalled"
+msgstr ""
 
 msgid "Delete Page"
 msgstr "Elimina pagina"
+
+msgid "Delete (not available for welcome page)"
+msgstr ""
+
+msgid "Delete entries from the admin area"
+msgstr ""
+
+msgid "Delete forms"
+msgstr ""
 
 msgid "Delivered on time"
 msgstr "Consegnato puntualmente"
@@ -1852,6 +2350,12 @@ msgstr "Dipartimento/Organizzazione"
 
 msgid "Department / Team"
 msgstr "Dipartimento / Team"
+
+msgid "Department applied for"
+msgstr ""
+
+msgid "Department of interest"
+msgstr ""
 
 msgid "Departure date"
 msgstr "Data di partenza"
@@ -1882,6 +2386,9 @@ msgstr "Descrivi il tema, ad es. rustico, elegante, floreale..."
 
 msgid "Describe your design ideas or color scheme"
 msgstr "Descrivi le tue idee di design o la palette di colori"
+
+msgid "Describe your form"
+msgstr ""
 
 msgid "Describe your items"
 msgstr "Descrivi i prodotti"
@@ -1919,10 +2426,23 @@ msgstr "Istruzioni di design"
 msgid "Design instructions or branding notes"
 msgstr "Istruzioni di design o note sul branding"
 
+msgid ""
+"Designed for beginners and junior candidates applying for their first job."
+msgstr ""
+
 msgid "Designed for sports teams or group orders with multiple sizes."
 msgstr "Pensato per squadre sportive o ordini di gruppo con diverse taglie."
 
 msgid "Designer"
+msgstr ""
+
+msgid "Desired lease duration"
+msgstr ""
+
+msgid "Desired move-in date"
+msgstr ""
+
+msgid "Desired salary"
 msgstr ""
 
 msgid "Desktop"
@@ -1932,6 +2452,12 @@ msgid "Destination wedding RSVP form"
 msgstr "Modulo RSVP per matrimonio fuori sede"
 
 msgid ""
+"Detailed feedback form for online learning programs, virtual workshops, "
+"certification courses, and digital education platforms focused on content "
+"quality, platform usability, and learner engagement."
+msgstr ""
+
+msgid ""
 "Detailed form for requesting, documenting, and approving changes in "
 "residential construction projects, including materials, costs, timelines, "
 "and multi-level approvals"
@@ -1939,6 +2465,12 @@ msgstr ""
 "Modulo dettagliato per richiedere, documentare e approvare ordini di "
 "variante in progetti di costruzione residenziale, inclusi materiali, costi, "
 "tempistiche e approvazioni a più livelli."
+
+msgid ""
+"Detailed post-event feedback form for technology conferences and innovation "
+"summits focused on session quality, networking opportunities, speaker "
+"evaluation, and attendee experience."
+msgstr ""
 
 msgid "Details about tasks, solutions, trade-offs, and examples…"
 msgstr "Dettagli su attività, soluzioni, compromessi ed esempi…"
@@ -1995,11 +2527,32 @@ msgstr "Difficile da usare"
 msgid "Difficulty explaining decisions"
 msgstr "Difficoltà a motivare le decisioni"
 
+msgid "Digital marketing internship application form"
+msgstr ""
+
 msgid "Dinner reservation form"
 msgstr "Modulo di prenotazione per la cena"
 
+msgid "Disable"
+msgstr ""
+
 msgid "Disable styles"
 msgstr "Disattiva gli stili"
+
+msgid "Disagree"
+msgstr ""
+
+msgid "Disconnect"
+msgstr ""
+
+msgid "Disconnect Account"
+msgstr ""
+
+msgid "Disconnect account?"
+msgstr ""
+
+msgid "Divi"
+msgstr ""
 
 msgid "Do not hire"
 msgstr "Non assumere"
@@ -2034,6 +2587,15 @@ msgstr "Moduli di donazione"
 msgid "Download"
 msgstr "Scarica"
 
+msgid "Drag file here or click to upload"
+msgstr ""
+
+msgid "Drag file here or | click to upload"
+msgstr ""
+
+msgid "Drop files to upload"
+msgstr ""
+
 msgid "Dropdown"
 msgstr "Elenco a discesa"
 
@@ -2054,6 +2616,9 @@ msgstr "Duplica notifica"
 
 msgid "Duplicate Page"
 msgstr "Duplica pagina"
+
+msgid "Duplicate (not available for welcome page)"
+msgstr ""
 
 msgid ""
 "Duplicate an existing IvyForms form by formId, creating an independent copy. "
@@ -2103,8 +2668,17 @@ msgid "Duplicate an existing field in an IvyForms form by its ID."
 msgstr ""
 "Duplica un campo esistente in un modulo IvyForms utilizzando il relativo ID."
 
+msgid "Duplicate confirmation"
+msgstr ""
+
+msgid "Duplicate entry"
+msgstr ""
+
 msgid "Duplicate found for field {fieldKey}:"
 msgstr "Duplicato rilevato per il campo {fieldKey}:"
+
+msgid "Duplicate rule id."
+msgstr ""
 
 msgid "Duplicate this form?"
 msgstr "Duplicare questo modulo?"
@@ -2124,6 +2698,15 @@ msgstr "Formato europeo senza decimali (ex: 123.456.789)"
 msgid "E.164"
 msgstr ""
 
+msgid "Each rule must grant at least one permission."
+msgstr ""
+
+msgid "Each rule must have a non-empty id."
+msgstr ""
+
+msgid "Each rule must have type \"role\" or \"user\"."
+msgstr ""
+
 msgid "Ease of navigation"
 msgstr "Facilità di navigazione"
 
@@ -2131,11 +2714,9 @@ msgid "Ease of use"
 msgstr "Facilità d’uso"
 
 msgid ""
-"Easily export form submissions to wpDataTables for advanced data management "
-"and visualization."
+"Easily export form entries to wpDataTables for advanced data management and "
+"visualization."
 msgstr ""
-"Esporta facilmente le compilazioni del modulo in wpDataTables per una "
-"gestione e visualizzazione avanzate dei dati."
 
 msgid "Easy to use"
 msgstr "Facile da usare"
@@ -2143,11 +2724,26 @@ msgstr "Facile da usare"
 msgid "Edit"
 msgstr "Modifica"
 
+msgid "Edit Permission"
+msgstr ""
+
+msgid "Edit entries details"
+msgstr ""
+
+msgid "Edit entry"
+msgstr ""
+
 msgid "Edit table"
 msgstr "Modifica tabella"
 
+msgid "Education & academic research conference registration form"
+msgstr ""
+
 msgid "Education conference registration form"
 msgstr "Modulo di iscrizione alla conferenza sull’istruzione"
+
+msgid "Education level"
+msgstr ""
 
 msgid "Effective"
 msgstr "Attivo"
@@ -2157,6 +2753,12 @@ msgstr "Algoritmi efficienti"
 
 msgid "Electrical"
 msgstr "Elettrico"
+
+msgid "Electrician"
+msgstr ""
+
+msgid "Elementor"
+msgstr ""
 
 msgid "Email"
 msgstr ""
@@ -2176,6 +2778,10 @@ msgstr "Reinserisci l’indirizzo email"
 msgid "Email updates for future conferences"
 msgstr "Aggiornamenti via email sulle prossime conferenze"
 
+msgid ""
+"Embed your forms in Divi layouts and keep the builder experience intact."
+msgstr ""
+
 msgid "Emergency contact"
 msgstr "Contatto di emergenza"
 
@@ -2184,6 +2790,9 @@ msgstr "Moduli per contatti di emergenza"
 
 msgid "Emergency contact number during leave"
 msgstr "Numero di telefono del contatto di emergenza durante il congedo"
+
+msgid "Employed"
+msgstr ""
 
 msgid "Employee ID"
 msgstr "ID dipendente"
@@ -2200,14 +2809,38 @@ msgstr "Modulo di feedback sulla formazione del dipendente"
 msgid "Employment application forms"
 msgstr "Moduli di domanda di assunzione"
 
+msgid "Employment history document"
+msgstr ""
+
+msgid "Employment status"
+msgstr ""
+
+msgid "Empty payment message"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Enable Conversational Form"
+msgstr ""
+
 msgid "Enable MCP for AI assistants"
 msgstr "Attiva MCP per gli assistenti IA"
+
+msgid "Enable Welcome Page"
+msgstr ""
 
 msgid "Enable auto country detection"
 msgstr "Abilita rilevamento automatico del paese"
 
 msgid "Enable confirmation"
 msgstr "Abilita conferma"
+
+msgid "Enable data usage"
+msgstr ""
+
+msgid "Enable date range"
+msgstr ""
 
 msgid "Enable email confirmation"
 msgstr "Abilita conferma via email"
@@ -2227,8 +2860,20 @@ msgstr "Abilita o disabilita questa notifica"
 msgid "Enable search"
 msgstr "Abilita ricerca"
 
+msgid "Enable seconds"
+msgstr ""
+
+msgid "Enable summary"
+msgstr ""
+
 msgid "Enabled"
 msgstr "Attivo"
+
+msgid ""
+"Enabling this option will permanently delete ALL IvyForms content (forms, "
+"entries, settings) when you uninstall this plugin. This action cannot be "
+"undone."
+msgstr ""
 
 msgid "Encouraged participation"
 msgstr "Partecipazione incoraggiata"
@@ -2281,6 +2926,9 @@ msgstr "Inserisci riga 2 dell’indirizzo"
 msgid "Enter address or site location (optional)"
 msgstr "Inserisci l’indirizzo o la località del sito (facoltativo)"
 
+msgid "Enter amount"
+msgstr ""
+
 msgid "Enter any additional comments or notes"
 msgstr "Inserisci eventuali commenti o note aggiuntive"
 
@@ -2292,6 +2940,24 @@ msgstr "Inserisci eventuali richieste particolari, domande o commenti"
 
 msgid "Enter arrival date"
 msgstr "Inserisci la data di arrivo"
+
+msgid "Enter availability"
+msgstr ""
+
+msgid "Enter availability (days/hours)"
+msgstr ""
+
+msgid "Enter availability hours"
+msgstr ""
+
+msgid "Enter availability hours per week"
+msgstr ""
+
+msgid "Enter biggest campaign result (kpis)"
+msgstr ""
+
+msgid "Enter biggest project description"
+msgstr ""
 
 msgid "Enter birthday person name"
 msgstr "Inserisci il nome di chi compie gli anni"
@@ -2305,17 +2971,32 @@ msgstr "Inserisci nome commerciale"
 msgid "Enter candidate name or ID"
 msgstr "Inserisci nome o ID del candidato"
 
+msgid "Enter coding projects description"
+msgstr ""
+
 msgid "Enter company name"
 msgstr "Inserisci ragione sociale"
 
 msgid "Enter company or organization"
 msgstr "Inserisci azienda o organizzazione"
 
+msgid "Enter content creation experience"
+msgstr ""
+
 msgid "Enter couple's names"
 msgstr "Inserisci nomi della coppia"
 
 msgid "Enter couple’s last name(s)"
 msgstr "Inserisci cognome/i della coppia"
+
+msgid "Enter cover letter"
+msgstr ""
+
+msgid "Enter current job title"
+msgstr ""
+
+msgid "Enter current year of study"
+msgstr ""
 
 msgid "Enter date"
 msgstr "Inserisci data"
@@ -2341,11 +3022,17 @@ msgstr "Inserisci istruzioni di design o note di branding"
 msgid "Enter design name or theme"
 msgstr "Inserisci nome del design o del tema"
 
+msgid "Enter desired salary"
+msgstr ""
+
 msgid "Enter device name"
 msgstr "Inserisci nome del dispositivo"
 
 msgid "Enter donation amount"
 msgstr "Inserisci importo della donazione"
+
+msgid "Enter emergency contact"
+msgstr ""
 
 msgid "Enter equipment name"
 msgstr "Inserisci il nome dell'attrezzatura"
@@ -2380,6 +3067,12 @@ msgstr "Inserisci il nome"
 msgid "Enter form name"
 msgstr "Inserisci il nome del modulo"
 
+msgid "Enter github / portfolio"
+msgstr ""
+
+msgid "Enter github profile"
+msgstr ""
+
 msgid "Enter grade or class"
 msgstr "Inserisci classe o anno di corso"
 
@@ -2389,11 +3082,29 @@ msgstr "Inserisci la chiave segreta di hCaptcha"
 msgid "Enter hCaptcha site key"
 msgstr "Inserisci la chiave del sito di hCaptcha"
 
+msgid "Enter hourly rate"
+msgstr ""
+
+msgid "Enter industries worked in"
+msgstr ""
+
+msgid "Enter internship experience"
+msgstr ""
+
+msgid "Enter internship goals"
+msgstr ""
+
 msgid "Enter item name"
 msgstr "Inserisci il nome dell’elemento"
 
+msgid "Enter label text"
+msgstr ""
+
 msgid "Enter last name"
 msgstr "Inserisci il cognome"
+
+msgid "Enter linkedin profile"
+msgstr ""
 
 msgid "Enter location"
 msgstr "Inserisci località"
@@ -2401,8 +3112,23 @@ msgstr "Inserisci località"
 msgid "Enter material name"
 msgstr "Inserisci nome del materiale"
 
+msgid "Enter message / motivation"
+msgstr ""
+
+msgid "Enter monthly budget range"
+msgstr ""
+
+msgid "Enter monthly income"
+msgstr ""
+
+msgid "Enter notes"
+msgstr ""
+
 msgid "Enter number"
 msgstr "Inserisci numero"
+
+msgid "Enter number of employees"
+msgstr ""
 
 msgid "Enter number of guests"
 msgstr "Inserisci numero di ospiti"
@@ -2410,8 +3136,14 @@ msgstr "Inserisci numero di ospiti"
 msgid "Enter number of licenses"
 msgstr "Inserisci numero di licenze"
 
+msgid "Enter number of occupants"
+msgstr ""
+
 msgid "Enter number of t-shirts"
 msgstr "Inserisci numero di T-shirt"
+
+msgid "Enter office space requirements"
+msgstr ""
 
 msgid "Enter overall conference organization"
 msgstr "Inserisci organizzazione principale della conferenza"
@@ -2431,8 +3163,44 @@ msgstr "Inserisci il nome del genitore/tutore"
 msgid "Enter parent(s) name(s)"
 msgstr "Inserisci nome del/dei genitore/i"
 
+msgid "Enter pets"
+msgstr ""
+
+msgid "Enter portfolio / github"
+msgstr ""
+
+msgid "Enter portfolio / project links"
+msgstr ""
+
+msgid "Enter portfolio links"
+msgstr ""
+
+msgid "Enter position applied for"
+msgstr ""
+
 msgid "Enter preferred repair date"
 msgstr "Inserisci la data di riparazione preferita"
+
+msgid "Enter previous employer"
+msgstr ""
+
+msgid "Enter previous employers"
+msgstr ""
+
+msgid "Enter previous office rental experience"
+msgstr ""
+
+msgid "Enter previous work experience"
+msgstr ""
+
+msgid "Enter primary tech stack"
+msgstr ""
+
+msgid "Enter problem-solving experience"
+msgstr ""
+
+msgid "Enter programming languages known"
+msgstr ""
 
 msgid "Enter quantity"
 msgstr "Inserisci la quantità"
@@ -2440,11 +3208,23 @@ msgstr "Inserisci la quantità"
 msgid "Enter raw HTML code. You can use any valid HTML tags."
 msgstr "Inserisci il codice HTML grezzo. Puoi usare qualsiasi tag HTML valido."
 
+msgid "Enter reason for moving"
+msgstr ""
+
+msgid "Enter references"
+msgstr ""
+
 msgid "Enter remaining leave days available"
 msgstr "Inserisci i giorni di ferie residui"
 
+msgid "Enter rental history"
+msgstr ""
+
 msgid "Enter requested installation date"
 msgstr "Inserisci la data di installazione richiesta"
+
+msgid "Enter school / university"
+msgstr ""
 
 msgid "Enter school name"
 msgstr "Inserisci il nome della scuola"
@@ -2457,6 +3237,15 @@ msgstr "Inserisci la chiave del sito"
 
 msgid "Enter size in sq. meters"
 msgstr "Inserisci la superficie in m²"
+
+msgid "Enter skills"
+msgstr ""
+
+msgid "Enter skills summary"
+msgstr ""
+
+msgid "Enter social media platforms managed"
+msgstr ""
 
 msgid "Enter software name"
 msgstr "Inserisci il nome del software"
@@ -2473,6 +3262,9 @@ msgstr "Inserisci stato, provincia o regione"
 msgid "Enter team name"
 msgstr "Inserisci il nome del team"
 
+msgid "Enter tech stack"
+msgstr ""
+
 msgid "Enter text here"
 msgstr "Inserisci il testo qui"
 
@@ -2483,6 +3275,18 @@ msgid "Enter the custom URL to redirect users after form submission."
 msgstr ""
 "Inserisci l’URL personalizzato per reindirizzare le persone dopo l’invio del "
 "modulo."
+
+msgid "Enter time zone"
+msgstr ""
+
+msgid "Enter tools experience (google ads, meta, hubspot, etc.)"
+msgstr ""
+
+msgid "Enter tools knowledge (meta ads, google ads, canva, etc.)"
+msgstr ""
+
+msgid "Enter tools used"
+msgstr ""
 
 msgid "Enter tooltip message here"
 msgstr "Inserisci qui il testo del tooltip"
@@ -2499,8 +3303,20 @@ msgstr "Inserisci il numero totale di giorni"
 msgid "Enter trainer name if any"
 msgstr "Inserisci il nome del formatore, se presente"
 
+msgid "Enter university"
+msgstr ""
+
+msgid "Enter university / education"
+msgstr ""
+
 msgid "Enter venue address for delivery"
 msgstr "Inserisci l’indirizzo della sede per la consegna"
+
+msgid "Enter work experience in logistics"
+msgstr ""
+
+msgid "Enter years of experience"
+msgstr ""
 
 msgid ""
 "Enter your HTML content. This will be displayed to users exactly as entered."
@@ -2562,14 +3378,23 @@ msgstr "Voci eliminate con successo"
 msgid "Entry"
 msgstr "Voce"
 
+msgid "Entry-level job application form"
+msgstr ""
+
 msgid "Entry ID"
 msgstr "ID voce"
 
 msgid "Entry ID is required."
 msgstr "L’ID voce è obbligatorio."
 
+msgid "Entry created successfully"
+msgstr ""
+
 msgid "Entry deleted successfully"
 msgstr "Elemento eliminato con successo"
+
+msgid "Entry editing is not available."
+msgstr ""
 
 msgid "Entry marked as read"
 msgstr "Elemento contrassegnato come letto"
@@ -2646,6 +3471,9 @@ msgstr "Errore nella duplicazione del modulo:"
 msgid "Error duplicating notification:"
 msgstr "Errore nella duplicazione della notifica:"
 
+msgid "Error fetching confirmations:"
+msgstr ""
+
 msgid "Error fetching entries:"
 msgstr "Errore nel recupero degli invii:"
 
@@ -2664,6 +3492,9 @@ msgstr "Errore nell'hook di inizializzazione del campo:"
 #, php-format
 msgid "Error loading Turnstile settings: %s"
 msgstr "Errore nel caricamento delle impostazioni di Turnstile: %s"
+
+msgid "Error loading confirmation:"
+msgstr ""
 
 msgid "Error loading data:"
 msgstr "Errore durante il caricamento dei dati:"
@@ -2792,6 +3623,9 @@ msgstr "Modulo di consenso per le fotografie durante l’evento"
 msgid "Event registration form"
 msgstr "Modulo di iscrizione all’evento"
 
+msgid "Event registration form with name, email, and dietary preference"
+msgstr ""
+
 msgid "Event registration forms"
 msgstr "Moduli di iscrizione all’evento"
 
@@ -2828,6 +3662,12 @@ msgstr "Comunicazione eccellente"
 msgid "Excellent fit"
 msgstr "Corrispondenza eccellente"
 
+msgid "Exclude weekdays"
+msgstr ""
+
+msgid "Exclude weekends"
+msgstr ""
+
 msgid "Execute is only supported for v3 and invisible reCAPTCHA"
 msgstr "Execute è supportato solo per reCAPTCHA v3 e reCAPTCHA invisibile"
 
@@ -2849,8 +3689,14 @@ msgstr "Moduli di rimborso spese"
 msgid "Expenses report forms"
 msgstr "Moduli per nota spese"
 
+msgid "Experience level"
+msgstr ""
+
 msgid "Expertise"
 msgstr "Competenza"
+
+msgid "Explore Collection"
+msgstr ""
 
 msgid "Export"
 msgstr "Esporta"
@@ -2883,6 +3729,12 @@ msgstr "Fornitore esterno"
 msgid "Facial"
 msgstr "Trattamento viso"
 
+msgid "Facility maintenance issue report form"
+msgstr ""
+
+msgid "Failed to add field."
+msgstr ""
+
 msgid "Failed to add fields."
 msgstr "Impossibile aggiungere i campi."
 
@@ -2895,11 +3747,20 @@ msgstr ""
 msgid "Failed to check duplicates: %s"
 msgstr "Impossibile verificare i duplicati: %s"
 
+msgid "Failed to connect Google Sheets."
+msgstr ""
+
+msgid "Failed to connect Google account. Please try again."
+msgstr ""
+
 msgid "Failed to create confirmation."
 msgstr "Impossibile creare la conferma."
 
 msgid "Failed to create default notification"
 msgstr "Impossibile creare la notifica predefinita"
+
+msgid "Failed to create entry:"
+msgstr ""
 
 msgid "Failed to create form."
 msgstr "Impossibile creare il modulo."
@@ -2915,6 +3776,9 @@ msgstr "Impossibile creare il timestamp dai componenti temporali"
 
 msgid "Failed to create upload directory."
 msgstr "Impossibile creare la cartella di caricamento."
+
+msgid "Failed to delete Google Sheet integration."
+msgstr ""
 
 msgid "Failed to delete entries:"
 msgstr "Impossibile eliminare i record:"
@@ -2977,6 +3841,9 @@ msgstr "Impossibile contrassegnare l'invio come preferito"
 msgid "Failed to favorite form"
 msgstr "Impossibile contrassegnare il modulo come preferito"
 
+msgid "Failed to fetch confirmation:"
+msgstr ""
+
 msgid "Failed to fetch form"
 msgstr "Impossibile recuperare il modulo"
 
@@ -2985,6 +3852,9 @@ msgstr "Impossibile recuperare la notifica:"
 
 msgid "Failed to fetch templates"
 msgstr "Impossibile recuperare i modelli"
+
+msgid "Failed to generate the form. Please try again."
+msgstr ""
 
 msgid "Failed to get entry:"
 msgstr "Impossibile recuperare la voce:"
@@ -3010,6 +3880,9 @@ msgstr "Impossibile caricare il modulo"
 msgid "Failed to load notification:"
 msgstr "Impossibile caricare la notifica:"
 
+msgid "Failed to load permissions."
+msgstr ""
+
 msgid "Failed to load settings"
 msgstr "Impossibile caricare le impostazioni"
 
@@ -3033,8 +3906,14 @@ msgstr "Impossibile leggere il JSON degli stili predefiniti del modulo: %s"
 msgid "Failed to read file"
 msgstr "Impossibile leggere il file"
 
+msgid "Failed to save Google Sheet integration."
+msgstr ""
+
 msgid "Failed to save form"
 msgstr "Impossibile salvare il modulo"
+
+msgid "Failed to save permissions."
+msgstr ""
 
 msgid "Failed to save settings"
 msgstr "Impossibile salvare le impostazioni"
@@ -3048,6 +3927,12 @@ msgstr "Impossibile rimuovere l'elemento dai preferiti"
 
 msgid "Failed to unfavorite form"
 msgstr "Impossibile rimuovere il modulo dai preferiti"
+
+msgid "Failed to update Google Sheet integration."
+msgstr ""
+
+msgid "Failed to update access rules."
+msgstr ""
 
 msgid "Failed to update confirmation"
 msgstr "Impossibile aggiornare il messaggio di conferma"
@@ -3064,6 +3949,9 @@ msgstr "Impossibile aggiornare l’ordine dei campi."
 msgid "Failed to update form!"
 msgstr "Impossibile aggiornare il modulo!"
 
+msgid "Failed to update multipage form."
+msgstr ""
+
 msgid "Failed to update notification"
 msgstr "Impossibile aggiornare la notifica"
 
@@ -3073,11 +3961,19 @@ msgstr "Impossibile scrivere il file immagine."
 msgid "Fair"
 msgstr "Sufficiente"
 
+msgid ""
+"Fallback when no other confirmation matches. Smart logic still applies when "
+"enabled."
+msgstr ""
+
 msgid "Family"
 msgstr "Famiglia"
 
 msgid "Family care leave"
 msgstr "Congedo per assistenza a familiari"
+
+msgid "Fashion brand custom apparel order form"
+msgstr ""
 
 msgid "Fast learner"
 msgstr "Apprende rapidamente"
@@ -3104,6 +4000,10 @@ msgid "Field"
 msgstr "Campo"
 
 #, php-format
+msgid "Field \"%1$s\" added successfully to form %2$d."
+msgstr ""
+
+#, php-format
 msgid "Field \"%s\" duplicated successfully."
 msgstr "Campo \"%s\" duplicato correttamente."
 
@@ -3122,11 +4022,17 @@ msgstr "Spessore del bordo del campo"
 msgid "Field corner"
 msgstr "Angolo del campo"
 
+msgid "Field duplicated but child fields could not be linked."
+msgstr ""
+
 msgid "Field label text"
 msgstr "Testo dell'etichetta del campo"
 
 msgid "Field labels"
 msgstr "Etichette del campo"
+
+msgid "Field of study"
+msgstr ""
 
 msgid "Field order updated successfully."
 msgstr "Ordine dei campi aggiornato con successo."
@@ -3165,6 +4071,18 @@ msgstr ""
 "La dimensione del file ({fileSize} MB) supera la dimensione massima "
 "consentita ({maxSize} MB). Seleziona un file più piccolo."
 
+msgid "File size exceeded"
+msgstr ""
+
+msgid "File size exceeded."
+msgstr ""
+
+msgid "File upload"
+msgstr ""
+
+msgid "File upload failed."
+msgstr ""
+
 msgid "Filtered data:"
 msgstr "Dati filtrati:"
 
@@ -3186,8 +4104,11 @@ msgstr "Finanza"
 msgid "Financial"
 msgstr "Finanziario"
 
-msgid "First Name"
-msgstr "Nome"
+msgid "Financial services & FinTech leadership conference registration form"
+msgstr ""
+
+msgid "Financial statements"
+msgstr ""
 
 msgid "First name"
 msgstr "Nome"
@@ -3207,16 +4128,22 @@ msgstr "Modulo di iscrizione al corso di fitness"
 msgid "Fitness goals"
 msgstr "Obiettivi di fitness"
 
-msgid ""
-"Fixed forms and entries table layout, date pickers, \n"
-"                and bulk actions after failed API calls."
+msgid "Fixed Number field placeholder alignment on the frontend."
 msgstr ""
-"Corretti i moduli e il layout della tabella delle voci, i selettori di "
-"data, \n"
-"                e le azioni in blocco dopo chiamate API non riuscite."
+
+msgid "Fixed automatic language detection for the Phone field on the frontend."
+msgstr ""
+
+msgid ""
+"Fixed custom required messages not being saved for First Name and Last Name "
+"subfields."
+msgstr ""
 
 msgid "Flexibility"
 msgstr "Flessibilità"
+
+msgid "Flexible shift"
+msgstr ""
 
 msgid "Flooring"
 msgstr "Pavimentazione"
@@ -3264,6 +4191,9 @@ msgid "For events, conferences, or festivals requiring t-shirt orders."
 msgstr ""
 "Per eventi, conferenze o festival per cui è necessario ordinare t-shirt."
 
+msgid "For experienced professionals applying to specialized roles."
+msgstr ""
+
 msgid ""
 "For ordering custom t-shirts for birthday parties or personal celebrations."
 msgstr ""
@@ -3281,14 +4211,39 @@ msgstr ""
 msgid "For ordering software licenses, subscriptions, or digital products."
 msgstr "Per ordinare licenze software, abbonamenti o prodotti digitali."
 
+msgid "For remote internships in digital roles."
+msgstr ""
+
+msgid "For retail, hospitality, and service industry hiring."
+msgstr ""
+
+msgid "For students applying to university or academic internships."
+msgstr ""
+
+msgid "For technical and skilled labor positions."
+msgstr ""
+
+msgid "Forbidden"
+msgstr ""
+
+msgid "Forklift license"
+msgstr ""
+
 msgid "Form"
 msgstr "Modulo"
+
+#, php-format
+msgid "Form %d not found."
+msgstr ""
 
 msgid "Form ID"
 msgstr "ID modulo"
 
 msgid "Form ID is required."
 msgstr "L’ID del modulo è obbligatorio."
+
+msgid "Form ID must be a positive integer."
+msgstr ""
 
 msgid "Form ID not found, please save the form first."
 msgstr "ID del modulo non trovato, salva prima il modulo."
@@ -3320,9 +4275,6 @@ msgstr "Arrotondamento angoli del modulo"
 msgid "Form created successfully."
 msgstr "Modulo creato con successo."
 
-msgid "Form creation failed."
-msgstr "Creazione del modulo non riuscita."
-
 msgid "Form data not found (wpIvyFormData is undefined)"
 msgstr "Dati del modulo non trovati (wpIvyFormData is undefined)"
 
@@ -3334,6 +4286,14 @@ msgstr "Descrizione del modulo"
 
 msgid "Form duplicated successfully"
 msgstr "Modulo duplicato con successo"
+
+msgid "Form fields"
+msgstr ""
+
+msgid ""
+"Form for IT support requests with device details, issue category, "
+"screenshots, and urgency level."
+msgstr ""
 
 msgid ""
 "Form for attendees or performers at festivals to acknowledge risks and "
@@ -3469,6 +4429,11 @@ msgstr ""
 "specialisti medici."
 
 msgid ""
+"Form for property maintenance and repair requests with address, issue "
+"details, photos, and entry permission."
+msgstr ""
+
+msgid ""
 "Form for recording changes specifically in kitchens during renovation or "
 "upgrades."
 msgstr ""
@@ -3501,6 +4466,11 @@ msgid ""
 msgstr ""
 "Modulo per l’invio di richieste di riparazione con tracciamento dettagliato "
 "e classificazione delle tipologie di problema."
+
+msgid ""
+"Form for reporting facility maintenance issues with issue type, severity, "
+"photos, and repair scheduling."
+msgstr ""
 
 msgid ""
 "Form for requesting installations with type, scheduling, and special "
@@ -3586,6 +4556,9 @@ msgstr "Modulo non trovato o non pubblicato"
 msgid "Form padding left/right"
 msgstr "Spaziatura interna sinistra/destra del modulo"
 
+msgid "Form page added successfully."
+msgstr ""
+
 msgid "Form published successfully"
 msgstr "Modulo pubblicato con successo"
 
@@ -3603,6 +4576,9 @@ msgstr "Stili del modulo"
 
 msgid "Form submitted successfully!"
 msgstr "Modulo inviato con successo!"
+
+msgid "Form theme"
+msgstr ""
 
 msgid "Form title"
 msgstr "Titolo del modulo"
@@ -3704,6 +4680,9 @@ msgstr "Modulo aggiornato con successo"
 msgid "Form updated successfully!"
 msgstr "Modulo aggiornato con successo!"
 
+msgid "Formal employment application for corporate hiring pipelines."
+msgstr ""
+
 msgid "Format"
 msgstr "Formato"
 
@@ -3722,14 +4701,42 @@ msgstr "Moduli importati con successo"
 msgid "Founder / CEO"
 msgstr "Fondatore / CEO"
 
+msgid "Freelancer application form"
+msgstr ""
+
+msgid ""
+"Freelancer application form designed for independent professionals applying "
+"for contract-based or gig work. Focused on portfolio, skills, and pricing "
+"expectations."
+msgstr ""
+
+msgid ""
+"Freelancer application form for UI/UX designers to showcase design tools, "
+"case studies, and UX process expertise."
+msgstr ""
+
+msgid ""
+"Freelancer application form for video editors to submit portfolio videos, "
+"editing software experience, and style specialization."
+msgstr ""
+
+msgid "Freelancer application forms"
+msgstr ""
+
 msgid "Friend"
 msgstr "Amico"
 
 msgid "Friendliness"
 msgstr "Cordialità"
 
+msgid "Frontend"
+msgstr ""
+
 msgid "Frontend developer"
 msgstr "Sviluppatore frontend"
+
+msgid "Full-stack"
+msgstr ""
 
 msgid "Full-stack developer"
 msgstr "Sviluppatore full-stack"
@@ -3754,6 +4761,9 @@ msgstr "Moduli di donazione per raccolte fondi"
 
 msgid "Fundraising"
 msgstr "Raccolta fondi"
+
+msgid "Future dates"
+msgstr ""
 
 msgid "GDPR"
 msgstr ""
@@ -3790,6 +4800,9 @@ msgstr ""
 "da un elenco e indicano le quantità, insieme ai dettagli di spedizione e ai "
 "dati di contatto."
 
+msgid "General job application form"
+msgstr ""
+
 msgid "General medical consent form"
 msgstr "Modulo di consenso generale alle cure mediche"
 
@@ -3805,8 +4818,17 @@ msgstr "Impostazioni generali"
 msgid "Generate a form automatically with the help of AI."
 msgstr "Genera automaticamente un modulo con l'aiuto dell'IA."
 
+msgid "Generate form"
+msgstr ""
+
 msgid "Generate with AI"
 msgstr "Genera con IA"
+
+msgid "Generating your form"
+msgstr ""
+
+msgid "Get Access Rules"
+msgstr ""
 
 msgid "Get Changelog"
 msgstr "Recupera Registro Modifiche"
@@ -3832,8 +4854,14 @@ msgstr "Recupera Impostazione"
 msgid "Get Settings"
 msgstr "Recupera Impostazioni"
 
+msgid "Get Started"
+msgstr ""
+
 msgid "Get Template"
 msgstr "Recupera modello"
+
+msgid "Get access to our full collection of professionally designed themes."
+msgstr ""
 
 msgid ""
 "Get all IvyForms plugin settings in a single aggregated response. This "
@@ -4072,6 +5100,12 @@ msgstr ""
 msgid "Gift wrap?"
 msgstr "Confezione regalo?"
 
+msgid "GitHub / portfolio"
+msgstr ""
+
+msgid "GitHub profile"
+msgstr ""
+
 msgid "Gluten-free"
 msgstr "Senza glutine"
 
@@ -4096,6 +5130,34 @@ msgstr "Ottima compatibilità"
 msgid "Google Meet"
 msgstr ""
 
+msgid "Google Sheet"
+msgstr ""
+
+msgid "Google Sheet integration created successfully."
+msgstr ""
+
+msgid "Google Sheet integration deleted successfully."
+msgstr ""
+
+msgid "Google Sheet integration updated successfully."
+msgstr ""
+
+msgid ""
+"Google Sheets OAuth is not configured on this site. Please contact support."
+msgstr ""
+
+msgid ""
+"Google Sheets is not connected. Connect your Google account and try again."
+msgstr ""
+
+msgid ""
+"Google Sheets is not connected. Connect your Google account in Global "
+"Settings first."
+msgstr ""
+
+msgid "Google account connected successfully."
+msgstr ""
+
 msgid "Got it, thanks!"
 msgstr "Ricevuto, grazie!"
 
@@ -4104,6 +5166,37 @@ msgstr "Anno / Classe"
 
 msgid "Graduation"
 msgstr "Laurea"
+
+msgid "Grant Role Permission"
+msgstr ""
+
+msgid "Grant User Permission"
+msgstr ""
+
+msgid ""
+"Grant one or more IvyForms permissions to a WordPress role. Administrator "
+"access required. Optionally limit the grant to specific form IDs (omit "
+"formIds to grant globally). Valid permission keys: view_forms_list, "
+"add_edit_forms, delete_forms, access_settings_page, view_entries_admin, "
+"delete_entries_admin. Use list-permission-keys to discover keys/roles and "
+"get-access-rules to review the result."
+msgstr ""
+
+msgid ""
+"Grant one or more IvyForms permissions to a specific WordPress user. "
+"Administrator access required. Identify the user by userId, or by userLogin/"
+"userEmail. Optionally limit the grant to specific form IDs (omit formIds to "
+"grant globally). User-targeted grants override role-targeted grants for the "
+"same permission."
+msgstr ""
+
+#, php-format
+msgid "Granted permissions to role \"%s\"."
+msgstr ""
+
+#, php-format
+msgid "Granted permissions to user #%d."
+msgstr ""
 
 msgid "Green"
 msgstr "Verde"
@@ -4120,8 +5213,14 @@ msgstr "Posizione nel gruppo"
 msgid "Guest"
 msgstr "Ospite"
 
+msgid "Gutenberg"
+msgstr ""
+
 msgid "Gym liability waiver form"
 msgstr "Modulo di manleva e liberatoria di responsabilità della palestra"
+
+msgid "Gym membership signup with plan choice and emergency contact"
+msgstr ""
 
 msgid "HIIT"
 msgstr ""
@@ -4175,14 +5274,23 @@ msgstr "Mezza giornata (pomeriggio)"
 msgid "Half day morning"
 msgstr "Mezza giornata (mattina)"
 
+msgid "Hang tight…"
+msgstr ""
+
 msgid "Happy 10th birthday!"
 msgstr "Buon 10° compleanno!"
 
 msgid "Header button"
 msgstr "Pulsante dell’intestazione"
 
+msgid "Header logo"
+msgstr ""
+
 msgid "Heading level select"
 msgstr "Selettore del livello del titolo"
+
+msgid "Heading {level}"
+msgstr ""
 
 msgid "Health notes"
 msgstr "Note sulla salute"
@@ -4190,8 +5298,22 @@ msgstr "Note sulla salute"
 msgid "Health notes / Injuries"
 msgstr "Note sulla salute / Lesioni"
 
+msgid "Healthcare & medical conference registration form"
+msgstr ""
+
+msgid "Healthcare seminar & medical event feedback form"
+msgstr ""
+
 msgid "Hearts"
 msgstr "Cuori"
+
+msgid "Heavy lifting experience"
+msgstr ""
+
+msgid ""
+"Help us improve IvyForms by sharing anonymous data about your plugin usage. "
+"No personal data is collected."
+msgstr ""
 
 msgid ""
 "Here is the list of all ivy forms integrations. You can enable or disable "
@@ -4221,8 +5343,17 @@ msgstr "Nascondi i numeri di pagina"
 msgid "High"
 msgstr "Alto"
 
+msgid "High school"
+msgstr ""
+
 msgid "Highlights"
 msgstr "Punti salienti"
+
+msgid ""
+"Highly flexible product customization form for made-to-order goods such as "
+"branded merchandise, custom packaging, promotional products, and "
+"personalized manufacturing orders."
+msgstr ""
 
 msgid "Highly relevant"
 msgstr "Molto pertinente"
@@ -4254,6 +5385,9 @@ msgstr "Spaziatura orizzontale"
 msgid "Hotel preference or room sharing requests"
 msgstr "Preferenze sull’hotel o richieste di condivisione della camera"
 
+msgid "Hourly rate"
+msgstr ""
+
 msgid "Hours"
 msgstr "Ore"
 
@@ -4284,6 +5418,12 @@ msgstr "Verifica della casella di controllo \"Non sono un robot\""
 msgid "ID"
 msgstr ""
 
+msgid "ID / legal representative document"
+msgstr ""
+
+msgid "ID document upload"
+msgstr ""
+
 msgid "ID must be a positive integer."
 msgstr "L'ID deve essere un numero intero positivo."
 
@@ -4291,6 +5431,18 @@ msgid "IP address"
 msgstr "Indirizzo IP"
 
 msgid "IT"
+msgstr ""
+
+msgid "IT support & equipment maintenance form"
+msgstr ""
+
+msgid "I agree to terms"
+msgstr ""
+
+msgid "I agree to the terms and conditions."
+msgstr ""
+
+msgid "I confirm: physical capability confirmation"
 msgstr ""
 
 msgid ""
@@ -4417,6 +5569,9 @@ msgstr "Tipo di icona"
 msgid "Image URL"
 msgstr "URL dell’immagine"
 
+msgid "Image URL or pick from Media Library"
+msgstr ""
+
 msgid "Import"
 msgstr "Importa"
 
@@ -4426,15 +5581,14 @@ msgstr "Importa modulo"
 msgid "Import forms"
 msgstr "Importa moduli"
 
-msgid "Imported Form"
-msgstr "Modulo importato"
+msgid "Imported form"
+msgstr ""
 
 msgid "Importing..."
 msgstr "Importazione in corso..."
 
-msgid "Improved conditional logic and notification workflows."
+msgid "Improve IvyForms"
 msgstr ""
-"Migliorate la logica condizionale e i flussi di lavoro delle notifiche."
 
 msgid "Improvements"
 msgstr "Miglioramenti"
@@ -4475,6 +5629,12 @@ msgstr "Da interno"
 msgid "Industrial"
 msgstr "Industriale"
 
+msgid "Industrial equipment bulk product order form"
+msgstr ""
+
+msgid "Industries worked in"
+msgstr ""
+
 msgid "Ineffective"
 msgstr "Inefficace"
 
@@ -4483,6 +5643,9 @@ msgstr "Soluzioni inefficienti"
 
 msgid "Information release forms"
 msgstr "Moduli di autorizzazione alla divulgazione di informazioni"
+
+msgid "Information technology"
+msgstr ""
 
 msgid "Informed consent forms"
 msgstr "Moduli di consenso informato"
@@ -4493,6 +5656,9 @@ msgstr "Screening iniziale HR"
 msgid "Initial screening"
 msgstr "Valutazione preliminare"
 
+msgid "Inline"
+msgstr ""
+
 msgid "Input"
 msgstr "Inserimento"
 
@@ -4502,6 +5668,11 @@ msgstr "Inserisci immagine da URL"
 msgid "Insert placeholders"
 msgstr "Inserisci placeholder"
 
+msgid ""
+"Insert your forms directly in the WordPress block editor with the IvyForms "
+"block."
+msgstr ""
+
 msgid "Inside"
 msgstr "Dentro"
 
@@ -4510,6 +5681,12 @@ msgstr "Insight"
 
 msgid "Install"
 msgstr "Installa"
+
+msgid "Install AI plugin"
+msgstr ""
+
+msgid "Install and activate the WordPress AI plugin to add AI Client support."
+msgstr ""
 
 msgid "Installation failed. Please try again."
 msgstr "Installazione non riuscita. Per favore, riprova."
@@ -4533,28 +5710,31 @@ msgid "Instructor effectiveness"
 msgstr "Efficacia del docente"
 
 msgid "Instructor explanations"
-msgstr ""
+msgstr "Spiegazioni dell’istruttore"
 
 msgid "Instructor knowledge"
-msgstr ""
+msgstr "Competenze dell’istruttore"
 
 msgid "Insurance provider"
-msgstr ""
+msgstr "Compagnia assicurativa"
 
 msgid "Intake forms"
-msgstr ""
+msgstr "Moduli di accoglienza"
 
 msgid "Integrate wpDataTables"
-msgstr ""
+msgstr "Integra wpDataTables"
 
 #, php-format
 msgid "Integration \"%s\" not found"
-msgstr ""
+msgstr "Integrazione \"%s\" non trovata"
 
 msgid "Integration slug is required"
-msgstr ""
+msgstr "Lo slug dell’integrazione è richiesto"
 
 msgid "Integrations"
+msgstr "Integrazioni"
+
+msgid "Inter"
 msgstr ""
 
 msgid "Interest in the role, company, and long-term goals"
@@ -4569,11 +5749,25 @@ msgstr "Sei interessato/a a sessioni private?"
 msgid "Intermediate"
 msgstr "Intermedio"
 
+msgid ""
+"Internal corporate procurement form for ordering office supplies across "
+"departments with approval workflow and budget tracking."
+msgstr ""
+
 msgid "Internal team"
 msgstr "Team interno"
 
 msgid "International"
 msgstr "Internazionale"
+
+msgid "Internship application forms"
+msgstr ""
+
+msgid "Internship experience"
+msgstr ""
+
+msgid "Internship goals"
+msgstr ""
 
 msgid "Interview feedback forms"
 msgstr "Moduli di feedback del colloquio"
@@ -4602,6 +5796,16 @@ msgstr "ID del campo non valido."
 msgid "Invalid field type."
 msgstr "Tipo di campo non valido."
 
+#, php-format
+msgid "Invalid field type: %s."
+msgstr ""
+
+msgid "Invalid field type (type not found)."
+msgstr ""
+
+msgid "Invalid file type"
+msgstr ""
+
 msgid "Invalid foreign column provided."
 msgstr "Colonna di chiave esterna fornita non valida."
 
@@ -4613,6 +5817,9 @@ msgstr "Dati del modulo non validi."
 
 msgid "Invalid form data:"
 msgstr "Dati del modulo non validi:"
+
+msgid "Invalid form id in rule."
+msgstr ""
 
 msgid "Invalid image data."
 msgstr "Dati dell’immagine non validi."
@@ -4676,11 +5883,18 @@ msgstr "Nonce non valido."
 msgid "Invalid or missing IDs"
 msgstr "ID non validi o mancanti"
 
+#, php-format
+msgid "Invalid pageId \"%s\" for this form."
+msgstr ""
+
 msgid "Invalid reCAPTCHA type selected"
 msgstr "Tipo di reCAPTCHA selezionato non valido"
 
 msgid "Invalid request data."
 msgstr "Dati della richiesta non validi."
+
+msgid "Invalid role slug."
+msgstr ""
 
 msgid "Invalid secret key. Please verify your reCAPTCHA secret key"
 msgstr "Secret key non valida. Verifica la secret key reCAPTCHA"
@@ -4695,6 +5909,9 @@ msgstr ""
 
 msgid "Invalid site key. Please verify your reCAPTCHA site key"
 msgstr "Site key non valido. Verifica il site key del tuo reCAPTCHA"
+
+msgid "Invalid user id."
+msgstr ""
 
 msgid "Invisible"
 msgstr "Invisibile"
@@ -4739,6 +5956,9 @@ msgstr "Elementi per pagina"
 msgid "IvyForms"
 msgstr ""
 
+msgid "IvyForms default"
+msgstr ""
+
 msgid "IvyForms logo"
 msgstr "Logo IvyForms"
 
@@ -4772,17 +5992,26 @@ msgstr "Gioielli"
 msgid "Job application forms"
 msgstr "Moduli di candidatura"
 
+msgid "Job application with CV upload, role and availability"
+msgstr ""
+
 msgid "Job title"
 msgstr "Mansione"
 
 msgid "Job title / Position"
 msgstr "Mansione / Posizione"
 
+msgid "Join Waitlist"
+msgstr ""
+
 msgid "Join garden tour?"
 msgstr "Ti unisci al tour del giardino?"
 
 msgid "Join welcome dinner?"
 msgstr "Partecipi alla cena di benvenuto?"
+
+msgid "Junior"
+msgstr ""
 
 msgid "Just right"
 msgstr "Proprio giusto"
@@ -4841,6 +6070,9 @@ msgstr "Mancanza di motivazione"
 msgid "Laptop"
 msgstr ""
 
+msgid "Large"
+msgstr ""
+
 msgid "Large (10\")"
 msgstr "Grande (10\")"
 
@@ -4856,14 +6088,14 @@ msgstr "Ultimi 6 mesi"
 msgid "Last 7 days"
 msgstr "Ultimi 7 giorni"
 
-msgid "Last Name"
-msgstr "Cognome"
-
 msgid "Last month"
 msgstr "Ultimo mese"
 
 msgid "Last name"
 msgstr "Cognome"
+
+msgid "Layout"
+msgstr ""
 
 msgid "Layout issues"
 msgstr "Problemi di layout"
@@ -4940,6 +6172,9 @@ msgstr "Probabilità di continuare a lavorare con noi"
 msgid "Likely"
 msgstr "Probabile"
 
+msgid "Likert"
+msgstr ""
+
 msgid "Likes"
 msgstr "Like"
 
@@ -4955,6 +6190,9 @@ msgstr "Limita intervallo minimo e/o massimo"
 msgid "Limit min and/or max time"
 msgstr "Limita ora minima e/o massima"
 
+msgid "Limit to specific forms"
+msgstr ""
+
 msgid "Limited experience"
 msgstr "Esperienza limitata"
 
@@ -4963,6 +6201,12 @@ msgstr "Esperienza limitata con strumenti/stack tecnologico"
 
 msgid "Link corners"
 msgstr "Sincronizza angoli"
+
+msgid "Link is required"
+msgstr ""
+
+msgid "LinkedIn profile"
+msgstr ""
 
 msgid "List Entries"
 msgstr "Elenca invii"
@@ -4986,6 +6230,9 @@ msgstr ""
 
 msgid "List Notifications"
 msgstr "Elenca notifiche"
+
+msgid "List Permission Keys"
+msgstr ""
 
 msgid "List Templates"
 msgstr "Elenca modelli"
@@ -5036,6 +6283,19 @@ msgstr ""
 "modulo). - NON presumere che siano inclusi dati a livello di campo. - NON "
 "tentare aggiornamenti o mutazioni da questa capacità."
 
+msgid ""
+"List the available IvyForms permission keys (with labels) and the WordPress "
+"roles they can be assigned to. READ-ONLY. Administrator access required. Use "
+"this to discover valid permission keys before granting/revoking."
+msgstr ""
+
+msgid ""
+"List the current IvyForms permission (access) rules that grant roles and "
+"users access to forms, entries, and settings. READ-ONLY. Administrator "
+"access required. Use this before granting or revoking permissions so you "
+"know the current state."
+msgstr ""
+
 msgid "List topics or questions you want to cover during the consultation"
 msgstr ""
 "Elenca gli argomenti o le domande che vuoi affrontare durante la consulenza"
@@ -5044,6 +6304,11 @@ msgid "List your main products or menu"
 msgstr "Elenca i tuoi prodotti principali o il tuo menu"
 
 msgid "Lite"
+msgstr ""
+
+msgid ""
+"Lite plan supports {limit} Google Sheet per form. Upgrade to connect "
+"multiple sheets."
 msgstr ""
 
 msgid "Live"
@@ -5064,6 +6329,11 @@ msgstr "Ubicazione / Dettagli della sede"
 msgid "Login problems"
 msgstr "Problemi di accesso"
 
+msgid ""
+"Logistics and warehouse employment form focusing on physical capability, "
+"safety compliance, and operational experience."
+msgstr ""
+
 msgid "Long-term customer"
 msgstr "Cliente di lunga data"
 
@@ -5081,6 +6351,12 @@ msgstr ""
 
 msgid "Machinery"
 msgstr "Macchinario"
+
+msgid "Made with"
+msgstr ""
+
+msgid "Made with IvyForms"
+msgstr ""
 
 msgid "Mailchimp"
 msgstr ""
@@ -5116,6 +6392,12 @@ msgid "Manager"
 msgstr ""
 
 msgid "Manicure"
+msgstr ""
+
+msgid "Map Fields"
+msgstr ""
+
+msgid "Map form fields to spreadsheet columns."
 msgstr ""
 
 msgid "Marble"
@@ -5182,14 +6464,37 @@ msgstr ""
 msgid "Marketing"
 msgstr ""
 
+msgid "Marketing & growth leadership conference registration form"
+msgstr ""
+
+msgid "Marketing & networking event feedback form"
+msgstr ""
+
 msgid "Marketing conference registration form"
 msgstr "Modulo di iscrizione alla conferenza di marketing"
+
+msgid ""
+"Marketing internship application with focus on content creation, analytics, "
+"and social media execution."
+msgstr ""
+
+msgid "Marketing knowledge level"
+msgstr ""
 
 msgid "Marketing specialist"
 msgstr "Specialista di marketing"
 
+msgid "Marketing specialist job application form"
+msgstr ""
+
+msgid "Marketing specialization"
+msgstr ""
+
 msgid "Massage"
 msgstr "Massaggio"
+
+msgid "Master degree"
+msgstr ""
 
 msgid "Material name"
 msgstr "Nome del materiale"
@@ -5209,20 +6514,32 @@ msgstr "Congedo di maternità"
 msgid "Maternity leave request form"
 msgstr "Modulo di richiesta di congedo di maternità"
 
+msgid "Max number of uploads"
+msgstr ""
+
 msgid "Max time"
 msgstr "Tempo massimo"
 
 msgid "Maximum date"
 msgstr "Data massima"
 
+msgid "Maximum file size"
+msgstr ""
+
 msgid "Maximum file size is 5 MB"
 msgstr "La dimensione massima del file è 5 MB"
+
+msgid "Maximum files per submission. Leave 0 for no limit."
+msgstr ""
 
 msgid "Maximum length"
 msgstr "Lunghezza massima"
 
-msgid "Meal option"
-msgstr "Opzione pasto"
+msgid "Maximum size per file in megabytes."
+msgstr ""
+
+msgid "Meal Option"
+msgstr ""
 
 msgid "Meal preference"
 msgstr "Preferenza per il pasto"
@@ -5257,8 +6574,17 @@ msgstr ""
 "Misura l’esperienza del webinar, il valore dei contenuti e le prestazioni "
 "tecniche."
 
+msgid "Mechanic"
+msgstr ""
+
 msgid "Mechanical"
 msgstr "Meccanica"
+
+msgid "Media & influencer sponsorship application form"
+msgstr ""
+
+msgid "Media Library"
+msgstr ""
 
 msgid "Media release forms"
 msgstr "Moduli di liberatoria per i media"
@@ -5274,6 +6600,9 @@ msgstr "Moduli di richiesta di cartelle cliniche"
 
 msgid "Medical release forms"
 msgstr "Moduli di liberatoria medica"
+
+msgid "Medical specialist appointment booking form"
+msgstr ""
 
 msgid "Medium"
 msgstr "Medio"
@@ -5296,6 +6625,9 @@ msgstr "Voci di menu / Offerte"
 msgid "Message"
 msgstr "Messaggio"
 
+msgid "Message / motivation"
+msgstr ""
+
 msgid "Message displayed to the user after a successful form submission."
 msgstr ""
 "Messaggio mostrato all’utente dopo l’invio del modulo andato a buon fine."
@@ -5316,6 +6648,9 @@ msgid "Microphone"
 msgstr "Microfono"
 
 msgid "Microsoft Teams"
+msgstr ""
+
+msgid "Mid"
 msgstr ""
 
 msgid "Middle name"
@@ -5345,6 +6680,9 @@ msgstr "Funzionalità non disponibili"
 msgid "Mix"
 msgstr ""
 
+msgid "Mobile"
+msgstr ""
+
 msgid "Mobile number"
 msgstr "Numero di cellulare"
 
@@ -5357,11 +6695,26 @@ msgstr "Liberatorie per persone ritratte"
 msgid "Modification rights"
 msgstr "Permessi di modifica"
 
+msgid "Monospace"
+msgstr ""
+
 msgid "Month"
 msgstr "Mese"
 
 msgid "Month placeholder"
 msgstr "MM"
+
+msgid "Monthly budget range"
+msgstr ""
+
+msgid "Monthly income"
+msgstr ""
+
+msgid "Months of the year available in the calendar"
+msgstr ""
+
+msgid "More file actions"
+msgstr ""
 
 msgid "More than 1 year"
 msgstr "Più di 1 anno"
@@ -5371,6 +6724,9 @@ msgstr "Mattina"
 
 msgid "Morning session"
 msgstr "Sessione mattutina"
+
+msgid "Morning shift"
+msgstr ""
 
 msgid "Mostly"
 msgstr "Perlopiù"
@@ -5386,6 +6742,12 @@ msgstr "Motivazione & coinvolgimento"
 
 msgid "Motivation / Goals"
 msgstr "Motivazione / Obiettivi"
+
+msgid "Motivation letter"
+msgstr ""
+
+msgid "Move block"
+msgstr ""
 
 msgid "Move down"
 msgstr "Sposta in basso"
@@ -5408,11 +6770,40 @@ msgstr "Sposta su"
 msgid "Multi-Page Features"
 msgstr "Funzionalità multipagina"
 
+msgid ""
+"Multi-page bulk order form for custom event t-shirts with design uploads, "
+"size distribution, delivery scheduling, and order confirmation."
+msgstr ""
+
+msgid ""
+"Multi-page custom apparel order form for fashion brands with design "
+"submissions, product configuration, production details, and shipping "
+"approval."
+msgstr ""
+
+msgid ""
+"Multi-page order form for sports teams to order custom jerseys and t-shirts "
+"with roster uploads, design specs, sizing, and production scheduling."
+msgstr ""
+
 msgid "Multi user"
 msgstr "Multiutente"
 
+msgid "Multipage form configured successfully."
+msgstr ""
+
+msgid "Multipage forms require the IvyForms Pro plugin to be active."
+msgstr ""
+
 msgid "Multiple choice"
 msgstr "Scelta multipla"
+
+msgid ""
+"Multiple confirmations require an IvyForms Pro Essentials license or higher."
+msgstr ""
+
+msgid "Multiple files upload"
+msgstr ""
 
 msgid "NPS survey forms"
 msgstr "Moduli per sondaggi NPS"
@@ -5471,6 +6862,9 @@ msgstr "Hai bisogno di telemedicina?"
 msgid "Need transportation?"
 msgstr "Hai bisogno di trasporto?"
 
+msgid "Net promoter"
+msgstr ""
+
 msgid "Networking event"
 msgstr "Evento di networking"
 
@@ -5495,8 +6889,11 @@ msgstr "Neurologia"
 msgid "Neutral"
 msgstr "Neutro"
 
-msgid "New Features"
-msgstr "Nuove Funzionalità"
+msgid "New confirmation"
+msgstr ""
+
+msgid "New features"
+msgstr ""
 
 msgid "New form"
 msgstr "Nuovo modulo"
@@ -5522,6 +6919,9 @@ msgstr "Pulsante Avanti"
 msgid "Nice"
 msgstr "Carino"
 
+msgid "Night shift"
+msgstr ""
+
 msgid "No"
 msgstr ""
 
@@ -5531,8 +6931,19 @@ msgstr "No, non posso partecipare"
 msgid "No CAPTCHA provider specified"
 msgstr "Nessun fornitore CAPTCHA specificato"
 
+msgid "No Google Sheet integrations found."
+msgstr ""
+
+msgid "No Google Sheets connected"
+msgstr ""
+
 msgid "No confirmation IDs provided for deletion."
 msgstr "Nessun ID di conferma fornito per la cancellazione."
+
+msgid ""
+"No connected AI provider supports text generation. Check Settings → "
+"Connectors, then try again."
+msgstr ""
 
 msgid "No duplicates"
 msgstr "Nessun duplicato"
@@ -5576,6 +6987,9 @@ msgstr "Nessun problema"
 msgid "No notification IDs provided for deletion."
 msgstr "Nessun ID di notifica fornito per l'eliminazione."
 
+msgid "No permission rules added yet."
+msgstr ""
+
 msgid "No placeholders available"
 msgstr "Nessun segnaposto disponibile"
 
@@ -5585,11 +6999,21 @@ msgstr "Nessuna preferenza"
 msgid "No results found for"
 msgstr "Nessun risultato trovato per"
 
+msgid ""
+"No supported fields were found in the import file. Nothing was imported."
+msgstr ""
+
 msgid "No templates found"
 msgstr "Nessun modello trovato"
 
 msgid "No valid field updates were provided."
 msgstr "Non sono stati forniti aggiornamenti di campo validi."
+
+msgid "No valid page definitions were provided."
+msgstr ""
+
+msgid "No valid permission keys provided."
+msgstr ""
 
 msgid "Non-vegetarian"
 msgstr "Onnivoro"
@@ -5617,6 +7041,9 @@ msgstr "Non selezionato"
 
 msgid "Not sure"
 msgstr "Non saprei"
+
+msgid "Notes"
+msgstr ""
 
 msgid "Notification ID is required."
 msgstr "L'ID della notifica è obbligatorio."
@@ -5660,11 +7087,17 @@ msgstr "Numero"
 msgid "Number/text color"
 msgstr "Colore numeri/testo"
 
+msgid "Number of Employees"
+msgstr ""
+
+msgid "Number of Guests"
+msgstr ""
+
+msgid "Number of Occupants"
+msgstr ""
+
 msgid "Number of attendees"
 msgstr "Numero di partecipanti"
-
-msgid "Number of guests"
-msgstr "Numero di ospiti"
 
 msgid "Number of licenses"
 msgstr "Numero di licenze"
@@ -5679,28 +7112,48 @@ msgid "Occasion"
 msgstr "Occasione"
 
 msgid "Occasion?"
-msgstr ""
+msgstr "Occasione?"
 
 msgid "Occasionally"
-msgstr ""
+msgstr "Occasionalmente"
 
 msgid "Off"
-msgstr ""
+msgstr "Disattivo"
 
 msgid "Office"
+msgstr "Ufficio"
+
+msgid "Office space rental application form"
+msgstr ""
+
+msgid ""
+"Office space rental application form for businesses applying for workspace, "
+"including space requirements, lease terms, and financial documentation."
+msgstr ""
+
+msgid "Office space requirements"
 msgstr ""
 
 msgid "Office supplies purchase order form"
-msgstr ""
+msgstr "Modulo per ordine d'acquisto di forniture per ufficio"
 
 msgid "On"
+msgstr "Attivo"
+
+msgid "On Monday"
+msgstr ""
+
+msgid "On Sunday"
+msgstr ""
+
+msgid "Once you create a confirmation it will appear here"
 msgstr ""
 
 msgid "Once you create a form it will appear here"
-msgstr ""
+msgstr "Dopo aver creato un modulo, apparirà qui"
 
 msgid "Once you create a notification it will appear here"
-msgstr ""
+msgstr "Dopo aver creato una notifica, apparirà qui"
 
 msgid "Once your forms start receiving submissions, entries will appear here."
 msgstr ""
@@ -5716,6 +7169,9 @@ msgstr "Progetto una tantum"
 msgid "One option per line"
 msgstr "Un'opzione per riga"
 
+msgid "One or more values already exist for this form."
+msgstr ""
+
 msgid "Ongoing client feedback form"
 msgstr "Modulo di feedback continuativo del cliente"
 
@@ -5724,6 +7180,9 @@ msgstr "Incarico continuativo"
 
 msgid "Ongoing support"
 msgstr "Supporto continuativo"
+
+msgid "Online course & e-learning feedback form"
+msgstr ""
 
 msgid "Online training feedback form"
 msgstr "Modulo di feedback sulla formazione online"
@@ -5739,6 +7198,9 @@ msgstr "Ops! Sembra che qui non ci sia nulla!"
 
 msgid "Oops! Looks like there’s nothing here."
 msgstr "Ops! Sembra che qui non ci sia nulla."
+
+msgid "Open Connectors"
+msgstr ""
 
 msgid "Open Entry"
 msgstr "Apri registrazione"
@@ -5782,6 +7244,13 @@ msgstr "Elenco delle opzioni:"
 msgid "Option value"
 msgstr "Valore dell'opzione"
 
+msgid "Optional: limit the grant to these form IDs"
+msgstr ""
+
+msgid ""
+"Optional: limit the revoke to these form IDs (omit for global rules only)"
+msgstr ""
+
 msgid "Optional information or requests"
 msgstr "Informazioni o richieste facoltative"
 
@@ -5790,6 +7259,9 @@ msgstr "Opzioni"
 
 msgid "Options list"
 msgstr "Elenco delle opzioni"
+
+msgid "Or try one of these:"
+msgstr ""
 
 msgid "Order forms"
 msgstr "Moduli d'ordine"
@@ -5857,8 +7329,8 @@ msgstr "Sovrascrivi l’impostazione di visibilità della descrizione del modulo
 msgid "Override the form title visibility setting."
 msgstr "Sovrascrivi l’impostazione di visibilità del titolo del modulo."
 
-msgid "Owner / Contact person"
-msgstr "Titolare / Persona di contatto"
+msgid "Owner / contact person"
+msgstr ""
 
 msgid "Ownership and accountability"
 msgstr "Responsabilità e accountability"
@@ -5883,6 +7355,10 @@ msgstr "Pagina"
 
 msgid "Page-Specific Settings"
 msgstr "Impostazioni specifiche per la pagina"
+
+#, php-format
+msgid "Page %d"
+msgstr ""
 
 msgid "Page List:"
 msgstr "Elenco pagine:"
@@ -5962,12 +7438,21 @@ msgstr "Nome partonomico"
 msgid "Password"
 msgstr ""
 
+msgid "Past dates"
+msgstr ""
+
 msgid "Paste a link to your design inspiration (Pinterest, Instagram...)"
 msgstr ""
 "Incolla un link alla tua ispirazione per il design (Pinterest, Instagram...)"
 
 msgid "Paternity leave"
 msgstr "Congedo di paternità"
+
+msgid "Payment"
+msgstr ""
+
+msgid "Payment amount"
+msgstr ""
 
 msgid "Payment forms"
 msgstr "Moduli di pagamento"
@@ -5977,6 +7462,9 @@ msgstr "Opzioni di pagamento"
 
 msgid "Payment request forms"
 msgstr "Moduli per la richiesta di pagamento"
+
+msgid "Payments"
+msgstr ""
 
 msgid "Pediatrician"
 msgstr "Pediatra"
@@ -5999,7 +7487,31 @@ msgstr "Moduli di valutazione delle prestazioni"
 msgid "Performance issues"
 msgstr "Problemi di prestazioni"
 
+msgid "Performance marketing"
+msgstr ""
+
 msgid "Perm"
+msgstr ""
+
+msgid "Permanent Data Loss"
+msgstr ""
+
+msgid "Permission keys to grant"
+msgstr ""
+
+msgid "Permission keys to revoke"
+msgstr ""
+
+#, php-format
+msgid ""
+"Permission rule references deleted form(s) (%s). Edit the rule and update "
+"its form scope."
+msgstr ""
+
+msgid "Permissions"
+msgstr ""
+
+msgid "Permissions saved successfully."
 msgstr ""
 
 msgid "Personal"
@@ -6010,6 +7522,9 @@ msgstr "Giorno personale"
 
 msgid "Personal information"
 msgstr "Informazioni personali"
+
+msgid "Pets"
+msgstr ""
 
 msgid "Phone"
 msgstr "Telefono"
@@ -6031,6 +7546,9 @@ msgstr "Moduli di consenso per fotografie"
 
 msgid "Photo release forms"
 msgstr "Moduli di liberatoria per l’uso delle immagini"
+
+msgid "Physical capability confirmation"
+msgstr ""
 
 msgid "Pilates"
 msgstr ""
@@ -6062,8 +7580,14 @@ msgstr "Per favore, completa la verifica hCaptcha."
 msgid "Please complete the reCAPTCHA verification"
 msgstr "Per favore, completa la verifica reCAPTCHA"
 
+msgid "Please correct the highlighted fields."
+msgstr ""
+
 msgid "Please enter a URL."
 msgstr "Inserisci un URL."
+
+msgid "Please enter a prompt describing the form."
+msgstr ""
 
 msgid "Please enter a valid URL."
 msgstr "Inserisci un URL valido."
@@ -6088,6 +7612,9 @@ msgstr "Inserisci un'ora valida."
 
 msgid "Please enter a valid website URL."
 msgstr "Inserisci un URL di sito web valido."
+
+msgid "Please enter date and time in valid format."
+msgstr ""
 
 msgid "Please enter date in valid format."
 msgstr "Inserisci la data in un formato valido."
@@ -6138,6 +7665,9 @@ msgstr "Plugin attivato"
 msgid "Plugin has been deactivated"
 msgstr "Plugin disattivato"
 
+msgid "Plumber"
+msgstr ""
+
 msgid "Plumbing"
 msgstr "Idraulica"
 
@@ -6152,6 +7682,30 @@ msgstr "Comunicazione insufficiente"
 
 msgid "Poor fit"
 msgstr "Vestibilità scarsa"
+
+msgid "Portfolio / Content samples"
+msgstr ""
+
+msgid "Portfolio / GitHub"
+msgstr ""
+
+msgid "Portfolio / campaign case studies"
+msgstr ""
+
+msgid "Portfolio / project links"
+msgstr ""
+
+msgid "Portfolio / work samples"
+msgstr ""
+
+msgid "Portfolio links"
+msgstr ""
+
+msgid "Portfolio upload"
+msgstr ""
+
+msgid "Position applied for"
+msgstr ""
 
 msgid "Positive attitude"
 msgstr "Atteggiamento positivo"
@@ -6207,6 +7761,9 @@ msgstr "Data/ora preferite"
 msgid "Preferred repair date"
 msgstr "Data di riparazione preferita"
 
+msgid "Preferred role"
+msgstr ""
+
 msgid "Preferred schedule"
 msgstr "Fascia oraria preferita"
 
@@ -6243,8 +7800,23 @@ msgstr "Precedente"
 msgid "Previous Button"
 msgstr "Pulsante \"Precedente\""
 
+msgid "Previous employer"
+msgstr ""
+
+msgid "Previous employers"
+msgstr ""
+
+msgid "Previous office rental experience"
+msgstr ""
+
+msgid "Previous work experience"
+msgstr ""
+
 msgid "Previous yoga experience"
 msgstr "Esperienza pregressa di yoga"
+
+msgid "Price"
+msgstr ""
 
 msgid "Pricing"
 msgstr "Prezzi"
@@ -6254,6 +7826,9 @@ msgstr "Colore primario"
 
 msgid "Primary contact role"
 msgstr "Ruolo del contatto principale"
+
+msgid "Primary tech stack"
+msgstr ""
 
 msgid "Principal"
 msgstr "Referente"
@@ -6300,6 +7875,9 @@ msgstr "Risoluzione dei problemi & pensiero critico"
 msgid "Problem-solving approach"
 msgstr "Approccio alla risoluzione dei problemi"
 
+msgid "Problem-solving experience"
+msgstr ""
+
 msgid "Proceed with caution"
 msgstr "Procedi con cautela"
 
@@ -6321,10 +7899,19 @@ msgstr ""
 msgid "Product E"
 msgstr ""
 
+msgid "Product customization form"
+msgstr ""
+
 msgid "Product feedback form"
 msgstr "Modulo di feedback sul prodotto"
 
+msgid "Product field"
+msgstr ""
+
 msgid "Product manager"
+msgstr ""
+
+msgid "Product mapping"
 msgstr ""
 
 msgid "Product name"
@@ -6339,14 +7926,45 @@ msgstr "Moduli d'ordine del prodotto"
 msgid "Product quality"
 msgstr "Qualità del prodotto"
 
+msgid "Product type"
+msgstr ""
+
 msgid "Products / Description"
 msgstr "Prodotti / Descrizione"
+
+msgid ""
+"Professional conference registration form designed for financial "
+"institutions, fintech startups, investors, and banking professionals with "
+"regulatory session enrollment, networking opportunities, and executive "
+"access options."
+msgstr ""
+
+msgid ""
+"Professional healthcare conference registration form for medical "
+"professionals, researchers, and healthcare organizations with certification "
+"tracking, specialty selection, and CME session enrollment."
+msgstr ""
+
+msgid ""
+"Professional healthcare event feedback form designed for medical "
+"conferences, healthcare seminars, and clinical workshops with evaluation of "
+"educational content, accreditation sessions, and event logistics."
+msgstr ""
+
+msgid ""
+"Professional salon booking form designed for beauty salons, hair stylists, "
+"nail studios, and personal care businesses with service customization and "
+"scheduling preferences."
+msgstr ""
 
 msgid "Professionalism"
 msgstr "Professionalità"
 
 msgid "Professionalism & attitude"
 msgstr "Professionalità & atteggiamento"
+
+msgid "Programming languages known"
+msgstr ""
 
 msgid "Progress Bar"
 msgstr "Barra di avanzamento"
@@ -6369,6 +7987,9 @@ msgstr "Indirizzo del progetto"
 msgid "Project completion feedback form"
 msgstr "Modulo di feedback post-completamento del progetto"
 
+msgid "Project files upload"
+msgstr ""
+
 msgid "Project location"
 msgstr "Luogo del progetto"
 
@@ -6383,6 +8004,21 @@ msgstr "Tipo di progetto"
 
 msgid "Projector"
 msgstr "Proiettore"
+
+msgid "Prompt is too long. Please shorten it and try again."
+msgstr ""
+
+msgid "Proof of enrollment"
+msgstr ""
+
+msgid "Proof of income"
+msgstr ""
+
+msgid "Property maintenance & repair request form"
+msgstr ""
+
+msgid "Proposal / intent letter"
+msgstr ""
 
 msgid "Provide any additional details"
 msgstr "Fornisci eventuali dettagli aggiuntivi"
@@ -6462,6 +8098,9 @@ msgstr "Qualità del lavoro"
 msgid "Quantity"
 msgstr "Quantità"
 
+msgid "Quantity field"
+msgstr ""
+
 msgid "Quantity per size"
 msgstr "Quantità per taglia"
 
@@ -6508,6 +8147,9 @@ msgstr ""
 "confermare la partecipazione, selezionare le scelte del menù e aggiungere "
 "note."
 
+msgid "Radio"
+msgstr ""
+
 msgid "Radio button"
 msgstr "Pulsante di opzione"
 
@@ -6516,6 +8158,9 @@ msgstr "Gruppo di pulsanti di scelta"
 
 msgid "Randomize the order of options each time."
 msgstr "Rendi casuale l’ordine delle opzioni ogni volta."
+
+msgid "Range"
+msgstr ""
 
 msgid "Range from"
 msgstr "Intervallo da"
@@ -6546,6 +8191,9 @@ msgstr "Esempi pratici"
 
 msgid "Reason / Comments"
 msgstr "Motivo / Commenti"
+
+msgid "Reason for Moving"
+msgstr ""
 
 msgid "Reason for leave"
 msgstr "Motivo dell'assenza"
@@ -6580,12 +8228,14 @@ msgstr "Reindirizza a un URL personalizzato"
 msgid "Redirect to page"
 msgstr "Reindirizza alla pagina"
 
-msgid ""
-"Refactored forms and entries tables for better \n"
-"                performance and reliability."
+msgid "Redo"
 msgstr ""
-"Eseguito il refactoring delle tabelle dei moduli e degli invii per "
-"migliorare prestazioni e affidabilità."
+
+msgid "Reference letter"
+msgstr ""
+
+msgid "References"
+msgstr ""
 
 msgid "Referer URL"
 msgstr "URL referrer"
@@ -6684,6 +8334,15 @@ msgstr "Esperienza pregressa pertinente"
 msgid "Reliability"
 msgstr "Affidabilità"
 
+msgid "Remaining track color"
+msgstr ""
+
+msgid "Remote internship application form"
+msgstr ""
+
+msgid "Remove file"
+msgstr ""
+
 msgid "Remove star"
 msgstr "Rimuovi stella"
 
@@ -6696,6 +8355,17 @@ msgstr "Rinomina pagina"
 msgid "Rental agreement forms"
 msgstr "Moduli per contratto di locazione"
 
+msgid "Rental application form"
+msgstr ""
+
+msgid ""
+"Rental application form for landlords and property managers to evaluate "
+"tenants through employment, income verification, and identity documents."
+msgstr ""
+
+msgid "Rental history"
+msgstr ""
+
 msgid "Reorder Form Fields"
 msgstr "Riordina i campi del modulo"
 
@@ -6704,28 +8374,22 @@ msgid ""
 "field \n"
 "                types or deleting them. Send formId plus a fields array "
 "listing each affected field id with its new position, \n"
-"                and optionally rowIndex, columnIndex, and width. Unlike "
-"duplicate-form-field, this updates existing records in place via a form "
-"save. REQUIRED INPUTS: formId, and for each element in fields: id and "
-"position (per input schema). After reordering, use open-form-builder if the "
-"user should verify layout in the UI."
+"                and optionally rowIndex, columnIndex, width, and pageId "
+"(multipage / Pro). Unlike duplicate-form-field, this updates existing "
+"records in place via a form save. REQUIRED INPUTS: formId, and for each "
+"element in fields: id and position (per input schema). After reordering, use "
+"open-form-builder if the user should verify layout in the UI."
 msgstr ""
-"Riordina e regola i metadati del layout per i campi del modulo IvyForms "
-"senza modificare i tipi di campo \n"
-"                né eliminarli. Invia formId più un array fields che elenchi "
-"l’id di ciascun campo interessato con la nuova posizione, \n"
-"                e facoltativamente rowIndex, columnIndex e width. A "
-"differenza di duplicate-form-field, questa operazione aggiorna i record "
-"esistenti in loco tramite un salvataggio del modulo. REQUIRED INPUTS: formId "
-"e, per ciascun elemento in fields: id e position (secondo lo schema di "
-"input). Dopo il riordino, usa open-form-builder se l’utente deve verificare "
-"il layout nella UI."
 
 msgid "Repair type"
 msgstr "Tipo di riparazione"
 
 msgid "Repair work order form"
 msgstr "Modulo ordine di intervento di riparazione"
+
+msgid ""
+"Replaced locked Pro style themes with a single upgrade card for Lite users."
+msgstr ""
 
 msgid "Reply to"
 msgstr "Rispondi a"
@@ -6820,14 +8484,23 @@ msgstr "Resistenza al feedback"
 msgid "Response time"
 msgstr "Tempo di risposta"
 
+msgid "Restaurant"
+msgstr ""
+
 msgid "Restore"
 msgstr "Ripristina"
+
+msgid "Restored PHP 7.4 compatibility when saving field settings."
+msgstr ""
 
 msgid "Results"
 msgstr "Risultati"
 
 msgid "Retail"
 msgstr "Vendita al dettaglio"
+
+msgid "Retail employment application form"
+msgstr ""
 
 msgid ""
 "Retrieve a list of all available IvyForms integrations. This ability is "
@@ -7180,11 +8853,47 @@ msgid "Review your contact details and shipping address to place the order"
 msgstr ""
 "Controlla i tuoi recapiti e l’indirizzo di consegna per completare l’ordine"
 
+msgid "Revoke Role Permission"
+msgstr ""
+
+msgid "Revoke User Permission"
+msgstr ""
+
+msgid ""
+"Revoke one or more IvyForms permissions from a WordPress role. Administrator "
+"access required. Optionally limit the revoke to specific form IDs (omit "
+"formIds to revoke from global rules only). If a role rule has no permissions "
+"left afterwards it is removed entirely. Use get-access-rules to review the "
+"current grants first."
+msgstr ""
+
+msgid ""
+"Revoke one or more IvyForms permissions from a specific WordPress user. "
+"Administrator access required. Identify the user by userId, or by userLogin/"
+"userEmail. Optionally limit the revoke to specific form IDs (omit formIds to "
+"revoke from global rules only). If a user rule has no permissions left "
+"afterwards it is removed entirely."
+msgstr ""
+
+#, php-format
+msgid "Revoked permissions from role \"%s\"."
+msgstr ""
+
+#, php-format
+msgid "Revoked permissions from user #%d."
+msgstr ""
+
+msgid "Rich Text"
+msgstr ""
+
 msgid "Right"
 msgstr "Permesso"
 
 msgid "Role"
 msgstr "Ruolo"
+
+msgid "Role-based permissions"
+msgstr ""
 
 msgid "Role-specific / Technical skills"
 msgstr "Competenze specifiche del ruolo / Competenze tecniche"
@@ -7192,11 +8901,17 @@ msgstr "Competenze specifiche del ruolo / Competenze tecniche"
 msgid "Role/Position"
 msgstr "Ruolo/Posizione"
 
+msgid "Role/User"
+msgstr ""
+
 msgid "Role / Participant type"
 msgstr "Ruolo / Tipo di partecipante"
 
 msgid "Role applied for"
 msgstr "Ruolo per cui ci si candida"
+
+msgid "Role slug, e.g. subscriber, editor"
+msgstr ""
 
 msgid "Room/Area"
 msgstr "Stanza/Area"
@@ -7207,7 +8922,26 @@ msgstr "Preferenza per la stanza"
 msgid "Rootline"
 msgstr "Breadcrumb"
 
+msgid "Rows"
+msgstr ""
+
+#, php-format
+msgid "Rule at index %d is invalid."
+msgstr ""
+
+msgid "Rules payload is required."
+msgstr ""
+
 msgid "S"
+msgstr ""
+
+msgid "SEO"
+msgstr ""
+
+msgid "Safety certifications"
+msgstr ""
+
+msgid "Safety training certificates"
 msgstr ""
 
 msgid "Sales"
@@ -7219,8 +8953,17 @@ msgstr "Rappresentante commerciale"
 msgid "Salesforce"
 msgstr ""
 
+msgid "Sample projects"
+msgstr ""
+
 msgid "Sample view"
 msgstr "Vista di esempio"
+
+msgid "Sample work upload"
+msgstr ""
+
+msgid "Sans Serif"
+msgstr ""
 
 msgid "Satisfaction survey forms"
 msgstr "Moduli per sondaggi sulla soddisfazione"
@@ -7231,8 +8974,17 @@ msgstr "Salva"
 msgid "Save as draft"
 msgstr "Salva come bozza"
 
+msgid "Save entry"
+msgstr ""
+
+msgid "Save uploads to"
+msgstr ""
+
 msgid "Scheduled"
 msgstr "Programmato"
+
+msgid "School / University"
+msgstr ""
 
 msgid "School name"
 msgstr "Nome della scuola"
@@ -7294,6 +9046,9 @@ msgstr ""
 "completo delle notifiche. - NON usarla per modificare o eliminare notifiche. "
 "- NON confonderla con list-notifications (panoramica non filtrata)."
 
+msgid "Search confirmations"
+msgstr ""
+
 msgid "Search notifications"
 msgstr "Cerca notifiche"
 
@@ -7306,11 +9061,20 @@ msgstr "Preferenza di seduta"
 msgid "Secondary color"
 msgstr "Colore secondario"
 
+msgid "Seconds"
+msgstr ""
+
 msgid "Secret key"
 msgstr "Chiave segreta"
 
 msgid "Secret key is missing"
 msgstr "Manca la chiave segreta"
+
+msgid "Section"
+msgstr ""
+
+msgid "Sections"
+msgstr ""
 
 msgid "Security"
 msgstr "Sicurezza"
@@ -7320,6 +9084,9 @@ msgstr "Seleziona"
 
 msgid "Select Form"
 msgstr "Seleziona modulo"
+
+msgid "Select a Field"
+msgstr ""
 
 msgid "Select a form"
 msgstr "Seleziona un modulo"
@@ -7348,6 +9115,12 @@ msgstr "Seleziona la data dell'anniversario"
 msgid "Select attendance type"
 msgstr "Seleziona la modalità di partecipazione"
 
+msgid "Select availability date"
+msgstr ""
+
+msgid "Select availability start date"
+msgstr ""
+
 msgid "Select available date"
 msgstr "Seleziona una data disponibile"
 
@@ -7356,6 +9129,9 @@ msgstr "Seleziona la data di nascita"
 
 msgid "Select booking date"
 msgstr "Seleziona la data di prenotazione"
+
+msgid "Select business type"
+msgstr ""
 
 msgid "Select cake flavor"
 msgstr "Seleziona il gusto della torta"
@@ -7390,6 +9166,9 @@ msgstr "Seleziona argomento del corso"
 msgid "Select craft type"
 msgstr "Seleziona tipo di mestiere"
 
+msgid "Select creative field"
+msgstr ""
+
 msgid "Select date"
 msgstr "Seleziona data"
 
@@ -7405,14 +9184,32 @@ msgstr "Seleziona data di consegna"
 msgid "Select department"
 msgstr "Seleziona dipartimento"
 
+msgid "Select department applied for"
+msgstr ""
+
+msgid "Select department of interest"
+msgstr ""
+
 msgid "Select department or organization"
 msgstr "Seleziona dipartimento o organizzazione"
+
+msgid "Select desired lease duration"
+msgstr ""
+
+msgid "Select desired move-in date"
+msgstr ""
 
 msgid "Select device used"
 msgstr "Seleziona dispositivo utilizzato"
 
 msgid "Select doctor or specialist"
 msgstr "Seleziona medico o specialista"
+
+msgid "Select education level"
+msgstr ""
+
+msgid "Select employment status"
+msgstr ""
 
 msgid "Select end date"
 msgstr "Seleziona data di fine"
@@ -7438,8 +9235,14 @@ msgstr "Seleziona tipo di evento"
 msgid "Select expected return date"
 msgstr "Seleziona data di rientro prevista"
 
+msgid "Select experience level"
+msgstr ""
+
 msgid "Select export options"
 msgstr "Seleziona opzioni di esportazione"
+
+msgid "Select field of study"
+msgstr ""
 
 msgid "Select file"
 msgstr "Seleziona file"
@@ -7450,6 +9253,9 @@ msgstr "Seleziona tipo di cibo"
 msgid "Select form"
 msgstr "Seleziona modulo"
 
+msgid "Select forms"
+msgstr ""
+
 msgid "Select installer"
 msgstr "Seleziona installatore"
 
@@ -7458,6 +9264,12 @@ msgstr "Seleziona compagnia assicurativa (opzionale)"
 
 msgid "Select license type"
 msgstr "Seleziona tipo di licenza"
+
+msgid "Select marketing knowledge level"
+msgstr ""
+
+msgid "Select marketing specialization"
+msgstr ""
 
 msgid "Select material type"
 msgstr "Seleziona tipo di materiale"
@@ -7491,6 +9303,9 @@ msgstr "Seleziona la data preferita"
 
 msgid "Select preferred date and time (optional)"
 msgstr "Seleziona data e ora preferite (facoltativo)"
+
+msgid "Select preferred role"
+msgstr ""
 
 msgid "Select preferred schedule"
 msgstr "Seleziona la fascia oraria preferita"
@@ -7540,6 +9355,9 @@ msgstr "Seleziona l’orario di prenotazione"
 msgid "Select role applied for"
 msgstr "Seleziona la posizione per cui ti candidi"
 
+msgid "Select roles"
+msgstr ""
+
 msgid "Select room preference"
 msgstr "Seleziona la preferenza di camera"
 
@@ -7567,8 +9385,14 @@ msgstr "Seleziona le sessioni a cui intendi partecipare"
 msgid "Select severity"
 msgstr "Seleziona la gravità"
 
+msgid "Select shift availability"
+msgstr ""
+
 msgid "Select shipping method"
 msgstr "Seleziona il metodo di spedizione"
+
+msgid "Select skill category"
+msgstr ""
 
 msgid "Select skill level"
 msgstr "Seleziona il livello di competenza"
@@ -7602,6 +9426,9 @@ msgstr ""
 "Seleziona la pagina in cui gli utenti verranno reindirizzati dopo l’invio "
 "del modulo."
 
+msgid "Select trade / skill type"
+msgstr ""
+
 msgid "Select training topic"
 msgstr "Seleziona l’argomento della formazione"
 
@@ -7616,6 +9443,9 @@ msgstr "Seleziona il tipo di upgrade"
 
 msgid "Select urgency level"
 msgstr "Seleziona il livello di urgenza"
+
+msgid "Select users"
+msgstr ""
 
 msgid "Select webinar platform"
 msgstr "Seleziona la piattaforma del webinar"
@@ -7659,6 +9489,9 @@ msgstr "Colore della selezione"
 msgid "Selection text color"
 msgstr "Colore del testo della selezione"
 
+msgid "Self-employed"
+msgstr ""
+
 msgid "Seminar"
 msgstr "Seminario"
 
@@ -7680,11 +9513,25 @@ msgstr "Invia da"
 msgid "Send to"
 msgstr "Invia a"
 
+msgid "Senior"
+msgstr ""
+
 msgid "Separated"
 msgstr "Separato"
 
+msgid "Serif"
+msgstr ""
+
 msgid "Service-specific client feedback form"
 msgstr "Modulo di feedback del cliente specifico per il servizio"
+
+msgid "Service provider partnership application form"
+msgstr ""
+
+msgid ""
+"Service provider partnership application form for agencies and consultants "
+"to submit portfolios, case studies, pricing, and availability."
+msgstr ""
 
 msgid "Service quality"
 msgstr "Qualità del servizio"
@@ -7728,6 +9575,9 @@ msgstr "Sessioni frequentate"
 msgid "Sessions to attend"
 msgstr "Sessioni da frequentare"
 
+msgid "Set Up"
+msgstr ""
+
 msgid "Set a default value for this field"
 msgstr "Imposta un valore predefinito per questo campo"
 
@@ -7748,6 +9598,9 @@ msgstr "Impostazioni salvate con successo"
 
 msgid "Setup"
 msgstr "Configurazione"
+
+msgid "Setup Multipage Form"
+msgstr ""
 
 msgid "Severity"
 msgstr "Severità"
@@ -7783,6 +9636,9 @@ msgstr "Condividi suggerimenti per migliorare il workshop"
 msgid "Share what could be improved"
 msgstr "Condividi cosa potremmo migliorare"
 
+msgid "Share your Google Sheet with {email} as Editor."
+msgstr ""
+
 msgid "Share your suggestions for improving our communication"
 msgstr "Condividi i tuoi suggerimenti per migliorare la nostra comunicazione"
 
@@ -7797,6 +9653,9 @@ msgstr "Condividi cosa pensi del servizio"
 
 msgid "Share your thoughts or suggestions"
 msgstr "Condividi le tue opinioni o i tuoi suggerimenti"
+
+msgid "Shift availability"
+msgstr ""
 
 msgid "Shipping address"
 msgstr "Indirizzo di spedizione"
@@ -7822,8 +9681,18 @@ msgstr "Mostra icona"
 msgid "Show Title"
 msgstr "Mostra titolo"
 
+msgid "Show a line item and total breakdown before the final amount."
+msgstr ""
+
 msgid "Show all"
 msgstr "Mostra tutto"
+
+msgid ""
+"Show an intro screen before questions. Optional content — enable when ready."
+msgstr ""
+
+msgid "Show close button on payment summary"
+msgstr ""
 
 msgid "Show empty fields"
 msgstr "Mostra campi vuoti"
@@ -7831,14 +9700,14 @@ msgstr "Mostra campi vuoti"
 msgid "Show grid for the slider"
 msgstr "Mostra griglia dello slider"
 
-msgid "Show layouts"
-msgstr "Mostra layout"
-
 msgid "Show min and max values"
 msgstr "Mostra valori min e max"
 
 msgid "Show page titles"
 msgstr "Mostra titoli delle pagine"
+
+msgid "Show price after item label"
+msgstr ""
 
 msgid "Show text"
 msgstr "Mostra testo"
@@ -7851,6 +9720,9 @@ msgstr "Mostra il titolo del modulo"
 
 msgid "Show values"
 msgstr "Mostra valori"
+
+msgid "Shown when the product selection has no payable amount."
+msgstr ""
 
 msgid "Shuffle the available options"
 msgstr "Randomizza l’ordine delle opzioni disponibili"
@@ -7879,6 +9751,9 @@ msgstr "In forte ritardo"
 msgid "Silver - $299.95"
 msgstr ""
 
+msgid "Single"
+msgstr ""
+
 msgid "Single choice"
 msgstr "Scelta singola"
 
@@ -7899,20 +9774,50 @@ msgstr ""
 msgid "Site title"
 msgstr "Titolo del sito"
 
+msgid "Skill category"
+msgstr ""
+
 msgid "Skill gaps"
 msgstr "Divari di competenze"
 
 msgid "Skill level"
 msgstr "Livello di competenza"
 
+msgid "Skilled professional job application form"
+msgstr ""
+
+msgid "Skilled trade employment application form"
+msgstr ""
+
+msgid "Skills"
+msgstr ""
+
 msgid "Skills improved"
 msgstr "Competenze migliorate"
+
+msgid "Skills summary"
+msgstr ""
 
 msgid "Skipping empty field {fieldKey}"
 msgstr "Campo vuoto saltato {fieldKey}"
 
 msgid "Slider"
 msgstr "Cursore"
+
+msgid "Slider border color"
+msgstr ""
+
+msgid "Slider field"
+msgstr ""
+
+msgid "Slider handle color"
+msgstr ""
+
+msgid "Slider highlight color"
+msgstr ""
+
+msgid "Slider track color"
+msgstr ""
 
 msgid "Slightly delayed"
 msgstr "Leggermente in ritardo"
@@ -7922,6 +9827,9 @@ msgstr "Poco rilevante"
 
 msgid "Slow loading"
 msgstr "Caricamento lento"
+
+msgid "Small"
+msgstr ""
 
 msgid "Small (6\")"
 msgstr "Piccolo (6\")"
@@ -7935,6 +9843,12 @@ msgstr "Snack"
 msgid "Soccer"
 msgstr "Calcio"
 
+msgid "Social media"
+msgstr ""
+
+msgid "Social media platforms managed"
+msgstr ""
+
 msgid "Social media release forms"
 msgstr "Moduli di liberatoria per i social media"
 
@@ -7944,11 +9858,20 @@ msgstr "Competenze trasversali"
 msgid "Software"
 msgstr ""
 
+msgid "Software developer job application form"
+msgstr ""
+
 msgid "Software development"
 msgstr "Sviluppo software"
 
 msgid "Software engineer"
 msgstr "Ingegnere del software"
+
+msgid "Software engineering"
+msgstr ""
+
+msgid "Software engineering internship application form"
+msgstr ""
 
 msgid "Software name"
 msgstr "Nome del software"
@@ -8040,6 +9963,9 @@ msgstr "Esempi specifici, situazioni o segnali d’allarme discussi…"
 msgid "Specify allergies or special requests"
 msgstr "Indicare allergie o richieste particolari"
 
+msgid "Specify allowed file types"
+msgstr ""
+
 msgid "Specify any nail designs, allergies, or preferences"
 msgstr "Indicare eventuali decorazioni delle unghie, allergie o preferenze"
 
@@ -8052,6 +9978,14 @@ msgstr "Specificare il luogo di installazione"
 msgid "Speed"
 msgstr "Velocità"
 
+msgid ""
+"Sponsorship application form for creators, influencers, and media partners "
+"to share audience metrics, content samples, and campaign proposals."
+msgstr ""
+
+msgid "Sponsorship application forms"
+msgstr ""
+
 msgid "Sponsorship forms"
 msgstr "Moduli di sponsorizzazione"
 
@@ -8061,8 +9995,23 @@ msgstr "Sport/Attività"
 msgid "Sports event liability waiver form"
 msgstr "Modulo di manleva da responsabilità per evento sportivo"
 
+msgid "Sports team custom jersey & t-shirt order form"
+msgstr ""
+
 msgid "Sports team photo consent form"
 msgstr "Modulo di consenso all’uso delle fotografie della squadra sportiva"
+
+msgid "Spreadsheet"
+msgstr ""
+
+msgid "Spreadsheet Name"
+msgstr ""
+
+msgid "Spreadsheet columns"
+msgstr ""
+
+msgid "Spreadsheet is required."
+msgstr ""
 
 msgid "Standard"
 msgstr ""
@@ -8070,11 +10019,19 @@ msgstr ""
 msgid "Standard checkbox verification"
 msgstr "Verifica standard con casella di spunta"
 
+msgid ""
+"Standard job application form for general hiring across industries with CV "
+"submission and basic screening."
+msgstr ""
+
 msgid "Starred"
 msgstr "Preferiti"
 
 msgid "Stars"
 msgstr "Preferiti"
+
+msgid "Start button label"
+msgstr ""
 
 msgid "Start date of leave"
 msgstr "Data di inizio del congedo"
@@ -8082,11 +10039,22 @@ msgstr "Data di inizio del congedo"
 msgid "Start from scratch"
 msgstr "Inizia da zero"
 
+msgid "Start here"
+msgstr ""
+
 msgid "Start time"
 msgstr "Ora di inizio"
 
 msgid "Start with a blank form and build it your way."
 msgstr "Inizia con un modulo vuoto e personalizzalo come preferisci."
+
+msgid "Startup sponsorship application form"
+msgstr ""
+
+msgid ""
+"Startup sponsorship application form for early-stage companies to pitch "
+"event partnerships with product details, budget, and pitch materials."
+msgstr ""
 
 msgid "State"
 msgstr "Stato"
@@ -8096,6 +10064,15 @@ msgstr "Stato / Provincia"
 
 msgid "State / Province / Region"
 msgstr "Stato / Provincia / Regione"
+
+msgid "Statement 1"
+msgstr ""
+
+msgid "Statement 2"
+msgstr ""
+
+msgid "Statement 3"
+msgstr ""
 
 msgid "Status"
 msgstr "Stato"
@@ -8109,6 +10086,9 @@ msgstr "Fase"
 msgid "Steps already taken"
 msgstr "Passaggi già effettuati"
 
+msgid "Still working…"
+msgstr ""
+
 msgid "Store entries in database"
 msgstr "Salva i record nel database"
 
@@ -8121,8 +10101,10 @@ msgstr "Strategia & pianificazione"
 msgid "Strawberry"
 msgstr "Fragola"
 
-msgid "Street Address"
-msgstr "Via e Numero Civico"
+msgid ""
+"Streamline your data management by connecting Google Sheets with IvyForms. "
+"This integration syncs form responses to your spreadsheet."
+msgstr ""
 
 msgid "Street address"
 msgstr "Via e numero civico"
@@ -8148,11 +10130,28 @@ msgstr "Ottime capacità di system design"
 msgid "Strong technical foundation"
 msgstr "Solida base tecnica"
 
+msgid "Strongly agree"
+msgstr ""
+
+msgid "Strongly disagree"
+msgstr ""
+
 msgid "Structured activities"
 msgstr "Attività strutturate"
 
 msgid "Student"
 msgstr "Studente"
+
+msgid "Student ID upload"
+msgstr ""
+
+msgid "Student housing application form"
+msgstr ""
+
+msgid ""
+"Student housing rental application form for university accommodation with "
+"enrollment verification and emergency contact details."
+msgstr ""
 
 msgid "Study leave"
 msgstr "Congedo per studio"
@@ -8196,6 +10195,9 @@ msgstr "Inviato il"
 msgid "Subscribe to newsletter?"
 msgstr "Vuoi iscriverti alla newsletter?"
 
+msgid "Subscribe to updates"
+msgstr ""
+
 msgid "Success"
 msgstr "Successo"
 
@@ -8238,8 +10240,17 @@ msgstr "Modulo di consenso informato per intervento chirurgico"
 msgid "Survey forms"
 msgstr "Moduli per questionari"
 
+msgid "Switch to conversational layout?"
+msgstr ""
+
 msgid "Switch to publish or unpublish the form"
 msgstr "Interruttore per pubblicare o depubblicare il modulo"
+
+msgid "Sync Status"
+msgstr ""
+
+msgid "Sync form submissions to your Google spreadsheets."
+msgstr ""
 
 msgid "System design & architecture"
 msgstr "System design e architettura"
@@ -8280,6 +10291,9 @@ msgstr "Colore del testo del tag"
 msgid "Talent release forms"
 msgstr "Moduli di liberatoria per i talent"
 
+msgid "Target Type"
+msgstr ""
+
 msgid "Teacher"
 msgstr "Insegnante"
 
@@ -8304,11 +10318,28 @@ msgstr "Modulo d’ordine per le magliette del team"
 msgid "Tech conference registration form"
 msgstr "Modulo di registrazione alla conferenza di tecnologia"
 
+msgid "Tech stack"
+msgstr ""
+
 msgid "Technical concerns"
 msgstr "Criticità tecniche"
 
+msgid "Technical contractor application form"
+msgstr ""
+
+msgid ""
+"Technical contractor application form for developers, engineers, and IT "
+"professionals. Includes GitHub links, project files, and technical stack "
+"evaluation."
+msgstr ""
+
 msgid "Technical hiring recommendation"
 msgstr "Raccomandazione tecnica sull’assunzione"
+
+msgid ""
+"Technical internship application for software engineering students with "
+"coding skills, academic background, and GitHub evaluation."
+msgstr ""
 
 msgid "Technical interview"
 msgstr "Colloquio tecnico"
@@ -8318,6 +10349,11 @@ msgstr "Modulo di feedback per il colloquio tecnico"
 
 msgid "Technical issues experienced"
 msgstr "Problemi tecnici riscontrati"
+
+msgid ""
+"Technical job application form for software developers including stack "
+"evaluation, project history, GitHub review, and problem-solving experience."
+msgstr ""
 
 msgid "Technical knowledge"
 msgstr "Conoscenze tecniche"
@@ -8346,6 +10382,9 @@ msgstr "Sessioni di valutazione tecnica"
 msgid "Technical skills"
 msgstr "Competenze tecniche"
 
+msgid "Technical skills workshop feedback form"
+msgstr ""
+
 msgid "Technical strengths observed"
 msgstr "Punti di forza tecnici rilevati"
 
@@ -8357,6 +10396,15 @@ msgstr "Tecnico A"
 
 msgid "Technician B"
 msgstr "Tecnico B"
+
+msgid "Technology conference event feedback form"
+msgstr ""
+
+msgid "Technology innovation summit registration form"
+msgstr ""
+
+msgid "Tell us what you need, and we'll build it for you."
+msgstr ""
 
 msgid "Template ID is required."
 msgstr "L'ID del template è obbligatorio."
@@ -8456,12 +10504,20 @@ msgstr "Questa azione non può essere annullata"
 msgid "This action cannot be undone."
 msgstr "Questa azione non può essere annullata."
 
+msgid ""
+"This confirmation is locked. Reactivate IvyForms Pro Essentials to edit, "
+"delete, reorder, or add more confirmations."
+msgstr ""
+
 msgid "This consent applies for a period of [specify duration]"
 msgstr "Il presente consenso si applica per un periodo di [specify duration]"
 
 msgid "This consent is valid for [specify duration, e.g., The academic year]"
 msgstr ""
 "Il presente consenso è valido per [specify duration, e.g., The academic year]"
+
+msgid "This currency is shown with all product amounts on this form."
+msgstr ""
 
 msgid "This feature is available in the Pro version."
 msgstr "Questa funzionalità è disponibile nella versione Pro."
@@ -8489,6 +10545,9 @@ msgstr "Questo campo è obbligatorio"
 msgid "This field is required."
 msgstr "Questo campo è obbligatorio."
 
+msgid "This file type is not allowed."
+msgstr ""
+
 msgid "This is a field description."
 msgstr "Questa è una descrizione del campo."
 
@@ -8497,6 +10556,9 @@ msgid ""
 msgstr ""
 "Questa è una descrizione di esempio del modulo. Mostra come apparirà la tua "
 "descrizione."
+
+msgid "This may take a moment…"
+msgstr ""
 
 msgid "This month"
 msgstr "Mese corrente"
@@ -8507,6 +10569,9 @@ msgstr ""
 
 msgid "This value must be unique. Please use a different value."
 msgstr "Questo valore deve essere univoco. Per favore, usa un valore diverso."
+
+msgid "This will stop syncing submissions to this spreadsheet."
+msgstr ""
 
 msgid "This year"
 msgstr "Anno corrente"
@@ -8541,6 +10606,9 @@ msgstr "Formato orario"
 msgid "Time management"
 msgstr "Gestione del tempo"
 
+msgid "Time mode"
+msgstr ""
+
 msgid "Time must be after {min}"
 msgstr "L’ora deve essere successiva a {min}"
 
@@ -8556,11 +10624,17 @@ msgstr "Moduli per richieste di ferie e permessi"
 msgid "Time picker"
 msgstr "Selettore orario"
 
+msgid "Time zone"
+msgstr ""
+
 msgid "Timeliness"
 msgstr "Puntualità"
 
 msgid "Timeliness & delivery"
 msgstr "Puntualità e consegna"
+
+msgid "Title"
+msgstr ""
 
 msgid "To get started quickly, you can pick from our ready-made template"
 msgstr ""
@@ -8570,19 +10644,25 @@ msgid ""
 "To use the Turnstile field, you first need to generate a free site key and "
 "secret key via Cloudflare Turnstile"
 msgstr ""
+"Per utilizzare il campo Turnstile, è necessario innanzitutto generare una "
+"chiave del sito e una chiave segreta gratuite tramite Cloudflare Turnstile"
 
 msgid ""
 "To use the hCaptcha field, you first need to generate a free site key and "
 "secret key via hCaptcha"
 msgstr ""
+"Per utilizzare il campo hCaptcha, è necessario innanzitutto generare una "
+"chiave del sito e una chiave segreta gratuite tramite hCaptcha"
 
 msgid ""
 "To use the reCAPTCHA field, you first need to generate a free site key and "
 "secret key via reCAPTCHA"
 msgstr ""
+"Per utilizzare il campo reCAPTCHA, è necessario innanzitutto generare una "
+"chiave del sito e una chiave segreta gratuite tramite reCAPTCHA"
 
 msgid "Today"
-msgstr ""
+msgstr "Oggi"
 
 msgid ""
 "Toggle starred (favorite) status of an IvyForms form. This is purely a UI/"
@@ -8596,18 +10676,43 @@ msgid ""
 "COMMON MISTAKES TO AVOID: - Do NOT treat as publishing action. - Do NOT "
 "confuse with status update."
 msgstr ""
+"Attiva/disattiva lo stato con stella (preferito) di un modulo IvyForms. "
+"Questo è esclusivamente un flag di UI/organizzazione e NON influisce sul "
+"comportamento del modulo. WHEN TO USE: - Utilizzare quando l’utente desidera "
+"contrassegnare un modulo come importante o come preferito. - Utilizzare "
+"quando l’utente desidera rimuovere un modulo dai preferiti. WHAT IT AFFECTS: "
+"- Solo il flag con stella (true/false) - Nessuna modifica strutturale o "
+"comportamentale IMPORTANT RULES: 1. Questo è un aggiornamento dei metadati "
+"SICURO. 2. NON influisce sulla pubblicazione o sulla visibilità. 3. NON "
+"influisce sui dati o sulla struttura del modulo. AGENT BEHAVIOR GUIDELINES: "
+"- Utilizzare per flussi di lavoro di organizzazione rapida. - Può essere "
+"richiamato in modo sicuro più volte. COMMON MISTAKES TO AVOID: - NON "
+"considerarlo un’azione di pubblicazione. - NON confonderlo con un "
+"aggiornamento di stato."
 
 msgid "Toggle switch"
-msgstr ""
+msgstr "Interruttore a levetta"
 
 msgid "Too advanced"
-msgstr ""
+msgstr "Troppo avanzato"
 
 msgid "Too basic"
+msgstr "Troppo semplice"
+
+msgid "Too many files."
 msgstr ""
 
 msgid "Tools"
 msgstr "Strumenti"
+
+msgid "Tools experience (Google Ads, Meta, HubSpot, etc.)"
+msgstr ""
+
+msgid "Tools knowledge (Meta Ads, Google Ads, Canva, etc.)"
+msgstr ""
+
+msgid "Tools used"
+msgstr ""
 
 msgid "Tooltip"
 msgstr ""
@@ -8621,8 +10726,14 @@ msgstr "Argomenti / domande da discutere"
 msgid "Total"
 msgstr "Totale"
 
+msgid "Total field"
+msgstr ""
+
 msgid "Total number of days"
 msgstr "Numero totale di giorni"
+
+msgid "Trade / skill type"
+msgstr ""
 
 msgid "Traditional wedding RSVP form"
 msgstr "Modulo RSVP per matrimonio tradizionale"
@@ -8665,6 +10776,9 @@ msgstr "Tema della formazione"
 
 msgid "Training usefulness"
 msgstr "Utilità della formazione"
+
+msgid "Transcript upload"
+msgstr ""
 
 msgid "Translate"
 msgstr "Traduci"
@@ -8734,6 +10848,9 @@ msgstr "Verifica Turnstile fallita. Per favore, riprova."
 msgid "Turnstile verification failed with HTTP code: %s"
 msgstr "Verifica Turnstile non riuscita con codice HTTP: %s"
 
+msgid "Type"
+msgstr ""
+
 msgid "Type of engagement"
 msgstr "Tipo di incarico"
 
@@ -8745,6 +10862,9 @@ msgstr "Tipo di manutenzione / Problema"
 
 msgid "Typography"
 msgstr "Tipografia"
+
+msgid "UI/UX designer freelancer application form"
+msgstr ""
 
 msgid "US style with decimal (ex: 123,456.00)"
 msgstr "Formato USA con decimali (ex: 123,456.00)"
@@ -8811,11 +10931,29 @@ msgstr ""
 "Comprensione dei concetti fondamentali, degli strumenti e delle tecnologie "
 "pertinenti al ruolo"
 
+msgid "Undo"
+msgstr ""
+
+msgid "Unemployed"
+msgstr ""
+
+msgid "Unexpected HTTP status code"
+msgstr ""
+
 msgid "Unexpected response structure"
 msgstr "Struttura di risposta non prevista"
 
 msgid "Uninstall"
 msgstr "Disinstallare"
+
+msgid "University"
+msgstr ""
+
+msgid "University / education"
+msgstr ""
+
+msgid "University internship application form"
+msgstr ""
 
 msgid "Unknown"
 msgstr "Sconosciuto"
@@ -8842,6 +10980,12 @@ msgstr "Pagine illimitate"
 msgid "Unlink corners"
 msgstr "Scollega gli angoli"
 
+msgid "Unlock Creative Superpowers"
+msgstr ""
+
+msgid "Unnamed spreadsheet"
+msgstr ""
+
 msgid "Unpaid leave"
 msgstr "Congedo non retribuito"
 
@@ -8857,8 +11001,18 @@ msgstr "Aspettative irrealistiche"
 msgid "Unstarred"
 msgstr "Non preferito"
 
+msgid ""
+"Unsupported file. Please upload a JSON export from IvyForms, WS Form, or "
+"Fluent Forms."
+msgstr ""
+
 msgid "Unsupported image type: "
 msgstr "Tipo di immagine non supportato: "
+
+msgid ""
+"Unsupported import file. Please upload a JSON export from IvyForms, WS Form, "
+"or Fluent Forms."
+msgstr ""
 
 msgid "Update"
 msgstr "Aggiorna"
@@ -8880,6 +11034,12 @@ msgstr "Aggiorna la notifica"
 
 msgid "Update Notification Settings"
 msgstr "Aggiorna le impostazioni della notifica"
+
+msgid "Update WordPress"
+msgstr ""
+
+msgid "Update WordPress to a version that supports AI to use form generation."
+msgstr ""
 
 msgid ""
 "Update an existing IvyForms email notification by modifying one or more of "
@@ -9048,14 +11208,23 @@ msgstr ""
 "Carica il tuo file JSON per importare i moduli in questo sito. I moduli "
 "importati vengono sempre creati come nuovi moduli."
 
+msgid "Uploading"
+msgstr ""
+
 msgid "Urgency / Priority"
 msgstr "Urgenza / Priorità"
 
 msgid "Usage rights"
 msgstr "Diritti di utilizzo"
 
+msgid "Use image"
+msgstr ""
+
 msgid "Use this template"
 msgstr "Usa questo template"
+
+msgid "User"
+msgstr ""
 
 msgid "User ID"
 msgstr "ID utente"
@@ -9065,6 +11234,9 @@ msgstr "IP utente"
 
 msgid "User agent"
 msgstr "User-Agent"
+
+msgid "User defined"
+msgstr ""
 
 msgid "User email"
 msgstr "Email utente"
@@ -9086,6 +11258,9 @@ msgstr "Modulo di richiesta di ferie"
 
 msgid "Vaccination consent form"
 msgstr "Modulo di consenso alla vaccinazione"
+
+msgid "Validate"
+msgstr ""
 
 msgid "Validation"
 msgstr "Convalida"
@@ -9116,6 +11291,11 @@ msgstr "Vegetariano"
 
 msgid "Vendor application forms"
 msgstr "Moduli di candidatura per fornitori"
+
+msgid ""
+"Vendor onboarding form for businesses to submit company credentials, "
+"licenses, tax documents, and compliance files."
+msgstr ""
 
 msgid "Vendor registration forms"
 msgstr "Moduli di registrazione per fornitori"
@@ -9159,8 +11339,14 @@ msgstr "Molto positivo"
 msgid "Very unlikely"
 msgstr "Molto improbabile"
 
+msgid "Video"
+msgstr ""
+
 msgid "Video calls"
 msgstr "Videochiamate"
+
+msgid "Video editor freelancer application form"
+msgstr ""
 
 msgid "Video issues"
 msgstr "Problemi video"
@@ -9168,8 +11354,17 @@ msgstr "Problemi video"
 msgid "Video release forms"
 msgstr "Moduli di liberatoria per video"
 
+msgid "View"
+msgstr ""
+
 msgid "View demo"
 msgstr "Guarda la demo"
+
+msgid "View entries from the admin area"
+msgstr ""
+
+msgid "View forms list"
+msgstr ""
 
 msgid "Virtual"
 msgstr "Online"
@@ -9228,8 +11423,8 @@ msgstr "Dichiarazione di liberatoria"
 msgid "Warehouse"
 msgstr "Magazzino"
 
-msgid "Warning"
-msgstr "Attenzione"
+msgid "Warehouse & logistics worker application form"
+msgstr ""
 
 msgid "Was the training level appropriate?"
 msgstr "Il livello della formazione era appropriato?"
@@ -9239,6 +11434,14 @@ msgstr "Il tuo problema è stato risolto?"
 
 msgid "We are working on it."
 msgstr "Ci stiamo lavorando."
+
+msgid ""
+"We couldn't understand that description. Try describing the fields your form "
+"should collect."
+msgstr ""
+
+msgid "We didn't find any confirmations"
+msgstr ""
 
 msgid "We didn't find any entries"
 msgstr "Non abbiamo trovato voci"
@@ -9297,11 +11500,26 @@ msgstr "Modulo di conferma partecipazione degli invitati al matrimonio"
 msgid "Wedding registration form"
 msgstr "Modulo di iscrizione al matrimonio"
 
+msgid "Week starts"
+msgstr ""
+
 msgid "Welcome baby emma!"
 msgstr "Benvenuta al mondo, emma!"
 
-msgid "What's New in "
-msgstr "Novità in "
+msgid "Welcome page"
+msgstr ""
+
+msgid "Welcome page is hidden"
+msgstr ""
+
+msgid "Welcome page settings"
+msgstr ""
+
+msgid "Welder"
+msgstr ""
+
+msgid "What's new in "
+msgstr ""
 
 msgid "What areas stood out?"
 msgstr "Quali parti ti hanno colpito di più?"
@@ -9367,6 +11585,15 @@ msgstr ""
 "Quando l'impostazione è attivata, il modulo usa le impostazioni predefinite "
 "del sistema. Quando è disattivata, puoi personalizzare il tema Ivy."
 
+msgid "When enabled, responders see this screen before the first question."
+msgstr ""
+
+msgid ""
+"When enabled in range mode, if the default start or end value falls outside "
+"the min/max limits, it will be automatically adjusted to fit within the "
+"allowed range."
+msgstr ""
+
 msgid "Where could the trainer improve?"
 msgstr "In cosa potrebbe migliorare il trainer?"
 
@@ -9375,6 +11602,14 @@ msgstr "Bianco"
 
 msgid "Whiteboard"
 msgstr "Lavagna"
+
+msgid "Wholesale supplier application form"
+msgstr ""
+
+msgid ""
+"Wholesale supplier application form for B2B vendors to share product "
+"catalogs, pricing, MOQ, lead times, and manufacturing locations."
+msgstr ""
 
 msgid "Why are you joining this class?"
 msgstr "Perché ti stai iscrivendo a questo corso?"
@@ -9394,14 +11629,43 @@ msgstr "Con icone"
 msgid "With image"
 msgstr "Con immagine"
 
+msgid ""
+"Without Pro, only the primary active confirmation can be edited. Other "
+"confirmations remain saved and will still run on your live form."
+msgstr ""
+
 msgid "Witness / School representative signature"
 msgstr "Firma del testimone / del rappresentante della scuola"
 
 msgid "Woodwork"
 msgstr "Falegnameria"
 
+msgid "WordPress function wp_timezone() does not exist"
+msgstr ""
+
+msgid "WordPress user ID"
+msgstr ""
+
+msgid "WordPress user email (if userId unknown)"
+msgstr ""
+
+msgid "WordPress username (if userId unknown)"
+msgstr ""
+
+msgid "Work experience in logistics"
+msgstr ""
+
+msgid "Work experience proof"
+msgstr ""
+
 msgid "Work order forms"
 msgstr "Moduli per ordini di lavoro"
+
+msgid "Worksheet Name"
+msgstr ""
+
+msgid "Worksheet is required."
+msgstr ""
 
 msgid "Workshop"
 msgstr ""
@@ -9463,6 +11727,9 @@ msgstr "Scrivi qui il tuo messaggio o i tuoi auguri"
 msgid "Write your question here"
 msgstr "Scrivi qui la tua domanda"
 
+msgid "Writing"
+msgstr ""
+
 msgid "XL"
 msgstr ""
 
@@ -9483,6 +11750,9 @@ msgstr "Anno"
 
 msgid "Year placeholder"
 msgstr "Segnaposto anno"
+
+msgid "Years of experience"
+msgstr ""
 
 msgid "Years of practice, styles, certifications"
 msgstr "Anni di esperienza, stili, certificazioni"
@@ -9529,14 +11799,26 @@ msgstr "Modulo di iscrizione al corso di yoga"
 msgid "Yoga mat"
 msgstr "Tappetino da yoga"
 
+msgid "You can upload at most {max} files."
+msgstr ""
+
 msgid "You can use HTML tags for links"
 msgstr "Puoi usare i tag HTML per creare link"
+
+msgid "You cannot delete the last confirmation for this form."
+msgstr ""
+
+msgid "You do not have permission to access settings."
+msgstr ""
 
 msgid "You do not have permission to access this page."
 msgstr "Non hai i permessi per accedere a questa pagina."
 
 msgid "You have reached maximum number of registered domains"
 msgstr "Hai raggiunto il numero massimo di domini registrati"
+
+msgid "You have unsaved changes. Discard them?"
+msgstr ""
 
 msgid "You have unsaved changes. If you leave now, your changes will be lost."
 msgstr ""
@@ -9560,6 +11842,12 @@ msgstr "È necessario un livello di autorizzazione superiore."
 
 msgid "You need to check that the right form ID exists."
 msgstr "È necessario verificare che esista l'ID del modulo corretto."
+
+msgid "Your form is ready to be imported into IvyForms."
+msgstr ""
+
+msgid "Your name"
+msgstr ""
 
 msgid ""
 "Your purchase code has been hidden for security reasons. You can find it on "
@@ -9605,9 +11893,6 @@ msgstr "e"
 msgid "columnIndex must be between 0 and 4."
 msgstr "columnIndex deve essere compreso tra 0 e 4."
 
-msgid "disable this option in settings"
-msgstr "Disattiva questa opzione in Impostazioni"
-
 msgid "e.g., 150"
 msgstr "es., 150"
 
@@ -9626,11 +11911,22 @@ msgstr "es., Little Prince, Twinkle Twinkle, Pink & Gold"
 msgid "e.g. PRJ-1024"
 msgstr "es. PRJ-1024"
 
+msgid "e.g. event registration form with name, email, dietary preference"
+msgstr ""
+
+msgid ""
+"e.g. event registration form with name, email, dietary preference. You can "
+"also ask for a conversational, chat-style form."
+msgstr ""
+
 msgid "example"
 msgstr "esempio"
 
 msgid "field is required"
 msgstr "Campo obbligatorio"
+
+msgid "form_ids must be null or an array of integers."
+msgstr ""
 
 msgid "hCaptcha"
 msgstr ""
@@ -9703,6 +11999,12 @@ msgstr ""
 
 msgid "is required."
 msgstr "è obbligatorio."
+
+msgid "jpg/png files with a size less than 500KB."
+msgstr ""
+
+msgid "mb"
+msgstr ""
 
 msgid "my-form, newsletter-form"
 msgstr ""

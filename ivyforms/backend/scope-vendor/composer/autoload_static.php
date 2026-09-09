@@ -4,7 +4,7 @@
 
 namespace IvyForms\Vendor\Composer\Autoload;
 
-class ComposerStaticInita3982c5dc5d0b0cd9cd80b1eb5f5fb15
+class ComposerStaticInit767a7dee8e8836c5bc313bca945a538c
 {
     public static $files = array (
         'a10106f9fc92eb44cc2a66bdeb66c2a6' => __DIR__ . '/..' . '/php-di/php-di/src/functions.php',
@@ -166,9 +166,9 @@ class ComposerStaticInita3982c5dc5d0b0cd9cd80b1eb5f5fb15
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInita3982c5dc5d0b0cd9cd80b1eb5f5fb15::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInita3982c5dc5d0b0cd9cd80b1eb5f5fb15::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInita3982c5dc5d0b0cd9cd80b1eb5f5fb15::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit767a7dee8e8836c5bc313bca945a538c::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit767a7dee8e8836c5bc313bca945a538c::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit767a7dee8e8836c5bc313bca945a538c::$classMap;
 
         }, null, ClassLoader::class);
     }

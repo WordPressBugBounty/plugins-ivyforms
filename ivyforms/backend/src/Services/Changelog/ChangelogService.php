@@ -19,56 +19,36 @@ class ChangelogService
     {
         $changelogData = [
             'version' => IVYFORMS_VERSION,
-            'release_date' => '2026-08-21',
-            'features' => [
-                ['text' => __('Added AI form generation from a text prompt.', 'ivyforms')],
-                [
-                    'text' => __(
-                        'Added import from WS Form and Fluent Forms, including conditional logic.',
-                        'ivyforms'
-                    ),
-                ],
-                [
-                    'text' => __(
-                        'Aligned MCP AI assistant capabilities with user permissions '
-                        . 'and enabled the toggle by default.',
-                        'ivyforms'
-                    ),
-                ],
-                ['text' => __('Added usage tracking for paid users.', 'ivyforms')],
-            ],
+            'release_date' => '2026-09-09',
+            'features' => [],
             'improvements' => [
-                ['text' => __('Showed Field ID on the Slider field General tab.', 'ivyforms')],
-                ['text' => __('Aligned entry details field order with the form layout.', 'ivyforms')],
                 [
                     'text' => __(
-                        'Prevented the add-field panel from being cut off when the license-inactive notice is shown.',
+                        'Replaced locked Pro style themes with a single upgrade card for Lite users.',
                         'ivyforms'
                     ),
                 ],
-                ['text' => __('Aligned columns in the Settings permissions table.', 'ivyforms')],
             ],
             'bugfixes' => [
-                ['text' => __('Fixed IvyEditor HTML component issues.', 'ivyforms')],
-                ['text' => __('Fixed padding in the form selection field.', 'ivyforms')],
                 [
                     'text' => __(
-                        'Fixed template card images not visible in Safari on macOS.',
+                        'Fixed automatic language detection for the Phone field on the frontend.',
                         'ivyforms'
                     ),
                 ],
                 [
                     'text' => __(
-                        'Fixed the payment fields "Show layouts" control showing next to CSS Classes.',
+                        'Fixed Number field placeholder alignment on the frontend.',
                         'ivyforms'
                     ),
                 ],
                 [
                     'text' => __(
-                        'Hardened MCP form create, settings, and add-field helpers used with Angie AI.',
+                        'Fixed custom required messages not being saved for First Name and Last Name subfields.',
                         'ivyforms'
                     ),
                 ],
+                ['text' => __('Restored PHP 7.4 compatibility when saving field settings.', 'ivyforms')],
             ],
         ];
 

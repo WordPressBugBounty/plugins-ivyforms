@@ -36,7 +36,8 @@ class IntegrationRegistry
             throw new InvalidArgumentException("Integration '$slug' must have a label");
         }
 
-        if (empty($config['component'])) {
+        // Documentation-only integrations have nothing to configure, so they have no settings component
+        if (empty($config['component']) && empty($config['docsOnly'])) {
             throw new InvalidArgumentException("Integration '$slug' must have a component name");
         }
 
@@ -50,6 +51,7 @@ class IntegrationRegistry
             'settingsSchema' => [],
             'plan' => 'lite', // 'lite', 'essentials', 'growth', 'agency'
             'learnMoreUrl' => '', // Optional documentation/learn more URL
+            'docsOnly' => false, // Card shows only a "Learn more" link — no toggle, no settings
         ], $config);
     }
 

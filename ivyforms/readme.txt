@@ -6,7 +6,7 @@ Tags: form, contact form, custom form, form builder, wp forms
 Requires at least: 5.0
 Tested up to: 7.0.1
 Requires PHP: 7.4
-Stable tag: 1.4
+Stable tag: 1.4.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -260,6 +260,13 @@ This service is provided by "https://ipwhois.io":
 - Privacy policy: https://ipwhois.io/privacy
 
 == Changelog ==
+= 1.4.1 =
+* Replaced locked Pro style themes with a single upgrade card for Lite users.
+* Fixed automatic language detection for the Phone field on the frontend.
+* Fixed Number field placeholder alignment on the frontend.
+* Fixed custom required messages not being saved for First Name and Last Name subfields.
+* Restored PHP 7.4 compatibility when saving field settings.
+
 = 1.4 =
 * Added AI form generation from a text prompt.
 * Added import from WS Form and Fluent Forms, including conditional logic.
