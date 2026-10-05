@@ -54,6 +54,14 @@ class Field
     }
 
     /**
+     * Underlying field value object (used by Pro extension hooks).
+     */
+    public function getFormField(): FieldValueObject
+    {
+        return $this->formField;
+    }
+
+    /**
      * Get the ID of the form to which this field belongs
      *
      * @return int The form ID.

@@ -13,9 +13,9 @@ use IvyForms\Common\Sanitizer\Sanitizer;
 use IvyForms\Entity\Form\Form as FormEntity;
 use IvyForms\ValueObjects\Form\Form;
 use IvyForms\ValueObjects\Form\IntegrationSettings;
-use IvyForms\ValueObjects\Form\PaymentSettings;
 use IvyForms\ValueObjects\Form\FormMetadata;
 use IvyForms\ValueObjects\Form\FormSettings;
+use IvyForms\ValueObjects\Form\PaymentSettings;
 use IvyForms\ValueObjects\Form\StyleSettings;
 use IvyForms\Services\Translations\BackendStrings;
 

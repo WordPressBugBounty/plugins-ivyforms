@@ -11,6 +11,7 @@ use IvyForms\Controllers\GoogleSheets\GoogleSheetsListColumnsController;
 use IvyForms\Controllers\GoogleSheets\GoogleSheetsListIntegrationsController;
 use IvyForms\Controllers\GoogleSheets\GoogleSheetsListSpreadsheetsController;
 use IvyForms\Controllers\GoogleSheets\GoogleSheetsListWorksheetsController;
+use IvyForms\Controllers\GoogleSheets\GoogleSheetsPickerConfigController;
 use IvyForms\Controllers\GoogleSheets\GoogleSheetsStatusController;
 use IvyForms\Controllers\GoogleSheets\GoogleSheetsUpdateController;
 use IvyForms\Controllers\GoogleSheets\GoogleSheetsUpdateStatusController;
@@ -71,6 +72,13 @@ class GoogleSheets
             'permission_callback' => $manageOptions,
         ]);
 
+        register_rest_route($namespace, '/integrations/google-sheets/picker-config', [
+            'methods'             => WP_REST_Server::READABLE,
+            'callback'            => $container->get(GoogleSheetsPickerConfigController::class),
+            'permission_callback' => $manageOptions,
+        ]);
+
+        // Legacy. Spreadsheet selection uses the Picker; this Drive query is empty under drive.file.
         register_rest_route($namespace, '/integrations/google-sheets/spreadsheets', [
             'methods'             => WP_REST_Server::READABLE,
             'callback'            => $container->get(GoogleSheetsListSpreadsheetsController::class),

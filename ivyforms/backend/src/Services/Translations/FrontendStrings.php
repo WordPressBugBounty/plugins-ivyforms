@@ -146,6 +146,24 @@ class FrontendStrings
             'thank_you'                          => __('Thank you!', 'ivyforms'),
             'this_field'                         => __('This field', 'ivyforms'),
             'year'                               => __('Year', 'ivyforms'),
+            'payment_failed'                     => __('Payment could not be processed. Please check your card and try again.', 'ivyforms'),
+            'payment_tokenization_failed'        => __('Could not verify your card. Please check the details and try again.', 'ivyforms'),
+            'payment_processing'                 => __('Processing payment…', 'ivyforms'),
+            'payment_methods'                    => __('Payment methods', 'ivyforms'),
+            'paypal'                             => __('PayPal', 'ivyforms'),
+            'square'                             => __('Square', 'ivyforms'),
+            'stripe'                             => __('Stripe', 'ivyforms'),
+            'payment_form_loading'               => __('Loading secure payment form…', 'ivyforms'),
+            'payment_form_unavailable'           => __('Secure payment form could not be loaded. Please refresh the page or contact the site owner.', 'ivyforms'),
+            'payment_https_required'             => __('Payments require HTTPS. Open this form over https:// or test on a site with SSL enabled.', 'ivyforms'),
+            'paypal_connected'                   => __('PayPal is ready. Submit the form to complete payment.', 'ivyforms'),
+            'paypal_complete_payment'            => __('Complete PayPal checkout to continue.', 'ivyforms'),
+            'paypal_complete_form'               => __('Fill in the required fields before paying with PayPal.', 'ivyforms'),
+            'paypal_auth_url_failed'             => __('Could not start PayPal checkout.', 'ivyforms'),
+            'currency_mismatch'                 => __(
+                'This form\'s currency does not match the Square account currency. Payments cannot be processed until the currencies match.',
+                'ivyforms'
+            ),
         ];
     }
 }

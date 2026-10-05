@@ -8,7 +8,6 @@
 namespace IvyForms\Entity\Notification;
 
 use IvyForms\ValueObjects\Notification\Notification as NotificationValueObject;
-use IvyForms\Entity\Notification\NotificationContact;
 
 /**
  * Class Notification
@@ -28,6 +27,13 @@ class Notification
     private NotificationContact $contact;
 
     /**
+     * Opaque extension payload (Pro / add-ons). Not owned by Lite domain fields.
+     *
+     * @var array<string, mixed>
+     */
+    private array $extensionData = [];
+
+    /**
      * Notification constructor.
      *
      * @param NotificationValueObject $notification The notification object.
@@ -36,6 +42,22 @@ class Notification
     {
         $this->notification = $notification;
         $this->contact = new NotificationContact($notification->contact);
+    }
+
+    /**
+     * @param array<string, mixed> $data
+     */
+    public function setExtensionData(array $data): void
+    {
+        $this->extensionData = $data;
+    }
+
+    /**
+     * @return array<string, mixed>
+     */
+    public function getExtensionData(): array
+    {
+        return $this->extensionData;
     }
 
     /**
@@ -226,7 +248,8 @@ class Notification
                 'smartLogic'      => $this->getSmartLogic(),
                 'formId'          => $this->getFormId(),
             ],
-            $this->getNotificationContact()->toArray()
+            $this->getNotificationContact()->toArray(),
+            $this->extensionData
         );
     }
 }

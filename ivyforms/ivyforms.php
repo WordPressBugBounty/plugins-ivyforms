@@ -3,7 +3,7 @@
  * Plugin Name: IvyForms - The innovative Contact Form Builder
  * Plugin URI: https://ivyforms.com
  * Description: Transform your WordPress site with IvyForms: a powerful, user-friendly plugin for creating and managing customizable forms effortlessly.
- * Version: 1.4.1
+ * Version: 1.5
  * Requires PHP: 7.4
  * Author: Melograno Ventures
  * Author URI: https://melograno.io/
@@ -81,7 +81,13 @@ if (!defined('IVYFORMS_SITE_URL')) {
 }
 
 if (!defined('IVYFORMS_VERSION')) {
-    define('IVYFORMS_VERSION', '1.4.1');
+    define('IVYFORMS_VERSION', '1.5');
+}
+
+// Payments (Square / Stripe / PayPal) ship as "Coming soon" until the feature is released.
+// Flip to true (or define in wp-config.php) to expose the payment fields, settings and Payments page.
+if (!defined('IVYFORMS_PAYMENTS_ENABLED')) {
+    define('IVYFORMS_PAYMENTS_ENABLED', false);
 }
 
 if (!defined('IVYFORMS_MCP_MIN_WP_VERSION')) {
@@ -90,6 +96,13 @@ if (!defined('IVYFORMS_MCP_MIN_WP_VERSION')) {
 
 if (!defined('MELOGRANO_BI_GATE_URL')) {
     define('MELOGRANO_BI_GATE_URL', 'https://bi.melograno.io');
+}
+
+if (!defined('IVYFORMS_MIDDLEWARE_URL')) {
+    define(
+        'IVYFORMS_MIDDLEWARE_URL',
+        IVYFORMS_DEV ? 'https://middleware-dev.ivyforms.com' : 'https://middleware.ivyforms.com'
+    );
 }
 
 require_once IVYFORMS_PATH . '/backend/scope-vendor/autoload.php';

@@ -87,6 +87,9 @@ msgstr ""
 msgid "AI & machine learning"
 msgstr "IA & aprendizaje automático"
 
+msgid "AI choice generation is locked"
+msgstr ""
+
 msgid "AI form generation is locked"
 msgstr ""
 
@@ -224,6 +227,15 @@ msgid ""
 "presentation selection and certification options."
 msgstr ""
 
+msgid "Accept PayPal Checkout payments on your forms"
+msgstr ""
+
+msgid "Accept card payments on your forms with Square"
+msgstr ""
+
+msgid "Accept card payments on your forms with Stripe"
+msgstr ""
+
 msgid "Access pass"
 msgstr "Pase de acceso"
 
@@ -235,6 +247,12 @@ msgstr "Formularios de informe de accidentes"
 
 msgid "Accommodation requirements"
 msgstr "Requisitos de adaptación"
+
+msgid "Account ID"
+msgstr ""
+
+msgid "Account name"
+msgstr ""
 
 msgid "Acknowledgment of questions answered"
 msgstr "Confirmación de haber respondido a las preguntas"
@@ -395,6 +413,18 @@ msgstr ""
 #, php-format
 msgid "Added %d fields successfully."
 msgstr "Se han añadido %d campos correctamente."
+
+msgid "Added AI choice generation for Dropdown, Radio, and Checkbox fields."
+msgstr ""
+
+msgid "Added CC and BCC recipients to email notifications."
+msgstr ""
+
+msgid "Added a Disable styles option so forms can inherit the theme styling."
+msgstr ""
+
+msgid "Added import from WPForms and Gravity Forms."
+msgstr ""
 
 msgid "Additional CSS Class(es)"
 msgstr "Clases CSS adicionales"
@@ -633,6 +663,9 @@ msgstr ""
 msgid "Amelia Booking plugin installed successfully!"
 msgstr ""
 
+msgid "Amount"
+msgstr ""
+
 msgid "Amount label"
 msgstr ""
 
@@ -825,6 +858,9 @@ msgid "Attach or provide details if doctor's note is required"
 msgstr ""
 "Adjunta el documento o aporta detalles si se requiere un justificante médico"
 
+msgid "Attach uploaded file(s) to this notification"
+msgstr ""
+
 msgid "Attendance type"
 msgstr "Tipo de asistencia"
 
@@ -987,6 +1023,12 @@ msgid "Biggest campaign result (KPIs)"
 msgstr ""
 
 msgid "Biggest project description"
+msgstr ""
+
+msgid "Billing address field"
+msgstr ""
+
+msgid "Billing name field"
 msgstr ""
 
 msgid "Birthday"
@@ -1186,6 +1228,9 @@ msgstr "Color del texto del botón"
 msgid "Button width"
 msgstr "Ancho del botón"
 
+msgid "Buyer email field"
+msgstr ""
+
 msgid "CC"
 msgstr ""
 
@@ -1203,6 +1248,9 @@ msgstr "Nombre de la clase CSS"
 
 msgid "CSS classes"
 msgstr "Clases CSS"
+
+msgid "CVV"
+msgstr ""
 
 msgid "CV / resume upload"
 msgstr ""
@@ -1228,6 +1276,12 @@ msgstr "Formularios de pedido de tartas"
 msgid "Cake size"
 msgstr "Tamaño de la tarta"
 
+msgid "Calculate Field"
+msgstr ""
+
+msgid "Calculated Field"
+msgstr ""
+
 msgid "Calendar background color"
 msgstr "Color de fondo del calendario"
 
@@ -1245,6 +1299,9 @@ msgstr "Nombre o ID de la persona candidata"
 
 msgid "Cannot delete the last page"
 msgstr "No se puede eliminar la última página"
+
+msgid "Card number"
+msgstr ""
 
 msgid "Cardiologist"
 msgstr "Cardiólogo/a"
@@ -1285,11 +1342,17 @@ msgstr "Fecha de solicitud de cambio"
 msgid "Change request forms"
 msgstr "Formularios de solicitud de cambio"
 
+msgid "Change spreadsheet"
+msgstr ""
+
 msgid "Changelog retrieved successfully"
 msgstr "El registro de cambios se ha obtenido correctamente"
 
 msgid "Characters"
 msgstr "Caracteres"
+
+msgid "Charge"
+msgstr ""
 
 msgid "Charity event forms"
 msgstr "Formularios de eventos benéficos"
@@ -1346,6 +1409,9 @@ msgid "Choose Value"
 msgstr ""
 
 msgid "Choose a form export file"
+msgstr ""
+
+msgid "Choose a spreadsheet"
 msgstr ""
 
 msgid "Choose cake flavor"
@@ -1513,6 +1579,9 @@ msgstr ""
 "Recopila comentarios estructurados tras completar un proyecto para un "
 "cliente."
 
+msgid "Collecting options…"
+msgstr ""
+
 msgid "Colors"
 msgstr "Colores"
 
@@ -1575,6 +1644,9 @@ msgstr "Empresa / Organización"
 
 msgid "Company name"
 msgstr "Nombre de la empresa"
+
+msgid "Complete PayPal checkout to continue."
+msgstr ""
 
 msgid "Compliance"
 msgstr "Cumplimiento normativo"
@@ -1729,9 +1801,31 @@ msgid ""
 "Connectors."
 msgstr ""
 
+msgid "Connect with PayPal"
+msgstr ""
+
+msgid "Connect with Square"
+msgstr ""
+
+msgid "Connect with Stripe"
+msgstr ""
+
 msgid ""
 "Connect your Google account to sync form submissions to your spreadsheets. "
 "Click Connect Account and sign in with Google."
+msgstr ""
+
+msgid ""
+"Connect your PayPal Business account to accept Checkout payments on your "
+"forms."
+msgstr ""
+
+msgid ""
+"Connect your Square account below to accept card payments on your forms."
+msgstr ""
+
+msgid ""
+"Connect your Stripe account below to accept card payments on your forms."
 msgstr ""
 
 msgid "Connect your forms to 5,000+ apps with Zapier automation workflows"
@@ -1914,13 +2008,33 @@ msgstr ""
 msgid "Corporate t-shirt order form"
 msgstr "Formulario de pedido de camisetas de empresa"
 
+msgid ""
+"Could not open Google Drive picker. Reconnect your Google account and try "
+"again."
+msgstr ""
+
 msgid "Could not read the current access rules; no changes were made."
 msgstr ""
 
 msgid "Could not read the current access rules."
 msgstr ""
 
+msgid "Could not start PayPal authorization."
+msgstr ""
+
+msgid "Could not start PayPal checkout."
+msgstr ""
+
+msgid "Could not start Square authorization."
+msgstr ""
+
+msgid "Could not start Stripe authorization."
+msgstr ""
+
 msgid "Could not validate the entry. Please try again."
+msgstr ""
+
+msgid "Could not verify your card. Please check the details and try again."
 msgstr ""
 
 msgid "Countertops"
@@ -1934,6 +2048,9 @@ msgstr "País"
 
 msgid "Country flag icon"
 msgstr "Icono de la bandera del país"
+
+msgid "Coupons"
+msgstr ""
 
 msgid "Course content feedback form"
 msgstr "Formulario de comentarios sobre el contenido del curso"
@@ -2151,6 +2268,9 @@ msgstr "Formulario de pedido de camiseta personalizada"
 
 msgid "Custom validation message"
 msgstr "Mensaje de validación personalizado"
+
+msgid "Customer"
+msgstr ""
 
 msgid "Customer feedback forms"
 msgstr "Formularios de comentarios de clientes"
@@ -2383,11 +2503,19 @@ msgstr "Describa el diseño o la decoración de la tarta"
 msgid "Describe the change requested"
 msgstr "Describa el cambio solicitado"
 
+msgid ""
+"Describe the choices you would like to create or use one of the examples "
+"below to get started."
+msgstr ""
+
 msgid "Describe the maintenance issue in detail"
 msgstr "Describa el problema de mantenimiento en detalle"
 
 msgid "Describe the theme, e.g., Rustic, elegant, floral..."
 msgstr "Describa la temática, p. ej., rústica, elegante, floral..."
+
+msgid "Describe your choices"
+msgstr ""
 
 msgid "Describe your design ideas or color scheme"
 msgstr "Describa sus ideas de diseño o la paleta de colores"
@@ -2551,6 +2679,15 @@ msgid "Disconnect"
 msgstr ""
 
 msgid "Disconnect Account"
+msgstr ""
+
+msgid "Disconnect PayPal"
+msgstr ""
+
+msgid "Disconnect Square"
+msgstr ""
+
+msgid "Disconnect Stripe"
 msgstr ""
 
 msgid "Disconnect account?"
@@ -2730,6 +2867,9 @@ msgid "Edit"
 msgstr "Editar"
 
 msgid "Edit Permission"
+msgstr ""
+
+msgid "Edit choices"
 msgstr ""
 
 msgid "Edit entries details"
@@ -3421,6 +3561,9 @@ msgstr "Entrada retirada de favoritos"
 msgid "Entry updated successfully"
 msgstr "Entrada actualizada correctamente"
 
+msgid "Environment"
+msgstr ""
+
 msgid "Equipment/Device name"
 msgstr "Nombre del equipo/dispositivo"
 
@@ -3702,11 +3845,17 @@ msgstr ""
 msgid "Expertise"
 msgstr "Especialización"
 
+msgid "Expiration date"
+msgstr ""
+
 msgid "Explore Collection"
 msgstr ""
 
 msgid "Export"
 msgstr "Exportar"
+
+msgid "Export CSV"
+msgstr ""
 
 msgid "Export form"
 msgstr "Exportar formulario"
@@ -3865,6 +4014,9 @@ msgstr "No se ha podido recuperar la notificación:"
 
 msgid "Failed to fetch templates"
 msgstr "No se han podido recuperar las plantillas"
+
+msgid "Failed to generate choices. Please try again."
+msgstr ""
 
 msgid "Failed to generate the form. Please try again."
 msgstr ""
@@ -4102,6 +4254,9 @@ msgstr ""
 msgid "File upload failed."
 msgstr ""
 
+msgid "Fill in the required fields before paying with PayPal."
+msgstr ""
+
 msgid "Filtered data:"
 msgstr "Registros filtrados:"
 
@@ -4147,15 +4302,29 @@ msgstr "Formulario de inscripción a una clase de fitness"
 msgid "Fitness goals"
 msgstr "Objetivos de forma física"
 
-msgid "Fixed Number field placeholder alignment on the frontend."
+msgid "Fixed Email and Confirm Email field spacing on the frontend."
 msgstr ""
 
-msgid "Fixed automatic language detection for the Phone field on the frontend."
+msgid "Fixed an error when clicking the Message field in Confirmations."
+msgstr ""
+
+msgid "Fixed console errors when opening a new form in the form builder."
+msgstr ""
+
+msgid "Fixed editing HTML code in the Message field."
+msgstr ""
+
+msgid "Fixed form export failing when no notifications are configured."
+msgstr ""
+
+msgid "Fixed moving an added field in the form builder."
 msgstr ""
 
 msgid ""
-"Fixed custom required messages not being saved for First Name and Last Name "
-"subfields."
+"Fixed the HEX color input in the Style tab overwriting manually typed values."
+msgstr ""
+
+msgid "Fixed {{all_data}} in notifications ignoring the reordered field order."
 msgstr ""
 
 msgid "Flexibility"
@@ -4300,6 +4469,9 @@ msgstr "Radio de esquina"
 
 msgid "Form created successfully."
 msgstr "Formulario creado correctamente."
+
+msgid "Form currency does not match your Square account currency."
+msgstr ""
 
 msgid "Form data not found (wpIvyFormData is undefined)"
 msgstr ""
@@ -4848,11 +5020,20 @@ msgstr "Configuración general"
 msgid "Generate a form automatically with the help of AI."
 msgstr "Genera un formulario automáticamente con la ayuda de la IA."
 
+msgid "Generate choices"
+msgstr ""
+
 msgid "Generate form"
 msgstr ""
 
 msgid "Generate with AI"
 msgstr "Generar con IA"
+
+msgid "Generated choices"
+msgstr ""
+
+msgid "Generating your choices"
+msgstr ""
 
 msgid "Generating your form"
 msgstr ""
@@ -5134,6 +5315,9 @@ msgstr "Sin gluten"
 msgid "Go to"
 msgstr "Ir a"
 
+msgid "Go to Global Settings"
+msgstr ""
+
 msgid "Go to settings"
 msgstr "Ir a Ajustes"
 
@@ -5175,6 +5359,9 @@ msgstr ""
 msgid ""
 "Google Sheets is not connected. Connect your Google account in Global "
 "Settings first."
+msgstr ""
+
+msgid "Google Sheets picker is not configured. Please contact support."
 msgstr ""
 
 msgid "Google account connected successfully."
@@ -5343,6 +5530,12 @@ msgid ""
 msgstr ""
 "Aquí tienes la lista de todas las integraciones de ivy forms. Puedes "
 "activarlas o desactivarlas según tus necesidades."
+
+msgid "Hide Labels"
+msgstr ""
+
+msgid "Hide Title"
+msgstr ""
 
 msgid "Hide confirmation label"
 msgstr "Ocultar etiqueta de confirmación"
@@ -5612,6 +5805,9 @@ msgstr "Importando..."
 msgid "Improve IvyForms"
 msgstr ""
 
+msgid "Improved compatibility with PHP 8.5."
+msgstr ""
+
 msgid "Improvements"
 msgstr "Mejoras"
 
@@ -5684,6 +5880,9 @@ msgstr ""
 msgid "Input"
 msgstr "Dato"
 
+msgid "Insert Choices"
+msgstr ""
+
 msgid "Insert image by URL"
 msgstr "Insertar imagen mediante URL"
 
@@ -5693,6 +5892,10 @@ msgstr "Insertar variables"
 msgid ""
 "Insert your forms directly in the WordPress block editor with the IvyForms "
 "block."
+msgstr ""
+
+msgid ""
+"Inserting these choices will replace the current options for this field."
 msgstr ""
 
 msgid "Inside"
@@ -5895,6 +6098,9 @@ msgstr ""
 msgid "Invalid key format. Please check your reCAPTCHA keys"
 msgstr ""
 "Formato de clave no válido. Por favor, comprueba tus claves de reCAPTCHA"
+
+msgid "Invalid middleware signature"
+msgstr ""
 
 msgid "Invalid nonce."
 msgstr "Nonce no válido."
@@ -6130,6 +6336,9 @@ msgstr "Potencial de liderazgo"
 msgid "Learn more"
 msgstr "Más información"
 
+msgid "Learn more about IvyForms AI"
+msgstr ""
+
 msgid "Learning goals"
 msgstr "Objetivos de aprendizaje"
 
@@ -6309,6 +6518,9 @@ msgstr ""
 "información a nivel de campo. - NO intentes actualizaciones o mutaciones "
 "desde esta capacidad."
 
+msgid "List of industries"
+msgstr ""
+
 msgid ""
 "List the available IvyForms permission keys (with labels) and the WordPress "
 "roles they can be assigned to. READ-ONLY. Administrator access required. Use "
@@ -6342,6 +6554,9 @@ msgstr "En directo"
 
 msgid "Live coding interview"
 msgstr "Entrevista de programación en directo"
+
+msgid "Loading secure payment form…"
+msgstr ""
 
 msgid "Locate"
 msgstr "Localizar"
@@ -6546,6 +6761,9 @@ msgstr ""
 msgid "Max time"
 msgstr "Tiempo máximo"
 
+msgid "Maximum amount"
+msgstr ""
+
 msgid "Maximum date"
 msgstr "Fecha máxima"
 
@@ -6648,6 +6866,12 @@ msgstr "No se ha encontrado el elemento del botón de menú"
 msgid "Menu items / Offerings"
 msgstr "Platos del menú / Productos"
 
+msgid "Merchant ID"
+msgstr ""
+
+msgid "Merchant name"
+msgstr ""
+
 msgid "Message"
 msgstr "Mensaje"
 
@@ -6688,6 +6912,9 @@ msgstr "Formularios de reembolso por kilometraje"
 
 msgid "Min time"
 msgstr "Duración mín."
+
+msgid "Minimum amount"
+msgstr ""
 
 msgid "Minimum date"
 msgstr "Fecha mínima"
@@ -7013,6 +7240,12 @@ msgstr "Sin incidencias"
 
 msgid "No notification IDs provided for deletion."
 msgstr "No se proporcionaron IDs de notificaciones para eliminar."
+
+msgid "No payments match your filters"
+msgstr ""
+
+msgid "No payments yet"
+msgstr ""
 
 msgid "No permission rules added yet."
 msgstr ""
@@ -7475,14 +7708,53 @@ msgstr "Pega un enlace a tu inspiración de diseño (Pinterest, Instagram...)"
 msgid "Paternity leave"
 msgstr "Permiso de paternidad"
 
+msgid "PayPal"
+msgstr ""
+
+msgid "PayPal connected"
+msgstr ""
+
+msgid "PayPal disconnected"
+msgstr ""
+
+msgid "PayPal is disconnected. Connect PayPal to accept payments on this form."
+msgstr ""
+
+msgid "PayPal is ready. Submit the form to complete payment."
+msgstr ""
+
 msgid "Payment"
+msgstr ""
+
+msgid "Payment Method"
+msgstr ""
+
+msgid "Payment Methods"
 msgstr ""
 
 msgid "Payment amount"
 msgstr ""
 
+msgid "Payment amount must be greater than zero."
+msgstr ""
+
+msgid "Payment could not be processed. Please check your card and try again."
+msgstr ""
+
+msgid "Payment description"
+msgstr ""
+
+msgid "Payment details are missing. Please refresh and try again."
+msgstr ""
+
 msgid "Payment forms"
 msgstr "Formularios de pago"
+
+msgid "Payment method"
+msgstr ""
+
+msgid "Payment methods"
+msgstr ""
 
 msgid "Payment options"
 msgstr "Métodos de pago"
@@ -7491,6 +7763,11 @@ msgid "Payment request forms"
 msgstr "Formularios de solicitud de pago"
 
 msgid "Payments"
+msgstr ""
+
+msgid ""
+"Payments require HTTPS. Open this form over https:// or test on a site with "
+"SSL enabled."
 msgstr ""
 
 msgid "Pediatrician"
@@ -7612,6 +7889,9 @@ msgstr ""
 
 msgid "Please enter a URL."
 msgstr "Introduce una URL."
+
+msgid "Please enter a prompt describing the choices."
+msgstr ""
 
 msgid "Please enter a prompt describing the form."
 msgstr ""
@@ -7746,6 +8026,9 @@ msgstr "Enlace permanente de la publicación"
 
 msgid "Post title"
 msgstr "Título de la publicación"
+
+msgid "Postal code"
+msgstr ""
 
 msgid "Pottery"
 msgstr "Alfarería"
@@ -7905,6 +8188,9 @@ msgstr ""
 
 msgid "Proceed with caution"
 msgstr "Continúa con precaución"
+
+msgid "Processing payment…"
+msgstr ""
 
 msgid "Product"
 msgstr "Producto"
@@ -8403,8 +8689,10 @@ msgstr "Tipo de reparación"
 msgid "Repair work order form"
 msgstr "Formulario de orden de trabajo de reparación"
 
-msgid ""
-"Replaced locked Pro style themes with a single upgrade card for Lite users."
+msgid "Replace choices"
+msgstr ""
+
+msgid "Replace existing choices?"
 msgstr ""
 
 msgid "Reply to"
@@ -8505,9 +8793,6 @@ msgstr ""
 
 msgid "Restore"
 msgstr "Restaurar"
-
-msgid "Restored PHP 7.4 compatibility when saving field settings."
-msgstr ""
 
 msgid "Results"
 msgstr "Resultados"
@@ -8982,6 +9267,9 @@ msgstr "Vista de ejemplo"
 msgid "Sample work upload"
 msgstr ""
 
+msgid "Sandbox"
+msgstr ""
+
 msgid "Sans Serif"
 msgstr ""
 
@@ -8993,6 +9281,9 @@ msgstr "Guardar"
 
 msgid "Save as draft"
 msgstr "Guardar como borrador"
+
+msgid "Save choices"
+msgstr ""
 
 msgid "Save entry"
 msgstr ""
@@ -9026,6 +9317,9 @@ msgstr "Buscar"
 
 msgid "Search Notifications"
 msgstr "Buscar notificaciones"
+
+msgid "Search Payments"
+msgstr ""
 
 msgid "Search a form template"
 msgstr "Buscar una plantilla de formulario"
@@ -9076,6 +9370,9 @@ msgstr "Buscar notificaciones"
 msgid "Search placeholder"
 msgstr "Placeholder de búsqueda"
 
+msgid "Searching most popular…"
+msgstr ""
+
 msgid "Seating preference"
 msgstr "Preferencia de asiento"
 
@@ -9095,6 +9392,11 @@ msgid "Section"
 msgstr ""
 
 msgid "Sections"
+msgstr ""
+
+msgid ""
+"Secure payment form could not be loaded. Please refresh the page or contact "
+"the site owner."
 msgstr ""
 
 msgid "Security"
@@ -9418,6 +9720,9 @@ msgstr ""
 msgid "Select skill level"
 msgstr "Seleccionar nivel de habilidad"
 
+msgid "Select spreadsheet"
+msgstr ""
+
 msgid "Select start date"
 msgstr "Selecciona fecha de inicio"
 
@@ -9474,6 +9779,11 @@ msgstr "Selecciona la plataforma del webinar"
 msgid "Select wedding date"
 msgstr "Selecciona la fecha de la boda"
 
+msgid ""
+"Select which payment providers are available on this field. Only connected "
+"providers can be used."
+msgstr ""
+
 msgid "Select workshop level"
 msgstr "Seleccione el nivel del taller"
 
@@ -9527,6 +9837,12 @@ msgstr "Seminario 3"
 
 msgid "Seminars to attend"
 msgstr "Seminarios a los que asistir"
+
+msgid "Send PayPal receipt email"
+msgstr ""
+
+msgid "Send Stripe receipt email"
+msgstr ""
 
 msgid "Send from"
 msgstr "Enviar desde"
@@ -9919,6 +10235,9 @@ msgstr ""
 msgid "Sort by"
 msgstr "Ordenar por"
 
+msgid "Source"
+msgstr ""
+
 msgid "Source URL"
 msgstr "URL de origen"
 
@@ -10033,6 +10352,33 @@ msgstr ""
 msgid "Spreadsheet is required."
 msgstr ""
 
+msgid "Square"
+msgstr ""
+
+msgid "Square Card"
+msgstr ""
+
+msgid "Square connected"
+msgstr ""
+
+msgid "Square connection failed. Please try again."
+msgstr ""
+
+msgid "Square disconnected"
+msgstr ""
+
+msgid "Square disconnected from IvyForms"
+msgstr ""
+
+msgid "Square is disconnected. Connect Square to accept payments on this form."
+msgstr ""
+
+msgid "Square is not connected. Connect Square in Settings → Payment."
+msgstr ""
+
+msgid "Square is temporarily unavailable. Please try again in a few minutes."
+msgstr ""
+
 msgid "Standard"
 msgstr "Estándar"
 
@@ -10138,6 +10484,18 @@ msgstr "Fortalezas observadas"
 msgid "Strengths of this service"
 msgstr "Puntos fuertes de este servicio"
 
+msgid "Stripe"
+msgstr ""
+
+msgid "Stripe connected"
+msgstr ""
+
+msgid "Stripe disconnected"
+msgstr ""
+
+msgid "Stripe is disconnected. Connect Stripe to accept payments on this form."
+msgstr ""
+
 msgid "Strong fundamentals"
 msgstr "Fundamentos sólidos"
 
@@ -10224,6 +10582,9 @@ msgstr "Éxito"
 msgid "Success message"
 msgstr "Mensaje de éxito"
 
+msgid "Successful payments from your forms will appear here."
+msgstr ""
+
 msgid "Suffix"
 msgstr "Sufijo"
 
@@ -10259,6 +10620,9 @@ msgstr "Formulario de consentimiento informado para cirugía"
 
 msgid "Survey forms"
 msgstr "Formularios de encuestas"
+
+msgid "Switch account"
+msgstr ""
 
 msgid "Switch to conversational layout?"
 msgstr ""
@@ -10494,6 +10858,9 @@ msgstr "La propiedad debe ser un número entero positivo."
 msgid "The purchase code is invalid or it has expired"
 msgstr "El código de compra no es válido o ha caducado"
 
+msgid "The selected payment method is not available."
+msgstr ""
+
 msgid "Theme"
 msgstr "Tema"
 
@@ -10569,6 +10936,17 @@ msgstr "Este campo es obligatorio."
 msgid "This file type is not allowed."
 msgstr ""
 
+msgid ""
+"This form's currency does not match the Square account currency. Payments "
+"cannot be processed until the currencies match."
+msgstr ""
+
+msgid "This form's currency does not match your Square account currency."
+msgstr ""
+
+msgid "This form's currency does not match your Stripe account currency."
+msgstr ""
+
 msgid "This is a field description."
 msgstr "Esta es una descripción del campo."
 
@@ -10583,6 +10961,9 @@ msgstr ""
 
 msgid "This month"
 msgstr "Este mes"
+
+msgid "This payment was already recorded. Please do not submit again."
+msgstr ""
 
 msgid "This value must be unique. Please enter a unique value."
 msgstr "Este valor debe ser único. Por favor, introduzca un valor único."
@@ -10741,6 +11122,15 @@ msgstr "Información sobre herramientas"
 msgid "Top"
 msgstr "Arriba"
 
+msgid "Top 30 dog breeds"
+msgstr ""
+
+msgid "Top 50 books of all time"
+msgstr ""
+
+msgid "Top 50 movie genres"
+msgstr ""
+
 msgid "Topics / Questions to discuss"
 msgstr "Temas o preguntas a tratar"
 
@@ -10798,6 +11188,12 @@ msgstr "Tema de la formación"
 msgid "Training usefulness"
 msgstr "Utilidad de la formación"
 
+msgid "Transaction ID"
+msgstr ""
+
+msgid "Transactions"
+msgstr ""
+
 msgid "Transcript upload"
 msgstr ""
 
@@ -10813,11 +11209,17 @@ msgstr "Formularios de solicitud de viaje"
 msgid "Trust in brand"
 msgstr "Confianza en la marca"
 
+msgid "Try adjusting your search, date range, or form filter."
+msgstr ""
+
 msgid "Try adjusting your search criteria"
 msgstr "Prueba a ajustar tus criterios de búsqueda"
 
 msgid "Try adjusting your search to find what you are looking for."
 msgstr "Prueba a ajustar tu búsqueda para encontrar lo que estás buscando."
+
+msgid "Try again"
+msgstr ""
 
 msgid "Try again with different keywords and filters"
 msgstr "Prueba de nuevo con otros términos de búsqueda y filtros"
@@ -10904,6 +11306,9 @@ msgstr "Estados de EE. UU."
 
 msgid "Unable to add data in "
 msgstr "No se han podido añadir datos en "
+
+msgid "Unable to disconnect Stripe"
+msgstr ""
 
 msgid "Unable to fetch entry fields in "
 msgstr "No se han podido recuperar los campos del registro en "
@@ -11029,8 +11434,8 @@ msgid "Unstarred"
 msgstr "Sin estrella"
 
 msgid ""
-"Unsupported file. Please upload a JSON export from IvyForms, WS Form, or "
-"Fluent Forms."
+"Unsupported file. Please upload a JSON export from IvyForms, WS Form, Fluent "
+"Forms, WPForms, or Gravity Forms."
 msgstr ""
 
 msgid "Unsupported image type: "
@@ -11038,7 +11443,7 @@ msgstr "Tipo de imagen no compatible: "
 
 msgid ""
 "Unsupported import file. Please upload a JSON export from IvyForms, WS Form, "
-"or Fluent Forms."
+"Fluent Forms, WPForms, or Gravity Forms."
 msgstr ""
 
 msgid "Update"
@@ -11235,6 +11640,9 @@ msgstr ""
 msgid "Uploading"
 msgstr ""
 
+msgid "Uploading large files may affect deliverability."
+msgstr ""
+
 msgid "Urgency / Priority"
 msgstr "Urgencia / prioridad"
 
@@ -11390,6 +11798,15 @@ msgstr ""
 msgid "View forms list"
 msgstr ""
 
+msgid "View in PayPal"
+msgstr ""
+
+msgid "View in Square"
+msgstr ""
+
+msgid "View in Stripe"
+msgstr ""
+
 msgid "Virtual"
 msgstr "Online"
 
@@ -11462,6 +11879,11 @@ msgstr "Estamos trabajando en ello."
 msgid ""
 "We couldn't understand that description. Try describing the fields your form "
 "should collect."
+msgstr ""
+
+msgid ""
+"We couldn't understand that description. Try describing the list of choices "
+"you need."
 msgstr ""
 
 msgid "We didn't find any confirmations"
@@ -11866,6 +12288,9 @@ msgstr "Necesitas un nivel de permiso más alto."
 msgid "You need to check that the right form ID exists."
 msgstr "Debes comprobar que existe el ID de formulario correcto."
 
+msgid "Your Square account was disconnected from IvyForms."
+msgstr ""
+
 msgid "Your form is ready to be imported into IvyForms."
 msgstr ""
 
@@ -11941,6 +12366,9 @@ msgstr ""
 msgid ""
 "e.g. event registration form with name, email, dietary preference. You can "
 "also ask for a conversational, chat-style form."
+msgstr ""
+
+msgid "e.g. top 50 books of all time"
 msgstr ""
 
 msgid "example"

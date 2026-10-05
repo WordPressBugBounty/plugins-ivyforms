@@ -25,7 +25,7 @@ class ForbiddenException extends Exception
      * @param int            $code
      * @param Exception|null $previous
      */
-    public function __construct($message = '', $code = 403, Exception $previous = null)
+    public function __construct($message = '', $code = 403, ?Exception $previous = null)
     {
         if ($message === '' || $message === 'forbidden') {
             $message = esc_html__('You do not have permission to access this page.', 'ivyforms');

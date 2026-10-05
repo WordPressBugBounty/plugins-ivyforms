@@ -25,6 +25,7 @@ class ActivationSettingsHook
     {
         self::initGeneralSettings();
         self::initIntegrationsSettings();
+        self::initPaymentSettings();
     }
 
     /**
@@ -93,6 +94,9 @@ class ActivationSettingsHook
             'mailchimp' => [
                 'enabled' => false,
             ],
+            'square' => [
+                'enabled' => false,
+            ],
             // Google Sheets last — matches integration list/menu ordering
             'google_sheets' => [
                 'enabled'        => false,
@@ -106,5 +110,27 @@ class ActivationSettingsHook
         ];
 
         self::initSettings('integrations', $settings);
+    }
+
+    /**
+     * Init payment settings (Square).
+     */
+    private static function initPaymentSettings(): void
+    {
+        $settings = [
+            'square' => [
+                'connected' => false,
+                'merchantId' => '',
+                'merchantName' => '',
+                'locationId' => '',
+                'locationName' => '',
+                'currency' => '',
+                'accessToken' => '',
+                'refreshToken' => '',
+                'expiresAt' => '',
+            ],
+        ];
+
+        self::initSettings('payment', $settings);
     }
 }

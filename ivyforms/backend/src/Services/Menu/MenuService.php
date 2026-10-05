@@ -4,6 +4,7 @@ namespace IvyForms\Services\Menu;
 
 use IvyForms\Routes\Routes;
 use IvyForms\Services\Ai\AiAvailability;
+use IvyForms\Services\Payment\PaymentsFeature;
 use IvyForms\Services\Settings\SettingsService;
 use IvyForms\Services\Permissions\IvyFormsAccess;
 use IvyForms\Services\Permissions\RoutePermissionService;
@@ -201,7 +202,8 @@ class MenuService
             BackendStrings::getSecurityStrings(),
             BackendStrings::getPermissionsStrings(),
             BackendStrings::getProUpgradeDialogStrings(),
-            BackendStrings::getChangelogStrings()
+            BackendStrings::getChangelogStrings(),
+            BackendStrings::getPaymentStrings()
         );
 
         /**
@@ -243,6 +245,7 @@ class MenuService
                 'aiStatus'         => $aiAvailability['status'],
                 'aiActionUrl'      => $aiAvailability['actionUrl'],
                 'aiConnectorsUrl'  => $aiAvailability['connectorsUrl'],
+                'paymentsEnabled'  => PaymentsFeature::isEnabled(),
             ]
         );
 

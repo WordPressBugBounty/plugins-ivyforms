@@ -16,6 +16,9 @@ class GoogleSheetsService
     private const GOOGLE_USERINFO_URL = 'https://www.googleapis.com/oauth2/v2/userinfo';
     private const DRIVE_FILES_URL = 'https://www.googleapis.com/drive/v3/files';
     private const SHEETS_API_URL = 'https://sheets.googleapis.com/v4/spreadsheets';
+    private const PICKER_CONFIG_TRANSIENT = 'ivyforms_google_sheets_picker_config';
+    public const PICKER_NOT_CONFIGURED_CODE = 'google_sheets_picker_not_configured';
+    public const PICKER_ERROR_CODE = 'google_sheets_picker_error';
 
     private SettingsService $settingsService;
 
@@ -238,7 +241,12 @@ class GoogleSheetsService
     }
 
     /**
+     * Legacy Drive listing. Spreadsheet selection uses the Google Picker, which
+     * only grants drive.file access to files the user picks. This query does not
+     * see those files and often returns an empty list. Kept for older clients.
+     *
      * @return array<array{id: string, name: string}>
+     * @deprecated Use the Picker flow (picker-config) instead of listing Drive files.
      */
     public function listSpreadsheets(): array
     {
@@ -321,8 +329,10 @@ class GoogleSheetsService
             return [];
         }
 
-        return array_values(array_filter(array_map('strval', $values), static function ($value) {
-            return trim($value) !== '';
+        return array_values(array_filter(array_map(static function ($value) {
+            return trim((string) $value);
+        }, $values), static function ($value) {
+            return $value !== '';
         }));
     }
 
@@ -546,6 +556,143 @@ class GoogleSheetsService
         $filtered = apply_filters('ivyforms/google_sheets/middleware_url', '');
 
         return is_string($filtered) ? rtrim($filtered, '/') : '';
+    }
+
+    /**
+     * Picker credentials from middleware (cached) plus a short-lived access token
+     * for the Google Picker widget.
+     *
+     * @return array{
+     *     success: bool,
+     *     code?: string,
+     *     message?: string,
+     *     developerKey?: string,
+     *     appId?: string,
+     *     accessToken?: string
+     * }
+     */
+    public function getPickerConfig(): array
+    {
+        $accessToken = $this->getValidAccessToken();
+        if ($accessToken === null) {
+            return [
+                'success' => false,
+                'code'    => self::PICKER_ERROR_CODE,
+                'message' => BackendStrings::getIntegrationsStrings()['google_sheets_not_connected'],
+            ];
+        }
+
+        $pickerKeys = $this->getCachedOrFetchedPickerKeys();
+        if (empty($pickerKeys['success'])) {
+            $code = (string) ($pickerKeys['code'] ?? self::PICKER_ERROR_CODE);
+
+            return [
+                'success' => false,
+                'code'    => $code,
+                'message' => $code === self::PICKER_NOT_CONFIGURED_CODE
+                    ? BackendStrings::getIntegrationsStrings()['google_sheets_picker_not_configured']
+                    : BackendStrings::getIntegrationsStrings()['google_sheets_picker_error'],
+            ];
+        }
+
+        return [
+            'success'      => true,
+            'developerKey' => $pickerKeys['developerKey'],
+            'appId'        => $pickerKeys['appId'],
+            'accessToken'  => $accessToken,
+        ];
+    }
+
+    /**
+     * @return array{success: true, developerKey: string, appId: string}|array{success: false, code: string}
+     */
+    private function getCachedOrFetchedPickerKeys(): array
+    {
+        $cached = get_transient(self::PICKER_CONFIG_TRANSIENT);
+        if (is_array($cached)) {
+            $developerKey = trim((string) ($cached['developerKey'] ?? ''));
+            $appId = trim((string) ($cached['appId'] ?? ''));
+            if ($developerKey !== '' && $appId !== '') {
+                return [
+                    'success'      => true,
+                    'developerKey' => $developerKey,
+                    'appId'        => $appId,
+                ];
+            }
+        }
+
+        $fetched = $this->fetchMiddlewarePickerConfig();
+        if (!empty($fetched['success'])) {
+            set_transient(self::PICKER_CONFIG_TRANSIENT, [
+                'developerKey' => $fetched['developerKey'],
+                'appId'        => $fetched['appId'],
+            ], DAY_IN_SECONDS);
+        }
+
+        return $fetched;
+    }
+
+    /**
+     * @return array{success: true, developerKey: string, appId: string}|array{success: false, code: string}
+     */
+    private function fetchMiddlewarePickerConfig(): array
+    {
+        $baseUrl = $this->getMiddlewareApiBaseUrl();
+        if ($baseUrl === '') {
+            return [
+                'success' => false,
+                'code'    => self::PICKER_ERROR_CODE,
+            ];
+        }
+
+        $response = wp_remote_get(
+            $baseUrl . '/google-sheets/picker-config',
+            ['timeout' => 15]
+        );
+
+        if (is_wp_error($response)) {
+            return [
+                'success' => false,
+                'code'    => self::PICKER_ERROR_CODE,
+            ];
+        }
+
+        $statusCode = (int) wp_remote_retrieve_response_code($response);
+        $body = json_decode((string) wp_remote_retrieve_body($response), true);
+        $developerKey = '';
+        $appId = '';
+        if (is_array($body)) {
+            $developerKey = trim((string) ($body['developerKey'] ?? ''));
+            $appId = trim((string) ($body['appId'] ?? ''));
+        }
+
+        $keysMissing = $developerKey === '' || $appId === '';
+        if ($statusCode === 400 && $keysMissing) {
+            return [
+                'success' => false,
+                'code'    => self::PICKER_NOT_CONFIGURED_CODE,
+            ];
+        }
+
+        if ($statusCode < 200 || $statusCode >= 300 || !is_array($body)) {
+            return [
+                'success' => false,
+                'code'    => self::PICKER_ERROR_CODE,
+            ];
+        }
+
+        if ($keysMissing) {
+            return [
+                'success' => false,
+                'code'    => self::PICKER_NOT_CONFIGURED_CODE,
+            ];
+        }
+
+        return [
+            'success'      => true,
+            'developerKey' => $developerKey,
+            'appId'        => $appId,
+        ];
     }
 
     private function fetchMiddlewareAuthorizationUrl(string $state): string

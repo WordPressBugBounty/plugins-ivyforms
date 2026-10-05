@@ -7,6 +7,7 @@
 
 namespace IvyForms\Routes\Ai;
 
+use IvyForms\Controllers\Ai\GenerateChoicesController;
 use IvyForms\Controllers\Ai\GenerateFormController;
 use IvyForms\Services\Permissions\RoutePermissionService;
 use IvyForms\Vendor\DI\Container;
@@ -41,6 +42,34 @@ class AiRoutes
                         'required' => true,
                         'type' => 'string',
                         'sanitize_callback' => 'sanitize_textarea_field',
+                    ],
+                ],
+            ]
+        );
+
+        register_rest_route(
+            $routeNamespace,
+            '/ai/generate-choices',
+            [
+                'methods' => WP_REST_Server::CREATABLE,
+                'callback' => $container->get(GenerateChoicesController::class),
+                'permission_callback' => static function () use ($routePermissionService) {
+                    return $routePermissionService->canEditForms();
+                },
+                'args' => [
+                    'prompt' => [
+                        'required' => true,
+                        'type' => 'string',
+                        'sanitize_callback' => 'sanitize_textarea_field',
+                    ],
+                    'fieldType' => [
+                        'required' => false,
+                        'type' => 'string',
+                        'sanitize_callback' => 'sanitize_key',
+                    ],
+                    'history' => [
+                        'required' => false,
+                        'type' => 'array',
                     ],
                 ],
             ]

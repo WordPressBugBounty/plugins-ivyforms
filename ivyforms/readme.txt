@@ -4,9 +4,9 @@ Author URI: https://melograno.io
 Plugin URI: https://ivyforms.com/
 Tags: form, contact form, custom form, form builder, wp forms
 Requires at least: 5.0
-Tested up to: 7.0.1
+Tested up to: 7.1.2
 Requires PHP: 7.4
-Stable tag: 1.4.1
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -203,7 +203,7 @@ Once both are active, the Pro tools appear right inside your form builder. From 
 
 ## Coming Soon
 
-Square payments (Lite), Slack integration (Lite), Calculation field (Pro), Zapier (Pro), Repeater field (Pro), Save & continue later (Pro), Surveys (Pro), and email integrations.
+Square payments (Lite), Stripe and PayPal payments (Pro), Slack integration (Lite), Repeater field (Pro), Save & continue later (Pro), Surveys (Pro), and email integrations.
 
 ## USEFUL LINKS FOR OUR FORMS
 
@@ -260,6 +260,21 @@ This service is provided by "https://ipwhois.io":
 - Privacy policy: https://ipwhois.io/privacy
 
 == Changelog ==
+= 1.5 =
+* Added AI choice generation for Dropdown, Radio, and Checkbox fields.
+* Added import from WPForms and Gravity Forms.
+* Added CC and BCC recipients to email notifications.
+* Added a Disable styles option so forms can inherit the theme styling.
+* Improved compatibility with PHP 8.5.
+* Fixed moving an added field in the form builder.
+* Fixed Email and Confirm Email field spacing on the frontend.
+* Fixed editing HTML code in the Message field.
+* Fixed console errors when opening a new form in the form builder.
+* Fixed an error when clicking the Message field in Confirmations.
+* Fixed the HEX color input in the Style tab overwriting manually typed values.
+* Fixed form export failing when no notifications are configured.
+* Fixed {{all_data}} in notifications ignoring the reordered field order.
+
 = 1.4.1 =
 * Replaced locked Pro style themes with a single upgrade card for Lite users.
 * Fixed automatic language detection for the Phone field on the frontend.

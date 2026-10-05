@@ -19,36 +19,30 @@ class ChangelogService
     {
         $changelogData = [
             'version' => IVYFORMS_VERSION,
-            'release_date' => '2026-09-09',
-            'features' => [],
+            'release_date' => '2026-10-05',
+            'features' => [
+                ['text' => __('Added AI choice generation for Dropdown, Radio, and Checkbox fields.', 'ivyforms')],
+                ['text' => __('Added import from WPForms and Gravity Forms.', 'ivyforms')],
+                ['text' => __('Added CC and BCC recipients to email notifications.', 'ivyforms')],
+                ['text' => __('Added a Disable styles option so forms can inherit the theme styling.', 'ivyforms')],
+            ],
             'improvements' => [
-                [
-                    'text' => __(
-                        'Replaced locked Pro style themes with a single upgrade card for Lite users.',
-                        'ivyforms'
-                    ),
-                ],
+                ['text' => __('Improved compatibility with PHP 8.5.', 'ivyforms')],
             ],
             'bugfixes' => [
+                ['text' => __('Fixed moving an added field in the form builder.', 'ivyforms')],
+                ['text' => __('Fixed Email and Confirm Email field spacing on the frontend.', 'ivyforms')],
+                ['text' => __('Fixed editing HTML code in the Message field.', 'ivyforms')],
+                ['text' => __('Fixed console errors when opening a new form in the form builder.', 'ivyforms')],
+                ['text' => __('Fixed an error when clicking the Message field in Confirmations.', 'ivyforms')],
                 [
                     'text' => __(
-                        'Fixed automatic language detection for the Phone field on the frontend.',
+                        'Fixed the HEX color input in the Style tab overwriting manually typed values.',
                         'ivyforms'
                     ),
                 ],
-                [
-                    'text' => __(
-                        'Fixed Number field placeholder alignment on the frontend.',
-                        'ivyforms'
-                    ),
-                ],
-                [
-                    'text' => __(
-                        'Fixed custom required messages not being saved for First Name and Last Name subfields.',
-                        'ivyforms'
-                    ),
-                ],
-                ['text' => __('Restored PHP 7.4 compatibility when saving field settings.', 'ivyforms')],
+                ['text' => __('Fixed form export failing when no notifications are configured.', 'ivyforms')],
+                ['text' => __('Fixed {{all_data}} in notifications ignoring the reordered field order.', 'ivyforms')],
             ],
         ];
 

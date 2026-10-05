@@ -87,7 +87,19 @@ class GetAllSettingsController extends Controller
                         'connected' => class_exists('AmeliaBooking\Plugin') || defined('AMELIA_PATH')
                     ]
                 ),
-            // Future categories can be added here
+                'square' => array_merge(
+                    $allSettings['integrations']['square'] ?? ['enabled' => false],
+                    [
+                        'connected' => ! empty($allSettings['payment']['square']['connected']),
+                    ]
+                ),
+            ],
+            'payment' => [
+                'square' => self::sanitizeSquareSettingsForFrontend(
+                    is_array($allSettings['payment']['square'] ?? null)
+                        ? $allSettings['payment']['square']
+                        : []
+                ),
             ],
         ];
 
@@ -105,5 +117,27 @@ class GetAllSettingsController extends Controller
             'message' => BackendStrings::getSettingsStrings()['all_settings_retrieved'],
             'data'    => $organizedSettings
         ], 200);
+    }
+
+    /**
+     * @param array<string, mixed> $squareSettings
+     * @return array<string, mixed>
+     */
+    private static function sanitizeSquareSettingsForFrontend(array $squareSettings): array
+    {
+        $defaults = [
+            'connected' => false,
+            'merchantId' => '',
+            'merchantName' => '',
+            'locationId' => '',
+            'locationName' => '',
+            'currency' => '',
+            'disconnectedByWebhook' => false,
+        ];
+
+        $merged = array_merge($defaults, $squareSettings);
+        unset($merged['accessToken'], $merged['refreshToken']);
+
+        return $merged;
     }
 }

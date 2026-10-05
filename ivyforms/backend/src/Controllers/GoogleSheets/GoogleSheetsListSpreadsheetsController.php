@@ -9,6 +9,13 @@ use IvyForms\Services\GoogleSheets\GoogleSheetsService;
 use WP_REST_Request;
 use WP_REST_Response;
 
+/**
+ * Legacy spreadsheet list. The form builder selects a spreadsheet through the
+ * Google Picker and no longer calls this route. A drive.file token cannot list
+ * the user's spreadsheets, so the response is often empty.
+ *
+ * @deprecated Prefer the picker-config endpoint and the Picker UI.
+ */
 class GoogleSheetsListSpreadsheetsController extends Controller
 {
     private GoogleSheetsService $googleSheetsService;

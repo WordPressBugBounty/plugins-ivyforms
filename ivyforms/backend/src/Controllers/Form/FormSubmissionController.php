@@ -16,6 +16,7 @@ use IvyForms\Controllers\Controller;
 use IvyForms\Infrastructure\WP\REST\SubmissionMultipartReader;
 use IvyForms\Services\Submission\FormSubmissionService;
 use IvyForms\Services\Submission\SubmissionPayloadParser;
+use IvyForms\Services\Translations\BackendStrings;
 use WP_REST_Request;
 use WP_REST_Response;
 
@@ -51,6 +52,31 @@ class FormSubmissionController extends Controller
 
         $uploadedFiles = SubmissionMultipartReader::resolveUploadedFiles($data);
         $result = $this->formSubmissionService->processSubmission($params, $uploadedFiles);
+
+        if (!empty($result['requires_action'])) {
+            return new WP_REST_Response([
+                'message' => BackendStrings::getCommonStrings()['ok'],
+                'data' => [
+                    'success' => false,
+                    'requires_action' => true,
+                    'client_secret' => $result['client_secret'] ?? null,
+                    'payment_intent_id' => $result['payment_intent_id'] ?? null,
+                    'payment_method' => $result['payment_method'] ?? 'stripe',
+                ],
+            ], 200);
+        }
+
+        if (!empty($result['payment_error'])) {
+            return new WP_REST_Response([
+                'message' => (string) (
+                    $result['message'] ?? BackendStrings::getPaymentStrings()['payment_failed']
+                ),
+                'data' => [
+                    'success' => false,
+                    'payment_error' => true,
+                ],
+            ], 200);
+        }
 
         return new WP_REST_Response([
             'data' => $result,

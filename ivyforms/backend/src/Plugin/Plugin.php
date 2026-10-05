@@ -18,6 +18,7 @@ use IvyForms\Services\Integrations\Elementor\IvyFormsElementorLoader;
 use IvyForms\Services\Integrations\Gutenberg\Blocks\GutenbergBlock;
 use IvyForms\Services\Integrations\IntegrationService;
 use IvyForms\Services\Menu\MenuManager;
+use IvyForms\Services\Payment\PaymentCspHeaders;
 use IvyForms\Services\Preview\PreviewService;
 use IvyForms\Services\Settings\SettingsService;
 use IvyForms\Services\Shortcode\Helpers\ShortcodeHelper;
@@ -162,6 +163,7 @@ class Plugin
         $this->initIntegrationService();
         $this->initMenuManager();
         $this->registerShortcode();
+        PaymentCspHeaders::register();
         $this->registerGutenbergBlock();
         $this->registerElementorWidget();
         $this->initUsageTrackingService();

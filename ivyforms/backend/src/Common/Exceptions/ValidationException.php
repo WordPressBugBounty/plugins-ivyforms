@@ -28,7 +28,7 @@ class ValidationException extends Exception
     public function __construct(
         $message = 'validation_failed',
         $code = 0,
-        Exception $previous = null,
+        ?Exception $previous = null,
         array $fieldErrors = []
     ) {
         parent::__construct($message, $code, $previous);

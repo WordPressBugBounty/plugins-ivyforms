@@ -30,24 +30,12 @@ class NotificationRepository extends AbstractRepository implements NotificationR
     public function add($entity): int
     {
         $data = $entity->toArray();
+        $row = $this->buildPersistRow($data);
 
         $result = $this->wpdb->insert(
             $this->table,
-            [
-                'formId'          => (int) $data['formId'],
-                'name'            => $data['name'],
-                'sender'          => $data['sender'],
-                'replyTo'         => $data['replyTo'],
-                'receiver'        => $data['receiver'],
-                'cc'              => $data['cc'],
-                'bcc'             => $data['bcc'],
-                'enabled'         => (int) $data['enabled'],
-                'subject'         => $data['subject'],
-                'message'         => $data['message'],
-                'showEmptyFields' => (int) $data['showEmptyFields'],
-                'smartLogic'      => wp_json_encode($data['smartLogic']),
-            ],
-            ['%d', '%s', '%s', '%s', '%s', '%s', '%s', '%d', '%s', '%s', '%d', '%s']
+            $row['values'],
+            $row['formats']
         );
 
         if ($result === false) {
@@ -72,25 +60,13 @@ class NotificationRepository extends AbstractRepository implements NotificationR
     public function update(int $id, $entity): bool
     {
         $data = $entity->toArray();
+        $row = $this->buildPersistRow($data);
 
         $result = $this->wpdb->update(
             $this->table,
-            [
-                'formId'          => (int) $data['formId'],
-                'name'            => $data['name'],
-                'sender'          => $data['sender'],
-                'replyTo'         => $data['replyTo'],
-                'receiver'        => $data['receiver'],
-                'cc'              => $data['cc'],
-                'bcc'             => $data['bcc'],
-                'enabled'         => (int) $data['enabled'],
-                'subject'         => $data['subject'],
-                'message'         => $data['message'],
-                'showEmptyFields' => (int) $data['showEmptyFields'],
-                'smartLogic'      => wp_json_encode($data['smartLogic']),
-            ],
+            $row['values'],
             ['id' => $id],
-            ['%d', '%s', '%s', '%s', '%s', '%s', '%s', '%d', '%s', '%s', '%d', '%s'],
+            $row['formats'],
             ['%d']
         );
 
@@ -99,6 +75,65 @@ class NotificationRepository extends AbstractRepository implements NotificationR
         }
 
         return true;
+    }
+
+    /**
+     * Build insert/update row values and formats, allowing Pro to append columns.
+     *
+     * @param array<string, mixed> $data
+     * @return array{values: array<string, mixed>, formats: string[]}
+     */
+    private function buildPersistRow(array $data): array
+    {
+        $values = [
+            'formId'          => (int) $data['formId'],
+            'name'            => $data['name'],
+            'sender'          => $data['sender'],
+            'replyTo'         => $data['replyTo'],
+            'receiver'        => $data['receiver'],
+            'cc'              => $data['cc'],
+            'bcc'             => $data['bcc'],
+            'enabled'         => (int) $data['enabled'],
+            'subject'         => $data['subject'],
+            'message'         => $data['message'],
+            'showEmptyFields' => (int) $data['showEmptyFields'],
+            'smartLogic'      => wp_json_encode($data['smartLogic']),
+        ];
+        $formats = ['%d', '%s', '%s', '%s', '%s', '%s', '%s', '%d', '%s', '%s', '%d', '%s'];
+
+        /**
+         * Extend notification DB persist row (values + formats) for Pro columns.
+         *
+         * @since 1.2.0
+         *
+         * @param array<string, mixed> $row
+         * @param array<string, mixed> $data
+         */
+        $filtered = apply_filters(
+            'ivyforms/notification/repository_row',
+            [
+                'values' => $values,
+                'formats' => $formats,
+            ],
+            $data
+        );
+
+        if (
+            !is_array($filtered)
+            || !isset($filtered['values'], $filtered['formats'])
+            || !is_array($filtered['values'])
+            || !is_array($filtered['formats'])
+        ) {
+            return [
+                'values' => $values,
+                'formats' => $formats,
+            ];
+        }
+
+        return [
+            'values' => $filtered['values'],
+            'formats' => $filtered['formats'],
+        ];
     }
 
     /**

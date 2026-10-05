@@ -20,8 +20,10 @@ use IvyForms\Routes\Template\Template;
 use IvyForms\Routes\Settings\Settings;
 use IvyForms\Routes\Changelog\Changelog;
 use IvyForms\Routes\Integrations\Integrations;
+use IvyForms\Routes\Payment\Payment;
 use IvyForms\Routes\Permissions\Permissions;
 use IvyForms\Routes\PublicApi\PublicRoutes;
+use IvyForms\Routes\Square\Square;
 
 /**
  * Class Routes
@@ -55,6 +57,8 @@ class Routes
 
         Integrations::registerRoutes($container, self::$routeNamespace);
         Feedback::registerRoutes($container, self::$routeNamespace);
+        Square::registerRoutes($container, self::$routeNamespace);
+        Payment::registerRoutes($container, self::$routeNamespace);
         Permissions::registerRoutes($container, self::$routeNamespace);
 
         PublicRoutes::registerExtensionHook($container);

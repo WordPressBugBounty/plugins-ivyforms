@@ -159,12 +159,12 @@ class GoogleSheetsDispatcherService
 
         $mappingByColumn = [];
         foreach ($integration->getFieldMapping() as $mapping) {
-            $mappingByColumn[$mapping['column']] = $mapping['value'];
+            $mappingByColumn[trim((string) $mapping['column'])] = $mapping['value'];
         }
 
         $rowValues = [];
         foreach ($headers as $header) {
-            $template = $mappingByColumn[$header] ?? '';
+            $template = $mappingByColumn[trim((string) $header)] ?? '';
             $rowValues[] = $template !== ''
                 ? PlaceholderService::replacePlaceholders($template, $fieldData, $generalData, $fieldLabels)
                 : '';

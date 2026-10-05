@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IvyForms\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-09 13:22+0000\n"
+"POT-Creation-Date: 2026-10-05 13:17+0000\n"
 "PO-Revision-Date: 2026-07-15T17:12+02:00\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1041,22 +1041,44 @@ msgstr ""
 msgid "step must be a positive number (>0)."
 msgstr ""
 
+msgid "Added AI choice generation for Dropdown, Radio, and Checkbox fields."
+msgstr ""
+
+msgid "Added import from WPForms and Gravity Forms."
+msgstr ""
+
+msgid "Added CC and BCC recipients to email notifications."
+msgstr ""
+
+msgid "Added a Disable styles option so forms can inherit the theme styling."
+msgstr ""
+
+msgid "Improved compatibility with PHP 8.5."
+msgstr ""
+
+msgid "Fixed moving an added field in the form builder."
+msgstr ""
+
+msgid "Fixed Email and Confirm Email field spacing on the frontend."
+msgstr ""
+
+msgid "Fixed editing HTML code in the Message field."
+msgstr ""
+
+msgid "Fixed console errors when opening a new form in the form builder."
+msgstr ""
+
+msgid "Fixed an error when clicking the Message field in Confirmations."
+msgstr ""
+
 msgid ""
-"Replaced locked Pro style themes with a single upgrade card for Lite users."
+"Fixed the HEX color input in the Style tab overwriting manually typed values."
 msgstr ""
 
-msgid "Fixed automatic language detection for the Phone field on the frontend."
+msgid "Fixed form export failing when no notifications are configured."
 msgstr ""
 
-msgid "Fixed Number field placeholder alignment on the frontend."
-msgstr ""
-
-msgid ""
-"Fixed custom required messages not being saved for First Name and Last Name "
-"subfields."
-msgstr ""
-
-msgid "Restored PHP 7.4 compatibility when saving field settings."
+msgid "Fixed {{all_data}} in notifications ignoring the reordered field order."
 msgstr ""
 
 msgid "View forms list"
@@ -1494,6 +1516,57 @@ msgstr ""
 msgid "Year"
 msgstr ""
 
+msgid "Payment could not be processed. Please check your card and try again."
+msgstr ""
+
+msgid "Could not verify your card. Please check the details and try again."
+msgstr ""
+
+msgid "Processing payment…"
+msgstr ""
+
+msgid "Payment methods"
+msgstr ""
+
+msgid "PayPal"
+msgstr ""
+
+msgid "Square"
+msgstr ""
+
+msgid "Stripe"
+msgstr ""
+
+msgid "Loading secure payment form…"
+msgstr ""
+
+msgid ""
+"Secure payment form could not be loaded. Please refresh the page or contact "
+"the site owner."
+msgstr ""
+
+msgid ""
+"Payments require HTTPS. Open this form over https:// or test on a site with "
+"SSL enabled."
+msgstr ""
+
+msgid "PayPal is ready. Submit the form to complete payment."
+msgstr ""
+
+msgid "Complete PayPal checkout to continue."
+msgstr ""
+
+msgid "Fill in the required fields before paying with PayPal."
+msgstr ""
+
+msgid "Could not start PayPal checkout."
+msgstr ""
+
+msgid ""
+"This form's currency does not match the Square account currency. Payments "
+"cannot be processed until the currencies match."
+msgstr ""
+
 msgid "24 hour"
 msgstr ""
 
@@ -1564,6 +1637,9 @@ msgid "Form updated successfully"
 msgstr ""
 
 msgid "Invalid request data."
+msgstr ""
+
+msgid "Invalid middleware signature"
 msgstr ""
 
 msgid "Enable"
@@ -1715,8 +1791,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Unsupported file. Please upload a JSON export from IvyForms, WS Form, or "
-"Fluent Forms."
+"Unsupported file. Please upload a JSON export from IvyForms, WS Form, Fluent "
+"Forms, WPForms, or Gravity Forms."
 msgstr ""
 
 msgid ""
@@ -2074,6 +2150,12 @@ msgid "Button label"
 msgstr ""
 
 msgid "Button position"
+msgstr ""
+
+msgid "Calculate Field"
+msgstr ""
+
+msgid "Calculated Field"
 msgstr ""
 
 msgid "Center"
@@ -3253,6 +3335,12 @@ msgstr ""
 msgid "New notification"
 msgstr ""
 
+msgid "Attach uploaded file(s) to this notification"
+msgstr ""
+
+msgid "Uploading large files may affect deliverability."
+msgstr ""
+
 msgid "Notification deleted successfully"
 msgstr ""
 
@@ -3808,6 +3896,23 @@ msgstr ""
 msgid "Spreadsheet"
 msgstr ""
 
+msgid "Select spreadsheet"
+msgstr ""
+
+msgid "Change spreadsheet"
+msgstr ""
+
+msgid "Choose a spreadsheet"
+msgstr ""
+
+msgid "Google Sheets picker is not configured. Please contact support."
+msgstr ""
+
+msgid ""
+"Could not open Google Drive picker. Reconnect your Google account and try "
+"again."
+msgstr ""
+
 msgid "Choose Value"
 msgstr ""
 
@@ -3866,6 +3971,252 @@ msgid "Zapier"
 msgstr ""
 
 msgid "Connect your forms to 5,000+ apps with Zapier automation workflows"
+msgstr ""
+
+msgid "Accept card payments on your forms with Square"
+msgstr ""
+
+msgid "Accept card payments on your forms with Stripe"
+msgstr ""
+
+msgid "Accept PayPal Checkout payments on your forms"
+msgstr ""
+
+msgid "Payment method"
+msgstr ""
+
+msgid "Payment Method"
+msgstr ""
+
+msgid "Connect with Square"
+msgstr ""
+
+msgid "Disconnect Square"
+msgstr ""
+
+msgid "Square connected"
+msgstr ""
+
+msgid "Square disconnected"
+msgstr ""
+
+msgid "Square is not connected. Connect Square in Settings → Payment."
+msgstr ""
+
+msgid ""
+"Connect your Square account below to accept card payments on your forms."
+msgstr ""
+
+msgid "Could not start Square authorization."
+msgstr ""
+
+msgid "Square is temporarily unavailable. Please try again in a few minutes."
+msgstr ""
+
+msgid "Square connection failed. Please try again."
+msgstr ""
+
+msgid "Square disconnected from IvyForms"
+msgstr ""
+
+msgid "Your Square account was disconnected from IvyForms."
+msgstr ""
+
+msgid "Connect with Stripe"
+msgstr ""
+
+msgid "Switch account"
+msgstr ""
+
+msgid "Disconnect Stripe"
+msgstr ""
+
+msgid "Stripe connected"
+msgstr ""
+
+msgid "Stripe disconnected"
+msgstr ""
+
+msgid "Unable to disconnect Stripe"
+msgstr ""
+
+msgid ""
+"Connect your Stripe account below to accept card payments on your forms."
+msgstr ""
+
+msgid "Could not start Stripe authorization."
+msgstr ""
+
+msgid "Stripe is disconnected. Connect Stripe to accept payments on this form."
+msgstr ""
+
+msgid "This form's currency does not match your Stripe account currency."
+msgstr ""
+
+msgid "Account name"
+msgstr ""
+
+msgid "Account ID"
+msgstr ""
+
+msgid "Send Stripe receipt email"
+msgstr ""
+
+msgid "Connect with PayPal"
+msgstr ""
+
+msgid "Disconnect PayPal"
+msgstr ""
+
+msgid "PayPal connected"
+msgstr ""
+
+msgid "PayPal disconnected"
+msgstr ""
+
+msgid ""
+"Connect your PayPal Business account to accept Checkout payments on your "
+"forms."
+msgstr ""
+
+msgid "Could not start PayPal authorization."
+msgstr ""
+
+msgid "PayPal is disconnected. Connect PayPal to accept payments on this form."
+msgstr ""
+
+msgid "Merchant ID"
+msgstr ""
+
+msgid "Environment"
+msgstr ""
+
+msgid "Sandbox"
+msgstr ""
+
+msgid "Live"
+msgstr ""
+
+msgid "View in PayPal"
+msgstr ""
+
+msgid "View in Stripe"
+msgstr ""
+
+msgid "Send PayPal receipt email"
+msgstr ""
+
+msgid "Payment details are missing. Please refresh and try again."
+msgstr ""
+
+msgid "The selected payment method is not available."
+msgstr ""
+
+msgid "This payment was already recorded. Please do not submit again."
+msgstr ""
+
+msgid "Payment amount must be greater than zero."
+msgstr ""
+
+msgid "Form currency does not match your Square account currency."
+msgstr ""
+
+msgid "This form's currency does not match your Square account currency."
+msgstr ""
+
+msgid "Square is disconnected. Connect Square to accept payments on this form."
+msgstr ""
+
+msgid "Transaction ID"
+msgstr ""
+
+msgid "View in Square"
+msgstr ""
+
+msgid "Payment description"
+msgstr ""
+
+msgid "Buyer email field"
+msgstr ""
+
+msgid "Billing name field"
+msgstr ""
+
+msgid "Billing address field"
+msgstr ""
+
+msgid "Merchant name"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "Square Card"
+msgstr ""
+
+msgid "Card number"
+msgstr ""
+
+msgid "Expiration date"
+msgstr ""
+
+msgid "CVV"
+msgstr ""
+
+msgid "Postal code"
+msgstr ""
+
+msgid "Transactions"
+msgstr ""
+
+msgid "Search Payments"
+msgstr ""
+
+msgid "Export CSV"
+msgstr ""
+
+msgid "Charge"
+msgstr ""
+
+msgid "Customer"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Coupons"
+msgstr ""
+
+msgid "Payment Methods"
+msgstr ""
+
+msgid ""
+"Select which payment providers are available on this field. Only connected "
+"providers can be used."
+msgstr ""
+
+msgid "Go to Global Settings"
+msgstr ""
+
+msgid "Hide Title"
+msgstr ""
+
+msgid "Hide Labels"
+msgstr ""
+
+msgid "No payments yet"
+msgstr ""
+
+msgid "Successful payments from your forms will appear here."
+msgstr ""
+
+msgid "No payments match your filters"
+msgstr ""
+
+msgid "Try adjusting your search, date range, or form filter."
 msgstr ""
 
 msgid "Auto"
@@ -4473,6 +4824,12 @@ msgstr ""
 msgid "User defined"
 msgstr ""
 
+msgid "Minimum amount"
+msgstr ""
+
+msgid "Maximum amount"
+msgstr ""
+
 msgid "Inline"
 msgstr ""
 
@@ -4774,7 +5131,7 @@ msgstr ""
 
 msgid ""
 "Unsupported import file. Please upload a JSON export from IvyForms, WS Form, "
-"or Fluent Forms."
+"Fluent Forms, WPForms, or Gravity Forms."
 msgstr ""
 
 msgid ""
@@ -5131,6 +5488,83 @@ msgstr ""
 
 #, php-format
 msgid "Page %d"
+msgstr ""
+
+msgid "Describe your choices"
+msgstr ""
+
+msgid ""
+"Describe the choices you would like to create or use one of the examples "
+"below to get started."
+msgstr ""
+
+msgid "Learn more about IvyForms AI"
+msgstr ""
+
+msgid "e.g. top 50 books of all time"
+msgstr ""
+
+msgid "Top 50 books of all time"
+msgstr ""
+
+msgid "Top 50 movie genres"
+msgstr ""
+
+msgid "Top 30 dog breeds"
+msgstr ""
+
+msgid "List of industries"
+msgstr ""
+
+msgid "Generate choices"
+msgstr ""
+
+msgid "Try again"
+msgstr ""
+
+msgid "Insert Choices"
+msgstr ""
+
+msgid "Edit choices"
+msgstr ""
+
+msgid "Save choices"
+msgstr ""
+
+msgid "Generating your choices"
+msgstr ""
+
+msgid "Searching most popular…"
+msgstr ""
+
+msgid "Collecting options…"
+msgstr ""
+
+msgid "Please enter a prompt describing the choices."
+msgstr ""
+
+msgid ""
+"We couldn't understand that description. Try describing the list of choices "
+"you need."
+msgstr ""
+
+msgid "Failed to generate choices. Please try again."
+msgstr ""
+
+msgid "Generated choices"
+msgstr ""
+
+msgid "Replace existing choices?"
+msgstr ""
+
+msgid ""
+"Inserting these choices will replace the current options for this field."
+msgstr ""
+
+msgid "Replace choices"
+msgstr ""
+
+msgid "AI choice generation is locked"
 msgstr ""
 
 msgid "Contact form"
@@ -6882,9 +7316,6 @@ msgstr ""
 msgid "Participation type"
 msgstr ""
 
-msgid "Live"
-msgstr ""
-
 msgid "Recorded"
 msgstr ""
 
@@ -7094,9 +7525,6 @@ msgid "Event / Class date"
 msgstr ""
 
 msgid "Enter event or class date"
-msgstr ""
-
-msgid "Location"
 msgstr ""
 
 msgid "Enter location"

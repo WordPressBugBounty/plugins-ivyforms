@@ -11,6 +11,7 @@ import 'element-plus/dist/index.css'
 import { useLabelsStore } from '@/stores/labels'
 import api, { installIvyGlobals, dispatchIvyReady } from '@/composables/IvyFormAPI'
 import { registerLiteComponents } from '@/composables/registerLiteComponents'
+import { useApiClient } from '@/composables/useApiClient'
 import * as LiteTypes from '@/types/index'
 
 // Check if we're in an editor preview context (Gutenberg or Elementor)
@@ -48,6 +49,7 @@ const isEditorContext =
   w.IvyForms.api = api as unknown as IvyFormAPI
   w.IvyForms.hooks = api.hooks
   w.IvyForms.fields = api.fields
+  w.IvyForms.useApiClient = useApiClient
 })()
 
 /**
@@ -159,6 +161,8 @@ function initializeFormInstance(formData: Record<string, unknown>) {
       w.IvyForms.api = api as unknown as IvyFormAPI
       w.IvyForms.hooks = api.hooks
       w.IvyForms.fields = api.fields
+      // Pro public field components read labels through this bridge.
+      w.IvyForms.getLabel = (key: string, fallback = '') => labelsStore.getLabel(key, fallback)
 
       w.IvyForms.validateBeforeSubmit = async (params: {
         formId: string | number

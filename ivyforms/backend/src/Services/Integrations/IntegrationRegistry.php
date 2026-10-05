@@ -52,6 +52,7 @@ class IntegrationRegistry
             'plan' => 'lite', // 'lite', 'essentials', 'growth', 'agency'
             'learnMoreUrl' => '', // Optional documentation/learn more URL
             'docsOnly' => false, // Card shows only a "Learn more" link — no toggle, no settings
+            'comingSoon' => false, // Card shows a "Coming soon" badge — no toggle, no button, no settings
         ], $config);
     }
 

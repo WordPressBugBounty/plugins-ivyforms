@@ -41,6 +41,7 @@ final class FieldType
         // form definitions, so they must pass type validation on save/submit/add-entry.
         'section',
         'page',
+        'payment-method',
     ];
 
     /**

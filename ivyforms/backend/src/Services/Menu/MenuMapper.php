@@ -3,6 +3,7 @@
 namespace IvyForms\Services\Menu;
 
 use IvyForms\Services\API\IvyFormsAPI;
+use IvyForms\Services\Payment\PaymentsFeature;
 use IvyForms\Services\Permissions\IvyFormsAccess;
 use IvyForms\Services\Permissions\PermissionResolver;
 use IvyForms\Services\Translations\BackendStrings;
@@ -56,7 +57,13 @@ class MenuMapper
                     'capability' => IvyFormsAccess::CAP_ACCESS_PLUGIN,
                     'menuSlug'   => 'ivyforms-entries',
                 ],
-//                    // TODO Add Settings page
+                [
+                    'parentSlug' => 'ivyforms',
+                    'pageTitle'  => 'Payments',
+                    'menuTitle'  => BackendStrings::getPaymentStrings()['payments'],
+                    'capability' => 'manage_options',
+                    'menuSlug'   => 'ivyforms-payments',
+                ],
                 [
                     'parentSlug' => 'ivyforms',
                     'pageTitle'  => 'Settings',
@@ -72,6 +79,14 @@ class MenuMapper
                     'menuSlug'   => 'ivyforms-integrations',
                 ],
             ];
+
+        // Payments page stays hidden while the payments feature is "Coming soon"
+        if (!PaymentsFeature::isEnabled()) {
+            $menus = array_values(array_filter(
+                $menus,
+                static fn(array $menu): bool => $menu['menuSlug'] !== 'ivyforms-payments'
+            ));
+        }
 
         // Add "Upgrade to PRO" menu only if Pro plugin is not installed/activated
         if (!IvyFormsAPI::isProPluginActive()) {

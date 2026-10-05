@@ -14,6 +14,7 @@ use IvyForms\Services\InstallActions\DB\Field\FieldsTable;
 use IvyForms\Services\InstallActions\DB\Form\FormsTable;
 use IvyForms\Services\InstallActions\DB\Notification\NotificationsTable;
 use IvyForms\Services\InstallActions\DB\FieldOptions\FieldOptionsTable;
+use IvyForms\Services\InstallActions\DB\Payment\PaymentsTable;
 
 /**
  * Class DeleteDatabaseHook
@@ -30,6 +31,7 @@ class DeleteDatabaseHook
     public static function delete(): void
     {
         // Delete in reverse order of creation (respecting foreign keys)
+        PaymentsTable::delete();
         FieldOptionsTable::delete();
         EntryFieldsTable::delete();
         EntriesTable::delete();

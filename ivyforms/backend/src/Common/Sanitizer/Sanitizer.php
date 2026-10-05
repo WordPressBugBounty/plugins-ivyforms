@@ -288,12 +288,14 @@ class Sanitizer
      */
     public static function sanitizeNotificationData(array $data): array
     {
-        return [
+        $sanitized = [
             'id'          => (int)($data['id'] ?? 0),
             'name'        => sanitize_text_field($data['name'] ?? ''),
             'sender'      => self::sanitizeEmailOrPlaceholder($data['sender'] ?? ''),
             'replyTo'     => self::sanitizeEmailOrPlaceholder($data['replyTo'] ?? ''),
             'receiver'    => self::sanitizeEmailOrPlaceholder($data['receiver'] ?? ''),
+            'cc'          => self::sanitizeEmailListOrPlaceholders($data['cc'] ?? ''),
+            'bcc'         => self::sanitizeEmailListOrPlaceholders($data['bcc'] ?? ''),
             'enabled'     => (bool)($data['enabled'] ?? true),
             'subject'     => sanitize_text_field($data['subject'] ?? ''),
             'message'         => HtmlSanitizer::sanitizeEditorContent($data['message'] ?? ''),
@@ -301,6 +303,16 @@ class Sanitizer
             'smartLogic'      => self::sanitizeNotificationSmartLogic($data['smartLogic'] ?? false),
             'formId'      => (int)($data['formId'] ?? 0),
         ];
+
+        /**
+         * Sanitize/merge notification extension fields (Pro / add-ons).
+         *
+         * @since 1.2.0
+         *
+         * @param array<string, mixed> $sanitized
+         * @param array<string, mixed> $data
+         */
+        return apply_filters('ivyforms/notification/sanitized_data', $sanitized, $data);
     }
 
     /**
@@ -598,6 +610,38 @@ class Sanitizer
     }
 
     /**
+     * Accept only a nonnegative integer field index (no rounding or numeric coercion of junk).
+     *
+     * @param mixed $value
+     * @return int|null
+     */
+    private static function sanitizeNonNegativeFieldIndex($value): ?int
+    {
+        if (is_int($value)) {
+            return $value >= 0 ? $value : null;
+        }
+
+        if (is_float($value)) {
+            if (!is_finite($value) || $value < 0 || floor($value) !== $value) {
+                return null;
+            }
+
+            return (int) $value;
+        }
+
+        if (!is_string($value)) {
+            return null;
+        }
+
+        $trimmed = trim($value);
+        if ($trimmed === '' || preg_match('/^\d+$/', $trimmed) !== 1) {
+            return null;
+        }
+
+        return (int) $trimmed;
+    }
+
+    /**
      * Sanitize quantity field linkage JSON stored in htmlContent.
      *
      * @param string $raw
@@ -608,18 +652,11 @@ class Sanitizer
         return self::sanitizeJsonHtmlContentBlob(
             $raw,
             static function (array $decoded): array {
-                $linked = $decoded['linkedProductFieldIndex'] ?? null;
-                $linkedIndex = null;
-                if ($linked !== null && $linked !== '') {
-                    $asInt = (int) $linked;
-                    if ($asInt >= 0) {
-                        $linkedIndex = $asInt;
-                    }
-                }
-
                 return [
                     'quantityConfigVersion' => 1,
-                    'linkedProductFieldIndex' => $linkedIndex,
+                    'linkedProductFieldIndex' => self::sanitizeNonNegativeFieldIndex(
+                        $decoded['linkedProductFieldIndex'] ?? null
+                    ),
                 ];
             }
         );
@@ -669,6 +706,10 @@ class Sanitizer
             ? HtmlSanitizer::sanitizeEditorContent((string) $decoded['emptyPaymentMessageHtml'])
             : '';
 
+        $formula = isset($decoded['formula']) && is_string($decoded['formula'])
+            ? sanitize_text_field($decoded['formula'])
+            : '';
+
         return [
             'totalConfigVersion' => 1,
             'enablePaymentSummary' => self::sanitizeJsonConfigBoolean($decoded['enablePaymentSummary'] ?? false),
@@ -677,6 +718,8 @@ class Sanitizer
             ),
             'emptyPaymentMessageHtml' => $emptyHtml,
             'enableAutocomplete' => self::sanitizeJsonConfigBoolean($decoded['enableAutocomplete'] ?? false),
+            'useCustomFormula' => self::sanitizeJsonConfigBoolean($decoded['useCustomFormula'] ?? false),
+            'formula' => $formula,
         ];
     }
 
@@ -695,6 +738,8 @@ class Sanitizer
             'configVersion' => 1,
             'productType' => self::sanitizeProductFieldType($decoded['productType'] ?? null),
             'paymentAmount' => sanitize_text_field((string) ($decoded['paymentAmount'] ?? '')),
+            'minAmount' => sanitize_text_field((string) ($decoded['minAmount'] ?? '')),
+            'maxAmount' => sanitize_text_field((string) ($decoded['maxAmount'] ?? '')),
             'amountLabel' => sanitize_text_field((string) ($decoded['amountLabel'] ?? '')),
             'showPriceAfterItemLabel' => self::sanitizeJsonConfigBoolean(
                 $decoded['showPriceAfterItemLabel'] ?? false
@@ -908,7 +953,9 @@ class Sanitizer
     }
 
     /**
-     * Sanitize form submission data based on field types and IDs
+     * Sanitize form submission data based on field types and IDs.
+     *
+     * Extensions may post-process the result via `ivyforms/sanitizer/form_submission_data`.
      *
      * @param mixed[] $data Form submission data
      * @param mixed[] $formFields Form fields configuration
@@ -949,7 +996,9 @@ class Sanitizer
             $sanitizedData['referer'] = sanitize_text_field($data['referer']);
         }
 
-        return $sanitizedData;
+        $filtered = apply_filters('ivyforms/sanitizer/form_submission_data', $sanitizedData, $data, $formFields);
+
+        return is_array($filtered) ? $filtered : $sanitizedData;
     }
 
     /**

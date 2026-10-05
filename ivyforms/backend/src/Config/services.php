@@ -46,12 +46,19 @@ use IvyForms\Controllers\GoogleSheets\GoogleSheetsListColumnsController;
 use IvyForms\Controllers\GoogleSheets\GoogleSheetsListIntegrationsController;
 use IvyForms\Controllers\GoogleSheets\GoogleSheetsListSpreadsheetsController;
 use IvyForms\Controllers\GoogleSheets\GoogleSheetsListWorksheetsController;
+use IvyForms\Controllers\GoogleSheets\GoogleSheetsPickerConfigController;
 use IvyForms\Controllers\GoogleSheets\GoogleSheetsStatusController;
 use IvyForms\Controllers\GoogleSheets\GoogleSheetsUpdateController;
 use IvyForms\Controllers\GoogleSheets\GoogleSheetsUpdateStatusController;
 use IvyForms\Services\Settings\SettingsService;
 use IvyForms\Services\Usage\UsageTrackingService;
 use IvyForms\Vendor\Melograno\UsageTracker\Collectors\Plugin\IvyFormsCollector;
+use IvyForms\Services\Payment\FormSubmissionPaymentService;
+use IvyForms\Services\Payment\OrderManager;
+use IvyForms\Services\Payment\PaymentAmountCalculator;
+use IvyForms\Services\Payment\PaymentGatewayRegistry;
+use IvyForms\Services\Payment\PaymentManager;
+use IvyForms\Services\Payment\SquarePaymentGateway;
 
 return [
 
@@ -100,7 +107,8 @@ return [
             $container->get(EntryService::class),
             $container->get(NotificationService::class),
             $container->get(MailerService::class),
-            $container->get(ConfirmationService::class)
+            $container->get(ConfirmationService::class),
+            $container->get(FormSubmissionPaymentService::class)
         );
     },
 
@@ -166,6 +174,12 @@ return [
 
     GoogleSheetsStatusController::class => static function ($container) {
         return new GoogleSheetsStatusController(
+            $container->get(GoogleSheetsService::class)
+        );
+    },
+
+    GoogleSheetsPickerConfigController::class => static function ($container) {
+        return new GoogleSheetsPickerConfigController(
             $container->get(GoogleSheetsService::class)
         );
     },
@@ -249,6 +263,29 @@ return [
 
     UsageTrackingService::class => function ($container) {
         return new UsageTrackingService($container->get(IvyFormsCollector::class));
+    },
+
+    PaymentGatewayRegistry::class => function ($container) {
+        $registry = new PaymentGatewayRegistry();
+        $registry->register($container->get(SquarePaymentGateway::class));
+
+        /**
+         * Allow Pro/addons to register additional payment gateways.
+         *
+         * The action receives the registry and PHP-DI container.
+         */
+        do_action('ivyforms/payment/register_gateways', $registry, $container);
+
+        return $registry;
+    },
+
+    FormSubmissionPaymentService::class => function ($container) {
+        return new FormSubmissionPaymentService(
+            $container->get(PaymentAmountCalculator::class),
+            $container->get(PaymentManager::class),
+            $container->get(OrderManager::class),
+            $container->get(PaymentGatewayRegistry::class)
+        );
     },
 
 //    GetAllIntegrationsController::class => function ($container) {

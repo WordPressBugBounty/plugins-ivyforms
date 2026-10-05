@@ -15,6 +15,9 @@ use IvyForms\Services\Media\ImageService;
 use IvyForms\Services\Translations\BackendStrings;
 use IvyForms\Services\Mailer\MailerService;
 
+/**
+ * @SuppressWarnings(PHPMD.ExcessiveClassComplexity)
+ */
 class NotificationService
 {
     private NotificationRepositoryInterface $notificationRepository;
@@ -133,20 +136,10 @@ class NotificationService
      * @param int $formId
      *
      * @return array<Notification>
-     *
-     * @throws NotFoundException If no notifications are found
      */
     public function getNotificationsByFormId(int $formId): array
     {
-        $notification = $this->notificationRepository->getAllById($formId);
-
-        if (!$notification) {
-            throw new NotFoundException(
-                BackendStrings::getExceptionStrings()['notification_not_found']
-            );
-        }
-
-        return $notification;
+        return $this->notificationRepository->getAllById($formId);
     }
 
     /**
@@ -281,8 +274,8 @@ class NotificationService
         array $fieldLabels = []
     ): bool {
         $activeNotifications = $this->getActiveNotificationsByFormId($formId);
-        $logicFormFields = $formFields;
         $exceptionStrings = BackendStrings::getExceptionStrings();
+
         foreach ($activeNotifications as $notification) {
             if (empty($notification->getNotificationContact()->getReceiver())) {
                 continue;
@@ -293,7 +286,7 @@ class NotificationService
                 true,
                 $notification->getSmartLogic(),
                 $submissionData,
-                $logicFormFields,
+                $formFields,
                 $notification,
                 $formId
             );
@@ -302,87 +295,232 @@ class NotificationService
                 continue;
             }
 
-            // Resolve sender and receiver
-            $sender = $this->resolveAddress(
-                $notification->getNotificationContact()->getSender(),
+            if (
+                !$this->dispatchNotificationEmail(
+                    $notification,
+                    $formId,
+                    $submissionData,
+                    $formFields,
+                    $fieldData,
+                    $generalData,
+                    $mailerService,
+                    $fieldLabels,
+                    $exceptionStrings
+                )
+            ) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    /**
+     * Resolve placeholders, apply attachments, and send one notification email.
+     *
+     * @param Notification $notification
+     * @param int $formId
+     * @param array<mixed> $submissionData
+     * @param array<mixed> $formFields
+     * @param array<string, mixed> $fieldData
+     * @param array<string, mixed> $generalData
+     * @param MailerService $mailerService
+     * @param array<string, string> $fieldLabels
+     * @param array<string, string> $exceptionStrings
+     * @return bool False when sender/receiver are invalid; true otherwise (send failure is logged)
+     */
+    private function dispatchNotificationEmail(
+        Notification $notification,
+        int $formId,
+        array $submissionData,
+        array $formFields,
+        array $fieldData,
+        array $generalData,
+        MailerService $mailerService,
+        array $fieldLabels,
+        array $exceptionStrings
+    ): bool {
+        if (
+            !$this->hydrateNotificationForSend(
+                $notification,
                 $fieldData,
                 $generalData,
-                $fieldLabels
-            );
+                $fieldLabels,
+                $exceptionStrings
+            )
+        ) {
+            return false;
+        }
 
-            $receiver = $this->resolveAddress(
-                $notification->getNotificationContact()->getReceiver(),
-                $fieldData,
-                $generalData,
-                $fieldLabels
-            );
+        $this->sendHydratedNotificationEmail(
+            $notification,
+            $formId,
+            $submissionData,
+            $formFields,
+            $fieldData,
+            $mailerService,
+            $exceptionStrings
+        );
 
-            $cc = $this->resolveAddressList(
-                $notification->getNotificationContact()->getCc(),
-                $fieldData,
-                $generalData,
-                $fieldLabels
-            );
+        return true;
+    }
 
-            $bcc = $this->resolveAddressList(
-                $notification->getNotificationContact()->getBcc(),
-                $fieldData,
-                $generalData,
-                $fieldLabels
-            );
+    /**
+     * Resolve and apply sender/receiver/replyTo/cc/bcc/subject/message onto the notification.
+     *
+     * @param Notification $notification
+     * @param array<string, mixed> $fieldData
+     * @param array<string, mixed> $generalData
+     * @param array<string, string> $fieldLabels
+     * @param array<string, string> $exceptionStrings
+     */
+    private function hydrateNotificationForSend(
+        Notification $notification,
+        array $fieldData,
+        array $generalData,
+        array $fieldLabels,
+        array $exceptionStrings
+    ): bool {
+        $contact = $notification->getNotificationContact();
+        $sender = $this->resolveAddress($contact->getSender(), $fieldData, $generalData, $fieldLabels);
+        $receiver = $this->resolveAddress($contact->getReceiver(), $fieldData, $generalData, $fieldLabels);
 
-            // Build subject and sanitized message
-            $subject = PlaceholderService::replacePlaceholders(
+        if ($sender === '' || $receiver === '') {
+            error_log(
+                $exceptionStrings['error_log_invalid_email'] . $sender . ' ' . $receiver
+            );
+            return false;
+        }
+
+        $contact->setSender($sender);
+        $contact->setReceiver($receiver);
+        $contact->setReplyTo(
+            $this->resolveReplyTo($contact->getReplyTo(), $sender, $fieldData, $generalData, $fieldLabels)
+        );
+        $contact->setCc(
+            $this->resolveAddressList($contact->getCc(), $fieldData, $generalData, $fieldLabels)
+        );
+        $contact->setBcc(
+            $this->resolveAddressList($contact->getBcc(), $fieldData, $generalData, $fieldLabels)
+        );
+        $notification->setSubject(
+            PlaceholderService::replacePlaceholders(
                 $notification->getSubject(),
                 $fieldData,
                 $generalData,
                 $fieldLabels,
                 $notification
-            );
-
-            $safeMessage = $this->buildSafeMessage(
+            )
+        );
+        $notification->setMessage(
+            $this->buildSafeMessage(
                 $notification->getMessage(),
                 $fieldData,
                 $generalData,
                 $fieldLabels,
                 $notification
-            );
-
-            // Resolve replyTo and validate; fallback to sender if empty
-            $replyTo = $this->resolveAddress(
-                $notification->getNotificationContact()->getReplyTo(),
-                $fieldData,
-                $generalData,
-                $fieldLabels
-            );
-            if (empty($replyTo) && !empty($sender)) {
-                $replyTo = $sender;
-            }
-
-            if (empty($sender) || empty($receiver)) {
-                error_log(
-                    $exceptionStrings['error_log_invalid_email'] . $sender . ' ' . $receiver
-                );
-                return false;
-            }
-
-            // Apply resolved values back to the notification
-            $notification->getNotificationContact()->setSender($sender);
-            $notification->getNotificationContact()->setReceiver($receiver);
-            $notification->getNotificationContact()->setReplyTo($replyTo);
-            $notification->getNotificationContact()->setCc($cc);
-            $notification->getNotificationContact()->setBcc($bcc);
-            $notification->setSubject($subject);
-            $notification->setMessage($safeMessage);
-
-            // Send notification
-            $sent = $mailerService->sendEmail($notification, $submissionData);
-            if (!$sent) {
-                error_log($exceptionStrings['error_log_failed_send'] . ' ' . $formId);
-            }
-        }
+            )
+        );
 
         return true;
+    }
+
+    /**
+     * @param Notification $notification
+     * @param int $formId
+     * @param array<mixed> $submissionData
+     * @param array<mixed> $formFields
+     * @param array<string, mixed> $fieldData
+     * @param MailerService $mailerService
+     * @param array<string, string> $exceptionStrings
+     */
+    private function sendHydratedNotificationEmail(
+        Notification $notification,
+        int $formId,
+        array $submissionData,
+        array $formFields,
+        array $fieldData,
+        MailerService $mailerService,
+        array $exceptionStrings
+    ): void {
+        $sent = $mailerService->sendEmail(
+            $notification,
+            $submissionData,
+            $this->resolveEmailAttachments($notification, $submissionData, $formFields, $fieldData)
+        );
+
+        if ($sent) {
+            return;
+        }
+
+        error_log($exceptionStrings['error_log_failed_send'] . ' ' . $formId);
+    }
+
+    /**
+     * @param string $template
+     * @param string $sender
+     * @param array<string, mixed> $fieldData
+     * @param array<string, mixed> $generalData
+     * @param array<string, string> $fieldLabels
+     */
+    private function resolveReplyTo(
+        string $template,
+        string $sender,
+        array $fieldData,
+        array $generalData,
+        array $fieldLabels
+    ): string {
+        $replyTo = $this->resolveAddress($template, $fieldData, $generalData, $fieldLabels);
+
+        return $replyTo !== '' ? $replyTo : $sender;
+    }
+
+    /**
+     * @param Notification $notification
+     * @param array<mixed> $submissionData
+     * @param array<mixed> $formFields
+     * @param array<string, mixed> $fieldData
+     * @return string[]
+     */
+    private function resolveEmailAttachments(
+        Notification $notification,
+        array $submissionData,
+        array $formFields,
+        array $fieldData
+    ): array {
+        /**
+         * Local file paths to attach to the notification email (Pro file attachments).
+         *
+         * @since 1.2.0
+         *
+         * @param mixed $attachments
+         * @param \IvyForms\Entity\Notification\Notification $notification
+         * @param array<string, mixed> $submissionData
+         * @param array<int, mixed> $formFields
+         * @param array<string, mixed> $fieldData
+         */
+        $attachments = apply_filters(
+            'ivyforms/notification/email_attachments',
+            [],
+            $notification,
+            $submissionData,
+            $formFields,
+            $fieldData
+        );
+
+        if (!is_array($attachments)) {
+            return [];
+        }
+
+        $paths = [];
+        foreach ($attachments as $path) {
+            if (!is_string($path) || $path === '') {
+                continue;
+            }
+            $paths[] = $path;
+        }
+
+        return $paths;
     }
 
     /**

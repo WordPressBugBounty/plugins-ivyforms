@@ -4,6 +4,7 @@ namespace IvyForms\Services\Integrations;
 
 use IvyForms\Common\Exceptions\InvalidArgumentException;
 use IvyForms\Services\GoogleSheets\Hooks\InitializationHook as GoogleSheetsInitializationHook;
+use IvyForms\Services\Payment\PaymentsFeature;
 
 /**
  * Integration Service
@@ -165,6 +166,8 @@ class IntegrationService
             ],
         ]);
 
+        $this->registerPaymentIntegrations();
+
         // Salesforce Integration (Pro - Agency)
 //        $this->registry->register('salesforce', [
 //            'label' => 'salesforce_label',
@@ -222,5 +225,55 @@ class IntegrationService
                 'learnMoreUrl' => 'https://ivyforms.com/documentation/',
             ]);
         }
+    }
+
+    /**
+     * Payment integrations (Square / Stripe / PayPal)
+     *
+     * While the payments feature is not released, the cards are shown as "Coming soon":
+     * no toggle, no settings and no form-builder tab (see PaymentsFeature).
+     */
+    private function registerPaymentIntegrations(): void
+    {
+        $comingSoon = !PaymentsFeature::isEnabled();
+
+        $this->registry->register('square', [
+            'label' => 'square_label',
+            'component' => 'SquareIntegrationSettings',
+            'icon' => 'square',
+            'description' => 'square_description',
+            'category' => 'Payment',
+            'requiresAuth' => true,
+            'hasGlobalSettings' => true,
+            'plan' => 'lite',
+            'learnMoreUrl' => 'https://ivyforms.com/documentation/',
+            'comingSoon' => $comingSoon,
+        ]);
+
+        $this->registry->register('stripe', [
+            'label' => 'stripe_label',
+            'component' => 'StripeIntegrationSettings',
+            'icon' => 'stripe',
+            'description' => 'stripe_description',
+            'category' => 'Payment',
+            'requiresAuth' => true,
+            'hasGlobalSettings' => true,
+            'plan' => 'essentials',
+            'learnMoreUrl' => 'https://ivyforms.com/documentation/',
+            'comingSoon' => $comingSoon,
+        ]);
+
+        $this->registry->register('paypal', [
+            'label' => 'paypal_label',
+            'component' => 'PaypalIntegrationSettings',
+            'icon' => 'paypal',
+            'description' => 'paypal_description',
+            'category' => 'Payment',
+            'requiresAuth' => true,
+            'hasGlobalSettings' => true,
+            'plan' => 'essentials',
+            'learnMoreUrl' => 'https://ivyforms.com/documentation/',
+            'comingSoon' => $comingSoon,
+        ]);
     }
 }

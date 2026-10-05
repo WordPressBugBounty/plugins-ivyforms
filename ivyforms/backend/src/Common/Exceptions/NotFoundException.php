@@ -23,7 +23,7 @@ class NotFoundException extends Exception
      * @param int            $code
      * @param Exception|null $previous
      */
-    public function __construct($message = 'not_found', $code = 0, Exception $previous = null)
+    public function __construct($message = 'not_found', $code = 0, ?Exception $previous = null)
     {
         parent::__construct($message, $code, $previous);
     }

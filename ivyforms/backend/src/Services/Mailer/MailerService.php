@@ -17,10 +17,11 @@ class MailerService
      *
      * @param Notification $notification The notification object with email data
      * @param mixed[] $formData The submitted form data for template variables
+     * @param string[] $attachments Absolute local file paths to attach
      *
      * @return bool Whether the email was sent successfully
      */
-    public function sendEmail(Notification $notification, array $formData): bool
+    public function sendEmail(Notification $notification, array $formData, array $attachments = []): bool
     {
         // Extract notification data
         $contact      = $notification->getNotificationContact();
@@ -50,11 +51,26 @@ class MailerService
             $visibleHeaders[] = 'Cc: ' . $cc;
         }
 
-        // Send email using WordPress function
-        $sent = wp_mail($to, $subject, $message, $visibleHeaders);
+        $attachments = array_values(array_filter(
+            $attachments,
+            static function ($path): bool {
+                return is_string($path) && $path !== '' && is_readable($path);
+            }
+        ));
 
-        if ($sent && $bccAddresses !== []) {
-            $sent = $this->sendBccCopies($bccAddresses, $subject, $message, $headers);
+        $deliveredWithBcc = false;
+        $sent             = $this->sendPrimaryEmail(
+            $to,
+            $subject,
+            $message,
+            $visibleHeaders,
+            $bccAddresses,
+            $deliveredWithBcc,
+            $attachments
+        );
+
+        if ($sent && !$deliveredWithBcc && $bccAddresses !== []) {
+            $sent = $this->sendBccCopies($bccAddresses, $subject, $message, $headers, $attachments);
         }
 
         return $sent;
@@ -84,19 +100,71 @@ class MailerService
     }
 
     /**
+     * SMTP can hide Bcc from To/Cc while still showing To/Cc to the Bcc
+     * recipient. mail()/sendmail cannot, so those transports send copies later.
+     *
+     * @param string[] $headers
+     * @param string[] $bccAddresses
+     * @param string[] $attachments
+     */
+    private function sendPrimaryEmail(
+        string $to,
+        string $subject,
+        string $message,
+        array $headers,
+        array $bccAddresses,
+        bool &$deliveredWithBcc,
+        array $attachments = []
+    ): bool {
+        $parsedBcc = [];
+        foreach ($bccAddresses as $bccAddress) {
+            $parsedBcc[] = $this->parseMailbox($bccAddress);
+        }
+
+        $attachBcc = static function (\PHPMailer\PHPMailer\PHPMailer $phpmailer) use (
+            $parsedBcc,
+            &$deliveredWithBcc
+        ): void {
+            if ($phpmailer->Mailer !== 'smtp' || $parsedBcc === []) {
+                return;
+            }
+
+            foreach ($parsedBcc as $mailbox) {
+                $phpmailer->addBCC($mailbox['email'], $mailbox['name']);
+            }
+
+            $deliveredWithBcc = true;
+        };
+
+        add_action('phpmailer_init', $attachBcc, 1000);
+        try {
+            return wp_mail($to, $subject, $message, $headers, $attachments);
+        } finally {
+            remove_action('phpmailer_init', $attachBcc, 1000);
+        }
+    }
+
+    /**
      * PHPMailer keeps the Bcc header in the message on the mail()/sendmail/qmail
      * transports, so a shared send would expose Bcc addresses to the To and Cc
-     * recipients. Each Bcc recipient therefore gets its own copy.
+     * recipients. Each Bcc recipient therefore gets its own copy, without the
+     * original To/Cc replayed as a Cc header (mail() would deliver to those too).
      *
      * @param string[] $bccAddresses
      * @param string[] $headers
+     * @param string[] $attachments
      */
-    private function sendBccCopies(array $bccAddresses, string $subject, string $message, array $headers): bool
-    {
+    private function sendBccCopies(
+        array $bccAddresses,
+        string $subject,
+        string $message,
+        array $headers,
+        array $attachments = []
+    ): bool {
         $sent = true;
 
         foreach ($bccAddresses as $bccAddress) {
-            $sent = wp_mail($bccAddress, $subject, $message, $headers) && $sent;
+            $sent = wp_mail($bccAddress, $subject, $message, $headers, $attachments) && $sent;
         }
 
         return $sent;
@@ -220,5 +288,26 @@ class MailerService
         }
 
         return $validated;
+    }
+
+    /**
+     * Split a mailbox into the address PHPMailer expects and an optional name.
+     *
+     * @return array{email: string, name: string}
+     */
+    private function parseMailbox(string $address): array
+    {
+        $address = trim($address);
+        if (preg_match('/^(.*)<([^>]+)>\s*$/', $address, $match)) {
+            return [
+                'email' => trim($match[2]),
+                'name'  => trim($match[1], " \t\"'"),
+            ];
+        }
+
+        return [
+            'email' => $address,
+            'name'  => '',
+        ];
     }
 }

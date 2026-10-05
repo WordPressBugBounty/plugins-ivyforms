@@ -18,6 +18,27 @@ use WP_REST_Request;
  */
 final class SubmissionPayloadParser
 {
+    private const SCALAR_TYPE_STRING = 'string';
+
+    private const SCALAR_TYPE_INT = 'int';
+
+    /**
+     * Top-level submission keys (everything outside `values`) and how each is cast.
+     *
+     * @var array<string, string>
+     */
+    private const SCALAR_KEY_TYPES = [
+        'formId'         => self::SCALAR_TYPE_INT,
+        'nonce'          => self::SCALAR_TYPE_STRING,
+        'postId'         => self::SCALAR_TYPE_INT,
+        'referer'        => self::SCALAR_TYPE_STRING,
+        'sourceId'       => self::SCALAR_TYPE_STRING,
+        'paymentMethodId' => self::SCALAR_TYPE_STRING,
+        'paymentIntentId' => self::SCALAR_TYPE_STRING,
+        'paypalOrderId'  => self::SCALAR_TYPE_STRING,
+        'idempotencyKey' => self::SCALAR_TYPE_STRING,
+    ];
+
     /**
      * @param WP_REST_Request<array<string, mixed>> $request
      *
@@ -62,7 +83,10 @@ final class SubmissionPayloadParser
         }
 
         $values = [];
-        $reservedKeys = ['formId', 'nonce', 'postId', 'referer', 'ivyforms_fm', 'values'];
+        $reservedKeys = array_merge(
+            array_keys(self::SCALAR_KEY_TYPES),
+            ['ivyforms_fm', 'values']
+        );
         foreach ($body as $key => $value) {
             if (!in_array($key, $reservedKeys, true)) {
                 $values[$key] = $value;
@@ -129,34 +153,45 @@ final class SubmissionPayloadParser
     private static function extractSubmissionScalars(array $body): array
     {
         $params = [];
-        foreach (['formId', 'nonce', 'postId', 'referer'] as $key) {
+        foreach (self::SCALAR_KEY_TYPES as $key => $type) {
             if (!array_key_exists($key, $body)) {
                 continue;
             }
 
-            $value = $body[$key];
-
-            if ($key === 'nonce' || $key === 'referer') {
-                if (!is_scalar($value)) {
-                    throw new InvalidArgumentException(
-                        BackendStrings::getExceptionStrings()['invalid_request_data']
-                    );
-                }
-
-                $params[$key] = wp_unslash((string) $value);
-                continue;
-            }
-
-            if (!is_scalar($value)) {
-                $params[$key] = 0;
-                continue;
-            }
-
-            $unslashed = wp_unslash($value);
-            $params[$key] = is_numeric($unslashed) ? (int) $unslashed : 0;
+            $params[$key] = $type === self::SCALAR_TYPE_STRING
+                ? self::extractStringScalar($body[$key])
+                : self::extractIntScalar($body[$key]);
         }
 
         return $params;
+    }
+
+    /**
+     * @param mixed $value
+     */
+    private static function extractStringScalar($value): string
+    {
+        if (!is_scalar($value)) {
+            throw new InvalidArgumentException(
+                BackendStrings::getExceptionStrings()['invalid_request_data']
+            );
+        }
+
+        return wp_unslash((string) $value);
+    }
+
+    /**
+     * @param mixed $value
+     */
+    private static function extractIntScalar($value): int
+    {
+        if (!is_scalar($value)) {
+            return 0;
+        }
+
+        $unslashed = wp_unslash($value);
+
+        return is_numeric($unslashed) ? (int) $unslashed : 0;
     }
 
     /**

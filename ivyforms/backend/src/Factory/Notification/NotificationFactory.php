@@ -15,6 +15,25 @@ use IvyForms\ValueObjects\Notification\NotificationContact;
 class NotificationFactory
 {
     /**
+     * Lite-owned keys; everything else is treated as extension data (Pro / add-ons).
+     *
+     * @var string[]
+     */
+    private const KNOWN_NOTIFICATION_DATA_KEYS = [
+        'id',
+        'name',
+        'sender',
+        'replyTo',
+        'receiver',
+        'enabled',
+        'subject',
+        'message',
+        'showEmptyFields',
+        'smartLogic',
+        'formId',
+    ];
+
+    /**
      * Create a NotificationEntity from an array of data.
      *
      * @param array<string, mixed> $data
@@ -24,6 +43,15 @@ class NotificationFactory
      */
     public static function create(array $data): NotificationEntity
     {
+        /**
+         * Normalize/augment notification factory input (e.g. Pro attachment fields from DB).
+         *
+         * @since 1.2.0
+         *
+         * @param array<string, mixed> $data
+         */
+        $data = apply_filters('ivyforms/notification/factory_data', $data);
+
         $smartLogic = self::normalizeSmartLogic($data['smartLogic'] ?? false);
 
         $contact = new NotificationContact(
@@ -41,7 +69,7 @@ class NotificationFactory
             $data['enabled'] ?? true,
             $data['subject'] ?? '',
             $data['message'] ?? '',
-            $data['showEmptyFields'] ?? false,
+            (bool) ($data['showEmptyFields'] ?? false),
             $smartLogic,
             $data['formId'] ?? 0
         );
@@ -89,7 +117,7 @@ class NotificationFactory
         }
 
         if (isset($data['showEmptyFields'])) {
-            $notificationEntity->setShowEmptyFields($data['showEmptyFields']);
+            $notificationEntity->setShowEmptyFields((bool) $data['showEmptyFields']);
         }
 
         if (isset($data['smartLogic'])) {
@@ -100,7 +128,20 @@ class NotificationFactory
             $notificationEntity->setFormId($data['formId']);
         }
 
+        $notificationEntity->setExtensionData(self::extractExtensionData($data));
+
         return $notificationEntity;
+    }
+
+    /**
+     * Keys in $data that are not owned by Lite.
+     *
+     * @param array<string, mixed> $data
+     * @return array<string, mixed>
+     */
+    private static function extractExtensionData(array $data): array
+    {
+        return array_diff_key($data, array_flip(self::KNOWN_NOTIFICATION_DATA_KEYS));
     }
 
     /**

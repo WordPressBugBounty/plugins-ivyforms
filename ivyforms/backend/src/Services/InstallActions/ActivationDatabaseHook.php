@@ -14,6 +14,9 @@ use IvyForms\Services\InstallActions\DB\Form\FormsTable;
 use IvyForms\Services\InstallActions\DB\Notification\NotificationsTable;
 use IvyForms\Services\InstallActions\DB\FieldOptions\FieldOptionsTable;
 use IvyForms\Services\InstallActions\DB\GoogleSheets\GoogleSheetsTable;
+use IvyForms\Services\InstallActions\DB\Payment\OrdersTable;
+use IvyForms\Services\InstallActions\DB\Payment\PaymentsTable;
+use IvyForms\Services\InstallActions\Migrations\PaymentSchemaMigrations;
 use IvyForms\Services\InstallActions\Migrations\AddRowColumnLayoutToFields;
 use IvyForms\Services\InstallActions\Migrations\SeedRowIndexForFields;
 use IvyForms\Services\InstallActions\Migrations\AddReplyToToNotifications;
@@ -46,6 +49,8 @@ class ActivationDatabaseHook
         EntryFieldsTable::init();
         FieldOptionsTable::init();
         GoogleSheetsTable::init();
+        PaymentsTable::init();
+        OrdersTable::init();
 
         // Run migrations
         AddRowColumnLayoutToFields::run();
@@ -54,6 +59,7 @@ class ActivationDatabaseHook
         AddStyleSettingsToForms::run();
         AddShowEmptyFieldsToNotifications::run();
         AddFormTypeToForms::run();
+        PaymentSchemaMigrations::run();
         ConvertNotificationSmartLogicToText::run();
         AddPageIdToFields::run();
         AddNamePositionToConfirmations::run();

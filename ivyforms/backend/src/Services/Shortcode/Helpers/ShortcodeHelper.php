@@ -4,6 +4,7 @@ namespace IvyForms\Services\Shortcode\Helpers;
 
 use IvyForms\Factory\Field\FieldFactory;
 use IvyForms\Factory\Security\SecurityServiceFactory;
+use IvyForms\Services\Payment\SquareEnvironment;
 use IvyForms\Services\Settings\SettingsService;
 use IvyForms\Services\Security\SecurityService;
 use IvyForms\Services\Translations\FrontendStrings;
@@ -155,8 +156,20 @@ class ShortcodeHelper
         // Ensure style handles are available for dependencies before enqueuing.
         self::registerFrontendStyleHandles();
 
+        $mainScriptDeps = [];
+        if (self::formHasPaymentField($formList)) {
+            wp_enqueue_script(
+                'square-web-payments-sdk',
+                SquareEnvironment::getWebPaymentsSdkUrl(),
+                [],
+                null,
+                true
+            );
+            $mainScriptDeps[] = 'square-web-payments-sdk';
+        }
+
         // Enqueue main script and styles
-        self::enqueueMainScript($scriptId, $scriptSrc, $scriptVersion);
+        self::enqueueMainScript($scriptId, $scriptSrc, $scriptVersion, $mainScriptDeps);
 
         if ($styleSrc) { // @phpstan-ignore-line
             self::enqueueStyles($styleSrc, $stylePublicSrc, $scriptVersion);
@@ -164,6 +177,8 @@ class ShortcodeHelper
 
         // Enqueue captcha scripts and localize captcha config
         self::enqueueCaptchaAndLocalize($scriptId, $formList);
+
+        SquareFrontendConfigHelper::localizeConfigIfNeeded($scriptId, $formList);
 
         // Localize common frontend data (forms, labels, urls, api settings, date formats)
         self::localizeFormListAndLabels($scriptId, $formList);
@@ -193,17 +208,18 @@ class ShortcodeHelper
     /**
      * Enqueue the main frontend script
      *
-     * @param string $scriptId
-     * @param string $scriptSrc
-     * @param mixed $scriptVersion
-     * @return void
+     * @param array<string> $deps
      */
-    private static function enqueueMainScript(string $scriptId, string $scriptSrc, $scriptVersion): void
-    {
+    private static function enqueueMainScript(
+        string $scriptId,
+        string $scriptSrc,
+        ?string $scriptVersion,
+        array $deps = []
+    ): void {
         wp_enqueue_script(
             $scriptId,
             $scriptSrc,
-            [],
+            $deps,
             $scriptVersion,
             true
         );
@@ -280,6 +296,25 @@ class ShortcodeHelper
      * @param string $scriptId
      * @param array<string, array<string, mixed>> $formList
      * @return void
+     */
+    /**
+     * @param array<string, array<string, mixed>> $formList
+     */
+    private static function formHasPaymentField(array $formList): bool
+    {
+        foreach ($formList as $formData) {
+            foreach ($formData['fields'] ?? [] as $field) {
+                if (is_array($field) && ($field['type'] ?? '') === 'payment-method') {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    /**
+     * @param array<string, array<string, mixed>> $formList
      */
     private static function localizeFormListAndLabels(string $scriptId, array $formList): void
     {

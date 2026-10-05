@@ -17,6 +17,7 @@ import { useEntry } from '@/stores/useEntry'
 import { useNavigation } from '@/composables/useNavigation'
 import { registerLiteComponents } from '@/composables/registerLiteComponents'
 import { registerLiteFieldOptions } from '@/views/admin/form-builder/form-builder-page/form-builder/panel/tabs/field-options/registerLiteFieldOptions'
+import { registerSquareIntegration } from '@/integrations/registerSquare'
 import { registerLiteStyleSectionPromos } from '@/views/admin/form-builder/form-builder-page/form-builder/panel/tabs/style-controls/registerLiteStyleSectionPromos'
 import * as LiteTypes from '@/types/index'
 import type { IvyProFeatures } from '@/types/global'
@@ -173,6 +174,10 @@ app.config.globalProperties.$labels = useLabels()
   w.IvyForms.registerComponent = (name: string, component: Component) =>
     componentsRegistry(name, component)
   w.IvyForms.registerComponent('EntryPage', EntryPage)
+
+  registerSquareIntegration((name, component) => {
+    componentsRegistry(name, component)
+  })
 
   // Expose router for Pro plugins to add routes dynamically
   w.IvyForms._router = router
