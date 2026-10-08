@@ -80,7 +80,7 @@ class MenuMapper
                 ],
             ];
 
-        // Payments page stays hidden while the payments feature is "Coming soon"
+        // Payments page stays hidden while Stripe and PayPal are turned off
         if (!PaymentsFeature::isEnabled()) {
             $menus = array_values(array_filter(
                 $menus,

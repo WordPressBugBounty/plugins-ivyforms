@@ -6,7 +6,7 @@ Tags: form, contact form, custom form, form builder, wp forms
 Requires at least: 5.0
 Tested up to: 7.1.2
 Requires PHP: 7.4
-Stable tag: 1.5
+Stable tag: 1.5.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -203,7 +203,7 @@ Once both are active, the Pro tools appear right inside your form builder. From 
 
 ## Coming Soon
 
-Square payments (Lite), Stripe and PayPal payments (Pro), Slack integration (Lite), Repeater field (Pro), Save & continue later (Pro), Surveys (Pro), and email integrations.
+Square payments (Lite), Slack integration (Lite), Repeater field (Pro), Save & continue later (Pro), Surveys (Pro), and email integrations.
 
 ## USEFUL LINKS FOR OUR FORMS
 
@@ -260,6 +260,9 @@ This service is provided by "https://ipwhois.io":
 - Privacy policy: https://ipwhois.io/privacy
 
 == Changelog ==
+= 1.5.1 =
+* Added support for IvyForms Pro payments, including Stripe and PayPal.
+
 = 1.5 =
 * Added AI choice generation for Dropdown, Radio, and Checkbox fields.
 * Added import from WPForms and Gravity Forms.

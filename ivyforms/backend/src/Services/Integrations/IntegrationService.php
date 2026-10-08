@@ -228,14 +228,14 @@ class IntegrationService
     }
 
     /**
-     * Payment integrations (Square / Stripe / PayPal)
+     * Payment integrations.
      *
-     * While the payments feature is not released, the cards are shown as "Coming soon":
-     * no toggle, no settings and no form-builder tab (see PaymentsFeature).
+     * Square stays "Coming soon". Stripe and PayPal follow PaymentsFeature and match
+     * the IvyForms 1.5 / Pro 1.2 release when that flag is on.
      */
     private function registerPaymentIntegrations(): void
     {
-        $comingSoon = !PaymentsFeature::isEnabled();
+        $cardPaymentsComingSoon = !PaymentsFeature::isEnabled();
 
         $this->registry->register('square', [
             'label' => 'square_label',
@@ -247,7 +247,7 @@ class IntegrationService
             'hasGlobalSettings' => true,
             'plan' => 'lite',
             'learnMoreUrl' => 'https://ivyforms.com/documentation/',
-            'comingSoon' => $comingSoon,
+            'comingSoon' => true,
         ]);
 
         $this->registry->register('stripe', [
@@ -260,7 +260,7 @@ class IntegrationService
             'hasGlobalSettings' => true,
             'plan' => 'essentials',
             'learnMoreUrl' => 'https://ivyforms.com/documentation/',
-            'comingSoon' => $comingSoon,
+            'comingSoon' => $cardPaymentsComingSoon,
         ]);
 
         $this->registry->register('paypal', [
@@ -273,7 +273,7 @@ class IntegrationService
             'hasGlobalSettings' => true,
             'plan' => 'essentials',
             'learnMoreUrl' => 'https://ivyforms.com/documentation/',
-            'comingSoon' => $comingSoon,
+            'comingSoon' => $cardPaymentsComingSoon,
         ]);
     }
 }

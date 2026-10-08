@@ -23,6 +23,7 @@ final class SupportedCurrencyCodes
         'GBP',
         'CAD',
         'AUD',
+        'AED',
         'JPY',
         'CHF',
         'SEK',

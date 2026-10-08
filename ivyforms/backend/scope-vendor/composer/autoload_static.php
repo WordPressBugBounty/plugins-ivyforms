@@ -4,7 +4,7 @@
 
 namespace IvyForms\Vendor\Composer\Autoload;
 
-class ComposerStaticInit2352f945952cd8b01045e97ed93b0e3f
+class ComposerStaticInit3e7f4760fda9302a1fa872829e3a963e
 {
     public static $files = array (
         'a10106f9fc92eb44cc2a66bdeb66c2a6' => __DIR__ . '/..' . '/php-di/php-di/src/functions.php',
@@ -166,9 +166,9 @@ class ComposerStaticInit2352f945952cd8b01045e97ed93b0e3f
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2352f945952cd8b01045e97ed93b0e3f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2352f945952cd8b01045e97ed93b0e3f::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit2352f945952cd8b01045e97ed93b0e3f::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit3e7f4760fda9302a1fa872829e3a963e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit3e7f4760fda9302a1fa872829e3a963e::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit3e7f4760fda9302a1fa872829e3a963e::$classMap;
 
         }, null, ClassLoader::class);
     }
