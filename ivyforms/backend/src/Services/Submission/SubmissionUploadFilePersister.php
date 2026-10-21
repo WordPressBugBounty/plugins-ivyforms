@@ -76,6 +76,7 @@ final class SubmissionUploadFilePersister
         $size = isset($fileStruct['size']) ? (int) $fileStruct['size'] : 0;
         $fieldEntity = SubmissionUploadFileValidator::findFieldForUploadKey($formFields, $logicalKey);
         SubmissionUploadFileValidator::assertFileSizeWithinLimits($size, $fieldEntity, $logicalKey);
+        $fileStruct = SubmissionUploadFiletypeFilter::applySniffedFilename($fileStruct);
         SubmissionUploadFileValidator::assertAllowedExtension($fileStruct, $fieldEntity, $logicalKey);
 
         $result = self::storeUploadedFile($fileStruct, $fieldEntity);

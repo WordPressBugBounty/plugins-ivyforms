@@ -150,34 +150,63 @@ class FormRepository extends AbstractRepository implements FormRepositoryInterfa
     /**
      * Get the count of filters for the filter dropdown.
      *
+     * @param array<string, mixed>|null $params
      * @return array<string, int>
      * @throws QueryExecutionException
      */
-    public function getFilterCount(): array
+    public function getFilterCount(?array $params = null): array
     {
-        $result = $this->wpdb->get_row(
-            $this->wpdb->prepare(
-                "SELECT 
+        $queryParams = [];
+        $whereClauses = [];
+        $this->addDateRangeClauses(
+            $this->filterCountDateRange($params),
+            $whereClauses,
+            $queryParams
+        );
+        VisibleFormIdsQueryFilter::apply($params, $whereClauses, $queryParams, 'id');
+
+        $where = $whereClauses === [] ? '' : 'WHERE ' . implode(' AND ', $whereClauses);
+        $sql = "SELECT 
             SUM(published = 1) as publishedTrueCount,
             SUM(published = 0) as publishedFalseCount,
             SUM(starred = 1) as starredTrueCount,
             SUM(starred = 0) as starredFalseCount
-        FROM {$this->table}"
-            ),
-            ARRAY_A
-        );
-        if ($result === false) {
+        FROM {$this->table} {$where}";
+
+        $sqlToRun = $sql;
+        if ($queryParams !== []) {
+            $sqlToRun = $this->wpdb->prepare($sql, ...$queryParams);
+        }
+        $result = $this->wpdb->get_row($sqlToRun, ARRAY_A);
+        if ($result === null) {
             throw new QueryExecutionException(
                 BackendStrings::getExceptionStrings()['unable_search_entries'] . __CLASS__
             );
         }
-        // Convert all values to integers and provide defaults if query returns null
         return array_map('intval', $result ?: [
             'publishedTrueCount' => 0,
             'publishedFalseCount' => 0,
             'starredTrueCount' => 0,
             'starredFalseCount' => 0,
         ]);
+    }
+
+    /**
+     * @param array<string, mixed>|null $params
+     * @return array<int, string>
+     */
+    private function filterCountDateRange(?array $params): array
+    {
+        if (!is_array($params) || !isset($params['dateRange']) || !is_array($params['dateRange'])) {
+            return [];
+        }
+
+        $dateRange = [];
+        foreach (array_values($params['dateRange']) as $value) {
+            $dateRange[] = is_scalar($value) ? (string) $value : '';
+        }
+
+        return $dateRange;
     }
 
     /**

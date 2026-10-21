@@ -60,9 +60,13 @@ interface FormRepositoryInterface extends BaseRepositoryInterface
     /**
      * Get the count of form filters.
      *
+     * Counts respect the date range and visible form ids, and ignore the
+     * published/starred facet filters so each option stays comparable.
+     *
+     * @param array<string, mixed>|null $params
      * @return array<string, int>
      */
-    public function getFilterCount(): array;
+    public function getFilterCount(?array $params = null): array;
 
     /**
      * Get the earliest form creation timestamp.

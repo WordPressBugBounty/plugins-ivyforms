@@ -27,6 +27,7 @@ use IvyForms\Services\InstallActions\Migrations\ConvertNotificationSmartLogicToT
 use IvyForms\Services\InstallActions\Migrations\AddPageIdToFields;
 use IvyForms\Services\InstallActions\Migrations\AddNamePositionToConfirmations;
 use IvyForms\Services\InstallActions\Migrations\AddCcBccToNotifications;
+use IvyForms\Services\InstallActions\Migrations\ExpandFormSettingsColumnsToLongtext;
 use IvyForms\Services\InstallActions\Migrations\ExpandReceiverColumnInNotifications;
 
 /**
@@ -65,5 +66,6 @@ class ActivationDatabaseHook
         AddNamePositionToConfirmations::run();
         AddCcBccToNotifications::run();
         ExpandReceiverColumnInNotifications::run();
+        ExpandFormSettingsColumnsToLongtext::run();
     }
 }

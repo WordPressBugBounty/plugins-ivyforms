@@ -19,30 +19,85 @@ class ChangelogService
     {
         $changelogData = [
             'version' => IVYFORMS_VERSION,
-            'release_date' => '2026-10-05',
-            'features' => [
-                ['text' => __('Added AI choice generation for Dropdown, Radio, and Checkbox fields.', 'ivyforms')],
-                ['text' => __('Added import from WPForms and Gravity Forms.', 'ivyforms')],
-                ['text' => __('Added CC and BCC recipients to email notifications.', 'ivyforms')],
-                ['text' => __('Added a Disable styles option so forms can inherit the theme styling.', 'ivyforms')],
-            ],
-            'improvements' => [
-                ['text' => __('Improved compatibility with PHP 8.5.', 'ivyforms')],
-            ],
+            'release_date' => '2026-10-20',
+            'features' => [],
+            'improvements' => [],
             'bugfixes' => [
-                ['text' => __('Fixed moving an added field in the form builder.', 'ivyforms')],
-                ['text' => __('Fixed Email and Confirm Email field spacing on the frontend.', 'ivyforms')],
-                ['text' => __('Fixed editing HTML code in the Message field.', 'ivyforms')],
-                ['text' => __('Fixed console errors when opening a new form in the form builder.', 'ivyforms')],
-                ['text' => __('Fixed an error when clicking the Message field in Confirmations.', 'ivyforms')],
                 [
                     'text' => __(
-                        'Fixed the HEX color input in the Style tab overwriting manually typed values.',
+                        'Fixed arbitrary file uploads via allowed extensions on public submissions (CVE-2026-109384).',
                         'ivyforms'
                     ),
                 ],
-                ['text' => __('Fixed form export failing when no notifications are configured.', 'ivyforms')],
-                ['text' => __('Fixed {{all_data}} in notifications ignoring the reordered field order.', 'ivyforms')],
+                [
+                    'text' => __(
+                        'Fixed status filter counts when the form and date filters are used together.',
+                        'ivyforms'
+                    ),
+                ],
+                [
+                    'text' => __(
+                        'Fixed Address field City and State subfields swapping order on the frontend.',
+                        'ivyforms'
+                    ),
+                ],
+                ['text' => __('Fixed a database error when saving a form with more than 54 fields.', 'ivyforms')],
+                [
+                    'text' => __(
+                        'Fixed deleting a field in one section shrinking half-width fields in other sections.',
+                        'ivyforms'
+                    ),
+                ],
+                [
+                    'text' => __(
+                        'Fixed large PDF uploads bypassing the file size limit and failing with an "Invalid ID" error.',
+                        'ivyforms'
+                    ),
+                ],
+                [
+                    'text' => __(
+                        'Fixed two confirmation popups appearing when deleting a permission rule.',
+                        'ivyforms'
+                    ),
+                ],
+                [
+                    'text' => __(
+                        'Fixed Learn more on the Amelia, Zapier, API, and Google Sheets cards not opening docs.',
+                        'ivyforms'
+                    ),
+                ],
+                [
+                    'text' => __(
+                        'Fixed required validation being skipped for most field types, which let an empty form submit.',
+                        'ivyforms'
+                    ),
+                ],
+                [
+                    'text' => __(
+                        'Fixed the Email field Required message being replaced by the valid-email message.',
+                        'ivyforms'
+                    ),
+                ],
+                [
+                    'text' => __(
+                        'Fixed notification Subject placeholders so they list every field, like Message.',
+                        'ivyforms'
+                    ),
+                ],
+                [
+                    'text' => __(
+                        'Fixed negative Years of experience on the Software developer job application template.',
+                        'ivyforms'
+                    ),
+                ],
+                [
+                    'text' => __(
+                        'Fixed Product Order Form so Customer name includes First name and Last name.',
+                        'ivyforms'
+                    ),
+                ],
+                ['text' => __('Fixed the Product field showing raw JSON in notification placeholders.', 'ivyforms')],
+                ['text' => __('Fixed the Explore Collection button on the themes upgrade card.', 'ivyforms')],
             ],
         ];
 

@@ -4,9 +4,9 @@ Author URI: https://melograno.io
 Plugin URI: https://ivyforms.com/
 Tags: form, contact form, custom form, form builder, wp forms
 Requires at least: 5.0
-Tested up to: 7.1.2
+Tested up to: 7.1.3
 Requires PHP: 7.4
-Stable tag: 1.5.1
+Stable tag: 1.5.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -260,6 +260,23 @@ This service is provided by "https://ipwhois.io":
 - Privacy policy: https://ipwhois.io/privacy
 
 == Changelog ==
+= 1.5.2 =
+* Fixed arbitrary file uploads via allowed extensions on public submissions.
+* Fixed status filter counts when the form and date filters are used together.
+* Fixed Address field City and State subfields swapping order on the frontend.
+* Fixed a database error when saving a form with more than 54 fields.
+* Fixed deleting a field in one section shrinking half-width fields in other sections.
+* Fixed large PDF uploads bypassing the file size limit and failing with an "Invalid ID" error.
+* Fixed two confirmation popups appearing when deleting a permission rule.
+* Fixed Learn more on the Amelia, Zapier, API, and Google Sheets cards not opening docs.
+* Fixed required validation being skipped for most field types, which let an empty form submit.
+* Fixed the Email field Required message being replaced by the valid-email message.
+* Fixed notification Subject placeholders so they list every field, like Message.
+* Fixed negative Years of experience on the Software developer job application template.
+* Fixed Product Order Form so Customer name includes First name and Last name.
+* Fixed the Product field showing raw JSON in notification placeholders.
+* Fixed the Explore Collection button on the themes upgrade card.
+
 = 1.5.1 =
 * Added support for IvyForms Pro payments, including Stripe and PayPal.
 

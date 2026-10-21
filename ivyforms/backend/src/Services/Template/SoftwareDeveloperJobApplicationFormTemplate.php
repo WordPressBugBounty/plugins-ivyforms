@@ -143,6 +143,7 @@ class SoftwareDeveloperJobApplicationFormTemplate
                 'parentId' => null,
                 'defaultValue' => '',
                 'position' => 4,
+                'minValue' => 0,
             ],
             [
                 'id' => 7,

@@ -142,6 +142,14 @@ class FrontendStrings
                 'ivyforms'
             ),
             'file_upload_error_size'              => __('File size exceeded.', 'ivyforms'),
+            'file_upload_error_size_limit'        => __(
+                'File size exceeded. Maximum file size is {max}.',
+                'ivyforms'
+            ),
+            'file_upload_error_total_size'        => __(
+                'Total upload size exceeded. Maximum is {max}.',
+                'ivyforms'
+            ),
             'file_upload_error_too_many'          => __('Too many files.', 'ivyforms'),
             'thank_you'                          => __('Thank you!', 'ivyforms'),
             'this_field'                         => __('This field', 'ivyforms'),

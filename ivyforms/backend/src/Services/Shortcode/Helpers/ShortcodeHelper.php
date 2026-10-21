@@ -360,6 +360,15 @@ class ShortcodeHelper
 
         wp_localize_script(
             $scriptId,
+            'wpIvyUploadLimits',
+            [
+                'maxBytes'     => (string) wp_max_upload_size(),
+                'postMaxBytes' => (string) wp_convert_hr_to_bytes((string) ini_get('post_max_size')),
+            ]
+        );
+
+        wp_localize_script(
+            $scriptId,
             'wpIvyDateFormat',
             [
                 'dateFormat'     => get_option('date_format'),

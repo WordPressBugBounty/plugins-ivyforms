@@ -264,13 +264,14 @@ class FormService
      * Get the count of form filters.
      *
      * @param bool $shouldGetCount
+     * @param array<string, mixed>|null $params
      *
      * @return array<mixed>
      */
-    public function getFilterCount(bool $shouldGetCount): array
+    public function getFilterCount(bool $shouldGetCount, ?array $params = null): array
     {
         if ($shouldGetCount) {
-            return $this->formRepository->getFilterCount();
+            return $this->formRepository->getFilterCount($params);
         }
         return [];
     }

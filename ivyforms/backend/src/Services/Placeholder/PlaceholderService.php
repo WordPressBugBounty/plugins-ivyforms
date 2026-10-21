@@ -138,6 +138,9 @@ class PlaceholderService
             $id = $field->getId();
             if (isset($submissionData[$id])) {
                 $value = $submissionData[$id];
+                if ($field->getType() === 'product') {
+                    $value = self::formatProductValue($value);
+                }
 
                 /**
                  * Filter to convert fields values to HTML representation
@@ -156,6 +159,36 @@ class PlaceholderService
             }
         }
         return $fieldData;
+    }
+
+    /**
+     * Turn a stored Product field snapshot (JSON) into the summary shown on the entry screen.
+     *
+     * @param mixed $value
+     * @return mixed
+     */
+    private static function formatProductValue($value)
+    {
+        if (!is_string($value)) {
+            return $value;
+        }
+
+        $snapshot = json_decode($value, true);
+        if (!is_array($snapshot) || (int) ($snapshot['v'] ?? 0) !== 1) {
+            return $value;
+        }
+
+        $summary = trim((string) ($snapshot['summary'] ?? ''));
+        if ($summary !== '') {
+            return $summary;
+        }
+
+        $lineLabels = array_filter(array_map(
+            static fn($line): string => is_array($line) ? trim((string) ($line['label'] ?? '')) : '',
+            (array) ($snapshot['lines'] ?? [])
+        ));
+
+        return implode(', ', $lineLabels);
     }
 
     /**

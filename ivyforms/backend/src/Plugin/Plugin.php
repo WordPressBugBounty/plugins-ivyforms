@@ -23,6 +23,7 @@ use IvyForms\Services\Preview\PreviewService;
 use IvyForms\Services\Settings\SettingsService;
 use IvyForms\Services\Shortcode\Helpers\ShortcodeHelper;
 use IvyForms\Services\Shortcode\ShortcodeService;
+use IvyForms\Services\Submission\SubmissionUploadDirectoryFilter;
 use IvyForms\Services\Usage\UsageTrackingService;
 use IvyForms\Vendor\DI\Container;
 use IvyForms\Vendor\DI\ContainerBuilder;
@@ -121,6 +122,7 @@ class Plugin
         add_action('plugins_loaded', [ $this, 'init' ]);
 
         add_action('init', [PluginInstallLifecycle::class, 'maybeEnsureAdministratorCapabilities'], 0);
+        add_action('init', [SubmissionUploadDirectoryFilter::class, 'ensureEntryScriptGuard'], 20);
 
         /** Load translations at init action (WordPress 6.7+ requirement) */
         add_action('init', [ $this, 'loadTranslations' ]);

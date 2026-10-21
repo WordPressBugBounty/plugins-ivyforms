@@ -46,6 +46,14 @@ class FormSubmissionController extends Controller
     {
         Sanitizer::verifyNonce($data->get_header('X-WP-Nonce'));
 
+        if (SubmissionPayloadParser::isDiscardedOversizedBody($data)) {
+            $exception = new ValidationException(
+                BackendStrings::getExceptionStrings()['file_upload_failed']
+            );
+            $exception->setErrorCode('file_upload_failed');
+            throw $exception;
+        }
+
         $params = SubmissionPayloadParser::parseRequestPayload($data);
         $formId = Sanitizer::sanitizeId((int) ($params['formId'] ?? 0));
         Sanitizer::verifySubmissionNonce(isset($params['nonce']) ? (string) $params['nonce'] : null, $formId);

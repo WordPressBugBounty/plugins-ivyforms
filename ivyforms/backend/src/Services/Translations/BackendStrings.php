@@ -1356,6 +1356,14 @@ class BackendStrings
             'file_upload_drag_active'       => __('Drop files to upload', 'ivyforms'),
             'file_upload_error_invalid_type'=> __('Invalid file type', 'ivyforms'),
             'file_upload_error_size'        => __('File size exceeded', 'ivyforms'),
+            'file_upload_error_size_limit'  => __(
+                'File size exceeded. Maximum file size is {max}.',
+                'ivyforms'
+            ),
+            'file_upload_error_total_size'  => __(
+                'Total upload size exceeded. Maximum is {max}.',
+                'ivyforms'
+            ),
             'file_upload_field_label'       => __('File upload', 'ivyforms'),
             'file_upload_more_actions'      => __('More file actions', 'ivyforms'),
             'file_upload_remove_file'       => __('Remove file', 'ivyforms'),

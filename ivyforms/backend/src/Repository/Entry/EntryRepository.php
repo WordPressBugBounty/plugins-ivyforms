@@ -368,16 +368,11 @@ class EntryRepository extends AbstractRepository implements EntryRepositoryInter
     public function getFilterCount(?array $params = null): array
     {
         $queryData = EntryQueryHelper::getFilterCountQuery($this->table, $params);
-        $result = null;
-        if (!empty($queryData['params'])) {
-            $result = $this->wpdb->get_row(
-                $this->wpdb->prepare($queryData['sql'], ...$queryData['params']),
-                ARRAY_A
-            );
+        $sqlToRun = $queryData['sql'];
+        if ($queryData['params'] !== []) {
+            $sqlToRun = $this->wpdb->prepare($queryData['sql'], ...$queryData['params']);
         }
-        if ($result === null) {
-            $result = $this->wpdb->get_row($queryData['sql'], ARRAY_A);
-        }
+        $result = $this->wpdb->get_row($sqlToRun, ARRAY_A);
         if ($result === null) {
             throw new QueryExecutionException(
                 BackendStrings::getExceptionStrings()['unable_search_entries'] . __CLASS__

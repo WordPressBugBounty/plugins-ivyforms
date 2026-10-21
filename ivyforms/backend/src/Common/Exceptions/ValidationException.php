@@ -17,6 +17,8 @@ class ValidationException extends Exception
     /** @var array<string, string|array{code: string}> */
     private array $fieldErrors;
 
+    private string $errorCode = '';
+
     /**
      * ValidationException constructor.
      *
@@ -41,5 +43,21 @@ class ValidationException extends Exception
     public function getFieldErrors(): array
     {
         return $this->fieldErrors;
+    }
+
+    /**
+     * Machine-readable code returned to the public form (for example file_upload_failed).
+     */
+    public function setErrorCode(string $errorCode): void
+    {
+        $this->errorCode = $errorCode;
+    }
+
+    /**
+     * @return string
+     */
+    public function getErrorCode(): string
+    {
+        return $this->errorCode;
     }
 }

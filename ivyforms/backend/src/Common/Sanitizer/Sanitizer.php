@@ -8,6 +8,7 @@
 namespace IvyForms\Common\Sanitizer;
 
 use IvyForms\Common\Constants\SupportedCurrencyCodes;
+use IvyForms\Common\Upload\UploadFileExtensionPolicy;
 use IvyForms\Common\Exceptions\ForbiddenException;
 use IvyForms\Common\Exceptions\InvalidArgumentException;
 use IvyForms\Services\Field\FieldType;
@@ -820,6 +821,9 @@ class Sanitizer
     }
 
     /**
+     * Keep extensions WordPress itself allows, and drop script/active-content types
+     * such as php, html, js, and svg. CVE-2026-109384.
+     *
      * @param mixed $raw
      *
      * @return array<int, string>
@@ -839,7 +843,7 @@ class Sanitizer
             if ($ext === '' || strlen($ext) > 20 || !preg_match('/^[a-z0-9]+$/', $ext)) {
                 continue;
             }
-            if (isset($seen[$ext])) {
+            if (!UploadFileExtensionPolicy::isWordPressAllowed($ext) || isset($seen[$ext])) {
                 continue;
             }
             $seen[$ext] = true;

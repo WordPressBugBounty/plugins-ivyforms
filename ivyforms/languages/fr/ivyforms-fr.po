@@ -417,18 +417,6 @@ msgstr ""
 msgid "Added %d fields successfully."
 msgstr "%d champs ajoutés avec succès."
 
-msgid "Added AI choice generation for Dropdown, Radio, and Checkbox fields."
-msgstr ""
-
-msgid "Added CC and BCC recipients to email notifications."
-msgstr ""
-
-msgid "Added a Disable styles option so forms can inherit the theme styling."
-msgstr ""
-
-msgid "Added import from WPForms and Gravity Forms."
-msgstr ""
-
 msgid "Additional CSS Class(es)"
 msgstr "Classes CSS supplémentaires"
 
@@ -4261,6 +4249,9 @@ msgstr ""
 msgid "File size exceeded."
 msgstr ""
 
+msgid "File size exceeded. Maximum file size is {max}."
+msgstr ""
+
 msgid "File upload"
 msgstr ""
 
@@ -4315,29 +4306,69 @@ msgstr "Formulaire d’inscription à un cours de fitness"
 msgid "Fitness goals"
 msgstr "Objectifs de remise en forme"
 
-msgid "Fixed Email and Confirm Email field spacing on the frontend."
-msgstr ""
-
-msgid "Fixed an error when clicking the Message field in Confirmations."
-msgstr ""
-
-msgid "Fixed console errors when opening a new form in the form builder."
-msgstr ""
-
-msgid "Fixed editing HTML code in the Message field."
-msgstr ""
-
-msgid "Fixed form export failing when no notifications are configured."
-msgstr ""
-
-msgid "Fixed moving an added field in the form builder."
+msgid ""
+"Fixed Address field City and State subfields swapping order on the frontend."
 msgstr ""
 
 msgid ""
-"Fixed the HEX color input in the Style tab overwriting manually typed values."
+"Fixed Learn more on the Amelia, Zapier, API, and Google Sheets cards not "
+"opening docs."
 msgstr ""
 
-msgid "Fixed {{all_data}} in notifications ignoring the reordered field order."
+msgid ""
+"Fixed Product Order Form so Customer name includes First name and Last name."
+msgstr ""
+
+msgid "Fixed a database error when saving a form with more than 54 fields."
+msgstr ""
+
+msgid ""
+"Fixed arbitrary file uploads via allowed extensions on public submissions "
+"(CVE-2026-109384)."
+msgstr ""
+
+msgid ""
+"Fixed deleting a field in one section shrinking half-width fields in other "
+"sections."
+msgstr ""
+
+msgid ""
+"Fixed large PDF uploads bypassing the file size limit and failing with an "
+"\"Invalid ID\" error."
+msgstr ""
+
+msgid ""
+"Fixed negative Years of experience on the Software developer job application "
+"template."
+msgstr ""
+
+msgid ""
+"Fixed notification Subject placeholders so they list every field, like "
+"Message."
+msgstr ""
+
+msgid ""
+"Fixed required validation being skipped for most field types, which let an "
+"empty form submit."
+msgstr ""
+
+msgid ""
+"Fixed status filter counts when the form and date filters are used together."
+msgstr ""
+
+msgid ""
+"Fixed the Email field Required message being replaced by the valid-email "
+"message."
+msgstr ""
+
+msgid "Fixed the Explore Collection button on the themes upgrade card."
+msgstr ""
+
+msgid "Fixed the Product field showing raw JSON in notification placeholders."
+msgstr ""
+
+msgid ""
+"Fixed two confirmation popups appearing when deleting a permission rule."
 msgstr ""
 
 msgid "Flexibility"
@@ -5835,9 +5866,6 @@ msgstr "Importation..."
 msgid "Improve IvyForms"
 msgstr ""
 
-msgid "Improved compatibility with PHP 8.5."
-msgstr ""
-
 msgid "Improvements"
 msgstr "Améliorations"
 
@@ -7184,6 +7212,9 @@ msgstr "Nouvelles compétences"
 
 msgid "New style"
 msgstr "Nouveau style"
+
+msgid "New theme saved successfully"
+msgstr ""
 
 msgid "Newsletter sign-up forms"
 msgstr "Formulaires d’inscription à la newsletter"
@@ -9401,6 +9432,12 @@ msgstr "Enregistrer"
 msgid "Save as draft"
 msgstr "Enregistrer comme brouillon"
 
+msgid "Save as new theme"
+msgstr ""
+
+msgid "Save as theme"
+msgstr ""
+
 msgid "Save choices"
 msgstr ""
 
@@ -11271,6 +11308,9 @@ msgstr ""
 
 msgid "Total number of days"
 msgstr "Nombre total de jours"
+
+msgid "Total upload size exceeded. Maximum is {max}."
+msgstr ""
 
 msgid "Trade / skill type"
 msgstr ""

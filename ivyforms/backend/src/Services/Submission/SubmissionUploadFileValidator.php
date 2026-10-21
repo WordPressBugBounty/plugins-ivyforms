@@ -11,6 +11,7 @@ namespace IvyForms\Services\Submission;
 
 use IvyForms\Common\Exceptions\FieldValidationException;
 use IvyForms\Common\Exceptions\ValidationException;
+use IvyForms\Common\Upload\UploadFileExtensionPolicy;
 use IvyForms\Entity\Field\Field as FieldEntity;
 use IvyForms\Services\Translations\BackendStrings;
 
@@ -96,6 +97,11 @@ final class SubmissionUploadFileValidator
             return;
         }
 
+        self::rejectDangerousOnlyAllowList(
+            $fieldEntity->getFieldAdvancedSettings()->getAllowedFileExtensions(),
+            $logicalKey
+        );
+
         $uploadName = isset($fileStruct['name']) ? (string) $fileStruct['name'] : '';
         $ext = $uploadName !== '' ? strtolower(pathinfo($uploadName, PATHINFO_EXTENSION)) : '';
 
@@ -111,10 +117,15 @@ final class SubmissionUploadFileValidator
             $fieldEntity
         );
 
+        if (UploadFileExtensionPolicy::isDangerous($ext)) {
+            self::fail('file_upload_invalid_type', $logicalKey);
+        }
+
         $allowed = $fieldEntity->getFieldAdvancedSettings()->getAllowedFileExtensions();
-        $allowed = self::normalizeAllowedExtensions($allowed);
+        $allowed = UploadFileExtensionPolicy::normalizeExtensions($allowed);
+        /** @var array<int, mixed> $allowed */
         $allowed = apply_filters('ivyforms/file-upload/allowed_extensions', $allowed, $fieldEntity);
-        $allowed = self::normalizeAllowedExtensions($allowed);
+        $allowed = UploadFileExtensionPolicy::normalizeExtensions($allowed);
 
         if ($allowed === []) {
             if (self::isExtensionAllowedByWordPressMimes($uploadName, $ext)) {
@@ -131,6 +142,20 @@ final class SubmissionUploadFileValidator
         self::fail('file_upload_invalid_type', $logicalKey);
     }
 
+    /**
+     * A list of only dangerous extensions must not fall through to "all types".
+     *
+     * @param array<int, string> $configured
+     */
+    private static function rejectDangerousOnlyAllowList(array $configured, ?string $logicalKey): void
+    {
+        if (!UploadFileExtensionPolicy::containsOnlyDangerous($configured)) {
+            return;
+        }
+
+        self::fail('file_upload_invalid_type', $logicalKey);
+    }
+
     private static function isExtensionAllowedByWordPressMimes(string $uploadName, string $ext): bool
     {
         if ($ext === '') {
@@ -141,30 +166,6 @@ final class SubmissionUploadFileValidator
 
         return $checked['ext'] !== false
             && strtolower($checked['ext']) === $ext;
-    }
-
-    /**
-     * @param array<int, mixed> $allowed
-     *
-     * @return array<int, string>
-     */
-    public static function normalizeAllowedExtensions(array $allowed): array
-    {
-        $out = [];
-        $seen = [];
-        foreach ($allowed as $item) {
-            if (!is_string($item)) {
-                continue;
-            }
-            $ext = strtolower(ltrim(trim($item), '.'));
-            if ($ext === '' || isset($seen[$ext])) {
-                continue;
-            }
-            $seen[$ext] = true;
-            $out[] = $ext;
-        }
-
-        return $out;
     }
 
     public static function assertUploadCountWithinLimits(

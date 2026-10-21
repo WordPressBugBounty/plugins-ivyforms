@@ -38,9 +38,9 @@ class FormsTable extends AbstractDatabaseTable
                    `published` INT(1) NULL,
                    `dateCreated` DATETIME NULL,
                    `dateEdited` DATETIME NULL,
-                   `settings` TEXT NOT NULL,
-                   `integrationSettings` TEXT NOT NULL,
-                   `styleSettings` TEXT NULL,
+                   `settings` LONGTEXT NOT NULL,
+                   `integrationSettings` LONGTEXT NOT NULL,
+                   `styleSettings` LONGTEXT NULL,
                     PRIMARY KEY (`id`)
                 ) DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
     }

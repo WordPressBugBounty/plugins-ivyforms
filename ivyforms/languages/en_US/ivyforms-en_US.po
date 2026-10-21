@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IvyForms\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 13:17+0000\n"
+"POT-Creation-Date: 2026-10-20 12:28+0000\n"
 "PO-Revision-Date: 2026-07-15T17:12+02:00\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -17,793 +17,27 @@ msgstr ""
 "X-Poedit-KeywordsList: _;gettext;_e;__;esc_html_e;esc_attr_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
-msgid "You do not have permission to access this page."
+msgid "Guest"
 msgstr ""
 
 #, php-format
 msgid "%1$s must be at most %2$d characters."
 msgstr ""
 
-#, php-format
-msgid "Granted permissions to role \"%s\"."
+msgid "Form ID must be a positive integer."
 msgstr ""
 
 #, php-format
-msgid "Revoked permissions from role \"%s\"."
+msgid "%s cannot be empty."
 msgstr ""
 
-msgid "A valid userId is required."
-msgstr ""
-
-#, php-format
-msgid "Granted permissions to user #%d."
-msgstr ""
-
-#, php-format
-msgid "Revoked permissions from user #%d."
-msgstr ""
-
-msgid "No valid permission keys provided."
-msgstr ""
-
-msgid "Could not read the current access rules; no changes were made."
-msgstr ""
-
-msgid "Failed to update access rules."
-msgstr ""
-
-msgid "First name"
-msgstr ""
-
-msgid "Last name"
-msgstr ""
-
-msgid "Street address"
-msgstr ""
-
-msgid "Address line 2"
-msgstr ""
-
-msgid "City"
-msgstr ""
-
-msgid "State / Province"
-msgstr ""
-
-msgid "Zip / Postal code"
-msgstr ""
-
-msgid "Country"
-msgstr ""
-
-msgid "Statement 1"
-msgstr ""
-
-msgid "Statement 2"
-msgstr ""
-
-msgid "Statement 3"
-msgstr ""
-
-msgid "Option 1"
-msgstr ""
-
-msgid "Option 2"
-msgstr ""
-
-msgid "Choice 1"
-msgstr ""
-
-msgid "Choice 2"
-msgstr ""
-
-msgid "Choice 3"
-msgstr ""
-
-msgid "Option 3"
-msgstr ""
-
-msgid "Text"
-msgstr ""
-
-msgid "Paragraph"
-msgstr ""
-
-msgid "Email"
-msgstr ""
-
-msgid "Number"
-msgstr ""
-
-msgid "Phone"
-msgstr ""
-
-msgid "Website/URL"
-msgstr ""
-
-msgid "Name"
-msgstr ""
-
-msgid "Address"
-msgstr ""
-
-msgid "Radio button"
-msgstr ""
-
-msgid "Checkbox"
-msgstr ""
-
-msgid "Dropdown"
-msgstr ""
-
-msgid "Date picker"
-msgstr ""
-
-msgid "Time picker"
-msgstr ""
-
-msgid "Date & time (picker)"
-msgstr ""
-
-msgid "Rating"
-msgstr ""
-
-msgid "HTML"
-msgstr ""
-
-msgid "Slider"
-msgstr ""
-
-msgid "File upload"
-msgstr ""
-
-msgid "GDPR"
-msgstr ""
-
-msgid "Product"
-msgstr ""
-
-msgid "Quantity"
-msgstr ""
-
-msgid "Total"
-msgstr ""
-
-msgid "Net promoter"
-msgstr ""
-
-msgid "Likert"
-msgstr ""
-
-msgid "Rich Text"
-msgstr ""
-
-msgid "Password"
-msgstr ""
-
-msgid "Signature"
-msgstr ""
-
-msgid "Failed to duplicate the field."
-msgstr ""
-
-#, php-format
-msgid "Field \"%s\" duplicated successfully."
-msgstr ""
-
-msgid "Field"
-msgstr ""
-
-msgid "Field duplicated but child fields could not be linked."
-msgstr ""
-
-msgid "A valid form ID is required."
-msgstr ""
-
-msgid "At least one field update is required."
-msgstr ""
-
-msgid "No valid field updates were provided."
-msgstr ""
-
-msgid "Field order updated successfully."
-msgstr ""
-
-msgid "Failed to update field order."
-msgstr ""
-
-#, php-format
-msgid "Invalid pageId \"%s\" for this form."
-msgstr ""
-
-msgid "A total greater than zero is required."
-msgstr ""
-
-msgid "Drag file here or click to upload"
-msgstr ""
-
-msgid "I agree to the terms and conditions."
-msgstr ""
-
-msgid "This field is required"
-msgstr ""
-
-msgid "Good"
-msgstr ""
-
-msgid "Nice"
-msgstr ""
-
-msgid "Very good"
-msgstr ""
-
-msgid "Awesome"
-msgstr ""
-
-msgid "Amazing"
-msgstr ""
-
-msgid "Strongly disagree"
-msgstr ""
-
-msgid "Disagree"
-msgstr ""
-
-msgid "Neutral"
-msgstr ""
-
-msgid "Agree"
-msgstr ""
-
-msgid "Strongly agree"
-msgstr ""
-
-msgid "Get Changelog"
+msgid "IvyForms"
 msgstr ""
 
 msgid ""
-"Retrieve the IvyForms changelog, including latest version updates, features, "
-"improvements, \n"
-"                and bug fixes.\n"
-"\n"
-"                Use this ability ONLY when the user explicitly asks for:\n"
-"                - changelog\n"
-"                - release notes\n"
-"                - what changed in IvyForms\n"
-"                - version updates or update history\n"
-"\n"
-"                Do NOT use this ability for:\n"
-"                - plugin settings\n"
-"                - documentation\n"
-"                - feature explanation unrelated to versions\n"
-"                - support/debugging issues\n"
-"\n"
-"                This is a READ-ONLY informational endpoint and does not "
-"modify any data."
-msgstr ""
-
-msgid "Get Access Rules"
-msgstr ""
-
-msgid ""
-"List the current IvyForms permission (access) rules that grant roles and "
-"users access to forms, entries, and settings. READ-ONLY. Administrator "
-"access required. Use this before granting or revoking permissions so you "
-"know the current state."
-msgstr ""
-
-msgid "Could not read the current access rules."
-msgstr ""
-
-msgid "List Permission Keys"
-msgstr ""
-
-msgid ""
-"List the available IvyForms permission keys (with labels) and the WordPress "
-"roles they can be assigned to. READ-ONLY. Administrator access required. Use "
-"this to discover valid permission keys before granting/revoking."
-msgstr ""
-
-msgid "Grant Role Permission"
-msgstr ""
-
-msgid ""
-"Grant one or more IvyForms permissions to a WordPress role. Administrator "
-"access required. Optionally limit the grant to specific form IDs (omit "
-"formIds to grant globally). Valid permission keys: view_forms_list, "
-"add_edit_forms, delete_forms, access_settings_page, view_entries_admin, "
-"delete_entries_admin. Use list-permission-keys to discover keys/roles and "
-"get-access-rules to review the result."
-msgstr ""
-
-msgid "Role slug, e.g. subscriber, editor"
-msgstr ""
-
-msgid "Permission keys to grant"
-msgstr ""
-
-msgid "Optional: limit the grant to these form IDs"
-msgstr ""
-
-msgid "Revoke Role Permission"
-msgstr ""
-
-msgid ""
-"Revoke one or more IvyForms permissions from a WordPress role. Administrator "
-"access required. Optionally limit the revoke to specific form IDs (omit "
-"formIds to revoke from global rules only). If a role rule has no permissions "
-"left afterwards it is removed entirely. Use get-access-rules to review the "
-"current grants first."
-msgstr ""
-
-msgid "Permission keys to revoke"
-msgstr ""
-
-msgid ""
-"Optional: limit the revoke to these form IDs (omit for global rules only)"
-msgstr ""
-
-msgid "Grant User Permission"
-msgstr ""
-
-msgid ""
-"Grant one or more IvyForms permissions to a specific WordPress user. "
-"Administrator access required. Identify the user by userId, or by userLogin/"
-"userEmail. Optionally limit the grant to specific form IDs (omit formIds to "
-"grant globally). User-targeted grants override role-targeted grants for the "
-"same permission."
-msgstr ""
-
-msgid "WordPress user ID"
-msgstr ""
-
-msgid "WordPress username (if userId unknown)"
-msgstr ""
-
-msgid "WordPress user email (if userId unknown)"
-msgstr ""
-
-msgid "Revoke User Permission"
-msgstr ""
-
-msgid ""
-"Revoke one or more IvyForms permissions from a specific WordPress user. "
-"Administrator access required. Identify the user by userId, or by userLogin/"
-"userEmail. Optionally limit the revoke to specific form IDs (omit formIds to "
-"revoke from global rules only). If a user rule has no permissions left "
-"afterwards it is removed entirely."
-msgstr ""
-
-msgid "Open Form Builder"
-msgstr ""
-
-msgid ""
-"Returns the admin URL to open a specific form in the IvyForms builder. Use "
-"when the user asks to open, edit, or navigate to a form, its settings, or "
-"its results. Returns an adminLink the user can click to navigate to the "
-"form. Section values: \"settings/general\" for general settings, \"settings/"
-"notification\" (alias: \"settings/notifications\") for notifications, "
-"\"settings/integrations\" for integrations, \"results/entries\" for form "
-"entries/submissions."
-msgstr ""
-
-msgid "Open Entry"
-msgstr ""
-
-msgid ""
-"Returns the admin URL to open a specific entry/submission details page. Use "
-"when the user asks to open, view, or go to a specific entry. Returns an "
-"adminLink the user can click to navigate to the entry."
-msgstr ""
-
-msgid "List Integrations"
-msgstr ""
-
-msgid ""
-"Retrieve a list of all available IvyForms integrations. This ability is "
-"strictly for discovery and overview of integrations and does NOT return \n"
-"                configuration details for a specific integration. WHEN TO "
-"USE: - Use when the user asks which integrations are available, what "
-"integrations exist,\n"
-"                 list/show integrations, or supported third-party services. "
-"- Use for marketplace views, onboarding, or integration selection flows. - "
-"Optionally use when filtering by plan tier (e.g. free/pro/enterprise). WHAT "
-"IT RETURNS: - Integration slug (identifier) - Integration name - "
-"Availability or plan tier (if applicable) - Basic metadata required for "
-"listing and selection IMPORTANT RULES: 1. This is a READ-ONLY discovery "
-"endpoint. No configuration data is modified. 2. Do NOT use this for fetching "
-"details of a specific integration; use get-integration instead. 3. Do NOT "
-"assume returned integrations are already configured for the user. 4. Do NOT "
-"use this for enabling, disabling, or modifying integrations. AGENT BEHAVIOR "
-"GUIDELINES: - Treat this as the starting point for integration selection "
-"workflows. - If user selects a specific integration, immediately switch to "
-"get-integration. - Use slug values as stable identifiers for follow-up "
-"calls. COMMON MISTAKES TO AVOID: - Do NOT confuse this with get-integration "
-"(single integration details). - Do NOT assume credentials or settings are "
-"included. - Do NOT attempt to configure integrations from this ability."
-msgstr ""
-
-msgid "Get Integration"
-msgstr ""
-
-msgid ""
-"Retrieve detailed information about a specific IvyForms integration using "
-"its slug. This ability returns full integration metadata and configuration "
-"schema where applicable. WHEN TO USE: - Use ONLY when a specific integration "
-"slug is known (e.g. mailchimp, zapier, slack). - Use when the user asks for "
-"details, configuration, setup, \n"
-"                or capabilities of a single integration. WHAT IT RETURNS: - "
-"Integration slug and name - Configuration requirements (API keys, tokens, "
-"etc.) - Supported features and capabilities - Setup instructions or metadata "
-"(if available) IMPORTANT RULES: 1. This is a READ-ONLY detailed lookup "
-"operation. 2. Do NOT use for listing all integrations; use list-integrations "
-"instead. 3. This does NOT enable or connect integrations automatically. 4. "
-"This only provides metadata and configuration structure. AGENT BEHAVIOR "
-"GUIDELINES: - Use this after selection from list-integrations. - Treat this "
-"as prerequisite before any integration setup workflow. - If user wants to "
-"connect an integration, this is the first step before configuration actions. "
-"COMMON MISTAKES TO AVOID: - Do NOT assume integration is active or "
-"connected. - Do NOT perform configuration changes from this ability. - Do "
-"NOT use for listing multiple integrations."
-msgstr ""
-
-msgid "A valid slug is required."
-msgstr ""
-
-msgid "List Entries"
-msgstr ""
-
-msgid ""
-"List IvyForms form entries (submissions) with pagination, optional text "
-"search, form filter, and sorting. Through this MCP ability, orderBy is "
-"limited to id or formName \n"
-"                (matching the plugin list UI)."
-msgstr ""
-
-msgid "Get Entry"
-msgstr ""
-
-msgid ""
-"Retrieve a single IvyForms form entry (submission) by entryId.\n"
-"\n"
-"                Returns the entry record plus field values suitable for "
-"inspecting one submission.\n"
-"\n"
-"                Use this ability when the user asks to:\n"
-"                - open or view details for one entry when its ID is known\n"
-"                - inspect field values submitted in a single response\n"
-"\n"
-"                DO NOT use this ability when the user wants:\n"
-"                - multiple entries or a list/browse flow → use ivyforms/list-"
-"entries\n"
-"                - form structure or builder fields → use ivyforms/get-form\n"
-"                - notifications or emails → use notification abilities\n"
-"\n"
-"                Entry content/status editing is not exposed as an MCP "
-"ability; only starring is available\n"
-"                 via ivyforms/update-entry-starred.\n"
-"\n"
-"                This is READ-ONLY. The response includes adminLink when the "
-"entry resolves successfully."
-msgstr ""
-
-msgid "Invalid entry ID."
-msgstr ""
-
-msgid "Get Entry Count"
-msgstr ""
-
-msgid ""
-"Retrieve the total number of IvyForms entries (submissions) for one or more "
-"form IDs.\n"
-"\n"
-"                This ability returns ONLY counts (aggregated numbers), not "
-"entry data.\n"
-"\n"
-"                Use this ability when the user asks:\n"
-"                - how many entries a form has\n"
-"                - total submissions count\n"
-"                - number of responses for one or more forms\n"
-"                - entry statistics in the form of counts only\n"
-"\n"
-"                DO NOT use this ability for:\n"
-"                - listing actual entries → use ivyforms/list-entries\n"
-"                - retrieving a single entry → use ivyforms/get-entry\n"
-"                - searching or filtering entry data → use ivyforms/list-"
-"entries\n"
-"                - analytics or reporting beyond simple totals\n"
-"\n"
-"                This is a READ-ONLY aggregation endpoint and does not return "
-"individual entry records.\n"
-"\n"
-"                Provide formIds as an array; the response includes counts "
-"keyed by each form ID."
-msgstr ""
-
-msgid "Update Entry Starred"
-msgstr ""
-
-msgid ""
-"Mark an IvyForms entry as starred or unstarred (favorite toggle).\n"
-"                This ability updates ONLY the \"starred\" status of an entry "
-"and does NOT modify entry content.\n"
-"\n"
-"                Use this ability when the user wants to:\n"
-"                - star an entry\n"
-"                - mark an entry as important or favorite\n"
-"                - unstar or remove star from an entry\n"
-"                - toggle entry priority or bookmarking state\n"
-"\n"
-"                DO NOT use this ability for:\n"
-"                - editing entry field values or read/unread status (not "
-"exposed as an MCP ability)\n"
-"                - listing or viewing entries → use list-entries or get-"
-"entry\n"
-"                - bulk updates or modifications beyond star status\n"
-"\n"
-"                This is a SAFE STATE CHANGE operation that only toggles a "
-"single boolean flag (starred/unstarred)."
-msgstr ""
-
-msgid "Add Form Field"
-msgstr ""
-
-msgid ""
-"Add a new field to an existing IvyForms form. Supported types: text, "
-"textarea, email, number, phone, website, name, radio, checkbox, select, "
-"multi-select, address, date, time, rating, html, slider, file-upload, gdpr, "
-"product, quantity, total. When IvyForms Pro is active, password, signature, "
-"date_time, likert, nps, and rich_text are also supported. After adding a "
-"field, use open-form-builder to let the user see and configure. For "
-"multipage forms (Pro), pass pageId (e.g. page_1) to place the field on a "
-"specific page."
-msgstr ""
-
-msgid "Add Form Fields"
-msgstr ""
-
-msgid ""
-"Add one or more new fields to an existing IvyForms form. This ability "
-"modifies stored form configuration \n"
-"                (writes the whole form payload like the builder save). "
-"REQUIRED INPUTS: formId and fields (each item requires type). \n"
-"                Optional per-field keys mirror add-form-field. SUPPORTED "
-"FIELD TYPES: text, textarea, email, number, phone, website, name, radio, "
-"checkbox, select, multi-select, address, date, time, rating, html, slider, "
-"file-upload, gdpr, product, quantity, total. If IvyForms Pro is active, "
-"password, signature, date_time, likert, nps, and rich_text fields are also "
-"supported. IMPORTANT WORKFLOW RULES: 1. This ability ONLY adds fields to an "
-"existing form (it does NOT create a form). 2. If formId is missing or "
-"unknown, the agent MUST first use get-forms or \n"
-"                create-form before calling this. 3. After successfully "
-"adding fields, the next step should usually be open-form-builder\n"
-"                 so the user can review layout and options. 4. Do not assume "
-"field ordering unless explicitly returned by the API response. FIELD "
-"BEHAVIOR NOTES: - label defaults to a capitalized version of type if not "
-"provided. - required defaults to false. - width defaults to 100 if not "
-"specified. - description is helper text shown under the field in UI. COMMON "
-"AGENT MISTAKES TO AVOID: - Do NOT call this if the user wants to create a "
-"form (use create-form instead). - Do NOT assume the field already exists "
-"after calling this ability until API confirms success. - Do NOT duplicate "
-"fields manually; use duplicate-form-field for that purpose."
-msgstr ""
-
-msgid "Duplicate Form Field"
-msgstr ""
-
-msgid "Duplicate an existing field in an IvyForms form by its ID."
-msgstr ""
-
-msgid "Reorder Form Fields"
-msgstr ""
-
-msgid ""
-"Reorder and adjust layout metadata for IvyForms form fields without changing "
-"field \n"
-"                types or deleting them. Send formId plus a fields array "
-"listing each affected field id with its new position, \n"
-"                and optionally rowIndex, columnIndex, width, and pageId "
-"(multipage / Pro). Unlike duplicate-form-field, this updates existing "
-"records in place via a form save. REQUIRED INPUTS: formId, and for each "
-"element in fields: id and position (per input schema). After reordering, use "
-"open-form-builder if the user should verify layout in the UI."
-msgstr ""
-
-msgid "List Templates"
-msgstr ""
-
-msgid ""
-"Get all available IvyForms form templates including metadata such as id, "
-"name, description,\n"
-"                 category, and pro availability flag. WHEN TO USE: - Use "
-"when the user asks what templates exist, available form starters, \n"
-"                template library, or template options. - Use when creating a "
-"new form from a predefined structure \n"
-"                (e.g. contact form, blank form, survey form). - Use when the "
-"user is browsing or comparing available form layouts before creation. WHAT "
-"IT RETURNS: - Template ID (unique identifier such as \"blank_form\", "
-"\"contact_form\") - Template name - Template description explaining purpose "
-"and use-case - Category grouping (e.g. business, contact, survey) - Pro flag "
-"indicating if template requires premium version IMPORTANT RULES: 1. This is "
-"a READ-ONLY discovery endpoint (no modifications). 2. Do NOT use this for "
-"creating forms; use create-form with templateId instead. 3. Do NOT assume "
-"template fields are included in this response; \n"
-"                use get-template for full structure. 4. Results may be "
-"partial or grouped depending on system configuration. AGENT BEHAVIOR "
-"GUIDELINES: - Use this as the entry point for form creation workflows. - "
-"After selection, pass templateId directly to create-form. - Prefer this over "
-"guessing template IDs. COMMON MISTAKES TO AVOID: - Do NOT confuse templates "
-"with actual forms (use get-forms for forms). - Do NOT attempt to render full "
-"form structure from this endpoint. - Do NOT use this to modify templates."
-msgstr ""
-
-msgid "Get Template"
-msgstr ""
-
-msgid ""
-"Retrieve complete IvyForms template definition by template ID, \n"
-"                including all structure, fields, and configuration used to "
-"generate forms. WHEN TO USE: - Use when the user selects a specific template "
-"and wants to inspect its structure\n"
-"                 before creating a form. - Use when previewing or explaining "
-"what a template contains (fields, layout, configuration). - Use when "
-"debugging or validating template-based form creation. WHAT IT RETURNS: - "
-"Full template object including metadata (id, name, description) - Complete "
-"field structure and layout definition - Configuration required to generate a "
-"form from this template - Internal template schema used by the form builder "
-"IMPORTANT RULES: 1. This is a READ-ONLY detailed fetch operation. 2. "
-"Requires a valid templateId (e.g. blank_form, contact_form). 3. Do NOT use "
-"this for listing templates; use list-templates instead. 4. Response may be "
-"large because it includes full structure definition. AGENT BEHAVIOR "
-"GUIDELINES: - Use this only after a template is selected or explicitly "
-"requested. - Prefer list-templates for discovery and this for deep "
-"inspection. - Pass output directly into form creation workflows when needed. "
-"COMMON MISTAKES TO AVOID: - Do NOT call this without a known templateId. - "
-"Do NOT use this as a substitute for form data (it is not a live form). - Do "
-"NOT assume template equals editable form instance."
-msgstr ""
-
-msgid "A valid template ID is required."
-msgstr ""
-
-msgid "List Forms"
-msgstr ""
-
-msgid ""
-"List all existing IvyForms forms. This ability is strictly for retrieving an "
-"overview of available forms and does \n"
-"                NOT return full form details. WHEN TO USE: - Use when the "
-"user asks which forms exist, what forms they have, list/show/display forms,\n"
-"                 or how many forms exist. - Use for dashboards, overviews, "
-"or selection steps before operating on a specific form. WHAT IT RETURNS: - "
-"Form ID (if available) - Form name - Publication status (published/"
-"unpublished) - Admin link for navigation (use it to turn the name into a "
-"clickable markdown link) IMPORTANT RULES: 1. This is a READ-ONLY listing "
-"operation (no modifications happen). 2. Do NOT use this to fetch full form "
-"configuration; use get-form for that. 3. Do NOT use this to create or modify "
-"forms; use create-form or update-form-settings. 4. If a user refers to a "
-"specific form ID, prefer get-form instead. 5. This endpoint is safe for "
-"repeated calls and listing/overview workflows. AGENT BEHAVIOR GUIDELINES: - "
-"Always treat this as the entry point for form discovery. - Use adminLink for "
-"navigation instead of building URLs manually. - If user intent shifts to "
-"editing, transition to get-form → update-form-settings flow. COMMON MISTAKES "
-"TO AVOID: - Do NOT confuse this with get-form (single form details). - Do "
-"NOT assume field-level data is included. - Do NOT attempt updates or "
-"mutations from this ability."
-msgstr ""
-
-msgid "Get Form"
-msgstr ""
-
-msgid ""
-"Get full details of a single IvyForms form using its formId. This ability "
-"returns complete form configuration including structure, fields, and "
-"settings. WHEN TO USE: - Use only when a specific formId is known or "
-"explicitly provided by the user. - Use when user requests to view, inspect, "
-"or edit a specific form. WHAT IT RETURNS: - Full form metadata (id, name, "
-"settings) - Complete field structure and layout - Configuration and behavior "
-"settings - Admin link for editing/navigation IMPORTANT RULES: 1. This is a "
-"READ-ONLY detailed fetch operation. 2. Do NOT use for listing or searching "
-"multiple forms; use get-forms instead. 3. This returns full structure and "
-"may be heavier than list operations. 4. Use this before any form editing or "
-"field modification workflows. AGENT BEHAVIOR GUIDELINES: - Always prefer "
-"this after form selection from get-forms. - Use adminLink for navigation or "
-"UI actions. - This is the canonical entry point for form editing context. "
-"COMMON MISTAKES TO AVOID: - Do NOT use for listing forms. - Do NOT assume "
-"this modifies data. - Do NOT skip this before edit operations."
-msgstr ""
-
-msgid "Invalid form ID."
-msgstr ""
-
-msgid "Create Form"
-msgstr ""
-
-msgid ""
-"Create a new IvyForms form from a template. This creates a fresh form "
-"instance but does NOT fully configure it. WHEN TO USE: - Use when user "
-"requests creation of a new form or starting a new form project. - Use when a "
-"template-based form is requested (e.g. blank_form, contact_form). WHAT IT "
-"RETURNS: - Newly created form ID - Admin link to access the form builder - "
-"Creation status message IMPORTANT RULES: 1. This is a DESTRUCTIVE WRITE "
-"operation (creates new persistent data). 2. Do NOT use for updating existing "
-"forms; use update-form-settings instead. 3. Do NOT use for adding fields; "
-"use add-form-field after creation. 4. Do NOT assume form is fully configured "
-"after creation. AGENT BEHAVIOR GUIDELINES: - After creation, immediately "
-"suggest next steps: settings → fields → publish. - Always guide user to "
-"update-form-settings for customization. COMMON MISTAKES TO AVOID: - Do NOT "
-"treat this as full form setup. - Do NOT add fields inside this operation. - "
-"Do NOT assume publishing happens automatically."
-msgstr ""
-
-msgid "Duplicate Form"
-msgstr ""
-
-msgid ""
-"Duplicate an existing IvyForms form by formId, creating an independent copy. "
-"The new form contains the same structure, fields, and configuration as the "
-"original. WHEN TO USE: - Use when user wants to copy, clone, or reuse an "
-"existing form. - Use when user wants a template based on an existing form. "
-"WHAT IT RETURNS: - New form ID - Admin link for the duplicated form - Copy "
-"status message IMPORTANT RULES: 1. This is a DESTRUCTIVE WRITE operation "
-"(creates new form). 2. The original form is never modified. 3. Do NOT use "
-"for editing or updating forms. AGENT BEHAVIOR GUIDELINES: - Treat "
-"duplication as a starting point for a new workflow. - After duplication, "
-"suggest update-form-settings or add-form-field depending on intent. COMMON "
-"MISTAKES TO AVOID: - Do NOT modify original form. - Do NOT confuse with "
-"create-form (template-based creation)."
-msgstr ""
-
-msgid "Update Form Settings"
-msgstr ""
-
-msgid ""
-"Update general settings of an existing IvyForms form. This includes metadata "
-"and UI behavior, but NOT fields or entries. WHEN TO USE: - Use when user "
-"wants to rename a form, change description, \n"
-"                publish/unpublish, or adjust visibility settings. - Use for "
-"configuration-level updates only. WHAT IT UPDATES: - Form name (max 255 "
-"characters) - Description (max 1000 characters) - Published status (draft/"
-"live) - UI settings (showTitle, showDescription, storeEntries) IMPORTANT "
-"RULES: 1. This is a WRITE operation affecting form metadata only. 2. Do NOT "
-"use for modifying fields (use field abilities instead). 3. Do NOT use for "
-"entries or submissions. 4. Do NOT use for structural changes. AGENT BEHAVIOR "
-"GUIDELINES: - Always ensure form exists via get-form before updating. - "
-"After update, confirm status and optionally suggest open-form-builder. "
-"COMMON MISTAKES TO AVOID: - Do NOT modify fields here. - Do NOT assume "
-"content structure changes. - Do NOT use for entry-level operations."
-msgstr ""
-
-msgid "Update Form Starred"
-msgstr ""
-
-msgid ""
-"Toggle starred (favorite) status of an IvyForms form. This is purely a UI/"
-"organizational flag and does NOT affect form behavior. WHEN TO USE: - Use "
-"when user wants to mark a form as important or favorite. - Use when user "
-"wants to remove a form from favorites. WHAT IT AFFECTS: - Only the starred "
-"flag (true/false) - No structural or behavioral changes IMPORTANT RULES: 1. "
-"This is a SAFE metadata update. 2. Does NOT affect publishing or visibility. "
-"3. Does NOT affect form data or structure. AGENT BEHAVIOR GUIDELINES: - Use "
-"for quick organization workflows. - Can be safely called multiple times. "
-"COMMON MISTAKES TO AVOID: - Do NOT treat as publishing action. - Do NOT "
-"confuse with status update."
-msgstr ""
-
-msgid "Update Form Status"
-msgstr ""
-
-msgid ""
-"Publish or unpublish an IvyForms form. Controls whether a form is live "
-"(public) or in draft (hidden). WHEN TO USE: - Use when user wants to make a "
-"form live or disable public access. - Use when toggling availability of a "
-"form. WHAT IT AFFECTS: - Form visibility (published vs unpublished) - Public "
-"accessibility of the form IMPORTANT RULES: 1. This is a SAFE STATUS update "
-"operation. 2. Does NOT modify structure, fields, or entries. 3. Does NOT "
-"delete or alter data. AGENT BEHAVIOR GUIDELINES: - Always confirm intent "
-"before publishing/unpublishing. - Prefer this over delete when user says "
-"\"disable\" or \"hide\". COMMON MISTAKES TO AVOID: - Do NOT modify settings "
-"or fields here."
+"IvyForms – Contact Form Builder for WordPress. Manage forms, entries/"
+"submissions, notifications, confirmations, settings, integrations, and "
+"templates."
 msgstr ""
 
 msgid "List Notifications"
@@ -963,6 +197,63 @@ msgid ""
 "filtered overview)."
 msgstr ""
 
+msgid "List Templates"
+msgstr ""
+
+msgid ""
+"Get all available IvyForms form templates including metadata such as id, "
+"name, description,\n"
+"                 category, and pro availability flag. WHEN TO USE: - Use "
+"when the user asks what templates exist, available form starters, \n"
+"                template library, or template options. - Use when creating a "
+"new form from a predefined structure \n"
+"                (e.g. contact form, blank form, survey form). - Use when the "
+"user is browsing or comparing available form layouts before creation. WHAT "
+"IT RETURNS: - Template ID (unique identifier such as \"blank_form\", "
+"\"contact_form\") - Template name - Template description explaining purpose "
+"and use-case - Category grouping (e.g. business, contact, survey) - Pro flag "
+"indicating if template requires premium version IMPORTANT RULES: 1. This is "
+"a READ-ONLY discovery endpoint (no modifications). 2. Do NOT use this for "
+"creating forms; use create-form with templateId instead. 3. Do NOT assume "
+"template fields are included in this response; \n"
+"                use get-template for full structure. 4. Results may be "
+"partial or grouped depending on system configuration. AGENT BEHAVIOR "
+"GUIDELINES: - Use this as the entry point for form creation workflows. - "
+"After selection, pass templateId directly to create-form. - Prefer this over "
+"guessing template IDs. COMMON MISTAKES TO AVOID: - Do NOT confuse templates "
+"with actual forms (use get-forms for forms). - Do NOT attempt to render full "
+"form structure from this endpoint. - Do NOT use this to modify templates."
+msgstr ""
+
+msgid "Get Template"
+msgstr ""
+
+msgid ""
+"Retrieve complete IvyForms template definition by template ID, \n"
+"                including all structure, fields, and configuration used to "
+"generate forms. WHEN TO USE: - Use when the user selects a specific template "
+"and wants to inspect its structure\n"
+"                 before creating a form. - Use when previewing or explaining "
+"what a template contains (fields, layout, configuration). - Use when "
+"debugging or validating template-based form creation. WHAT IT RETURNS: - "
+"Full template object including metadata (id, name, description) - Complete "
+"field structure and layout definition - Configuration required to generate a "
+"form from this template - Internal template schema used by the form builder "
+"IMPORTANT RULES: 1. This is a READ-ONLY detailed fetch operation. 2. "
+"Requires a valid templateId (e.g. blank_form, contact_form). 3. Do NOT use "
+"this for listing templates; use list-templates instead. 4. Response may be "
+"large because it includes full structure definition. AGENT BEHAVIOR "
+"GUIDELINES: - Use this only after a template is selected or explicitly "
+"requested. - Prefer list-templates for discovery and this for deep "
+"inspection. - Pass output directly into form creation workflows when needed. "
+"COMMON MISTAKES TO AVOID: - Do NOT call this without a known templateId. - "
+"Do NOT use this as a substitute for form data (it is not a live form). - Do "
+"NOT assume template equals editable form instance."
+msgstr ""
+
+msgid "A valid template ID is required."
+msgstr ""
+
 msgid "Get Settings"
 msgstr ""
 
@@ -1015,23 +306,732 @@ msgstr ""
 msgid "Category and option are required."
 msgstr ""
 
-msgid "IvyForms"
+msgid "Get Changelog"
 msgstr ""
 
 msgid ""
-"IvyForms – Contact Form Builder for WordPress. Manage forms, entries/"
-"submissions, notifications, confirmations, settings, integrations, and "
-"templates."
+"Retrieve the IvyForms changelog, including latest version updates, features, "
+"improvements, \n"
+"                and bug fixes.\n"
+"\n"
+"                Use this ability ONLY when the user explicitly asks for:\n"
+"                - changelog\n"
+"                - release notes\n"
+"                - what changed in IvyForms\n"
+"                - version updates or update history\n"
+"\n"
+"                Do NOT use this ability for:\n"
+"                - plugin settings\n"
+"                - documentation\n"
+"                - feature explanation unrelated to versions\n"
+"                - support/debugging issues\n"
+"\n"
+"                This is a READ-ONLY informational endpoint and does not "
+"modify any data."
 msgstr ""
 
-msgid "Changelog retrieved successfully"
+msgid "Get Access Rules"
 msgstr ""
 
-msgid "Integration slug is required"
+msgid ""
+"List the current IvyForms permission (access) rules that grant roles and "
+"users access to forms, entries, and settings. READ-ONLY. Administrator "
+"access required. Use this before granting or revoking permissions so you "
+"know the current state."
+msgstr ""
+
+msgid "Could not read the current access rules."
+msgstr ""
+
+msgid "List Permission Keys"
+msgstr ""
+
+msgid ""
+"List the available IvyForms permission keys (with labels) and the WordPress "
+"roles they can be assigned to. READ-ONLY. Administrator access required. Use "
+"this to discover valid permission keys before granting/revoking."
+msgstr ""
+
+msgid "Grant Role Permission"
+msgstr ""
+
+msgid ""
+"Grant one or more IvyForms permissions to a WordPress role. Administrator "
+"access required. Optionally limit the grant to specific form IDs (omit "
+"formIds to grant globally). Valid permission keys: view_forms_list, "
+"add_edit_forms, delete_forms, access_settings_page, view_entries_admin, "
+"delete_entries_admin. Use list-permission-keys to discover keys/roles and "
+"get-access-rules to review the result."
+msgstr ""
+
+msgid "Role slug, e.g. subscriber, editor"
+msgstr ""
+
+msgid "Permission keys to grant"
+msgstr ""
+
+msgid "Optional: limit the grant to these form IDs"
+msgstr ""
+
+msgid "Revoke Role Permission"
+msgstr ""
+
+msgid ""
+"Revoke one or more IvyForms permissions from a WordPress role. Administrator "
+"access required. Optionally limit the revoke to specific form IDs (omit "
+"formIds to revoke from global rules only). If a role rule has no permissions "
+"left afterwards it is removed entirely. Use get-access-rules to review the "
+"current grants first."
+msgstr ""
+
+msgid "Permission keys to revoke"
+msgstr ""
+
+msgid ""
+"Optional: limit the revoke to these form IDs (omit for global rules only)"
+msgstr ""
+
+msgid "Grant User Permission"
+msgstr ""
+
+msgid ""
+"Grant one or more IvyForms permissions to a specific WordPress user. "
+"Administrator access required. Identify the user by userId, or by userLogin/"
+"userEmail. Optionally limit the grant to specific form IDs (omit formIds to "
+"grant globally). User-targeted grants override role-targeted grants for the "
+"same permission."
+msgstr ""
+
+msgid "WordPress user ID"
+msgstr ""
+
+msgid "WordPress username (if userId unknown)"
+msgstr ""
+
+msgid "WordPress user email (if userId unknown)"
+msgstr ""
+
+msgid "Revoke User Permission"
+msgstr ""
+
+msgid ""
+"Revoke one or more IvyForms permissions from a specific WordPress user. "
+"Administrator access required. Identify the user by userId, or by userLogin/"
+"userEmail. Optionally limit the revoke to specific form IDs (omit formIds to "
+"revoke from global rules only). If a user rule has no permissions left "
+"afterwards it is removed entirely."
+msgstr ""
+
+msgid "List Forms"
+msgstr ""
+
+msgid ""
+"List all existing IvyForms forms. This ability is strictly for retrieving an "
+"overview of available forms and does \n"
+"                NOT return full form details. WHEN TO USE: - Use when the "
+"user asks which forms exist, what forms they have, list/show/display forms,\n"
+"                 or how many forms exist. - Use for dashboards, overviews, "
+"or selection steps before operating on a specific form. WHAT IT RETURNS: - "
+"Form ID (if available) - Form name - Publication status (published/"
+"unpublished) - Admin link for navigation (use it to turn the name into a "
+"clickable markdown link) IMPORTANT RULES: 1. This is a READ-ONLY listing "
+"operation (no modifications happen). 2. Do NOT use this to fetch full form "
+"configuration; use get-form for that. 3. Do NOT use this to create or modify "
+"forms; use create-form or update-form-settings. 4. If a user refers to a "
+"specific form ID, prefer get-form instead. 5. This endpoint is safe for "
+"repeated calls and listing/overview workflows. AGENT BEHAVIOR GUIDELINES: - "
+"Always treat this as the entry point for form discovery. - Use adminLink for "
+"navigation instead of building URLs manually. - If user intent shifts to "
+"editing, transition to get-form → update-form-settings flow. COMMON MISTAKES "
+"TO AVOID: - Do NOT confuse this with get-form (single form details). - Do "
+"NOT assume field-level data is included. - Do NOT attempt updates or "
+"mutations from this ability."
+msgstr ""
+
+msgid "Get Form"
+msgstr ""
+
+msgid ""
+"Get full details of a single IvyForms form using its formId. This ability "
+"returns complete form configuration including structure, fields, and "
+"settings. WHEN TO USE: - Use only when a specific formId is known or "
+"explicitly provided by the user. - Use when user requests to view, inspect, "
+"or edit a specific form. WHAT IT RETURNS: - Full form metadata (id, name, "
+"settings) - Complete field structure and layout - Configuration and behavior "
+"settings - Admin link for editing/navigation IMPORTANT RULES: 1. This is a "
+"READ-ONLY detailed fetch operation. 2. Do NOT use for listing or searching "
+"multiple forms; use get-forms instead. 3. This returns full structure and "
+"may be heavier than list operations. 4. Use this before any form editing or "
+"field modification workflows. AGENT BEHAVIOR GUIDELINES: - Always prefer "
+"this after form selection from get-forms. - Use adminLink for navigation or "
+"UI actions. - This is the canonical entry point for form editing context. "
+"COMMON MISTAKES TO AVOID: - Do NOT use for listing forms. - Do NOT assume "
+"this modifies data. - Do NOT skip this before edit operations."
+msgstr ""
+
+msgid "Invalid form ID."
+msgstr ""
+
+msgid "Create Form"
+msgstr ""
+
+msgid ""
+"Create a new IvyForms form from a template. This creates a fresh form "
+"instance but does NOT fully configure it. WHEN TO USE: - Use when user "
+"requests creation of a new form or starting a new form project. - Use when a "
+"template-based form is requested (e.g. blank_form, contact_form). WHAT IT "
+"RETURNS: - Newly created form ID - Admin link to access the form builder - "
+"Creation status message IMPORTANT RULES: 1. This is a DESTRUCTIVE WRITE "
+"operation (creates new persistent data). 2. Do NOT use for updating existing "
+"forms; use update-form-settings instead. 3. Do NOT use for adding fields; "
+"use add-form-field after creation. 4. Do NOT assume form is fully configured "
+"after creation. AGENT BEHAVIOR GUIDELINES: - After creation, immediately "
+"suggest next steps: settings → fields → publish. - Always guide user to "
+"update-form-settings for customization. COMMON MISTAKES TO AVOID: - Do NOT "
+"treat this as full form setup. - Do NOT add fields inside this operation. - "
+"Do NOT assume publishing happens automatically."
+msgstr ""
+
+msgid "Duplicate Form"
+msgstr ""
+
+msgid ""
+"Duplicate an existing IvyForms form by formId, creating an independent copy. "
+"The new form contains the same structure, fields, and configuration as the "
+"original. WHEN TO USE: - Use when user wants to copy, clone, or reuse an "
+"existing form. - Use when user wants a template based on an existing form. "
+"WHAT IT RETURNS: - New form ID - Admin link for the duplicated form - Copy "
+"status message IMPORTANT RULES: 1. This is a DESTRUCTIVE WRITE operation "
+"(creates new form). 2. The original form is never modified. 3. Do NOT use "
+"for editing or updating forms. AGENT BEHAVIOR GUIDELINES: - Treat "
+"duplication as a starting point for a new workflow. - After duplication, "
+"suggest update-form-settings or add-form-field depending on intent. COMMON "
+"MISTAKES TO AVOID: - Do NOT modify original form. - Do NOT confuse with "
+"create-form (template-based creation)."
+msgstr ""
+
+msgid "Update Form Settings"
+msgstr ""
+
+msgid ""
+"Update general settings of an existing IvyForms form. This includes metadata "
+"and UI behavior, but NOT fields or entries. WHEN TO USE: - Use when user "
+"wants to rename a form, change description, \n"
+"                publish/unpublish, or adjust visibility settings. - Use for "
+"configuration-level updates only. WHAT IT UPDATES: - Form name (max 255 "
+"characters) - Description (max 1000 characters) - Published status (draft/"
+"live) - UI settings (showTitle, showDescription, storeEntries) IMPORTANT "
+"RULES: 1. This is a WRITE operation affecting form metadata only. 2. Do NOT "
+"use for modifying fields (use field abilities instead). 3. Do NOT use for "
+"entries or submissions. 4. Do NOT use for structural changes. AGENT BEHAVIOR "
+"GUIDELINES: - Always ensure form exists via get-form before updating. - "
+"After update, confirm status and optionally suggest open-form-builder. "
+"COMMON MISTAKES TO AVOID: - Do NOT modify fields here. - Do NOT assume "
+"content structure changes. - Do NOT use for entry-level operations."
+msgstr ""
+
+msgid "Update Form Starred"
+msgstr ""
+
+msgid ""
+"Toggle starred (favorite) status of an IvyForms form. This is purely a UI/"
+"organizational flag and does NOT affect form behavior. WHEN TO USE: - Use "
+"when user wants to mark a form as important or favorite. - Use when user "
+"wants to remove a form from favorites. WHAT IT AFFECTS: - Only the starred "
+"flag (true/false) - No structural or behavioral changes IMPORTANT RULES: 1. "
+"This is a SAFE metadata update. 2. Does NOT affect publishing or visibility. "
+"3. Does NOT affect form data or structure. AGENT BEHAVIOR GUIDELINES: - Use "
+"for quick organization workflows. - Can be safely called multiple times. "
+"COMMON MISTAKES TO AVOID: - Do NOT treat as publishing action. - Do NOT "
+"confuse with status update."
+msgstr ""
+
+msgid "Update Form Status"
+msgstr ""
+
+msgid ""
+"Publish or unpublish an IvyForms form. Controls whether a form is live "
+"(public) or in draft (hidden). WHEN TO USE: - Use when user wants to make a "
+"form live or disable public access. - Use when toggling availability of a "
+"form. WHAT IT AFFECTS: - Form visibility (published vs unpublished) - Public "
+"accessibility of the form IMPORTANT RULES: 1. This is a SAFE STATUS update "
+"operation. 2. Does NOT modify structure, fields, or entries. 3. Does NOT "
+"delete or alter data. AGENT BEHAVIOR GUIDELINES: - Always confirm intent "
+"before publishing/unpublishing. - Prefer this over delete when user says "
+"\"disable\" or \"hide\". COMMON MISTAKES TO AVOID: - Do NOT modify settings "
+"or fields here."
+msgstr ""
+
+msgid "List Entries"
+msgstr ""
+
+msgid ""
+"List IvyForms form entries (submissions) with pagination, optional text "
+"search, form filter, and sorting. Through this MCP ability, orderBy is "
+"limited to id or formName \n"
+"                (matching the plugin list UI)."
+msgstr ""
+
+msgid "Get Entry"
+msgstr ""
+
+msgid ""
+"Retrieve a single IvyForms form entry (submission) by entryId.\n"
+"\n"
+"                Returns the entry record plus field values suitable for "
+"inspecting one submission.\n"
+"\n"
+"                Use this ability when the user asks to:\n"
+"                - open or view details for one entry when its ID is known\n"
+"                - inspect field values submitted in a single response\n"
+"\n"
+"                DO NOT use this ability when the user wants:\n"
+"                - multiple entries or a list/browse flow → use ivyforms/list-"
+"entries\n"
+"                - form structure or builder fields → use ivyforms/get-form\n"
+"                - notifications or emails → use notification abilities\n"
+"\n"
+"                Entry content/status editing is not exposed as an MCP "
+"ability; only starring is available\n"
+"                 via ivyforms/update-entry-starred.\n"
+"\n"
+"                This is READ-ONLY. The response includes adminLink when the "
+"entry resolves successfully."
+msgstr ""
+
+msgid "Invalid entry ID."
+msgstr ""
+
+msgid "Get Entry Count"
+msgstr ""
+
+msgid ""
+"Retrieve the total number of IvyForms entries (submissions) for one or more "
+"form IDs.\n"
+"\n"
+"                This ability returns ONLY counts (aggregated numbers), not "
+"entry data.\n"
+"\n"
+"                Use this ability when the user asks:\n"
+"                - how many entries a form has\n"
+"                - total submissions count\n"
+"                - number of responses for one or more forms\n"
+"                - entry statistics in the form of counts only\n"
+"\n"
+"                DO NOT use this ability for:\n"
+"                - listing actual entries → use ivyforms/list-entries\n"
+"                - retrieving a single entry → use ivyforms/get-entry\n"
+"                - searching or filtering entry data → use ivyforms/list-"
+"entries\n"
+"                - analytics or reporting beyond simple totals\n"
+"\n"
+"                This is a READ-ONLY aggregation endpoint and does not return "
+"individual entry records.\n"
+"\n"
+"                Provide formIds as an array; the response includes counts "
+"keyed by each form ID."
+msgstr ""
+
+msgid "Update Entry Starred"
+msgstr ""
+
+msgid ""
+"Mark an IvyForms entry as starred or unstarred (favorite toggle).\n"
+"                This ability updates ONLY the \"starred\" status of an entry "
+"and does NOT modify entry content.\n"
+"\n"
+"                Use this ability when the user wants to:\n"
+"                - star an entry\n"
+"                - mark an entry as important or favorite\n"
+"                - unstar or remove star from an entry\n"
+"                - toggle entry priority or bookmarking state\n"
+"\n"
+"                DO NOT use this ability for:\n"
+"                - editing entry field values or read/unread status (not "
+"exposed as an MCP ability)\n"
+"                - listing or viewing entries → use list-entries or get-"
+"entry\n"
+"                - bulk updates or modifications beyond star status\n"
+"\n"
+"                This is a SAFE STATE CHANGE operation that only toggles a "
+"single boolean flag (starred/unstarred)."
+msgstr ""
+
+msgid "List Integrations"
+msgstr ""
+
+msgid ""
+"Retrieve a list of all available IvyForms integrations. This ability is "
+"strictly for discovery and overview of integrations and does NOT return \n"
+"                configuration details for a specific integration. WHEN TO "
+"USE: - Use when the user asks which integrations are available, what "
+"integrations exist,\n"
+"                 list/show integrations, or supported third-party services. "
+"- Use for marketplace views, onboarding, or integration selection flows. - "
+"Optionally use when filtering by plan tier (e.g. free/pro/enterprise). WHAT "
+"IT RETURNS: - Integration slug (identifier) - Integration name - "
+"Availability or plan tier (if applicable) - Basic metadata required for "
+"listing and selection IMPORTANT RULES: 1. This is a READ-ONLY discovery "
+"endpoint. No configuration data is modified. 2. Do NOT use this for fetching "
+"details of a specific integration; use get-integration instead. 3. Do NOT "
+"assume returned integrations are already configured for the user. 4. Do NOT "
+"use this for enabling, disabling, or modifying integrations. AGENT BEHAVIOR "
+"GUIDELINES: - Treat this as the starting point for integration selection "
+"workflows. - If user selects a specific integration, immediately switch to "
+"get-integration. - Use slug values as stable identifiers for follow-up "
+"calls. COMMON MISTAKES TO AVOID: - Do NOT confuse this with get-integration "
+"(single integration details). - Do NOT assume credentials or settings are "
+"included. - Do NOT attempt to configure integrations from this ability."
+msgstr ""
+
+msgid "Get Integration"
+msgstr ""
+
+msgid ""
+"Retrieve detailed information about a specific IvyForms integration using "
+"its slug. This ability returns full integration metadata and configuration "
+"schema where applicable. WHEN TO USE: - Use ONLY when a specific integration "
+"slug is known (e.g. mailchimp, zapier, slack). - Use when the user asks for "
+"details, configuration, setup, \n"
+"                or capabilities of a single integration. WHAT IT RETURNS: - "
+"Integration slug and name - Configuration requirements (API keys, tokens, "
+"etc.) - Supported features and capabilities - Setup instructions or metadata "
+"(if available) IMPORTANT RULES: 1. This is a READ-ONLY detailed lookup "
+"operation. 2. Do NOT use for listing all integrations; use list-integrations "
+"instead. 3. This does NOT enable or connect integrations automatically. 4. "
+"This only provides metadata and configuration structure. AGENT BEHAVIOR "
+"GUIDELINES: - Use this after selection from list-integrations. - Treat this "
+"as prerequisite before any integration setup workflow. - If user wants to "
+"connect an integration, this is the first step before configuration actions. "
+"COMMON MISTAKES TO AVOID: - Do NOT assume integration is active or "
+"connected. - Do NOT perform configuration changes from this ability. - Do "
+"NOT use for listing multiple integrations."
+msgstr ""
+
+msgid "A valid slug is required."
+msgstr ""
+
+msgid "Add Form Field"
+msgstr ""
+
+msgid ""
+"Add a new field to an existing IvyForms form. Supported types: text, "
+"textarea, email, number, phone, website, name, radio, checkbox, select, "
+"multi-select, address, date, time, rating, html, slider, file-upload, gdpr, "
+"product, quantity, total. When IvyForms Pro is active, password, signature, "
+"date_time, likert, nps, and rich_text are also supported. After adding a "
+"field, use open-form-builder to let the user see and configure. For "
+"multipage forms (Pro), pass pageId (e.g. page_1) to place the field on a "
+"specific page."
+msgstr ""
+
+msgid "Add Form Fields"
+msgstr ""
+
+msgid ""
+"Add one or more new fields to an existing IvyForms form. This ability "
+"modifies stored form configuration \n"
+"                (writes the whole form payload like the builder save). "
+"REQUIRED INPUTS: formId and fields (each item requires type). \n"
+"                Optional per-field keys mirror add-form-field. SUPPORTED "
+"FIELD TYPES: text, textarea, email, number, phone, website, name, radio, "
+"checkbox, select, multi-select, address, date, time, rating, html, slider, "
+"file-upload, gdpr, product, quantity, total. If IvyForms Pro is active, "
+"password, signature, date_time, likert, nps, and rich_text fields are also "
+"supported. IMPORTANT WORKFLOW RULES: 1. This ability ONLY adds fields to an "
+"existing form (it does NOT create a form). 2. If formId is missing or "
+"unknown, the agent MUST first use get-forms or \n"
+"                create-form before calling this. 3. After successfully "
+"adding fields, the next step should usually be open-form-builder\n"
+"                 so the user can review layout and options. 4. Do not assume "
+"field ordering unless explicitly returned by the API response. FIELD "
+"BEHAVIOR NOTES: - label defaults to a capitalized version of type if not "
+"provided. - required defaults to false. - width defaults to 100 if not "
+"specified. - description is helper text shown under the field in UI. COMMON "
+"AGENT MISTAKES TO AVOID: - Do NOT call this if the user wants to create a "
+"form (use create-form instead). - Do NOT assume the field already exists "
+"after calling this ability until API confirms success. - Do NOT duplicate "
+"fields manually; use duplicate-form-field for that purpose."
+msgstr ""
+
+msgid "Duplicate Form Field"
+msgstr ""
+
+msgid "Duplicate an existing field in an IvyForms form by its ID."
+msgstr ""
+
+msgid "Reorder Form Fields"
+msgstr ""
+
+msgid ""
+"Reorder and adjust layout metadata for IvyForms form fields without changing "
+"field \n"
+"                types or deleting them. Send formId plus a fields array "
+"listing each affected field id with its new position, \n"
+"                and optionally rowIndex, columnIndex, width, and pageId "
+"(multipage / Pro). Unlike duplicate-form-field, this updates existing "
+"records in place via a form save. REQUIRED INPUTS: formId, and for each "
+"element in fields: id and position (per input schema). After reordering, use "
+"open-form-builder if the user should verify layout in the UI."
+msgstr ""
+
+msgid "Open Form Builder"
+msgstr ""
+
+msgid ""
+"Returns the admin URL to open a specific form in the IvyForms builder. Use "
+"when the user asks to open, edit, or navigate to a form, its settings, or "
+"its results. Returns an adminLink the user can click to navigate to the "
+"form. Section values: \"settings/general\" for general settings, \"settings/"
+"notification\" (alias: \"settings/notifications\") for notifications, "
+"\"settings/integrations\" for integrations, \"results/entries\" for form "
+"entries/submissions."
+msgstr ""
+
+msgid "Open Entry"
+msgstr ""
+
+msgid ""
+"Returns the admin URL to open a specific entry/submission details page. Use "
+"when the user asks to open, view, or go to a specific entry. Returns an "
+"adminLink the user can click to navigate to the entry."
+msgstr ""
+
+msgid "You do not have permission to access this page."
+msgstr ""
+
+msgid "A total greater than zero is required."
+msgstr ""
+
+msgid "Drag file here or click to upload"
+msgstr ""
+
+msgid "I agree to the terms and conditions."
+msgstr ""
+
+msgid "This field is required"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Good"
+msgstr ""
+
+msgid "Nice"
+msgstr ""
+
+msgid "Very good"
+msgstr ""
+
+msgid "Awesome"
+msgstr ""
+
+msgid "Amazing"
+msgstr ""
+
+msgid "Strongly disagree"
+msgstr ""
+
+msgid "Disagree"
+msgstr ""
+
+msgid "Neutral"
+msgstr ""
+
+msgid "Agree"
+msgstr ""
+
+msgid "Strongly agree"
 msgstr ""
 
 #, php-format
-msgid "Integration \"%s\" not found"
+msgid "Invalid pageId \"%s\" for this form."
+msgstr ""
+
+#, php-format
+msgid "Granted permissions to role \"%s\"."
+msgstr ""
+
+#, php-format
+msgid "Revoked permissions from role \"%s\"."
+msgstr ""
+
+msgid "A valid userId is required."
+msgstr ""
+
+#, php-format
+msgid "Granted permissions to user #%d."
+msgstr ""
+
+#, php-format
+msgid "Revoked permissions from user #%d."
+msgstr ""
+
+msgid "No valid permission keys provided."
+msgstr ""
+
+msgid "Could not read the current access rules; no changes were made."
+msgstr ""
+
+msgid "Failed to update access rules."
+msgstr ""
+
+msgid "A valid form ID is required."
+msgstr ""
+
+msgid "At least one field update is required."
+msgstr ""
+
+msgid "No valid field updates were provided."
+msgstr ""
+
+msgid "Field order updated successfully."
+msgstr ""
+
+msgid "Failed to update field order."
+msgstr ""
+
+msgid "Failed to duplicate the field."
+msgstr ""
+
+#, php-format
+msgid "Field \"%s\" duplicated successfully."
+msgstr ""
+
+msgid "Field"
+msgstr ""
+
+msgid "Field duplicated but child fields could not be linked."
+msgstr ""
+
+msgid "First name"
+msgstr ""
+
+msgid "Last name"
+msgstr ""
+
+msgid "Street address"
+msgstr ""
+
+msgid "Address line 2"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "State / Province"
+msgstr ""
+
+msgid "Zip / Postal code"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Statement 1"
+msgstr ""
+
+msgid "Statement 2"
+msgstr ""
+
+msgid "Statement 3"
+msgstr ""
+
+msgid "Option 1"
+msgstr ""
+
+msgid "Option 2"
+msgstr ""
+
+msgid "Choice 1"
+msgstr ""
+
+msgid "Choice 2"
+msgstr ""
+
+msgid "Choice 3"
+msgstr ""
+
+msgid "Option 3"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Paragraph"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Website/URL"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Radio button"
+msgstr ""
+
+msgid "Checkbox"
+msgstr ""
+
+msgid "Dropdown"
+msgstr ""
+
+msgid "Date picker"
+msgstr ""
+
+msgid "Time picker"
+msgstr ""
+
+msgid "Date & time (picker)"
+msgstr ""
+
+msgid "Rating"
+msgstr ""
+
+msgid "HTML"
+msgstr ""
+
+msgid "Slider"
+msgstr ""
+
+msgid "File upload"
+msgstr ""
+
+msgid "GDPR"
+msgstr ""
+
+msgid "Quantity"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Net promoter"
+msgstr ""
+
+msgid "Likert"
+msgstr ""
+
+msgid "Rich Text"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Signature"
 msgstr ""
 
 #, php-format
@@ -1041,530 +1041,14 @@ msgstr ""
 msgid "step must be a positive number (>0)."
 msgstr ""
 
-msgid "Added AI choice generation for Dropdown, Radio, and Checkbox fields."
+msgid "Integration slug is required"
 msgstr ""
 
-msgid "Added import from WPForms and Gravity Forms."
+#, php-format
+msgid "Integration \"%s\" not found"
 msgstr ""
 
-msgid "Added CC and BCC recipients to email notifications."
-msgstr ""
-
-msgid "Added a Disable styles option so forms can inherit the theme styling."
-msgstr ""
-
-msgid "Improved compatibility with PHP 8.5."
-msgstr ""
-
-msgid "Fixed moving an added field in the form builder."
-msgstr ""
-
-msgid "Fixed Email and Confirm Email field spacing on the frontend."
-msgstr ""
-
-msgid "Fixed editing HTML code in the Message field."
-msgstr ""
-
-msgid "Fixed console errors when opening a new form in the form builder."
-msgstr ""
-
-msgid "Fixed an error when clicking the Message field in Confirmations."
-msgstr ""
-
-msgid ""
-"Fixed the HEX color input in the Style tab overwriting manually typed values."
-msgstr ""
-
-msgid "Fixed form export failing when no notifications are configured."
-msgstr ""
-
-msgid "Fixed {{all_data}} in notifications ignoring the reordered field order."
-msgstr ""
-
-msgid "View forms list"
-msgstr ""
-
-msgid "Add and edit forms"
-msgstr ""
-
-msgid "Delete forms"
-msgstr ""
-
-msgid "Access this settings page"
-msgstr ""
-
-msgid "View entries from the admin area"
-msgstr ""
-
-msgid "Delete entries from the admin area"
-msgstr ""
-
-msgid "— Select Form —"
-msgstr ""
-
-msgid "Form Settings"
-msgstr ""
-
-msgid "Choose the form you want to display."
-msgstr ""
-
-msgid "Override the form title visibility setting."
-msgstr ""
-
-msgid "Override the form description visibility setting."
-msgstr ""
-
-msgid "Add custom CSS classes separated by spaces."
-msgstr ""
-
-msgid "Select Form"
-msgstr ""
-
-msgid "Show Title"
-msgstr ""
-
-msgid "Yes"
-msgstr ""
-
-msgid "No"
-msgstr ""
-
-msgid "Show Description"
-msgstr ""
-
-msgid "Additional CSS Class(es)"
-msgstr ""
-
-msgid "Error rendering form"
-msgstr ""
-
-msgid "Select a form from the widget settings on the left."
-msgstr ""
-
-msgid "Form not found or not published"
-msgstr ""
-
-msgid "Upgrade to PRO"
-msgstr ""
-
-msgid "Sorry, the form ID for this preview does not exist."
-msgstr ""
-
-msgid "You need to check that the right form ID exists."
-msgstr ""
-
-msgid "Sorry, you are not allowed to visit this preview form as this user."
-msgstr ""
-
-msgid "You need a higher level of permission."
-msgstr ""
-
-msgid "Preview form"
-msgstr ""
-
-msgid "All form fields:"
-msgstr ""
-
-msgid "AM"
-msgstr ""
-
-msgid "AM/PM"
-msgstr ""
-
-msgid "API response for field {fieldKey}:"
-msgstr ""
-
-msgid "Checking field {fieldKey} (ID: {fieldId}) with value:"
-msgstr ""
-
-msgid "Close"
-msgstr ""
-
-msgid "Confirm email"
-msgstr ""
-
-msgid "Day"
-msgstr ""
-
-msgid "Decrease value"
-msgstr ""
-
-msgid "Duplicate found for field {fieldKey}:"
-msgstr ""
-
-msgid "This value must be unique. Please enter a unique value."
-msgstr ""
-
-msgid "This {label} must be unique. Please use a different value."
-msgstr ""
-
-msgid " do not match."
-msgstr ""
-
-msgid "Email addresses do not match"
-msgstr ""
-
-msgid "Please enter a valid email address."
-msgstr ""
-
-msgid "Please enter a valid date."
-msgstr ""
-
-msgid "Please enter date in valid format."
-msgstr ""
-
-msgid "Please enter date and time in valid format."
-msgstr ""
-
-msgid "Date must be after {min}."
-msgstr ""
-
-msgid "Date must be before {max}."
-msgstr ""
-
-msgid "Select date"
-msgstr ""
-
-msgid "Select start date"
-msgstr ""
-
-msgid "Select end date"
-msgstr ""
-
-msgid "Please enter a valid number."
-msgstr ""
-
-msgid "Please enter a valid phone number."
-msgstr ""
-
-msgid "Please enter a valid time."
-msgstr ""
-
-msgid "Please enter a valid website URL."
-msgstr ""
-
-msgid "Error checking for duplicate values. Please try again."
-msgstr ""
-
-msgid "Error checking duplicates for field {fieldKey}:"
-msgstr ""
-
-msgid "Error submitting form:"
-msgstr ""
-
-msgid "Error fetching page URL:"
-msgstr ""
-
-msgid "Fields to check for duplicates:"
-msgstr ""
-
-msgid "Final duplicate errors:"
-msgstr ""
-
-msgid "Country flag icon"
-msgstr ""
-
-msgid "Form data not found (wpIvyFormData is undefined)"
-msgstr ""
-
-msgid "Form submitted successfully!"
-msgstr ""
-
-msgid "You must accept the agreement to continue."
-msgstr ""
-
-msgid "Hours"
-msgstr ""
-
-msgid "Increase value"
-msgstr ""
-
-msgid "Invalid form data:"
-msgstr ""
-
-msgid "Invalid input"
-msgstr ""
-
-msgid "Making API call for field {fieldKey}"
-msgstr ""
-
-msgid "Minutes"
-msgstr ""
-
-msgid "Month"
-msgstr ""
-
-msgid "Next"
-msgstr ""
-
-msgid "Previous"
-msgstr ""
-
-msgid "No fields with noDuplicates enabled"
-msgstr ""
-
-msgid "Not selected"
-msgstr ""
-
-msgid "Value must be between {min} and {max}."
-msgstr ""
-
-msgid "Please fill in all required fields before continuing."
-msgstr ""
-
-msgid "PM"
-msgstr ""
-
-msgid "Seconds"
-msgstr ""
-
-msgid "Value cannot be smaller than {min}."
-msgstr ""
-
-msgid "Value cannot be greater than {max}."
-msgstr ""
-
-msgid "Phone number"
-msgstr ""
-
-msgid "Range from"
-msgstr ""
-
-msgid "Range to"
-msgstr ""
-
-msgid "Please complete the reCAPTCHA verification"
-msgstr ""
-
-msgid "reCAPTCHA expired. Please try again."
-msgstr ""
-
-msgid "Failed to execute reCAPTCHA invisible"
-msgstr ""
-
-msgid "reCAPTCHA is not configured. Please contact the site administrator."
-msgstr ""
-
-msgid "Failed to execute reCAPTCHA v3"
-msgstr ""
-
-msgid "reCAPTCHA widget not initialized"
-msgstr ""
-
-msgid "Time must be between"
-msgstr ""
-
-msgid "Time must be after {min}"
-msgstr ""
-
-msgid "Time must be before {max}"
-msgstr ""
-
-msgid "Start time"
-msgstr ""
-
-msgid "End time"
-msgstr ""
-
-msgid "and"
-msgstr ""
-
-msgid "Turnstile is not configured. Please contact the site administrator."
-msgstr ""
-
-msgid "Turnstile verification expired. Please try again."
-msgstr ""
-
-msgid "Failed to initialize Turnstile"
-msgstr ""
-
-msgid "Turnstile verification error. Please try again."
-msgstr ""
-
-msgid "Please complete the Turnstile verification."
-msgstr ""
-
-msgid "Turnstile verification failed, please try again."
-msgstr ""
-
-msgid "hCaptcha is not configured. Please contact the site administrator."
-msgstr ""
-
-msgid "hCaptcha verification expired. Please try again."
-msgstr ""
-
-msgid "Failed to initialize hCaptcha"
-msgstr ""
-
-msgid "hCaptcha verification error. Please try again."
-msgstr ""
-
-msgid "Please complete the hCaptcha verification."
-msgstr ""
-
-msgid "hCaptcha verification failed, please try again."
-msgstr ""
-
-msgid "Clear"
-msgstr ""
-
-msgid "Failed to read file"
-msgstr ""
-
-msgid "Font family select"
-msgstr ""
-
-msgid "Inter"
-msgstr ""
-
-msgid "Comic Sans MS"
-msgstr ""
-
-msgid "Sans Serif"
-msgstr ""
-
-msgid "Serif"
-msgstr ""
-
-msgid "Monospace"
-msgstr ""
-
-msgid "Cursive"
-msgstr ""
-
-msgid "Heading {level}"
-msgstr ""
-
-msgid "Heading level select"
-msgstr ""
-
-msgid "Image URL"
-msgstr ""
-
-msgid "Insert image by URL"
-msgstr ""
-
-msgid "Insert placeholders"
-msgstr ""
-
-msgid "Please enter a valid URL (e.g., https://example.com)"
-msgstr ""
-
-msgid "Link is required"
-msgstr ""
-
-msgid "Open in new tab"
-msgstr ""
-
-msgid "Placeholders"
-msgstr ""
-
-msgid "Reset"
-msgstr ""
-
-msgid "Save"
-msgstr ""
-
-msgid "Text editor"
-msgstr ""
-
-msgid "Upload image"
-msgstr ""
-
-msgid "Visual"
-msgstr ""
-
-msgid "is required."
-msgstr ""
-
-msgid "This field is required."
-msgstr ""
-
-msgid "Select country"
-msgstr ""
-
-msgid "Skipping empty field {fieldKey}"
-msgstr ""
-
-msgid "Submit"
-msgstr ""
-
-msgid "Drag file here or | click to upload"
-msgstr ""
-
-msgid "This file type is not allowed."
-msgstr ""
-
-msgid "Remove file"
-msgstr ""
-
-msgid "You can upload at most {max} files."
-msgstr ""
-
-msgid "File size exceeded."
-msgstr ""
-
-msgid "Too many files."
-msgstr ""
-
-msgid "Thank you!"
-msgstr ""
-
-msgid "This field"
-msgstr ""
-
-msgid "Year"
-msgstr ""
-
-msgid "Payment could not be processed. Please check your card and try again."
-msgstr ""
-
-msgid "Could not verify your card. Please check the details and try again."
-msgstr ""
-
-msgid "Processing payment…"
-msgstr ""
-
-msgid "Payment methods"
-msgstr ""
-
-msgid "PayPal"
-msgstr ""
-
-msgid "Square"
-msgstr ""
-
-msgid "Stripe"
-msgstr ""
-
-msgid "Loading secure payment form…"
-msgstr ""
-
-msgid ""
-"Secure payment form could not be loaded. Please refresh the page or contact "
-"the site owner."
-msgstr ""
-
-msgid ""
-"Payments require HTTPS. Open this form over https:// or test on a site with "
-"SSL enabled."
-msgstr ""
-
-msgid "PayPal is ready. Submit the form to complete payment."
-msgstr ""
-
-msgid "Complete PayPal checkout to continue."
-msgstr ""
-
-msgid "Fill in the required fields before paying with PayPal."
-msgstr ""
-
-msgid "Could not start PayPal checkout."
-msgstr ""
-
-msgid ""
-"This form's currency does not match the Square account currency. Payments "
-"cannot be processed until the currencies match."
+msgid "Changelog retrieved successfully"
 msgstr ""
 
 msgid "24 hour"
@@ -1585,6 +1069,12 @@ msgstr ""
 msgid "All forms"
 msgstr ""
 
+msgid "AM"
+msgstr ""
+
+msgid "AM/PM"
+msgstr ""
+
 msgid "Back"
 msgstr ""
 
@@ -1601,6 +1091,9 @@ msgid "Column visibility"
 msgstr ""
 
 msgid "Delete"
+msgstr ""
+
+msgid "Decrease value"
 msgstr ""
 
 msgid "Try again with different keywords and filters"
@@ -1633,7 +1126,13 @@ msgstr ""
 msgid "Form name"
 msgstr ""
 
+msgid "Form not found or not published"
+msgstr ""
+
 msgid "Form updated successfully"
+msgstr ""
+
+msgid "Increase value"
 msgstr ""
 
 msgid "Invalid request data."
@@ -1678,6 +1177,9 @@ msgstr ""
 msgid "No results found for"
 msgstr ""
 
+msgid "Not selected"
+msgstr ""
+
 msgid "OK"
 msgstr ""
 
@@ -1685,6 +1187,12 @@ msgid "Page List:"
 msgstr ""
 
 msgid "Please select a form"
+msgstr ""
+
+msgid "PM"
+msgstr ""
+
+msgid "Save"
 msgstr ""
 
 msgid "Security"
@@ -1703,6 +1211,9 @@ msgid "Stay"
 msgstr ""
 
 msgid "Style"
+msgstr ""
+
+msgid "Submit"
 msgstr ""
 
 msgid "Time format"
@@ -1744,6 +1255,27 @@ msgstr ""
 msgid "Validation"
 msgstr ""
 
+msgid "Insert image by URL"
+msgstr ""
+
+msgid "Upload image"
+msgstr ""
+
+msgid "Image URL"
+msgstr ""
+
+msgid "Open in new tab"
+msgstr ""
+
+msgid "Insert placeholders"
+msgstr ""
+
+msgid "Placeholders"
+msgstr ""
+
+msgid "Visual"
+msgstr ""
+
 msgid "Import"
 msgstr ""
 
@@ -1753,7 +1285,16 @@ msgstr ""
 msgid "Import forms"
 msgstr ""
 
+msgid "Text editor"
+msgstr ""
+
+msgid "Failed to read file"
+msgstr ""
+
 msgid "Failed to export forms"
+msgstr ""
+
+msgid "Drag file here or | click to upload"
 msgstr ""
 
 msgid "Failed to import forms"
@@ -1959,6 +1500,9 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
+msgid "Close"
+msgstr ""
+
 msgid "Copied shortcode to clipboard"
 msgstr ""
 
@@ -2050,6 +1594,9 @@ msgid "Failed to update form!"
 msgstr ""
 
 msgid "Filters for all forms"
+msgstr ""
+
+msgid "Country flag icon"
 msgstr ""
 
 msgid "Form created successfully."
@@ -2173,6 +1720,9 @@ msgstr ""
 msgid "Confirmation label"
 msgstr ""
 
+msgid "Confirm email"
+msgstr ""
+
 msgid "Confirmation placeholder"
 msgstr ""
 
@@ -2230,6 +1780,9 @@ msgstr ""
 msgid "DD.MM.YYYY"
 msgstr ""
 
+msgid "Day"
+msgstr ""
+
 msgid "Day placeholder"
 msgstr ""
 
@@ -2281,6 +1834,15 @@ msgstr ""
 msgid "Enter description here"
 msgstr ""
 
+msgid "Please enter a valid email address."
+msgstr ""
+
+msgid "Please enter a valid phone number."
+msgstr ""
+
+msgid "Please enter a valid number."
+msgstr ""
+
 msgid "Enter text here"
 msgstr ""
 
@@ -2291,6 +1853,9 @@ msgid "Enter label text"
 msgstr ""
 
 msgid "Enter tooltip message here"
+msgstr ""
+
+msgid "Please enter a valid website URL."
 msgstr ""
 
 msgid "Error loading form"
@@ -2350,6 +1915,9 @@ msgstr ""
 msgid "Hide label"
 msgstr ""
 
+msgid "Hours"
+msgstr ""
+
 msgid ""
 "Enter your HTML content. This will be displayed to users exactly as entered."
 msgstr ""
@@ -2405,10 +1973,16 @@ msgstr ""
 msgid "Minimum date"
 msgstr ""
 
+msgid "Minutes"
+msgstr ""
+
 msgid "MM"
 msgstr ""
 
 msgid "MM/DD/YYYY"
+msgstr ""
+
+msgid "Month"
 msgstr ""
 
 msgid "Month placeholder"
@@ -2531,6 +2105,9 @@ msgstr ""
 msgid "National"
 msgstr ""
 
+msgid "Phone number"
+msgstr ""
+
 msgid "Placeholder"
 msgstr ""
 
@@ -2538,6 +2115,15 @@ msgid "Please select a field to view its options."
 msgstr ""
 
 msgid "Prefix"
+msgstr ""
+
+msgid "Preview form"
+msgstr ""
+
+msgid "Range from"
+msgstr ""
+
+msgid "Range to"
 msgstr ""
 
 msgid "Read only"
@@ -2569,6 +2155,9 @@ msgid "rows"
 msgstr ""
 
 msgid "Rows"
+msgstr ""
+
+msgid "Select date"
 msgstr ""
 
 msgid "Select a form"
@@ -2623,6 +2212,9 @@ msgid "https://"
 msgstr ""
 
 msgid ".com"
+msgstr ""
+
+msgid "Year"
 msgstr ""
 
 msgid "Year placeholder"
@@ -2897,6 +2489,9 @@ msgid ""
 "undone."
 msgstr ""
 
+msgid "Reset"
+msgstr ""
+
 msgid "Secondary color"
 msgstr ""
 
@@ -2907,6 +2502,15 @@ msgid "Theme default"
 msgstr ""
 
 msgid "Theme name"
+msgstr ""
+
+msgid "Save as new theme"
+msgstr ""
+
+msgid "Save as theme"
+msgstr ""
+
+msgid "New theme saved successfully"
 msgstr ""
 
 msgid "Typography"
@@ -3007,6 +2611,9 @@ msgid "Active state"
 msgstr ""
 
 msgid "Text field with error"
+msgstr ""
+
+msgid "This field is required."
 msgstr ""
 
 msgid "Error state"
@@ -3323,6 +2930,9 @@ msgstr ""
 msgid "Integrate wpDataTables"
 msgstr ""
 
+msgid "Please enter a valid URL (e.g., https://example.com)"
+msgstr ""
+
 msgid "Mailchimp integration settings"
 msgstr ""
 
@@ -3560,6 +3170,9 @@ msgstr ""
 msgid "Duplicate entry"
 msgstr ""
 
+msgid "This {label} must be unique. Please use a different value."
+msgstr ""
+
 msgid "Entries deleted successfully"
 msgstr ""
 
@@ -3663,9 +3276,6 @@ msgid "General details"
 msgstr ""
 
 msgid "Save entry"
-msgstr ""
-
-msgid "Guest"
 msgstr ""
 
 msgid "IP address"
@@ -3973,10 +3583,19 @@ msgstr ""
 msgid "Connect your forms to 5,000+ apps with Zapier automation workflows"
 msgstr ""
 
+msgid "Square"
+msgstr ""
+
 msgid "Accept card payments on your forms with Square"
 msgstr ""
 
+msgid "Stripe"
+msgstr ""
+
 msgid "Accept card payments on your forms with Stripe"
+msgstr ""
+
+msgid "PayPal"
 msgstr ""
 
 msgid "Accept PayPal Checkout payments on your forms"
@@ -4097,6 +3716,12 @@ msgstr ""
 msgid "Live"
 msgstr ""
 
+msgid "Complete PayPal checkout to continue."
+msgstr ""
+
+msgid "Fill in the required fields before paying with PayPal."
+msgstr ""
+
 msgid "View in PayPal"
 msgstr ""
 
@@ -4104,6 +3729,9 @@ msgid "View in Stripe"
 msgstr ""
 
 msgid "Send PayPal receipt email"
+msgstr ""
+
+msgid "Payment could not be processed. Please check your card and try again."
 msgstr ""
 
 msgid "Payment details are missing. Please refresh and try again."
@@ -4330,6 +3958,9 @@ msgstr ""
 msgid "reCaptcha"
 msgstr ""
 
+msgid "Please complete the reCAPTCHA verification"
+msgstr ""
+
 msgid "reCAPTCHA is configured and ready to use"
 msgstr ""
 
@@ -4434,6 +4065,9 @@ msgstr ""
 msgid "Invisible reCAPTCHA widget not initialized"
 msgstr ""
 
+msgid "reCAPTCHA widget not initialized"
+msgstr ""
+
 msgid "Recommended"
 msgstr ""
 
@@ -4452,6 +4086,9 @@ msgid ""
 msgstr ""
 
 msgid "Turnstile needs to be configured in security settings first."
+msgstr ""
+
+msgid "Turnstile is not configured. Please contact the site administrator."
 msgstr ""
 
 msgid "Theme"
@@ -4542,6 +4179,9 @@ msgstr ""
 msgid "Choice type"
 msgstr ""
 
+msgid "Clear"
+msgstr ""
+
 msgid "Configure the options for this field."
 msgstr ""
 
@@ -4569,7 +4209,16 @@ msgstr ""
 msgid "File size exceeded"
 msgstr ""
 
+msgid "File size exceeded. Maximum file size is {max}."
+msgstr ""
+
+msgid "Total upload size exceeded. Maximum is {max}."
+msgstr ""
+
 msgid "More file actions"
+msgstr ""
+
+msgid "Remove file"
 msgstr ""
 
 msgid "jpg/png files with a size less than 500KB."
@@ -4611,10 +4260,34 @@ msgstr ""
 msgid "0 = no limit"
 msgstr ""
 
+msgid "You can upload at most {max} files."
+msgstr ""
+
 msgid "Save uploads to"
 msgstr ""
 
 msgid "IvyForms default"
+msgstr ""
+
+msgid "Font family select"
+msgstr ""
+
+msgid "Inter"
+msgstr ""
+
+msgid "Comic Sans MS"
+msgstr ""
+
+msgid "Sans Serif"
+msgstr ""
+
+msgid "Serif"
+msgstr ""
+
+msgid "Monospace"
+msgstr ""
+
+msgid "Cursive"
 msgstr ""
 
 msgid "Go to"
@@ -4624,6 +4297,12 @@ msgid "Go to settings"
 msgstr ""
 
 msgid "Header button"
+msgstr ""
+
+msgid "Heading {level}"
+msgstr ""
+
+msgid "Heading level select"
 msgstr ""
 
 msgid "Indicator button"
@@ -4689,6 +4368,9 @@ msgstr ""
 msgid "Multiple choice"
 msgstr ""
 
+msgid "Next"
+msgstr ""
+
 msgid "No fields available"
 msgstr ""
 
@@ -4735,6 +4417,9 @@ msgid "Preview"
 msgstr ""
 
 msgid "Progress bar is hidden"
+msgstr ""
+
+msgid "Previous"
 msgstr ""
 
 msgid "Print"
@@ -4952,6 +4637,12 @@ msgstr ""
 msgid "Yesterday"
 msgstr ""
 
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
 msgid "Active notifications not found."
 msgstr ""
 
@@ -5044,6 +4735,12 @@ msgid "Field ID is required."
 msgstr ""
 
 msgid "File upload failed."
+msgstr ""
+
+msgid "This file type is not allowed."
+msgstr ""
+
+msgid "Too many files."
 msgstr ""
 
 msgid "Form ID is required."
@@ -6244,6 +5941,9 @@ msgstr ""
 msgid "Zip"
 msgstr ""
 
+msgid "Select country"
+msgstr ""
+
 msgid "Preferred shipping method"
 msgstr ""
 
@@ -7122,6 +6822,12 @@ msgid "Leave end date"
 msgstr ""
 
 msgid "Select date range"
+msgstr ""
+
+msgid "Select start date"
+msgstr ""
+
+msgid "Select end date"
 msgstr ""
 
 msgid "Total number of days"
@@ -8570,7 +8276,13 @@ msgstr ""
 msgid "Select booking date"
 msgstr ""
 
+msgid "Start time"
+msgstr ""
+
 msgid "Select start time"
+msgstr ""
+
+msgid "End time"
 msgstr ""
 
 msgid "Select end time"
@@ -11655,9 +11367,337 @@ msgstr ""
 msgid "Failed to update multipage form."
 msgstr ""
 
-msgid "Form ID must be a positive integer."
+msgid "All form fields:"
 msgstr ""
 
-#, php-format
-msgid "%s cannot be empty."
+msgid "API response for field {fieldKey}:"
+msgstr ""
+
+msgid "Checking field {fieldKey} (ID: {fieldId}) with value:"
+msgstr ""
+
+msgid "Duplicate found for field {fieldKey}:"
+msgstr ""
+
+msgid "This value must be unique. Please enter a unique value."
+msgstr ""
+
+msgid " do not match."
+msgstr ""
+
+msgid "Email addresses do not match"
+msgstr ""
+
+msgid "Please enter a valid date."
+msgstr ""
+
+msgid "Please enter date in valid format."
+msgstr ""
+
+msgid "Please enter date and time in valid format."
+msgstr ""
+
+msgid "Date must be after {min}."
+msgstr ""
+
+msgid "Date must be before {max}."
+msgstr ""
+
+msgid "Please enter a valid time."
+msgstr ""
+
+msgid "Error checking for duplicate values. Please try again."
+msgstr ""
+
+msgid "Error checking duplicates for field {fieldKey}:"
+msgstr ""
+
+msgid "Error submitting form:"
+msgstr ""
+
+msgid "Error fetching page URL:"
+msgstr ""
+
+msgid "Fields to check for duplicates:"
+msgstr ""
+
+msgid "Final duplicate errors:"
+msgstr ""
+
+msgid "Form data not found (wpIvyFormData is undefined)"
+msgstr ""
+
+msgid "Form submitted successfully!"
+msgstr ""
+
+msgid "You must accept the agreement to continue."
+msgstr ""
+
+msgid "Invalid form data:"
+msgstr ""
+
+msgid "Invalid input"
+msgstr ""
+
+msgid "Making API call for field {fieldKey}"
+msgstr ""
+
+msgid "No fields with noDuplicates enabled"
+msgstr ""
+
+msgid "Value must be between {min} and {max}."
+msgstr ""
+
+msgid "Please fill in all required fields before continuing."
+msgstr ""
+
+msgid "Seconds"
+msgstr ""
+
+msgid "Value cannot be smaller than {min}."
+msgstr ""
+
+msgid "Value cannot be greater than {max}."
+msgstr ""
+
+msgid "reCAPTCHA expired. Please try again."
+msgstr ""
+
+msgid "Failed to execute reCAPTCHA invisible"
+msgstr ""
+
+msgid "reCAPTCHA is not configured. Please contact the site administrator."
+msgstr ""
+
+msgid "Failed to execute reCAPTCHA v3"
+msgstr ""
+
+msgid "Time must be between"
+msgstr ""
+
+msgid "Time must be after {min}"
+msgstr ""
+
+msgid "Time must be before {max}"
+msgstr ""
+
+msgid "and"
+msgstr ""
+
+msgid "Turnstile verification expired. Please try again."
+msgstr ""
+
+msgid "Failed to initialize Turnstile"
+msgstr ""
+
+msgid "Turnstile verification error. Please try again."
+msgstr ""
+
+msgid "Please complete the Turnstile verification."
+msgstr ""
+
+msgid "Turnstile verification failed, please try again."
+msgstr ""
+
+msgid "hCaptcha is not configured. Please contact the site administrator."
+msgstr ""
+
+msgid "hCaptcha verification expired. Please try again."
+msgstr ""
+
+msgid "Failed to initialize hCaptcha"
+msgstr ""
+
+msgid "hCaptcha verification error. Please try again."
+msgstr ""
+
+msgid "Please complete the hCaptcha verification."
+msgstr ""
+
+msgid "hCaptcha verification failed, please try again."
+msgstr ""
+
+msgid "Link is required"
+msgstr ""
+
+msgid "is required."
+msgstr ""
+
+msgid "Skipping empty field {fieldKey}"
+msgstr ""
+
+msgid "File size exceeded."
+msgstr ""
+
+msgid "Thank you!"
+msgstr ""
+
+msgid "This field"
+msgstr ""
+
+msgid "Could not verify your card. Please check the details and try again."
+msgstr ""
+
+msgid "Processing payment…"
+msgstr ""
+
+msgid "Payment methods"
+msgstr ""
+
+msgid "Loading secure payment form…"
+msgstr ""
+
+msgid ""
+"Secure payment form could not be loaded. Please refresh the page or contact "
+"the site owner."
+msgstr ""
+
+msgid ""
+"Payments require HTTPS. Open this form over https:// or test on a site with "
+"SSL enabled."
+msgstr ""
+
+msgid "PayPal is ready. Submit the form to complete payment."
+msgstr ""
+
+msgid "Could not start PayPal checkout."
+msgstr ""
+
+msgid ""
+"This form's currency does not match the Square account currency. Payments "
+"cannot be processed until the currencies match."
+msgstr ""
+
+msgid "Sorry, the form ID for this preview does not exist."
+msgstr ""
+
+msgid "You need to check that the right form ID exists."
+msgstr ""
+
+msgid "Sorry, you are not allowed to visit this preview form as this user."
+msgstr ""
+
+msgid "You need a higher level of permission."
+msgstr ""
+
+msgid "Upgrade to PRO"
+msgstr ""
+
+msgid "View forms list"
+msgstr ""
+
+msgid "Add and edit forms"
+msgstr ""
+
+msgid "Delete forms"
+msgstr ""
+
+msgid "Access this settings page"
+msgstr ""
+
+msgid "View entries from the admin area"
+msgstr ""
+
+msgid "Delete entries from the admin area"
+msgstr ""
+
+msgid ""
+"Fixed arbitrary file uploads via allowed extensions on public submissions "
+"(CVE-2026-109384)."
+msgstr ""
+
+msgid ""
+"Fixed status filter counts when the form and date filters are used together."
+msgstr ""
+
+msgid ""
+"Fixed Address field City and State subfields swapping order on the frontend."
+msgstr ""
+
+msgid "Fixed a database error when saving a form with more than 54 fields."
+msgstr ""
+
+msgid ""
+"Fixed deleting a field in one section shrinking half-width fields in other "
+"sections."
+msgstr ""
+
+msgid ""
+"Fixed large PDF uploads bypassing the file size limit and failing with an "
+"\"Invalid ID\" error."
+msgstr ""
+
+msgid ""
+"Fixed two confirmation popups appearing when deleting a permission rule."
+msgstr ""
+
+msgid ""
+"Fixed Learn more on the Amelia, Zapier, API, and Google Sheets cards not "
+"opening docs."
+msgstr ""
+
+msgid ""
+"Fixed required validation being skipped for most field types, which let an "
+"empty form submit."
+msgstr ""
+
+msgid ""
+"Fixed the Email field Required message being replaced by the valid-email "
+"message."
+msgstr ""
+
+msgid ""
+"Fixed notification Subject placeholders so they list every field, like "
+"Message."
+msgstr ""
+
+msgid ""
+"Fixed negative Years of experience on the Software developer job application "
+"template."
+msgstr ""
+
+msgid ""
+"Fixed Product Order Form so Customer name includes First name and Last name."
+msgstr ""
+
+msgid "Fixed the Product field showing raw JSON in notification placeholders."
+msgstr ""
+
+msgid "Fixed the Explore Collection button on the themes upgrade card."
+msgstr ""
+
+msgid "— Select Form —"
+msgstr ""
+
+msgid "Form Settings"
+msgstr ""
+
+msgid "Choose the form you want to display."
+msgstr ""
+
+msgid "Override the form title visibility setting."
+msgstr ""
+
+msgid "Override the form description visibility setting."
+msgstr ""
+
+msgid "Add custom CSS classes separated by spaces."
+msgstr ""
+
+msgid "Select Form"
+msgstr ""
+
+msgid "Show Title"
+msgstr ""
+
+msgid "Show Description"
+msgstr ""
+
+msgid "Additional CSS Class(es)"
+msgstr ""
+
+msgid "Error rendering form"
+msgstr ""
+
+msgid "Select a form from the widget settings on the left."
 msgstr ""

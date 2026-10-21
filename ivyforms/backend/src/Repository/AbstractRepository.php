@@ -286,34 +286,7 @@ class AbstractRepository
      */
     protected function addDateRangeClauses(array $dateRange, array &$whereClauses, array &$queryParams): void
     {
-
-        if (empty($dateRange) || empty($dateRange[0])) {
-            return;
-        }
-
-        $dateColumn = $this->getDateColumn();
-
-        if (empty($dateRange[1])) {
-            $dateRange[1] = $dateRange[0];
-        }
-
-        $normalizeStartOfDay = function ($isoDate) {
-            $day = substr($isoDate, 0, 10);
-            return $day . ' 00:00:00';
-        };
-        $normalizeEndOfDay = function ($isoDate) {
-            $day = substr($isoDate, 0, 10);
-            return $day . ' 23:59:59';
-        };
-
-        $start = $normalizeStartOfDay($dateRange[0]);
-        $end   = $normalizeEndOfDay($dateRange[1]);
-
-        $whereClauses[] = "$dateColumn >= %s";
-        $queryParams[] = $start;
-
-        $whereClauses[] = "$dateColumn <= %s";
-        $queryParams[] = $end;
+        DateRangeQueryFilter::apply($dateRange, $this->getDateColumn(), $whereClauses, $queryParams);
     }
 
     /**

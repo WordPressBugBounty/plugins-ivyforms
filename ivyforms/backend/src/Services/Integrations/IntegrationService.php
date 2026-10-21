@@ -157,7 +157,7 @@ class IntegrationService
             'hasGlobalSettings' => true,
             'hasFormSettings' => false,
             'plan' => 'agency',
-            'learnMoreUrl' => 'https://ivyforms.com/documentation/public-rest-api/',
+            'learnMoreUrl' => 'https://ivyforms.com/documentation/rest-api/',
             'settingsSchema' => [
                 'enabled' => [
                     'type' => 'boolean',
@@ -189,7 +189,7 @@ class IntegrationService
             'requiresAuth' => true,
             'hasGlobalSettings' => true,
             'plan' => 'lite',
-            'learnMoreUrl' => 'https://ivyforms.com/documentation/integrations/google-sheets/',
+            'learnMoreUrl' => 'https://ivyforms.com/documentation/google-sheets-integration/',
             'settingsSchema' => [
                 'enabled' => [
                     'type' => 'boolean',
@@ -210,9 +210,13 @@ class IntegrationService
      */
     private function registerPageBuilderIntegrations(): void
     {
-        $pageBuilderSlugs = ['elementor', 'divi', 'gutenberg'];
+        $pageBuilderDocsUrls = [
+            'elementor' => 'https://ivyforms.com/documentation/elementor-integration/',
+            'divi'      => 'https://ivyforms.com/documentation/',
+            'gutenberg' => 'https://ivyforms.com/documentation/gutenberg-integration/',
+        ];
 
-        foreach ($pageBuilderSlugs as $slug) {
+        foreach ($pageBuilderDocsUrls as $slug => $docsUrl) {
             $this->registry->register($slug, [
                 'label' => $slug . '_label',
                 'icon' => $slug,
@@ -222,7 +226,7 @@ class IntegrationService
                 'docsOnly' => true,
                 'hasGlobalSettings' => false,
                 'hasFormSettings' => false,
-                'learnMoreUrl' => 'https://ivyforms.com/documentation/',
+                'learnMoreUrl' => $docsUrl,
             ]);
         }
     }
@@ -259,7 +263,7 @@ class IntegrationService
             'requiresAuth' => true,
             'hasGlobalSettings' => true,
             'plan' => 'essentials',
-            'learnMoreUrl' => 'https://ivyforms.com/documentation/',
+            'learnMoreUrl' => 'https://ivyforms.com/documentation/stripe-integration/',
             'comingSoon' => $cardPaymentsComingSoon,
         ]);
 
@@ -272,7 +276,7 @@ class IntegrationService
             'requiresAuth' => true,
             'hasGlobalSettings' => true,
             'plan' => 'essentials',
-            'learnMoreUrl' => 'https://ivyforms.com/documentation/',
+            'learnMoreUrl' => 'https://ivyforms.com/documentation/paypal-integration/',
             'comingSoon' => $cardPaymentsComingSoon,
         ]);
     }

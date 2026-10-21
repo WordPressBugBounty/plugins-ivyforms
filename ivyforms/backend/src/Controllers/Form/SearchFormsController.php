@@ -66,7 +66,7 @@ class SearchFormsController extends Controller
         // Map the data to an array format
         $forms = array_map(fn($form) => (array) $form, $formsArr['data']);
 
-        $filterCount = $this->formService->getFilterCount($params['shouldGetCount']);
+        $filterCount = $this->formService->getFilterCount($params['shouldGetCount'], $params);
 
         // Collect form IDs for entry count
         $formIds = array_column($forms, 'id');

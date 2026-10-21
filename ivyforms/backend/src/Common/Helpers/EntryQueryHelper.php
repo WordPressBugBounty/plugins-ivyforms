@@ -4,6 +4,8 @@ namespace IvyForms\Common\Helpers;
 
 use IvyForms\Common\Exceptions\InvalidArgumentException;
 use IvyForms\Common\Exceptions\QueryExecutionException;
+use IvyForms\Repository\DateRangeQueryFilter;
+use IvyForms\Repository\VisibleFormIdsQueryFilter;
 use IvyForms\Services\InstallActions\DB\Entry\EntriesTable;
 use IvyForms\Services\InstallActions\DB\EntryField\EntryFieldsTable;
 use IvyForms\Services\InstallActions\DB\Form\FormsTable;
@@ -68,22 +70,32 @@ class EntryQueryHelper
      *
      * @param string $table
      * @param array<string, mixed>|null $params
-     * @return array{sql: string, params: array<int, int>}
+     * @return array{sql: string, params: array<int, int|string>}
      */
     public static function getFilterCountQuery(string $table, ?array $params = null): array
     {
-        $where = '';
+        $whereClauses = [];
         $queryParams = [];
         if (!empty($params['filters']['formId'])) {
-            $where = 'WHERE formId = %d';
+            $whereClauses[] = 'formId = %d';
             $queryParams[] = (int)$params['filters']['formId'];
         }
+
+        $dateRange = [];
+        if (is_array($params) && isset($params['dateRange']) && is_array($params['dateRange'])) {
+            $dateRange = $params['dateRange'];
+        }
+        DateRangeQueryFilter::apply($dateRange, 'dateCreated', $whereClauses, $queryParams);
+
+        VisibleFormIdsQueryFilter::apply($params, $whereClauses, $queryParams, 'formId');
+
+        $where = $whereClauses === [] ? '' : 'WHERE ' . implode(' AND ', $whereClauses);
         $sql = "SELECT 
             SUM(status = 'read') as readTrueCount,
             SUM(status = 'unread') as readFalseCount,
             SUM(starred = 1) as starredTrueCount,
             SUM(starred = 0) as starredFalseCount
-        FROM {$table} $where";
+        FROM {$table} {$where}";
         return ['sql' => $sql, 'params' => $queryParams];
     }
 

@@ -106,6 +106,9 @@ abstract class Controller
                     $data['fieldErrors'] = $fieldErrors;
                 }
             }
+            if ($e->getErrorCode() !== '') {
+                $data['code'] = $e->getErrorCode();
+            }
 
             return new WP_REST_Response([
                 'message' => $e->getMessage(),

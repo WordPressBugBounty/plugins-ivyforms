@@ -146,6 +146,28 @@ final class SubmissionPayloadParser
     }
 
     /**
+     * PHP drops the parsed body when Content-Length exceeds post_max_size.
+     * The submission then has no form id and used to fail with "Invalid ID."
+     *
+     * @param WP_REST_Request<array<string, mixed>> $request
+     */
+    public static function isDiscardedOversizedBody(WP_REST_Request $request): bool
+    {
+        if (strtoupper($request->get_method()) !== 'POST') {
+            return false;
+        }
+
+        $contentLength = (int) $request->get_header('content_length');
+        if ($contentLength <= 0 || $request->get_body_params() !== [] || $request->get_file_params() !== []) {
+            return false;
+        }
+
+        $postMaxBytes = wp_convert_hr_to_bytes((string) ini_get('post_max_size'));
+
+        return $postMaxBytes > 0 && $contentLength > $postMaxBytes;
+    }
+
+    /**
      * @param array<string, mixed> $body
      *
      * @return array<string, mixed>
